@@ -19,6 +19,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
@@ -92,93 +93,134 @@ public class Main extends JFrame implements WindowListener{
 	private FileLink currentLink;
 	
 	public Main() {
+		initializeFields();
+		makeTextArea();
+		makeFrame();
+	}
 
-		// make a filechooser
+	private void initializeFields(){
 		fileChooser = new JFileChooser(defaultDirectory);
-
-		// Make our vocab getter
 		vocabGetter = new NewlineSeparatedTextfileStringListGetter();
-
-		// make our vocabListgetter
 		vlistGetter = new SerializedFileVocabListGetter();
-
-		// Make a text are to display the vocab
+	}
+	
+	private void makeTextArea(){
 		textArea = new JTextArea();
 		textArea.setEditable(false);
-//		JScrollPane scrollPane = new JScrollPane(textArea);
+	}
+	
+	private JScrollPane makeVocabTablePane(){
 
-
-		//make a table to display the vocab
-		vltm = new VocabListTableModel();
-		JTable table = new JTable(vltm);
-		JScrollPane scrollPane = new JScrollPane(table);
+		JScrollPane scrollPane = new JScrollPane(makeVocabTable());
 		scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
 		scrollPane.setBorder(BorderFactory.createEtchedBorder(EtchedBorder.RAISED));
 		scrollPane.setSize(100, 400);
+		return scrollPane;
+	}
+	
+	private JTable makeVocabTable(){
+		vltm = new VocabListTableModel();
+		return new JTable(vltm);
+	}
+	
+	private JPanel makeButtonPanel(){		
+		JPanel buttonPanel = new JPanel();
+		Collection<JButton> buttons = makeButtons();
+		for(JButton button : buttons){
+			buttons.add(button);
+		}
+		return buttonPanel;
+	}
+	
+	private Collection<JButton> makeButtons(){
+		ActionListener listener = new Main.ButtonListener();
+		Collection<JButton> buttons = new ArrayList<JButton>();
 		
-		// make the file menu
+		JButton next = new JButton("Next");
+		next.setName("Next");
+		next.addActionListener(listener);
+		buttons.add(next);
+		
+		JButton previous = new JButton("Back");
+		previous.setName("Previous");
+		previous.addActionListener(listener);
+		buttons.add(next);
+		
+		JButton showAnswers = new JButton("Show answers");
+		showAnswers.setName("show");
+		showAnswers.addActionListener(listener);
+		buttons.add(next);
+		
+		JButton add = new JButton("+");
+		add.setName(ADD_BUTTON_NAME);
+		add.addActionListener(listener);
+		buttons.add(next);
+		
+		return buttons;
+	}
+	
+	private Collection<JMenuItem> makeMenuItems(){		
 		ActionListener menuListener = new MenuItemListener();
-
+		Collection<JMenuItem> menuItems = new ArrayList<JMenuItem>();
+		
 		JMenuItem open = new JMenuItem("Open");
 		open.setName("Open");
 		open.addActionListener(menuListener);
+		menuItems.add(open);
 
 		JMenuItem createNew = new JMenuItem("Create new...");
 		createNew.setName("create");
 		createNew.addActionListener(menuListener);
-
+		menuItems.add(open);
+		
 		JMenuItem startTest = new JMenuItem("Start a test");
 		startTest.setName("test");
 		startTest.addActionListener(menuListener);
+		menuItems.add(startTest);
 		
 		JMenuItem written = new JMenuItem("Start a written test");
 		written.setName(WRITTEN_TEST_MENU_ITEM);
 		written.addActionListener(menuListener);
+		menuItems.add(written);
 		
 		JMenuItem makeLink = new JMenuItem("Add a shortcut");
 		makeLink.setName(MAKE_LINK_MENU_ITEM_NAME );
 		makeLink.addActionListener(menuListener);
+		menuItems.add(makeLink);
 		
 		JMenuItem reconstruct = new JMenuItem("Reconstruct");
 		reconstruct.setName(RECONSTRUCT_MENU_ITEM_NAME);
 		reconstruct.addActionListener(menuListener);
+		menuItems.add(reconstruct);
 		
+		return menuItems;
+	}
+	
+	private JMenu makeMenu(){
 		JMenu fileMenu = new JMenu("File");
-		fileMenu.add(open);
-		fileMenu.add(createNew);
-		fileMenu.add(startTest);
-		fileMenu.add(written);
-		fileMenu.add(makeLink);
-		fileMenu.add(reconstruct);
-		
-		// make a menu bar
+		Collection<JMenuItem> menuItems = makeMenuItems();
+		for(JMenuItem menuItem : menuItems){
+			fileMenu.add(menuItem);
+		}
+		return fileMenu;
+	}
+	
+	private JMenuBar makeMenuBar(){
 		JMenuBar mb = new JMenuBar();
-		mb.add(fileMenu);
-
-		// Make the buttons
-		ActionListener listener = new Main.ButtonListener();
-		JButton next = new JButton("Next");
-		next.setName("Next");
-		next.addActionListener(listener);
-		JButton previous = new JButton("Back");
-		previous.setName("Previous");
-		previous.addActionListener(listener);
-		JButton showAnswers = new JButton("Show answers");
-		showAnswers.setName("show");
-		showAnswers.addActionListener(listener);
-		JButton add = new JButton("+");
-		add.setName(ADD_BUTTON_NAME);
-		add.addActionListener(listener);
-		// Button Panel
-		JPanel buttonPanel = new JPanel();
-		buttonPanel.add(previous);
-		buttonPanel.add(next);
-		buttonPanel.add(showAnswers);
-
-		//make the side shortcut panel
+		mb.add(makeMenu());
+		return mb;
+	}
+	
+	private JPanel makeShortcutPanel(){
 		JPanel sidePanel = new JPanel();
-		filelinkListModel = new DefaultListModel<FileLink>();
 		getSavedLinks();
+		sidePanel.add(makeShortcutPanelList());
+		return sidePanel;
+	}
+	
+	private JList<FileLink> makeShortcutPanelList(){
+
+		filelinkListModel = new DefaultListModel<FileLink>();
 		JList<FileLink> links = new JList<FileLink>(filelinkListModel);
 		links.addMouseListener(new MouseAdapter(){
 			
@@ -206,9 +248,11 @@ public class Main extends JFrame implements WindowListener{
 				}
 			}
 		});
-		sidePanel.add(links);
-		
-		//make the shortcut list's popup menu
+		makeShorcutListPopup(links);
+		return links;
+	}
+	
+	private void makeShorcutListPopup(JList<FileLink> links){
 		shortcutListPopup = new JPopupMenu();
 		JMenuItem deleteMenuItem = new JMenuItem("Delete shorcut");
 		deleteMenuItem.setName(DELETE_MENU_ITEM_NAME);
@@ -228,24 +272,26 @@ public class Main extends JFrame implements WindowListener{
 			}
 		});
 		shortcutListPopup.add(deleteMenuItem);
-		
-		// Main panel
+	}
+	
+	private JPanel makeMainPanel(){
 		JPanel mainPanel = new JPanel(new BorderLayout());
-		mainPanel.add(scrollPane, BorderLayout.CENTER);
-		mainPanel.add(buttonPanel, BorderLayout.SOUTH);
-		mainPanel.add(sidePanel, BorderLayout.WEST);
-
-		// Make a frame
+		mainPanel.add(makeVocabTablePane(), BorderLayout.CENTER);
+		mainPanel.add(makeButtonPanel(), BorderLayout.SOUTH);
+		mainPanel.add(makeShortcutPanel(), BorderLayout.WEST);
+		return mainPanel;
+	}
+	
+	private void makeFrame(){
 		addWindowListener(this);
-		add(mainPanel);
-		setJMenuBar(mb);
+		add(makeMainPanel());
+		setJMenuBar(makeMenuBar());
 		setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
 		setSize(900, 500);
 		setLocationRelativeTo(null);
 		setVisible(true);
-
 	}
-
+	
 	public static void main(String args[]) {
 
 		new Main();
