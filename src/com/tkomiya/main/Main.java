@@ -110,7 +110,6 @@ public class Main extends JFrame implements WindowListener{
 	}
 	
 	private JScrollPane makeVocabTablePane(){
-
 		JScrollPane scrollPane = new JScrollPane(makeVocabTable());
 		scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
 		scrollPane.setBorder(BorderFactory.createEtchedBorder(EtchedBorder.RAISED));
@@ -127,7 +126,7 @@ public class Main extends JFrame implements WindowListener{
 		JPanel buttonPanel = new JPanel();
 		Collection<JButton> buttons = makeButtons();
 		for(JButton button : buttons){
-			buttons.add(button);
+			buttonPanel.add(button);
 		}
 		return buttonPanel;
 	}
@@ -323,7 +322,7 @@ public class Main extends JFrame implements WindowListener{
 
 					} catch (Exception e1) {
 						reconstructVocabFile(file);
-//						e1.printStackTrace();
+						e1.printStackTrace();
 					}
 				}
 
