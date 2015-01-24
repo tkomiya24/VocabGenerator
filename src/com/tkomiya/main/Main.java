@@ -212,8 +212,8 @@ public class Main extends JFrame implements WindowListener{
 	
 	private JPanel makeShortcutPanel(){
 		JPanel sidePanel = new JPanel();
-		getSavedLinks();
 		sidePanel.add(makeShortcutPanelList());
+		getSavedLinks();
 		return sidePanel;
 	}
 	
