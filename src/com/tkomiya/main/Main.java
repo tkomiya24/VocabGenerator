@@ -170,7 +170,7 @@ public class Main extends JFrame implements WindowListener{
 		JMenuItem createNew = new JMenuItem("Create new...");
 		createNew.setName("create");
 		createNew.addActionListener(menuListener);
-		menuItems.add(open);
+		menuItems.add(createNew);
 		
 		JMenuItem startTest = new JMenuItem("Start a test");
 		startTest.setName("test");
