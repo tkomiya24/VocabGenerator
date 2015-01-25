@@ -10,6 +10,7 @@ import java.io.FileNotFoundException;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 import java.util.Scanner;
 
@@ -43,46 +44,67 @@ public class ListInput extends JFrame {
 	
 	public ListInput(){
 		
-		//assignments
-		vlb = new VocabListBuilder();
-		comboBox = new JComboBox<String>(Vocab.SUPPORTED_LANGUAGES);
-		
-		//make a text area.
-		textArea = new JTextArea();
-		textArea.setRows(20);
-		
-		//make the buttons
-		ActionListener buttonListener = new ButtonListener();
-		
-		JButton submit =  new JButton("Submit");
-		submit.setName(SUBMIT_BUTTON_NAME);
-		submit.addActionListener(buttonListener);
-
-		JButton done = new JButton("Done");
-		done.setName(DONE_BUTTON_NAME);
-		done.addActionListener(buttonListener);
-		
-		JButton open = new JButton("Open...");
-		open.setName(OPEN_BUTTON_NAME);
-		open.addActionListener(buttonListener);
-		
-		
+		initializeFields();
+		makeTextArea();
+		makeButtons();				
 		//put GUI together
 		JScrollPane sp = new JScrollPane(textArea);
-		JPanel buttonPanel = new JPanel();
-		buttonPanel.add(submit);
-		buttonPanel.add(done);
-		buttonPanel.add(open);
 		
 		JPanel mainPanel = new JPanel(new BorderLayout());
 		mainPanel.add(sp,BorderLayout.CENTER);
-		mainPanel.add(buttonPanel, BorderLayout.SOUTH);
+		mainPanel.add(makeButtonPanel(), BorderLayout.SOUTH);
 		mainPanel.add(comboBox, BorderLayout.NORTH);
 		
 		this.add(mainPanel);
 		this.pack();
 		this.setLocationRelativeTo(null);
 		this.setVisible(true);
+	}
+
+	private void makeTextArea() {
+		textArea = new JTextArea();
+		textArea.setRows(20);
+	}
+
+	private void initializeFields() {
+		vlb = new VocabListBuilder();
+		comboBox = new JComboBox<String>(Vocab.SUPPORTED_LANGUAGES);
+	}
+	
+	private Collection<JButton> makeButtons(){
+		ActionListener buttonListener = new ButtonListener();
+		Collection<JButton> buttons = new ArrayList<JButton>();
+		
+		JButton submit =  new JButton("Submit");
+		submit.setName(SUBMIT_BUTTON_NAME);
+		submit.addActionListener(buttonListener);
+		buttons.add(submit);
+
+		JButton done = new JButton("Done");
+		done.setName(DONE_BUTTON_NAME);
+		done.addActionListener(buttonListener);
+		buttons.add(done);
+		
+		JButton open = new JButton("Open...");
+		open.setName(OPEN_BUTTON_NAME);
+		open.addActionListener(buttonListener);
+		buttons.add(open);
+		
+		return buttons;
+	}
+	
+	private JPanel makeButtonPanel(){
+		JPanel buttonPanel = new JPanel();
+		addButtonsToPanel(buttonPanel);
+		return buttonPanel;
+	}
+	
+	private void addButtonsToPanel(JPanel buttonPanel){
+		
+		Collection<JButton> buttons = makeButtons();
+		for(JButton button : buttons){
+			buttonPanel.add(button);
+		}
 	}
 	
 	private List<String> makeList(){
@@ -165,7 +187,6 @@ public class ListInput extends JFrame {
 					vls.saveVocabList(vl, jfc.getSelectedFile());
 					ListInput.this.dispose();
 				} catch (Exception e1) {
-					// TODO Auto-generated catch block
 					e1.printStackTrace();
 				}
 			} else {
