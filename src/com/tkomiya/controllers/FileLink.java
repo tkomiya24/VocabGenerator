@@ -55,7 +55,6 @@ public class FileLink implements Serializable{
 	}
 
 	public void delete() {
-		
 		this.file.delete();
 	}
 }
