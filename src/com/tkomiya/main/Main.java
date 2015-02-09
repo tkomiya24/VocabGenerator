@@ -483,13 +483,14 @@ public class Main extends JFrame implements WindowListener{
 			ObjectOutputStream oos = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(file)));
 			oos.writeObject(links);
 			oos.close();
-			this.dispose();
 		} catch (FileNotFoundException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		} catch (IOException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
+		} finally {
+			this.dispose();
 		}
 		
 	}
