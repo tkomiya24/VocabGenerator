@@ -15,6 +15,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextField;
+import javax.swing.border.Border;
 
 import com.tkomiya.models.Vocab;
 import com.tkomiya.models.VocabList;
@@ -29,6 +30,7 @@ public class TypedTest extends JFrame{
 	private int languageTested;
 	private static final int TEXTFIELD_SIZE = 10;
 	private List<JTextField> fields; 
+	private Border defaultBorder;
 	
 	public TypedTest(VocabList vList, int languageTested){
 		
@@ -54,7 +56,8 @@ public class TypedTest extends JFrame{
 			testPanel.add(field);
 		}
 		
-		
+		//get the default border
+		defaultBorder = fields.get(0).getBorder();
 		
 		//Make the buttons
 		ActionListener listener = new ButtonListener();
@@ -67,9 +70,14 @@ public class TypedTest extends JFrame{
 		giveUp.setName("giveup");
 		giveUp.addActionListener(listener);
 		
+		JButton restartButton = new JButton("Restart");
+		restartButton.setName("restart");
+		restartButton.addActionListener(listener);
+		
 		JPanel buttonPanel = new JPanel();
 		buttonPanel.add(submit);
 		buttonPanel.add(giveUp);
+		buttonPanel.add(restartButton);
 		
 		//make a scrollpane
 		JScrollPane scrollPane = new JScrollPane(testPanel);
@@ -95,7 +103,7 @@ public class TypedTest extends JFrame{
 			JButton button = (JButton) e.getSource();
 			String bName = button.getName();
 			
-			if(bName.equals("submit")){
+			if (bName.equals("submit")) {
 				
 				for(int i = 0; i < vList.size(); i++){
 					
@@ -111,9 +119,7 @@ public class TypedTest extends JFrame{
 					}
 				}
 				
-			}
-			
-			else if(bName.equals("giveup")){
+			} else if (bName.equals("giveup")) {
 				
 				for(int i = 0; i < vList.size(); i++){
 					
@@ -127,9 +133,35 @@ public class TypedTest extends JFrame{
 						field.setBorder(BorderFactory.createLineBorder(Color.RED, 2));
 					}
 				}
+			} else if (bName.equals("restart")) {				
+				restartTest();
 			}
 		}
 		
+	}
+	
+	private void restartTest() {
+		blankAllTextFields();
+		resetTextFieldColours();
+		makeAllTextFieldsEditableAgain();
+	}
+	
+	private void blankAllTextFields() {
+		for(JTextField currentField : fields) {
+			currentField.setText("");
+		}
+	}
+	
+	private void resetTextFieldColours() {
+		for(JTextField currentField : fields) {
+			currentField.setBorder(defaultBorder);
+		}
+	}
+	
+	private void makeAllTextFieldsEditableAgain() {
+		for(JTextField currentField : fields) {
+			currentField.setEditable(true);
+		}
 	}
 	
 	private boolean checkAnswer(int index){
