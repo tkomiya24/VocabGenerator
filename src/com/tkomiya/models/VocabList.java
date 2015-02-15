@@ -66,11 +66,24 @@ public class VocabList implements Serializable{
 
 	public void shuffle() {
 		Collections.shuffle(vocabList);
-		
 	}
 
 	public VocabList subList(int fromIndex, int toIndex) {
 		
 		return new VocabList(this.vocabList.subList(fromIndex, toIndex));
+	}
+	
+	public void startNewTest(int testLanguage) {
+		incrementTimesTestedForAllVocabs(testLanguage);
+	}
+	
+	private void incrementTimesTestedForAllVocabs(int testLanguage) {
+		for(Vocab vocab : vocabList) {
+			vocab.incrementTimesTested(testLanguage);
+		}
+	}
+	
+	public void setCorrect(int index, int testedLanguage) {
+		vocabList.get(index).incrementTimesCorrect(testedLanguage);
 	}
 }
