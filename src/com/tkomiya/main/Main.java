@@ -445,8 +445,7 @@ public class Main extends JFrame implements WindowListener{
 				filelinkListModel.addElement(links.get(i));
 			}
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			//Do nothing.
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
