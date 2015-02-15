@@ -86,4 +86,9 @@ public class VocabList implements Serializable{
 	public void setCorrect(int index, int testedLanguage) {
 		vocabList.get(index).incrementTimesCorrect(testedLanguage);
 	}
+	
+	@Override
+	public String toString() {
+		return listName;
+	}
 }
