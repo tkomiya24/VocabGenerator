@@ -31,6 +31,8 @@ public class TypedTest extends JFrame{
 	private static final int TEXTFIELD_SIZE = 10;
 	private List<JTextField> fields; 
 	private Border defaultBorder;
+	private JButton submit;
+	private JButton giveUp;
 	
 	public TypedTest(VocabList vList, int languageTested){
 		
@@ -62,11 +64,11 @@ public class TypedTest extends JFrame{
 		//Make the buttons
 		ActionListener listener = new ButtonListener();
 		
-		JButton submit = new JButton("Submit");
+		submit = new JButton("Submit");
 		submit.setName("submit");
 		submit.addActionListener(listener);
 		
-		JButton giveUp = new JButton("Give up");
+		giveUp = new JButton("Give up");
 		giveUp.setName("giveup");
 		giveUp.addActionListener(listener);
 		
@@ -96,19 +98,14 @@ public class TypedTest extends JFrame{
 	}
 	
 	private class ButtonListener implements ActionListener{
-
+		
 		@Override
-		public void actionPerformed(ActionEvent e) {
-			
+		public void actionPerformed(ActionEvent e) {		
 			JButton button = (JButton) e.getSource();
-			String bName = button.getName();
-			
-			if (bName.equals("submit")) {
-				
-				for(int i = 0; i < vList.size(); i++){
-					
-					JTextField field = fields.get(i);
-					
+			String buttonName = button.getName();			
+			if (buttonName.equals("submit")) {				
+				for(int i = 0; i < vList.size(); i++){					
+					JTextField field = fields.get(i);					
 					if(checkAnswer(i)){
 						field.setEditable(false);
 						field.setBackground(Color.WHITE);
@@ -117,12 +114,10 @@ public class TypedTest extends JFrame{
 					else{
 						field.setBorder(BorderFactory.createLineBorder(Color.RED, 2));
 					}
-				}
-				
-			} else if (bName.equals("giveup")) {
-				
-				for(int i = 0; i < vList.size(); i++){
-					
+				}	
+				disableSubmitAndGiveUpButtons();
+			} else if (buttonName.equals("giveup")) {
+				for(int i = 0; i < vList.size(); i++){	
 					JTextField field = fields.get(i);
 					field.setEditable(false);
 					if(checkAnswer(i)){
@@ -133,7 +128,8 @@ public class TypedTest extends JFrame{
 						field.setBorder(BorderFactory.createLineBorder(Color.RED, 2));
 					}
 				}
-			} else if (bName.equals("restart")) {				
+				disableSubmitAndGiveUpButtons();
+			} else if (buttonName.equals("restart")) {				
 				restartTest();
 			}
 		}
@@ -144,6 +140,7 @@ public class TypedTest extends JFrame{
 		blankAllTextFields();
 		resetTextFieldColours();
 		makeAllTextFieldsEditableAgain();
+		enableSubmitAndGiveUpButtons();
 	}
 	
 	private void blankAllTextFields() {
@@ -170,5 +167,14 @@ public class TypedTest extends JFrame{
 		String answer = fields.get(index).getText();
 		return answer.equals(vocab.getTranslation(languageTested));
 	}
+
+	private void disableSubmitAndGiveUpButtons() {
+		giveUp.setEnabled(false);
+		submit.setEnabled(false);
+	}
 	
+	private void enableSubmitAndGiveUpButtons() {
+		giveUp.setEnabled(true);
+		submit.setEnabled(true);
+	}
 }
