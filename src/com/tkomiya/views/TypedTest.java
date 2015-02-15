@@ -44,6 +44,7 @@ public class TypedTest extends JFrame{
 		JPanel testPanel = new JPanel(new GridLayout(vList.size(), 2));
 
 		//make a label and a text field for each item in vocablist
+		vList.startNewTest(this.languageTested);
 		this.vList.shuffle();
 		for(int i = 0; i < vList.size(); i++){
 			
@@ -122,6 +123,7 @@ public class TypedTest extends JFrame{
 					field.setEditable(false);
 					if(checkAnswer(i)){
 						field.setBorder(BorderFactory.createLineBorder(Color.GREEN));
+						setCorrect(i);
 					}
 					else{
 						field.setText(vList.get(i).getTranslation(languageTested));
@@ -137,6 +139,7 @@ public class TypedTest extends JFrame{
 	}
 	
 	private void restartTest() {
+		vList.startNewTest(languageTested);
 		blankAllTextFields();
 		resetTextFieldColours();
 		makeAllTextFieldsEditableAgain();
@@ -162,7 +165,6 @@ public class TypedTest extends JFrame{
 	}
 	
 	private boolean checkAnswer(int index){
-		
 		Vocab vocab = vList.get(index);
 		String answer = fields.get(index).getText();
 		return answer.equals(vocab.getTranslation(languageTested));
@@ -176,5 +178,9 @@ public class TypedTest extends JFrame{
 	private void enableSubmitAndGiveUpButtons() {
 		giveUp.setEnabled(true);
 		submit.setEnabled(true);
+	}
+	
+	private void setCorrect(int index) {
+		vList.setCorrect(index, languageTested);
 	}
 }
