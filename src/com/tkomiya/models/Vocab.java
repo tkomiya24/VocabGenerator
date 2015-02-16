@@ -61,4 +61,12 @@ public class Vocab implements Serializable{
 		int timesCorrectForThisLanguage = timesCorrect.get(language);
 		timesCorrect.put(language, ++timesCorrectForThisLanguage);
 	}
+
+	public int getTimesTested(int language) {
+		return timesTested.get(language);
+	}
+	
+	public int getTimesCorrect(int language) {
+		return timesCorrect.get(language);
+	}
 }
