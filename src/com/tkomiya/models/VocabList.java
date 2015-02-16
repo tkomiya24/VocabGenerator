@@ -2,6 +2,7 @@ package com.tkomiya.models;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
@@ -90,5 +91,17 @@ public class VocabList implements Serializable{
 	@Override
 	public String toString() {
 		return listName;
+	}
+
+	public Collection<? extends Vocab> getAllTestedVocabsWithOneMistake(int language) {
+		ArrayList<Vocab> testedVocab = new ArrayList<Vocab>();
+		for (Vocab vocab : vocabList) {
+			int timesTested = vocab.getTimesTested(language);
+			int timesCorrect = vocab.getTimesCorrect(language);
+			if (timesTested > 0 && timesCorrect < timesTested) {
+				testedVocab.add(vocab);
+			}
+		}
+		return testedVocab;
 	}
 }
