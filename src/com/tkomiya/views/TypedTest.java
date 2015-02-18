@@ -44,7 +44,6 @@ public class TypedTest extends JFrame{
 		JPanel testPanel = new JPanel(new GridLayout(vList.size(), 2));
 
 		//make a label and a text field for each item in vocablist
-		vList.startNewTest(this.languageTested);
 		this.vList.shuffle();
 		for(int i = 0; i < vList.size(); i++){
 			
@@ -131,6 +130,7 @@ public class TypedTest extends JFrame{
 					}
 				}
 				disableSubmitAndGiveUpButtons();
+				vList.incrementTimesTested(TypedTest.this.languageTested);
 			} else if (buttonName.equals("restart")) {				
 				restartTest();
 			}
@@ -139,7 +139,6 @@ public class TypedTest extends JFrame{
 	}
 	
 	private void restartTest() {
-		vList.startNewTest(languageTested);
 		blankAllTextFields();
 		resetTextFieldColours();
 		makeAllTextFieldsEditableAgain();
