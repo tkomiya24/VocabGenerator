@@ -74,7 +74,7 @@ public class VocabList implements Serializable{
 		return new VocabList(this.vocabList.subList(fromIndex, toIndex));
 	}
 	
-	public void startNewTest(int testLanguage) {
+	public void incrementTimesTested(int testLanguage) {
 		incrementTimesTestedForAllVocabs(testLanguage);
 	}
 	
