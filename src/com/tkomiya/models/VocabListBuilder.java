@@ -56,8 +56,7 @@ public class VocabListBuilder {
 			for(Integer lang : languages){
 				String translation = map.get(lang).get(i);
 				vocab.addLanguage(lang, translation);
-			}
-			
+			}		
 			vList.addVocab(vocab);
 		}
 		return vList;
