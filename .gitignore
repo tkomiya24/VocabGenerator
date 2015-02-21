@@ -12,6 +12,6 @@
 hs_err_pid*
 
 .ds_store
-links.config
+*.config
 *.voc
 .settings/
