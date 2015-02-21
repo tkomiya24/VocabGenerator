@@ -140,6 +140,7 @@ public class TypedTest extends JFrame{
 	}
 	
 	private void restartTest() {
+		this.vList.shuffle();
 		blankAllTextFields();
 		resetTextFieldColours();
 		makeAllTextFieldsEditableAgain();
