@@ -31,8 +31,10 @@ public class TypedTest extends JFrame{
 	private static final int TEXTFIELD_SIZE = 10;
 	private List<JTextField> fields; 
 	private Border defaultBorder;
+	private JButton cheat;
 	private JButton submit;
-	private JButton giveUp;
+	private static final String CHEAT_BUTTON_NAME = "Cheat";
+	private static final String SUBMIT_BUTTON_NAME = "Submit";
 	
 	public TypedTest(VocabList vList, int languageTested){
 		
@@ -64,21 +66,21 @@ public class TypedTest extends JFrame{
 		//Make the buttons
 		ActionListener listener = new ButtonListener();
 		
-		submit = new JButton("Submit");
-		submit.setName("submit");
-		submit.addActionListener(listener);
+		cheat = new JButton(CHEAT_BUTTON_NAME);
+		cheat.setName(CHEAT_BUTTON_NAME);
+		cheat.addActionListener(listener);
 		
-		giveUp = new JButton("Give up");
-		giveUp.setName("giveup");
-		giveUp.addActionListener(listener);
+		submit = new JButton(SUBMIT_BUTTON_NAME);
+		submit.setName(SUBMIT_BUTTON_NAME);
+		submit.addActionListener(listener);
 		
 		JButton restartButton = new JButton("Restart");
 		restartButton.setName("restart");
 		restartButton.addActionListener(listener);
 		
 		JPanel buttonPanel = new JPanel();
+		buttonPanel.add(cheat);
 		buttonPanel.add(submit);
-		buttonPanel.add(giveUp);
 		buttonPanel.add(restartButton);
 		
 		//make a scrollpane
@@ -98,12 +100,12 @@ public class TypedTest extends JFrame{
 	}
 	
 	private class ButtonListener implements ActionListener{
-		
+
 		@Override
 		public void actionPerformed(ActionEvent e) {		
 			JButton button = (JButton) e.getSource();
 			String buttonName = button.getName();			
-			if (buttonName.equals("submit")) {				
+			if (buttonName.equals(CHEAT_BUTTON_NAME)) {				
 				for(int i = 0; i < vList.size(); i++){					
 					JTextField field = fields.get(i);					
 					if(checkAnswer(i)){
@@ -116,7 +118,7 @@ public class TypedTest extends JFrame{
 					}
 				}	
 				disableSubmitAndGiveUpButtons();
-			} else if (buttonName.equals("giveup")) {
+			} else if (buttonName.equals(SUBMIT_BUTTON_NAME)) {
 				for(int i = 0; i < vList.size(); i++){	
 					JTextField field = fields.get(i);
 					field.setEditable(false);
@@ -170,13 +172,13 @@ public class TypedTest extends JFrame{
 	}
 
 	private void disableSubmitAndGiveUpButtons() {
-		giveUp.setEnabled(false);
 		submit.setEnabled(false);
+		cheat.setEnabled(false);
 	}
 	
 	private void enableSubmitAndGiveUpButtons() {
-		giveUp.setEnabled(true);
 		submit.setEnabled(true);
+		cheat.setEnabled(true);
 	}
 	
 	private void setCorrect(int index) {
