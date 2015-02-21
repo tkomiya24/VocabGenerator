@@ -27,40 +27,29 @@ public class TypedTest extends JFrame{
 	 */
 	private static final long serialVersionUID = 5256239802890038271L;
 	private VocabList vList;
+	private List<Vocab> incorrectlyAnsweredVocabList;
+	private VocabList retestVocabList;
 	private int languageTested;
 	private static final int TEXTFIELD_SIZE = 10;
 	private List<JTextField> fields; 
 	private Border defaultBorder;
 	private JButton cheat;
 	private JButton submit;
+	private JButton retestIncorrectButton;
+	private JPanel mainPanel;
+	private JScrollPane testScrollPane;
 	private static final String CHEAT_BUTTON_NAME = "Cheat";
 	private static final String SUBMIT_BUTTON_NAME = "Submit";
+	private static final String RETEST_INCORRECT_BUTTON_NAME = "Retest Incorrect";
+	private boolean isRetest = false;
 	
 	public TypedTest(VocabList vList, int languageTested){
 		
 		this.vList = vList;
+		this.incorrectlyAnsweredVocabList = new ArrayList<Vocab>();
 		this.languageTested = languageTested;
-		this.fields = new ArrayList<JTextField>();
-		
-		//make a panel that all the labels and field will go in
-		JPanel testPanel = new JPanel(new GridLayout(vList.size(), 2));
 
-		//make a label and a text field for each item in vocablist
-		this.vList.shuffle();
-		for(int i = 0; i < vList.size(); i++){
-			
-			Vocab vocab = vList.get(i);
-			int primaryLang = vocab.getPrimaryLanguage();
-			String labelTitle = vocab.getTranslation(primaryLang);
-			JLabel label = new JLabel(labelTitle);
-			JTextField field = new JTextField(TEXTFIELD_SIZE);
-			
-			fields.add(field);
-			testPanel.add(label);
-			testPanel.add(field);
-		}
-		
-		//get the default border
+		makeTestScrollPane(vList);
 		defaultBorder = fields.get(0).getBorder();
 		
 		//Make the buttons
@@ -78,17 +67,19 @@ public class TypedTest extends JFrame{
 		restartButton.setName("restart");
 		restartButton.addActionListener(listener);
 		
+		retestIncorrectButton = new JButton("Restest incorrect");
+		retestIncorrectButton.setName(RETEST_INCORRECT_BUTTON_NAME);
+		retestIncorrectButton.addActionListener(listener);
+		retestIncorrectButton.setEnabled(false);
+		
 		JPanel buttonPanel = new JPanel();
 		buttonPanel.add(cheat);
 		buttonPanel.add(submit);
 		buttonPanel.add(restartButton);
+		buttonPanel.add(retestIncorrectButton);
 		
-		//make a scrollpane
-		JScrollPane scrollPane = new JScrollPane(testPanel);
-		scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
-		
-		JPanel mainPanel = new JPanel(new BorderLayout());
-		mainPanel.add(scrollPane,BorderLayout.CENTER);
+		mainPanel = new JPanel(new BorderLayout());
+		mainPanel.add(testScrollPane,BorderLayout.CENTER);
 		mainPanel.add(buttonPanel, BorderLayout.SOUTH);
 		
 		//make this frame
@@ -99,8 +90,25 @@ public class TypedTest extends JFrame{
 		
 	}
 	
-	private class ButtonListener implements ActionListener{
+	private void makeTestScrollPane(VocabList vList) {
+		this.fields = new ArrayList<JTextField>();
+		JPanel testPanel = new JPanel(new GridLayout(vList.size(), 2));
+		for(int i = 0; i < vList.size(); i++){			
+			Vocab vocab = vList.get(i);
+			int primaryLang = vocab.getPrimaryLanguage();
+			String labelTitle = vocab.getTranslation(primaryLang);
+			JLabel label = new JLabel(labelTitle);
+			JTextField field = new JTextField(TEXTFIELD_SIZE);
+			
+			fields.add(field);
+			testPanel.add(label);
+			testPanel.add(field);
+		}
+		testScrollPane = new JScrollPane(testPanel);
+		testScrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+	}
 
+	private class ButtonListener implements ActionListener{
 		@Override
 		public void actionPerformed(ActionEvent e) {		
 			JButton button = (JButton) e.getSource();
@@ -108,7 +116,7 @@ public class TypedTest extends JFrame{
 			if (buttonName.equals(CHEAT_BUTTON_NAME)) {				
 				for(int i = 0; i < vList.size(); i++){					
 					JTextField field = fields.get(i);					
-					if(checkAnswer(i)){
+					if(checkAnswer(vList, i)){
 						field.setEditable(false);
 						field.setBackground(Color.WHITE);
 						field.setBorder(BorderFactory.createLineBorder(Color.GREEN));
@@ -118,35 +126,84 @@ public class TypedTest extends JFrame{
 					}
 				}	
 			} else if (buttonName.equals(SUBMIT_BUTTON_NAME)) {
-				for(int i = 0; i < vList.size(); i++){	
-					JTextField field = fields.get(i);
-					field.setEditable(false);
-					if(checkAnswer(i)){
-						field.setBorder(BorderFactory.createLineBorder(Color.GREEN));
-						setCorrect(i);
-					}
-					else{
-						field.setText(vList.get(i).getTranslation(languageTested));
-						field.setBorder(BorderFactory.createLineBorder(Color.RED, 2));
-					}
-				}
-				disableSubmitAndGiveUpButtons();
-				vList.incrementTimesTested(TypedTest.this.languageTested);
+				submit();
 			} else if (buttonName.equals("restart")) {				
 				restartTest();
+			} else if (buttonName.equals(RETEST_INCORRECT_BUTTON_NAME)) {
+				retestIncorrectAnswers();
 			}
+		}
+
+		private void submit() {
+			VocabList vList;
+			if (!isRetest) {
+				vList = TypedTest.this.vList;
+			} else {
+				vList = retestVocabList;
+			}
+			
+			for(int i = 0; i < vList.size(); i++){	
+				JTextField field = fields.get(i);
+				field.setEditable(false);
+				if(checkAnswer(vList, i)){
+					field.setBorder(BorderFactory.createLineBorder(Color.GREEN));
+					setCorrect(vList, i);
+				}
+				else{
+					field.setText(vList.get(i).getTranslation(languageTested));
+					field.setBorder(BorderFactory.createLineBorder(Color.RED, 2));
+					incorrectlyAnsweredVocabList.add(vList.get(i));
+				}
+			}
+			disableSubmitAndGiveUpButtons();
+			if(!incorrectlyAnsweredVocabList.isEmpty())
+				enableRetestIncorrectButton();
+			vList.incrementTimesTested(TypedTest.this.languageTested);
+		}
+
+		private void enableRetestIncorrectButton() {
+			retestIncorrectButton.setEnabled(true);
 		}
 		
 	}
 	
 	private void restartTest() {
-		this.vList.shuffle();
+		incorrectlyAnsweredVocabList = new ArrayList<Vocab>();
 		blankAllTextFields();
 		resetTextFieldColours();
 		makeAllTextFieldsEditableAgain();
 		enableSubmitAndGiveUpButtons();
+		disableRetestIncorrectButton();
 	}
 	
+	private void retestIncorrectAnswers() {
+		isRetest = true;
+		disableRetestIncorrectButton();
+		makeNewVocabListFromIncorrectAnswers();
+		remakeGUI();
+		enableSubmitAndGiveUpButtons();
+		incorrectlyAnsweredVocabList = new ArrayList<Vocab>();
+	}
+	
+	private void disableRetestIncorrectButton() {
+		retestIncorrectButton.setEnabled(false);
+	}
+
+	private void remakeGUI() {
+		mainPanel.remove(testScrollPane);
+		remakeTestPane();
+		mainPanel.add(testScrollPane);
+		mainPanel.updateUI();
+	}
+
+	private void remakeTestPane() {
+		makeTestScrollPane(retestVocabList);
+	}
+
+	private void makeNewVocabListFromIncorrectAnswers() {
+		retestVocabList = new VocabList(incorrectlyAnsweredVocabList);
+	}
+
 	private void blankAllTextFields() {
 		for(JTextField currentField : fields) {
 			currentField.setText("");
@@ -165,7 +222,7 @@ public class TypedTest extends JFrame{
 		}
 	}
 	
-	private boolean checkAnswer(int index){
+	private boolean checkAnswer(VocabList vList, int index){
 		Vocab vocab = vList.get(index);
 		String answer = fields.get(index).getText();
 		return answer.equals(vocab.getTranslation(languageTested));
@@ -181,7 +238,7 @@ public class TypedTest extends JFrame{
 		cheat.setEnabled(true);
 	}
 	
-	private void setCorrect(int index) {
+	private void setCorrect(VocabList vlist, int index) {
 		vList.setCorrect(index, languageTested);
 	}
 }
