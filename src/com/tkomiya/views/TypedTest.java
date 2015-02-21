@@ -117,7 +117,6 @@ public class TypedTest extends JFrame{
 						field.setBorder(BorderFactory.createLineBorder(Color.RED, 2));
 					}
 				}	
-				disableSubmitAndGiveUpButtons();
 			} else if (buttonName.equals(SUBMIT_BUTTON_NAME)) {
 				for(int i = 0; i < vList.size(); i++){	
 					JTextField field = fields.get(i);
