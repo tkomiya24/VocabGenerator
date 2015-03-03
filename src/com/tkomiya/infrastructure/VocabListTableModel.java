@@ -1,5 +1,7 @@
 package com.tkomiya.infrastructure;
 
+import javax.swing.event.TableModelEvent;
+import javax.swing.event.TableModelListener;
 import javax.swing.table.AbstractTableModel;
 
 import com.tkomiya.models.Vocab;
@@ -15,7 +17,7 @@ public class VocabListTableModel extends AbstractTableModel {
 	
 	
 	public VocabListTableModel() {
-		
+
 	}
 	
 	@Override
@@ -42,8 +44,8 @@ public class VocabListTableModel extends AbstractTableModel {
 			if (vocab.getTranslation(arg1) == null) {
 				return null;
 			}
-			return vocab.getTranslation(arg1) + " " + vocab.getTimesCorrect(arg1) + "/" + vocab.getTimesTested(arg1);
-//			return vocab.getTranslation(arg1);
+//			return vocab.getTranslation(arg1) + " " + vocab.getTimesCorrect(arg1) + "/" + vocab.getTimesTested(arg1);
+			return vocab.getTranslation(arg1);
 		}	
 	}
 	
@@ -52,4 +54,19 @@ public class VocabListTableModel extends AbstractTableModel {
 		fireTableDataChanged();
 	}
 
+	@Override
+	public boolean isCellEditable(int rowIndex, int columnIndex) {
+		if (columnIndex < Vocab.VOCAB_SUPPORT_SIZE && rowIndex < vocabList.size()) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	@Override
+	public void setValueAt(Object aValue, int rowIndex, int columnIndex) {
+		Vocab editedVocab = vocabList.get(rowIndex);
+		editedVocab.setTranslation(columnIndex, (String) aValue);
+	}
+	
 }

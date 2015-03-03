@@ -37,6 +37,10 @@ public class Vocab implements Serializable{
 		return vocab.get(language);
 	}
 
+	public void setTranslation(int language, String definition) {
+		vocab.put(language, definition);
+	}
+	
 	public boolean means(String word) {
 		Iterator<String> itr = vocab.values().iterator();
 		while(itr.hasNext()){

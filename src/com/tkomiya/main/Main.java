@@ -38,6 +38,7 @@ import javax.swing.JPopupMenu;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.JTextArea;
+import javax.swing.ListSelectionModel;
 import javax.swing.SwingUtilities;
 import javax.swing.Box.Filler;
 import javax.swing.border.EtchedBorder;
@@ -131,7 +132,9 @@ public class Main extends JFrame implements WindowListener{
 	
 	private JTable makeVocabTable(){
 		vltm = new VocabListTableModel();
-		return new JTable(vltm);
+		JTable vocabTable = new JTable(vltm);
+		vocabTable.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+		return vocabTable;
 	}
 	
 	private JPanel makeButtonPanel(){		
