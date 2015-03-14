@@ -45,6 +45,7 @@ import javax.swing.SwingUtilities;
 import javax.swing.Box.Filler;
 import javax.swing.border.EtchedBorder;
 import javax.swing.filechooser.FileNameExtensionFilter;
+import javax.swing.plaf.FileChooserUI;
 
 import com.tkomiya.controllers.FileLink;
 import com.tkomiya.infrastructure.FileUtilities;
@@ -75,7 +76,6 @@ public class Main extends JFrame implements WindowListener{
 	private HashMap<String, VocabList> vocabLists;
 	private ListStringGetter vocabGetter;
 	private VocabListGetter vlistGetter;
-	private JFileChooser fileChooser;
 	public static final String DEFAULT_DIRECTORY = "./res/";
 	private static final String LISTS_FILE_PATH = "./lists.config";
 	private static final String DEFAULT_SAVE_DIRECTORY = DEFAULT_DIRECTORY + "backup/";
@@ -105,7 +105,6 @@ public class Main extends JFrame implements WindowListener{
 	}
 
 	private void initializeFields(){
-		fileChooser = new JFileChooser(DEFAULT_DIRECTORY);
 		vocabLists = new HashMap<String, VocabList>();
 		vocabGetter = new NewlineSeparatedTextfileStringListGetter();
 		vlistGetter = new SerializedFileVocabListGetter();
@@ -329,6 +328,7 @@ public class Main extends JFrame implements WindowListener{
 			JMenuItem sourceItem = (JMenuItem) e.getSource();
 			String sourceName = sourceItem.getName();
 			if (sourceName == "Open") {
+				JFileChooser fileChooser = new JFileChooser(DEFAULT_DIRECTORY);
 				int val = fileChooser.showOpenDialog(Main.this);
 				if (val == JFileChooser.APPROVE_OPTION) {
 					File file = fileChooser.getSelectedFile();
@@ -378,6 +378,7 @@ public class Main extends JFrame implements WindowListener{
 					showErrorDialog("There is no vocab list selected", "Please select a vocab list to save.");
 					return;
 				}
+				JFileChooser fileChooser = new JFileChooser(DEFAULT_SAVE_DIRECTORY);
 				fileChooser.setFileFilter(new FileNameExtensionFilter("Text Files", TEXT_FILE_EXTENSION));
 				File suggestedSaveFile = new File(DEFAULT_SAVE_DIRECTORY + vocabList.getName() + "." + TEXT_FILE_EXTENSION);
 				fileChooser.setSelectedFile(suggestedSaveFile);
@@ -391,10 +392,9 @@ public class Main extends JFrame implements WindowListener{
 						e1.printStackTrace();
 					}
 				}
-				fileChooser.resetChoosableFileFilters();
 			} else if (sourceName.equals(LOAD_MENU_ITEM_NAME)) {
-				fileChooser.setFileFilter(new FileNameExtensionFilter(
-						"Text files", ".txt"));
+				JFileChooser fileChooser = new JFileChooser(DEFAULT_SAVE_DIRECTORY);
+				fileChooser.setFileFilter(new FileNameExtensionFilter("Text files", TEXT_FILE_EXTENSION));
 				int val = fileChooser.showOpenDialog(Main.this);
 				if (val == JFileChooser.APPROVE_OPTION) {
 					File file = fileChooser.getSelectedFile();
@@ -402,10 +402,9 @@ public class Main extends JFrame implements WindowListener{
 						vocabList = textFileVocabListGetter.getVocabListFromFile(file);
 						loadInVocabList();
 					} catch (Exception e1) {
-						// TODO Auto-generated catch block
 						e1.printStackTrace();
 					}
-				}	
+				}
 			}
 		}
 	}
