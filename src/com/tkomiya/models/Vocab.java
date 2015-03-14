@@ -19,6 +19,7 @@ public class Vocab implements Serializable{
 	public static final int JAPANESE = 2;
 	public static final int VOCAB_SUPPORT_SIZE = 3;
 	public static final String[] SUPPORTED_LANGUAGES = {"English", "Korean", "Japanese"};
+	public static final int[] SUPPORTED_LANGUAGES_INTS = {0, 1, 2};
 	
 	public Vocab(int primaryLanguage) {
 		vocab = new HashMap<Integer, String>();
@@ -72,5 +73,14 @@ public class Vocab implements Serializable{
 	
 	public int getTimesCorrect(int language) {
 		return timesCorrect.get(language);
+	}
+	
+	public void setScore(int language, int timesTested, int timesCorrect) {
+		if (this.getTranslation(language) == null) {
+			return;
+		} else {
+			this.timesCorrect.put(language, timesCorrect);
+			this.timesTested.put(language, timesTested);
+		}
 	}
 }
