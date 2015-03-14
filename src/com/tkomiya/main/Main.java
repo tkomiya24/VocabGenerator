@@ -57,8 +57,10 @@ import com.tkomiya.views.ListInput;
 import com.tkomiya.views.TypedTest;
 import com.tkomiya.views.WrittenTest;
 import com.tkomiya.vocablistgetter.SerializedFileVocabListGetter;
+import com.tkomiya.vocablistgetter.TextFileVocabListGetter;
 import com.tkomiya.vocablistgetter.VocabListGetter;
 import com.tkomiya.vocablistsaver.SerializedFileVocabListSaver;
+import com.tkomiya.vocablistsaver.TextFileVocabListSaver;
 import com.tkomiya.vocablistsaver.VocabListSaver;
 
 public class Main extends JFrame implements WindowListener{
@@ -81,12 +83,15 @@ public class Main extends JFrame implements WindowListener{
 	private static final String MAKE_LINK_MENU_ITEM_NAME = "link";
 	private static final String DELETE_MENU_ITEM_NAME = "delete";
 	private static final String ADD_BUTTON_NAME = "add";
-	private static final String RECONSTRUCT_MENU_ITEM_NAME = "reconstruct";
 	private static final String COMMON_MISTAKE_TEST_MENU_ITEM_NAME = "mistake test";
+	private static final String SAVE_MENU_ITEM_NAME = "save text";
 	private static final int PRIMARY_LANGUAGE = Vocab.ENGLISH;
 	public static final String VOCAB_LIST_FILE_EXTENSION = "voc";
+	private static final String LOAD_MENU_ITEM_NAME = "load text";
 	private JPopupMenu shortcutListPopup;
 	private FileLink currentLink;
+	private TextFileVocabListSaver textFileVocabListSaver;
+	private TextFileVocabListGetter textFileVocabListGetter;
 	
 	public Main() {
 		initializeFields();
@@ -100,6 +105,8 @@ public class Main extends JFrame implements WindowListener{
 		vocabLists = new HashMap<String, VocabList>();
 		vocabGetter = new NewlineSeparatedTextfileStringListGetter();
 		vlistGetter = new SerializedFileVocabListGetter();
+		textFileVocabListSaver = new TextFileVocabListSaver();
+		textFileVocabListGetter = new TextFileVocabListGetter();
 	}
 	
 	@SuppressWarnings("unchecked")
@@ -182,11 +189,6 @@ public class Main extends JFrame implements WindowListener{
 		open.addActionListener(menuListener);
 		menuItems.add(open);
 
-		JMenuItem createNew = new JMenuItem("Create new...");
-		createNew.setName("create");
-		createNew.addActionListener(menuListener);
-		menuItems.add(createNew);
-		
 		JMenuItem startTest = new JMenuItem("Start a test");
 		startTest.setName("test");
 		startTest.addActionListener(menuListener);
@@ -202,15 +204,20 @@ public class Main extends JFrame implements WindowListener{
 		makeLink.addActionListener(menuListener);
 		menuItems.add(makeLink);
 		
-		JMenuItem reconstruct = new JMenuItem("Reconstruct");
-		reconstruct.setName(RECONSTRUCT_MENU_ITEM_NAME);
-		reconstruct.addActionListener(menuListener);
-		menuItems.add(reconstruct);
-		
 		JMenuItem commonMistakeTest = new JMenuItem("Retest common mistakes");
 		commonMistakeTest.setName(COMMON_MISTAKE_TEST_MENU_ITEM_NAME);
 		commonMistakeTest.addActionListener(menuListener);
 		menuItems.add(commonMistakeTest);
+		
+		JMenuItem save = new JMenuItem("Save as text file");
+		save.setName(SAVE_MENU_ITEM_NAME);
+		save.addActionListener(menuListener);
+		menuItems.add(save);
+		
+		JMenuItem load = new JMenuItem("Load a text file");
+		load.setName(LOAD_MENU_ITEM_NAME);
+		load.addActionListener(menuListener);
+		menuItems.add(load);
 		
 		return menuItems;
 	}
@@ -309,20 +316,15 @@ public class Main extends JFrame implements WindowListener{
 	}
 	
 	public static void main(String args[]) {
-
 		new Main();
 	}
 
 	private class MenuItemListener implements ActionListener {
-
 		@Override
 		public void actionPerformed(ActionEvent e) {
 			JMenuItem sourceItem = (JMenuItem) e.getSource();
 			String sourceName = sourceItem.getName();
 			if (sourceName == "Open") {
-				fileChooser.setFileFilter(new FileNameExtensionFilter(
-						"Vocab list files", VOCAB_LIST_FILE_EXTENSION));
-
 				int val = fileChooser.showOpenDialog(Main.this);
 				if (val == JFileChooser.APPROVE_OPTION) {
 					File file = fileChooser.getSelectedFile();
@@ -330,34 +332,33 @@ public class Main extends JFrame implements WindowListener{
 						String extension = FileUtilities.getFileExtension(file);
 						if(extension.equals(VOCAB_LIST_FILE_EXTENSION)){
 							vocabList = vlistGetter.getVocabListFromFile(file);
-							vocabLists.put(vocabList.getName(), vocabList);
-							vocabListListModel.addElement(vocabList);
+							loadInVocabList();
 							currentChunk = 0;
 							vocabList.shuffle();
 							fillTextArea();
 							vocabListListModel.addElement(vocabList);
 						}
 						else{
-							reconstructVocabFile(file);
+							vocabList = reconstructVocabFile(file);
+							loadInVocabList();
 						}
 
 					} catch (Exception e1) {
-						reconstructVocabFile(file);
+						try {
+							vocabList = reconstructVocabFile(file);
+							loadInVocabList();
+						} catch (Exception e2) {
+							e2.printStackTrace();
+						}
 						e1.printStackTrace();
 					}
 				}
-			} else if (sourceName == "create") {
-				new ListInput();
-			} 
+			}
 			else if (sourceName == "test") {		
 				new TypedTest(Main.this.vocabList, Vocab.KOREAN);
 			}
 			else if (sourceName == WRITTEN_TEST_MENU_ITEM) {			
 				new WrittenTest(Main.this.vocabList, Vocab.KOREAN);
-			}
-			else if (sourceName.equals(RECONSTRUCT_MENU_ITEM_NAME)) {
-				reconstructVocabFile(currentLink.getFile());
-				fillTextArea();
 			}
 			else if (sourceName.equals(COMMON_MISTAKE_TEST_MENU_ITEM_NAME)) {
 				List<Vocab> mostMistakenVocabs = findMostMistakenVocabs(Vocab.KOREAN);
@@ -368,7 +369,40 @@ public class Main extends JFrame implements WindowListener{
 					//TODO message dialog.
 				}
 			}
+			else if (sourceName.equals(SAVE_MENU_ITEM_NAME)) {				
+				int val = fileChooser.showSaveDialog(Main.this);
+				if (val == JFileChooser.APPROVE_OPTION) {
+					File file = fileChooser.getSelectedFile();
+					try {
+						textFileVocabListSaver.saveVocabList(vocabList, file);
+					} catch (IOException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
+				}				
+			} else if (sourceName.equals(LOAD_MENU_ITEM_NAME)) {
+				
+				fileChooser.setFileFilter(new FileNameExtensionFilter(
+						"Text files", ".txt"));
+				int val = fileChooser.showOpenDialog(Main.this);
+				if (val == JFileChooser.APPROVE_OPTION) {
+					File file = fileChooser.getSelectedFile();
+					try {
+						vocabList = textFileVocabListGetter.getVocabListFromFile(file);
+						loadInVocabList();
+					} catch (Exception e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
+				}	
+			}
 		}
+	}
+	
+	private void loadInVocabList() {
+		vocabLists.put(vocabList.getName(), vocabList);
+		vocabListListModel.addElement(vocabList);
+		fillTextArea();
 	}
 	
 	@SuppressWarnings("unchecked")
@@ -418,41 +452,16 @@ public class Main extends JFrame implements WindowListener{
 		this.vltm.setVocabList(vocabList);
 	}
 	
-	private void reconstructVocabFile(File file){				
+	private VocabList reconstructVocabFile(File file) throws Exception{				
 		String fileName = FileUtilities.getFileNameWithNoExtension(file);
 		String filePath = FileUtilities.getFilePathWithoutFileName(file);
-		try {
-			List<String> englishList = getEnglishList(fileName, filePath);
-			List<String> koreanList = getKoreanList(fileName, filePath);
-			VocabListBuilder vlb = new VocabListBuilder();
-			vlb.setPrimaryLanguage(Vocab.ENGLISH, englishList);
-			vlb.addLanguage(Vocab.KOREAN, koreanList);
-			vlb.setName(FileUtilities.getFileNameWithNoExtension(file));
-			this.vocabList = vlb.build();
-			vocabLists.put(vocabList.getName(), vocabList);
-			vocabListListModel.addElement(vocabList);
-		}
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-			return;
-		} 
-		catch (UnsupportedEncodingException e) {
-			e.printStackTrace();
-			return;
-		} 			
-		catch (Exception e) {
-			e.printStackTrace();
-			return;
-		}
-		fillTextArea();
-		try {
-			saveNewVocabListAsFile(file);
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-
+		List<String> englishList = getEnglishList(fileName, filePath);
+		List<String> koreanList = getKoreanList(fileName, filePath);
+		VocabListBuilder vlb = new VocabListBuilder();
+		vlb.setPrimaryLanguage(Vocab.ENGLISH, englishList);
+		vlb.addLanguage(Vocab.KOREAN, koreanList);
+		vlb.setName(FileUtilities.getFileNameWithNoExtension(file));
+		return vlb.build();
 	}
 
 	private File saveNewVocabListAsFile(File file) throws FileNotFoundException, IOException {
