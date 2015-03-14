@@ -38,8 +38,10 @@ public class Vocab implements Serializable{
 		return vocab.get(language);
 	}
 
-	public void setTranslation(int language, String definition) {
-		vocab.put(language, definition);
+	public void editTranslation(int language, String definition) {
+		if (vocab.containsKey(language)) {
+			vocab.put(language, definition);
+		}
 	}
 	
 	public boolean means(String word) {
