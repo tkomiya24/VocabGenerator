@@ -22,12 +22,16 @@ public class VocabListTableModel extends AbstractTableModel {
 	
 	@Override
 	public String getColumnName(int column) {
-		return Vocab.SUPPORTED_LANGUAGES[column];
+		if (column % 2 == 0) {
+			return Vocab.SUPPORTED_LANGUAGES[column/2];
+		} else {
+			return "Score";
+		}
 	}
 	
 	@Override
 	public int getColumnCount() {
-		return Vocab.VOCAB_SUPPORT_SIZE;
+		return Vocab.VOCAB_SUPPORT_SIZE * 2;
 	}
 
 	@Override
@@ -36,17 +40,22 @@ public class VocabListTableModel extends AbstractTableModel {
 	}
 
 	@Override
-	public Object getValueAt(int arg0, int arg1) {
-		if (arg0 >= vocabList.size()) {
+	public Object getValueAt(int row, int column) {
+		if (row >= vocabList.size()) {
 			return null;
+		}		
+		int lang = column/2;
+		Vocab vocab = vocabList.get(row);
+		if (vocab.getTranslation(lang) == null) {
+			return null;
+		}
+		if (column % 2 == 0) {
+			return vocab.getTranslation(lang);		
 		} else {
-			Vocab vocab = vocabList.get(arg0);
-			if (vocab.getTranslation(arg1) == null) {
-				return null;
-			}
-//			return vocab.getTranslation(arg1) + " " + vocab.getTimesCorrect(arg1) + "/" + vocab.getTimesTested(arg1);
-			return vocab.getTranslation(arg1);
-		}	
+			String timesCorrect = Integer.toString(vocab.getTimesCorrect(lang));
+			String timesTested = Integer.toString(vocab.getTimesTested(lang));
+			return timesCorrect + '/' + timesTested;			
+		}
 	}
 	
 	public void setVocabList(VocabList list){
@@ -56,7 +65,7 @@ public class VocabListTableModel extends AbstractTableModel {
 
 	@Override
 	public boolean isCellEditable(int rowIndex, int columnIndex) {
-		if (columnIndex < Vocab.VOCAB_SUPPORT_SIZE && rowIndex < vocabList.size()) {
+		if (columnIndex / 2 < Vocab.VOCAB_SUPPORT_SIZE && rowIndex < vocabList.size() && columnIndex % 2 == 0) {
 			return true;
 		} else {
 			return false;
@@ -66,7 +75,8 @@ public class VocabListTableModel extends AbstractTableModel {
 	@Override
 	public void setValueAt(Object aValue, int rowIndex, int columnIndex) {
 		Vocab editedVocab = vocabList.get(rowIndex);
-		editedVocab.setTranslation(columnIndex, (String) aValue);
+		int language = columnIndex / 2;
+		editedVocab.setTranslation(language, (String) aValue);
 	}
 	
 }
