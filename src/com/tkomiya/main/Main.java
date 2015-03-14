@@ -27,12 +27,14 @@ import java.util.List;
 import javax.swing.BorderFactory;
 import javax.swing.DefaultListModel;
 import javax.swing.JButton;
+import javax.swing.JDialog;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JList;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JPopupMenu;
 import javax.swing.JScrollPane;
@@ -76,6 +78,7 @@ public class Main extends JFrame implements WindowListener{
 	private JFileChooser fileChooser;
 	public static final String DEFAULT_DIRECTORY = "./res/";
 	private static final String LISTS_FILE_PATH = "./lists.config";
+	private static final String DEFAULT_SAVE_DIRECTORY = DEFAULT_DIRECTORY + "backup/";
 	private boolean showAnswers = false;
 	private DefaultListModel<VocabList> vocabListListModel;
 	private VocabListTableModel vltm;
@@ -87,6 +90,7 @@ public class Main extends JFrame implements WindowListener{
 	private static final String SAVE_MENU_ITEM_NAME = "save text";
 	private static final int PRIMARY_LANGUAGE = Vocab.ENGLISH;
 	public static final String VOCAB_LIST_FILE_EXTENSION = "voc";
+	public static final String TEXT_FILE_EXTENSION = "txt";
 	private static final String LOAD_MENU_ITEM_NAME = "load text";
 	private JPopupMenu shortcutListPopup;
 	private FileLink currentLink;
@@ -369,7 +373,14 @@ public class Main extends JFrame implements WindowListener{
 					//TODO message dialog.
 				}
 			}
-			else if (sourceName.equals(SAVE_MENU_ITEM_NAME)) {				
+			else if (sourceName.equals(SAVE_MENU_ITEM_NAME)) {
+				if (vocabList == null) {
+					showErrorDialog("There is no vocab list selected", "Please select a vocab list to save.");
+					return;
+				}
+				fileChooser.setFileFilter(new FileNameExtensionFilter("Text Files", TEXT_FILE_EXTENSION));
+				File suggestedSaveFile = new File(DEFAULT_SAVE_DIRECTORY + vocabList.getName() + "." + TEXT_FILE_EXTENSION);
+				fileChooser.setSelectedFile(suggestedSaveFile);
 				int val = fileChooser.showSaveDialog(Main.this);
 				if (val == JFileChooser.APPROVE_OPTION) {
 					File file = fileChooser.getSelectedFile();
@@ -379,9 +390,9 @@ public class Main extends JFrame implements WindowListener{
 						// TODO Auto-generated catch block
 						e1.printStackTrace();
 					}
-				}				
+				}
+				fileChooser.resetChoosableFileFilters();
 			} else if (sourceName.equals(LOAD_MENU_ITEM_NAME)) {
-				
 				fileChooser.setFileFilter(new FileNameExtensionFilter(
 						"Text files", ".txt"));
 				int val = fileChooser.showOpenDialog(Main.this);
@@ -545,4 +556,7 @@ public class Main extends JFrame implements WindowListener{
 		
 	}
 	 
+	private void showErrorDialog(String title, String message) {
+		JOptionPane.showMessageDialog(this, title, message, JOptionPane.ERROR_MESSAGE);
+	}
 }
