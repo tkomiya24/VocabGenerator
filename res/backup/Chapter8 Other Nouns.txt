@@ -1,0 +1,83 @@
+Bus
+telephone
+make a telephone call
+(an)other NOUN
+church
+Do you go to church?
+attend, go to church
+church [Catholic]
+credit card
+last name, surname
+last name (honorific)
+given name
+given name (honorific)
+What is your name (honorific)
+head; hair
+he/she is smart
+he/she is dumb
+conversation
+english conversation book
+words speech (honorific)
+Go ahead [say what it is you have to say] (honorific)
+a nationally established NOUN
+national (public funded) university
+state
+privately established NOUN
+exchange
+operator (switchbaord, telephone exchange)
+
+버스
+전화
+전화(를) 하-
+다른
+교회
+교회에 나가세요?
+나가-
+성당
+신용카드
+성
+성씨
+이름
+성함
+성함이 어떻게 되세요?
+머리
+머리(가) 좋아요
+머리(가) 나빠요
+회화
+영어회화책
+말씀
+말씀하세요
+국립 NOUN
+국립대학교
+주
+사립 NOUN
+교환
+교환원
+
+2/2
+3/3
+2/2
+1/1
+1/1
+2/2
+2/2
+0/0
+1/1
+1/1
+1/1
+0/0
+0/0
+0/0
+1/1
+0/0
+0/0
+1/1
+1/1
+1/1
+1/1
+1/1
+1/1
+1/1
+1/1
+1/1
+1/1
