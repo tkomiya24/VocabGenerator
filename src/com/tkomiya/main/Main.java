@@ -293,7 +293,9 @@ public class Main extends JFrame implements WindowListener{
 				String sourceName = menuItem.getName();
 				if (sourceName.equals(DELETE_MENU_ITEM_NAME)) {
 					VocabList list = links.getSelectedValue();
+					int index = links.getSelectedIndex();
 					vocabLists.remove(list.getName());
+					links.remove(index);
 				}
 			}
 		});
