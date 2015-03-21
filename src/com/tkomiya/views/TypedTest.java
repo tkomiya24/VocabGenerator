@@ -41,14 +41,13 @@ public class TypedTest extends JFrame{
 	private static final String CHEAT_BUTTON_NAME = "Cheat";
 	private static final String SUBMIT_BUTTON_NAME = "Submit";
 	private static final String RETEST_INCORRECT_BUTTON_NAME = "Retest Incorrect";
-	private boolean isRetest = false;
+	private boolean isRetest;
 	
 	public TypedTest(VocabList vList, int languageTested){
-		
 		this.vList = vList;
 		this.incorrectlyAnsweredVocabList = new ArrayList<Vocab>();
 		this.languageTested = languageTested;
-
+		this.isRetest = false;
 		makeTestScrollPane(vList);
 		defaultBorder = fields.get(0).getBorder();
 		
@@ -114,42 +113,45 @@ public class TypedTest extends JFrame{
 			JButton button = (JButton) e.getSource();
 			String buttonName = button.getName();			
 			if (buttonName.equals(CHEAT_BUTTON_NAME)) {				
-				for(int i = 0; i < vList.size(); i++){					
-					JTextField field = fields.get(i);					
-					if(checkAnswer(vList, i)){
-						field.setEditable(false);
-						field.setBackground(Color.WHITE);
-						field.setBorder(BorderFactory.createLineBorder(Color.GREEN));
-					}
-					else{
-						field.setBorder(BorderFactory.createLineBorder(Color.RED, 2));
-					}
-				}	
+				cheatButtonAction();	
 			} else if (buttonName.equals(SUBMIT_BUTTON_NAME)) {
-				submit();
+				submitButtonAction();
 			} else if (buttonName.equals("restart")) {				
-				restartTest();
+				restartButtonAction();
 			} else if (buttonName.equals(RETEST_INCORRECT_BUTTON_NAME)) {
-				retestIncorrectAnswers();
+				retestIncorrectButtonAction();
 			}
 		}
 
-		private void submit() {
+		private void cheatButtonAction() {
+			for(int i = 0; i < vList.size(); i++){					
+				JTextField field = fields.get(i);					
+				if(checkAnswer(vList, i)){
+					field.setEditable(false);
+					field.setBackground(Color.WHITE);
+					field.setBorder(BorderFactory.createLineBorder(Color.GREEN));
+				}
+				else{
+					field.setBorder(BorderFactory.createLineBorder(Color.RED, 2));
+				}
+			}
+		}
+
+		private void submitButtonAction() {
 			VocabList vList;
 			if (!isRetest) {
 				vList = TypedTest.this.vList;
 			} else {
 				vList = retestVocabList;
-			}
-			
+			}			
 			for(int i = 0; i < vList.size(); i++){	
 				JTextField field = fields.get(i);
 				field.setEditable(false);
-				if(checkAnswer(vList, i)){
+				if (checkAnswer(vList, i)) {
 					field.setBorder(BorderFactory.createLineBorder(Color.GREEN));
 					setCorrect(vList, i);
 				}
-				else{
+				else {
 					field.setText(vList.get(i).getTranslation(languageTested));
 					field.setBorder(BorderFactory.createLineBorder(Color.RED, 2));
 					incorrectlyAnsweredVocabList.add(vList.get(i));
@@ -165,24 +167,23 @@ public class TypedTest extends JFrame{
 			retestIncorrectButton.setEnabled(true);
 		}
 		
-	}
-	
-	private void restartTest() {
-		incorrectlyAnsweredVocabList = new ArrayList<Vocab>();
-		blankAllTextFields();
-		resetTextFieldColours();
-		makeAllTextFieldsEditableAgain();
-		enableSubmitAndGiveUpButtons();
-		disableRetestIncorrectButton();
-	}
-	
-	private void retestIncorrectAnswers() {
-		isRetest = true;
-		disableRetestIncorrectButton();
-		makeNewVocabListFromIncorrectAnswers();
-		remakeGUI();
-		enableSubmitAndGiveUpButtons();
-		incorrectlyAnsweredVocabList = new ArrayList<Vocab>();
+		private void restartButtonAction() {
+			incorrectlyAnsweredVocabList = new ArrayList<Vocab>();
+			blankAllTextFields();
+			resetTextFieldColours();
+			makeAllTextFieldsEditableAgain();
+			enableSubmitAndGiveUpButtons();
+			disableRetestIncorrectButton();
+		}
+		
+		private void retestIncorrectButtonAction() {
+			isRetest = true;
+			disableRetestIncorrectButton();
+			makeNewVocabListFromIncorrectAnswers();
+			remakeGUI();
+			enableSubmitAndGiveUpButtons();
+			incorrectlyAnsweredVocabList = new ArrayList<Vocab>();
+		}
 	}
 	
 	private void disableRetestIncorrectButton() {
@@ -238,7 +239,7 @@ public class TypedTest extends JFrame{
 		cheat.setEnabled(true);
 	}
 	
-	private void setCorrect(VocabList vlist, int index) {
+	private void setCorrect(VocabList vList, int index) {
 		vList.setCorrect(index, languageTested);
 	}
 }
