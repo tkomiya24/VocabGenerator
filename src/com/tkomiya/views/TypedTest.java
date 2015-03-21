@@ -225,8 +225,8 @@ public class TypedTest extends JFrame{
 	
 	private boolean checkAnswer(VocabList vList, int index){
 		Vocab vocab = vList.get(index);
-		String answer = fields.get(index).getText();
-		return answer.equals(vocab.getTranslation(languageTested));
+		String answer = fields.get(index).getText().trim();
+		return answer.equals(vocab.getTranslation(languageTested).trim());
 	}
 
 	private void disableSubmitAndGiveUpButtons() {
