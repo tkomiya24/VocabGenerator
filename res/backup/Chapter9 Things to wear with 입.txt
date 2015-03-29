@@ -1,0 +1,29 @@
+clothes
+jacket
+suit
+shirt, dress shirt
+trousers
+jeans
+coat
+skirt
+sweater, jumper
+
+옷
+재킷
+양복
+셔츠, 와이셔츠
+바지
+청바지
+코트
+치마
+스웨터
+
+2/2
+2/2
+2/2
+2/2
+2/2
+2/2
+2/2
+2/2
+2/2
