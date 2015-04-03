@@ -297,8 +297,7 @@ public class Main extends JFrame {
 		shortcutListPopup = new JPopupMenu();
 		JMenuItem deleteMenuItem = new JMenuItem("Delete shorcut");
 		deleteMenuItem.setName(DELETE_MENU_ITEM_NAME);
-		deleteMenuItem.addActionListener(new ActionListener() {
-			
+		deleteMenuItem.addActionListener(new ActionListener() {			
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				
