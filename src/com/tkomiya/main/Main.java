@@ -108,7 +108,7 @@ public class Main extends JFrame {
 	}
 
 	private void initializeFields(){
-		vocabLists = new ComparatorSortedList<VocabList>(new VocabListNameComparator());
+		vocabLists = new ComparatorSortedList<VocabList>(new NaturalOrderComparator());
 		vocabGetter = new NewlineSeparatedTextfileStringListGetter();
 		vlistGetter = new SerializedFileVocabListGetter();
 		textFileVocabListSaver = new TextFileVocabListSaver();
@@ -300,7 +300,6 @@ public class Main extends JFrame {
 		deleteMenuItem.addActionListener(new ActionListener() {			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				
 				JMenuItem menuItem = (JMenuItem) e.getSource();
 				String sourceName = menuItem.getName();
 				if (sourceName.equals(DELETE_MENU_ITEM_NAME)) {
@@ -339,7 +338,6 @@ public class Main extends JFrame {
 	private void loadVocabListFromTextFile(File file) {
 		try {
 			vocabList = textFileVocabListGetter.getVocabListFromFile(file);
-			loadInVocabList();
 		} catch (Exception e1) {
 			e1.printStackTrace();
 		}
@@ -549,6 +547,7 @@ public class Main extends JFrame {
 				if (val == JFileChooser.APPROVE_OPTION) {
 					File file = fileChooser.getSelectedFile();
 					loadVocabListFromTextFile(file);
+					loadInVocabList();
 				}
 			} else if (sourceName.equals(BACKUP_ALL_MENU_ITEM_NAME)) {
 				int response = showConfirmationDialog("Back up vocab files", "This will overwrite all previous backup files. Are you sure?");
@@ -561,13 +560,16 @@ public class Main extends JFrame {
 			} else if (sourceName.equals(LOAD_ALL_MENU_ITEM_NAME)) {
 				int response = showConfirmationDialog("Load all files from backup", "This will overwrite all currently loaded vocab lists. Are you sure?");
 				if (response == JOptionPane.YES_OPTION) {
+					vocabLists.clear();
 					File backUpDirectory = new File(DEFAULT_SAVE_DIRECTORY);
 					File[] allFiles = backUpDirectory.listFiles();
 					for (File file : allFiles) {
 						if (file.isFile() && !file.isDirectory() && FileUtilities.getFileExtension(file).equals(TEXT_FILE_EXTENSION)) {
 							loadVocabListFromTextFile(file);
+							vocabLists.add(vocabList);
 						}
 					}
+					fillShortcutPanel();
 				} 
 			}
 		}
