@@ -82,20 +82,25 @@ public class Main extends JFrame implements WindowListener{
 	private boolean showAnswers = false;
 	private DefaultListModel<VocabList> vocabListListModel;
 	private VocabListTableModel vltm;
+
+	private static final int PRIMARY_LANGUAGE = Vocab.ENGLISH;
+	public static final String VOCAB_LIST_FILE_EXTENSION = "voc";
+	public static final String TEXT_FILE_EXTENSION = "txt";
+
+	private JPopupMenu shortcutListPopup;
+	private FileLink currentLink;
+	private TextFileVocabListSaver textFileVocabListSaver;
+	private TextFileVocabListGetter textFileVocabListGetter;
+	
+	//Button and MeniItem names.
+	private static final String LOAD_MENU_ITEM_NAME = "load text";
 	private static final String WRITTEN_TEST_MENU_ITEM = "written";
 	private static final String MAKE_LINK_MENU_ITEM_NAME = "link";
 	private static final String DELETE_MENU_ITEM_NAME = "delete";
 	private static final String ADD_BUTTON_NAME = "add";
 	private static final String COMMON_MISTAKE_TEST_MENU_ITEM_NAME = "mistake test";
 	private static final String SAVE_MENU_ITEM_NAME = "save text";
-	private static final int PRIMARY_LANGUAGE = Vocab.ENGLISH;
-	public static final String VOCAB_LIST_FILE_EXTENSION = "voc";
-	public static final String TEXT_FILE_EXTENSION = "txt";
-	private static final String LOAD_MENU_ITEM_NAME = "load text";
-	private JPopupMenu shortcutListPopup;
-	private FileLink currentLink;
-	private TextFileVocabListSaver textFileVocabListSaver;
-	private TextFileVocabListGetter textFileVocabListGetter;
+	private static final String BACKUP_ALL_MENU_ITEM_NAME = "backup all";
 	
 	public Main() {
 		initializeFields();
@@ -222,6 +227,11 @@ public class Main extends JFrame implements WindowListener{
 		load.addActionListener(menuListener);
 		menuItems.add(load);
 		
+		JMenuItem backupAll = new JMenuItem("Back up all");
+		backupAll.setName(BACKUP_ALL_MENU_ITEM_NAME);
+		backupAll.addActionListener(menuListener);
+		menuItems.add(backupAll);
+		
 		return menuItems;
 	}
 	
@@ -248,7 +258,8 @@ public class Main extends JFrame implements WindowListener{
 	}
 	
 	private void fillShortcutPanel() {
-		Iterator<VocabList> iterator = vocabLists.values().iterator();
+		Collection<VocabList> vocabListCollection = vocabLists.values();
+		Iterator<VocabList> iterator = vocabListCollection.iterator();
 		while (iterator.hasNext()) {
 			vocabListListModel.addElement(iterator.next());
 		}
