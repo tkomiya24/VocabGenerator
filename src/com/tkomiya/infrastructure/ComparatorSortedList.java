@@ -1,5 +1,6 @@
 package com.tkomiya.infrastructure;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
@@ -158,5 +159,13 @@ public class ComparatorSortedList<E> implements List<E> {
 	public <T> T[] toArray(T[] arg0) {
 		return list.toArray(arg0);
 	}
-	
+
+	/**
+	 * @return the list
+	 */
+	public ArrayList<E> getList() {
+		return list;
+	}
+
 }
+
