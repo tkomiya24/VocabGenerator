@@ -63,7 +63,7 @@ import com.tkomiya.vocablistsaver.SerializedFileVocabListSaver;
 import com.tkomiya.vocablistsaver.TextFileVocabListSaver;
 import com.tkomiya.vocablistsaver.VocabListSaver;
 
-public class Main extends JFrame implements WindowListener{
+public class Main extends JFrame {
 
 	private static final long serialVersionUID = 2825416147024612814L;
 	private JTextArea textArea;
@@ -324,7 +324,7 @@ public class Main extends JFrame implements WindowListener{
 	}
 	
 	private void makeFrame(){
-		addWindowListener(this);
+		addWindowListener(new AppWindowListener());
 		addMainPanel();
 		setJMenuBar(makeMenuBar());
 		setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
@@ -525,71 +525,71 @@ public class Main extends JFrame implements WindowListener{
 		return vocabGetter.getVocabFromFile(englishListFile);
 	}
 
-	@Override
-	public void windowActivated(WindowEvent e) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void windowClosed(WindowEvent e) {
-		// TODO Auto-generated method stub
-	}
-
-	@Override
-	public void windowClosing(WindowEvent e) {	
-		saveVocabLists();
-	}
-	
-	private void saveVocabLists() {
-		try {
-			File file = new File(LISTS_FILE_PATH); //TODO change this path to a static final field.
-			if (file.exists() && !file.isDirectory()) {
-				file.delete();
-			}
-			ObjectOutputStream oos = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(file)));
-			oos.writeObject(vocabLists.getList()); //TODO make a class that handles the logic of saving a ComparatorSortedList.
-			oos.close();
-		} catch (FileNotFoundException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		} catch (IOException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		} finally {
-			this.dispose();
-		}	
-	}
-
 	private Vocab addDialog(){
 		Vocab vocab = new Vocab(PRIMARY_LANGUAGE);
 		return vocab;
 	}
 	
-	@Override
-	public void windowDeactivated(WindowEvent e) {
-		// TODO Auto-generated method stub
-		
-	}
 
-	@Override
-	public void windowDeiconified(WindowEvent e) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void windowIconified(WindowEvent e) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void windowOpened(WindowEvent e) {
-		// TODO Auto-generated method stub
-		
-	}
 	 
+	private class AppWindowListener implements WindowListener {
+		
+		@Override
+		public void windowActivated(WindowEvent e) {
+			// TODO Auto-generated method stub
+		}
+
+		@Override
+		public void windowClosed(WindowEvent e) {
+			// TODO Auto-generated method stub
+		}
+
+		@Override
+		public void windowClosing(WindowEvent e) {	
+			saveVocabLists();
+		}
+		
+		@Override
+		public void windowDeactivated(WindowEvent e) {
+			// TODO Auto-generated method stub		
+		}
+
+		@Override
+		public void windowDeiconified(WindowEvent e) {
+			// TODO Auto-generated method stub			
+		}
+
+		@Override
+		public void windowIconified(WindowEvent e) {
+			// TODO Auto-generated method stub			
+		}
+
+		@Override
+		public void windowOpened(WindowEvent e) {
+			// TODO Auto-generated method stub		
+		}
+		
+		private void saveVocabLists() {
+			try {
+				File file = new File(LISTS_FILE_PATH);
+				if (file.exists() && !file.isDirectory()) {
+					file.delete();
+				}
+				ObjectOutputStream oos = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(file)));
+				oos.writeObject(vocabLists.getList()); //TODO make a class that handles the logic of saving a ComparatorSortedList.
+				oos.close();
+			} catch (FileNotFoundException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			} catch (IOException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			} finally {
+				Main.this.dispose();
+			}	
+		}
+	}
+	
 	private void showErrorDialog(String title, String message) {
 		JOptionPane.showMessageDialog(this, title, message, JOptionPane.ERROR_MESSAGE);
 	}
