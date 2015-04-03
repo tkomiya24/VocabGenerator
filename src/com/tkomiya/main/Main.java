@@ -49,8 +49,12 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 import javax.swing.plaf.FileChooserUI;
 
 import com.tkomiya.controllers.FileLink;
+import com.tkomiya.infrastructure.AlphanumComparator;
+import com.tkomiya.infrastructure.ComparatorSortedList;
 import com.tkomiya.infrastructure.FileUtilities;
 import com.tkomiya.infrastructure.MostMistakenDescendingVocabComparator;
+import com.tkomiya.infrastructure.NaturalOrderComparator;
+import com.tkomiya.infrastructure.VocabListNameComparator;
 import com.tkomiya.infrastructure.VocabListTableModel;
 import com.tkomiya.listgetter.ListStringGetter;
 import com.tkomiya.listgetter.NewlineSeparatedTextfileStringListGetter;
@@ -74,7 +78,7 @@ public class Main extends JFrame implements WindowListener{
 	private int currentChunk;
 	private int chunkSize = 10;
 	private VocabList vocabList;
-	private HashMap<String, VocabList> vocabLists;
+	private ComparatorSortedList<VocabList> vocabLists;
 	private ListStringGetter vocabGetter;
 	private VocabListGetter vlistGetter;
 	public static final String DEFAULT_DIRECTORY = "./res/";
@@ -112,7 +116,7 @@ public class Main extends JFrame implements WindowListener{
 	}
 
 	private void initializeFields(){
-		vocabLists = new HashMap<String, VocabList>();
+		vocabLists = new ComparatorSortedList<VocabList>(new VocabListNameComparator());
 		vocabGetter = new NewlineSeparatedTextfileStringListGetter();
 		vlistGetter = new SerializedFileVocabListGetter();
 		textFileVocabListSaver = new TextFileVocabListSaver();
@@ -124,7 +128,8 @@ public class Main extends JFrame implements WindowListener{
 		File listsFile = new File(LISTS_FILE_PATH);
 		try {
 			ObjectInputStream ois = new ObjectInputStream(new BufferedInputStream(new FileInputStream(listsFile)));
-			vocabLists = (HashMap<String, VocabList>) ois.readObject();
+			//TODO move the loading and saving logic to another class.
+			vocabLists = new ComparatorSortedList<VocabList>((ArrayList<VocabList>) ois.readObject(), new NaturalOrderComparator()) ;
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -265,10 +270,8 @@ public class Main extends JFrame implements WindowListener{
 	}
 	
 	private void fillShortcutPanel() {
-		Collection<VocabList> vocabListCollection = vocabLists.values();
-		Iterator<VocabList> iterator = vocabListCollection.iterator();
-		while (iterator.hasNext()) {
-			vocabListListModel.addElement(iterator.next());
+		for (int i = 0; i < vocabLists.size(); i++) {
+			vocabListListModel.addElement(vocabLists.get(i));
 		}
 	}
 	
@@ -417,7 +420,6 @@ public class Main extends JFrame implements WindowListener{
 			} else if (sourceName.equals(BACKUP_ALL_MENU_ITEM_NAME)) {
 				int response = showConfirmationDialog("Back up vocab files", "This will overwrite all previous backup files. Are you sure?");
 				if (response == JOptionPane.YES_OPTION) {
-					Collection<VocabList> vocabLists = Main.this.vocabLists.values();
 					for (VocabList vocabList : vocabLists) {
 						File file = new File(DEFAULT_SAVE_DIRECTORY + vocabList.getName() + "." + TEXT_FILE_EXTENSION);
 						saveVocabListAsTextFile(vocabList, file);
@@ -452,8 +454,8 @@ public class Main extends JFrame implements WindowListener{
 	}
 	
 	private void loadInVocabList() {
-		vocabLists.put(vocabList.getName(), vocabList);
-		vocabListListModel.addElement(vocabList);
+		vocabLists.add(vocabList);
+		vocabListListModel.insertElementAt(vocabList, vocabLists.indexOf(vocabList));
 		fillTextArea();
 	}
 	
@@ -465,7 +467,6 @@ public class Main extends JFrame implements WindowListener{
 	}
 	
 	private List<Vocab> getAllVocabsMistakenAtLeastOnce(int language) {
-		Collection<VocabList> vocabLists = this.vocabLists.values();
 		ArrayList<Vocab> vocabs = new ArrayList<Vocab>();
 		for (VocabList vocabList : vocabLists) {
 			vocabs.addAll(vocabList.getAllTestedVocabsWithOneMistake(language));
@@ -555,7 +556,7 @@ public class Main extends JFrame implements WindowListener{
 				file.delete();
 			}
 			ObjectOutputStream oos = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(file)));
-			oos.writeObject(vocabLists);
+			oos.writeObject(vocabLists.getList()); //TODO make a class that handles the logic of saving a ComparatorSortedList.
 			oos.close();
 		} catch (FileNotFoundException e1) {
 			// TODO Auto-generated catch block
