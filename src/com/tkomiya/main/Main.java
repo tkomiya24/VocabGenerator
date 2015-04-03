@@ -412,12 +412,7 @@ public class Main extends JFrame implements WindowListener{
 				int val = fileChooser.showOpenDialog(Main.this);
 				if (val == JFileChooser.APPROVE_OPTION) {
 					File file = fileChooser.getSelectedFile();
-					try {
-						vocabList = textFileVocabListGetter.getVocabListFromFile(file);
-						loadInVocabList();
-					} catch (Exception e1) {
-						e1.printStackTrace();
-					}
+					loadVocabListFromTextFile(file);
 				}
 			} else if (sourceName.equals(BACKUP_ALL_MENU_ITEM_NAME)) {
 				int response = showConfirmationDialog("Back up vocab files", "This will overwrite all previous backup files. Are you sure?");
@@ -435,15 +430,23 @@ public class Main extends JFrame implements WindowListener{
 					File[] allFiles = backUpDirectory.listFiles();
 					for (File file : allFiles) {
 						if (file.isFile() && !file.isDirectory() && FileUtilities.getFileExtension(file).equals(TEXT_FILE_EXTENSION)) {
-							
+							loadVocabListFromTextFile(file);
 						}
 					}
 				} 
 			}
 		}
 	}
-		
-
+	
+	private void loadVocabListFromTextFile(File file) {
+		try {
+			vocabList = textFileVocabListGetter.getVocabListFromFile(file);
+			loadInVocabList();
+		} catch (Exception e1) {
+			e1.printStackTrace();
+		}
+	}
+	
 	private int showConfirmationDialog(String title, String message) {
 		return JOptionPane.showConfirmDialog(this, message, title, JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
 	}
