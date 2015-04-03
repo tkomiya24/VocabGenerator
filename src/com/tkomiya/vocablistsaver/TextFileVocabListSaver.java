@@ -44,7 +44,7 @@ public class TextFileVocabListSaver implements VocabListSaver{
 			Vocab vocab = vocabList.get(i);
 			writer.write(Integer.toString(vocab.getTimesCorrect(lang)));
 			writer.write('/');
-			writer.write(Integer.toString(vocab.getTimesCorrect(lang)));
+			writer.write(Integer.toString(vocab.getTimesTested(lang)));
 			writer.newLine();
 		}
 		writer.close();
