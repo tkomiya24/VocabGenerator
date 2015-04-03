@@ -335,8 +335,150 @@ public class Main extends JFrame {
 	
 	public static void main(String args[]) {
 		new Main();
+	}	
+	
+	private void loadVocabListFromTextFile(File file) {
+		try {
+			vocabList = textFileVocabListGetter.getVocabListFromFile(file);
+			loadInVocabList();
+		} catch (Exception e1) {
+			e1.printStackTrace();
+		}
+	}
+	
+	private int showConfirmationDialog(String title, String message) {
+		return JOptionPane.showConfirmDialog(this, message, title, JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
+	}
+	
+	private void loadInVocabList() {
+		vocabLists.add(vocabList);
+		vocabListListModel.insertElementAt(vocabList, vocabLists.indexOf(vocabList));
+		fillTextArea();
+	}
+	
+	@SuppressWarnings("unchecked")
+	private List<Vocab> findMostMistakenVocabs(int language) {
+		List<Vocab> allVocabsTestedAtLeastOnce = getAllVocabsMistakenAtLeastOnce(language);
+		Collections.sort(allVocabsTestedAtLeastOnce, new MostMistakenDescendingVocabComparator(language));
+		return allVocabsTestedAtLeastOnce;
+	}
+	
+	private List<Vocab> getAllVocabsMistakenAtLeastOnce(int language) {
+		ArrayList<Vocab> vocabs = new ArrayList<Vocab>();
+		for (VocabList vocabList : vocabLists) {
+			vocabs.addAll(vocabList.getAllTestedVocabsWithOneMistake(language));
+		}
+		return vocabs;
+	}	
+
+	private void fillTextArea() {
+		this.vltm.setVocabList(vocabList);
+	}
+	
+	private VocabList reconstructVocabFile(File file) throws Exception{				
+		String fileName = FileUtilities.getFileNameWithNoExtension(file);
+		String filePath = FileUtilities.getFilePathWithoutFileName(file);
+		List<String> englishList = getEnglishList(fileName, filePath);
+		List<String> koreanList = getKoreanList(fileName, filePath);
+		VocabListBuilder vlb = new VocabListBuilder();
+		vlb.setPrimaryLanguage(Vocab.ENGLISH, englishList);
+		vlb.addLanguage(Vocab.KOREAN, koreanList);
+		vlb.setName(FileUtilities.getFileNameWithNoExtension(file));
+		return vlb.build();
 	}
 
+	private File saveNewVocabListAsFile(File file) throws FileNotFoundException, IOException {
+		VocabListSaver vls = new SerializedFileVocabListSaver();
+		String filePath = FileUtilities.formatFilepathForSerialization(file);
+		vls.saveVocabList(vocabList, filePath);
+		return new File(filePath);
+	}
+
+	private List<String> getKoreanList(String fileName, String filePath) throws FileNotFoundException, UnsupportedEncodingException {
+		return vocabGetter.getVocabFromFile(filePath + "/" + fileName + " Korean");
+	}
+
+	private List<String> getEnglishList(String fileName, String filePath) throws FileNotFoundException, UnsupportedEncodingException{
+		File englishListFile = new File(filePath + "/" + fileName);
+		return vocabGetter.getVocabFromFile(englishListFile);
+	}
+
+	private Vocab addDialog(){
+		Vocab vocab = new Vocab(PRIMARY_LANGUAGE);
+		return vocab;
+	}	
+	 
+	private void showErrorDialog(String title, String message) {
+		JOptionPane.showMessageDialog(this, title, message, JOptionPane.ERROR_MESSAGE);
+	}
+
+	private void saveVocabListAsTextFile(VocabList vocabList, File file) {
+		try {
+			textFileVocabListSaver.saveVocabList(vocabList, file);
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+	}
+	
+	private class AppWindowListener implements WindowListener {
+		
+		@Override
+		public void windowActivated(WindowEvent e) {
+			// TODO Auto-generated method stub
+		}
+
+		@Override
+		public void windowClosed(WindowEvent e) {
+			// TODO Auto-generated method stub
+		}
+
+		@Override
+		public void windowClosing(WindowEvent e) {	
+			saveVocabLists();
+		}
+		
+		@Override
+		public void windowDeactivated(WindowEvent e) {
+			// TODO Auto-generated method stub		
+		}
+
+		@Override
+		public void windowDeiconified(WindowEvent e) {
+			// TODO Auto-generated method stub			
+		}
+
+		@Override
+		public void windowIconified(WindowEvent e) {
+			// TODO Auto-generated method stub			
+		}
+
+		@Override
+		public void windowOpened(WindowEvent e) {
+			// TODO Auto-generated method stub		
+		}
+		
+		private void saveVocabLists() {
+			try {
+				File file = new File(LISTS_FILE_PATH);
+				if (file.exists() && !file.isDirectory()) {
+					file.delete();
+				}
+				ObjectOutputStream oos = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(file)));
+				oos.writeObject(vocabLists.getList()); //TODO make a class that handles the logic of saving a ComparatorSortedList.
+				oos.close();
+			} catch (FileNotFoundException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			} catch (IOException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			} finally {
+				Main.this.dispose();
+			}	
+		}
+	}
+	
 	private class MenuItemListener implements ActionListener {
 		@Override
 		public void actionPerformed(ActionEvent e) {
@@ -431,41 +573,7 @@ public class Main extends JFrame {
 			}
 		}
 	}
-	
-	private void loadVocabListFromTextFile(File file) {
-		try {
-			vocabList = textFileVocabListGetter.getVocabListFromFile(file);
-			loadInVocabList();
-		} catch (Exception e1) {
-			e1.printStackTrace();
-		}
-	}
-	
-	private int showConfirmationDialog(String title, String message) {
-		return JOptionPane.showConfirmDialog(this, message, title, JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
-	}
-	
-	private void loadInVocabList() {
-		vocabLists.add(vocabList);
-		vocabListListModel.insertElementAt(vocabList, vocabLists.indexOf(vocabList));
-		fillTextArea();
-	}
-	
-	@SuppressWarnings("unchecked")
-	private List<Vocab> findMostMistakenVocabs(int language) {
-		List<Vocab> allVocabsTestedAtLeastOnce = getAllVocabsMistakenAtLeastOnce(language);
-		Collections.sort(allVocabsTestedAtLeastOnce, new MostMistakenDescendingVocabComparator(language));
-		return allVocabsTestedAtLeastOnce;
-	}
-	
-	private List<Vocab> getAllVocabsMistakenAtLeastOnce(int language) {
-		ArrayList<Vocab> vocabs = new ArrayList<Vocab>();
-		for (VocabList vocabList : vocabLists) {
-			vocabs.addAll(vocabList.getAllTestedVocabsWithOneMistake(language));
-		}
-		return vocabs;
-	}
- 	
+
 	private class ButtonListener implements ActionListener {
 		@Override
 		public void actionPerformed(ActionEvent e) {
@@ -492,114 +600,5 @@ public class Main extends JFrame {
 			}
 		}
 	}
-
-	private void fillTextArea() {
-		this.vltm.setVocabList(vocabList);
-	}
 	
-	private VocabList reconstructVocabFile(File file) throws Exception{				
-		String fileName = FileUtilities.getFileNameWithNoExtension(file);
-		String filePath = FileUtilities.getFilePathWithoutFileName(file);
-		List<String> englishList = getEnglishList(fileName, filePath);
-		List<String> koreanList = getKoreanList(fileName, filePath);
-		VocabListBuilder vlb = new VocabListBuilder();
-		vlb.setPrimaryLanguage(Vocab.ENGLISH, englishList);
-		vlb.addLanguage(Vocab.KOREAN, koreanList);
-		vlb.setName(FileUtilities.getFileNameWithNoExtension(file));
-		return vlb.build();
-	}
-
-	private File saveNewVocabListAsFile(File file) throws FileNotFoundException, IOException {
-		VocabListSaver vls = new SerializedFileVocabListSaver();
-		String filePath = FileUtilities.formatFilepathForSerialization(file);
-		vls.saveVocabList(vocabList, filePath);
-		return new File(filePath);
-	}
-
-	private List<String> getKoreanList(String fileName, String filePath) throws FileNotFoundException, UnsupportedEncodingException {
-		return vocabGetter.getVocabFromFile(filePath + "/" + fileName + " Korean");
-	}
-
-	private List<String> getEnglishList(String fileName, String filePath) throws FileNotFoundException, UnsupportedEncodingException{
-		File englishListFile = new File(filePath + "/" + fileName);
-		return vocabGetter.getVocabFromFile(englishListFile);
-	}
-
-	private Vocab addDialog(){
-		Vocab vocab = new Vocab(PRIMARY_LANGUAGE);
-		return vocab;
-	}
-	
-
-	 
-	private class AppWindowListener implements WindowListener {
-		
-		@Override
-		public void windowActivated(WindowEvent e) {
-			// TODO Auto-generated method stub
-		}
-
-		@Override
-		public void windowClosed(WindowEvent e) {
-			// TODO Auto-generated method stub
-		}
-
-		@Override
-		public void windowClosing(WindowEvent e) {	
-			saveVocabLists();
-		}
-		
-		@Override
-		public void windowDeactivated(WindowEvent e) {
-			// TODO Auto-generated method stub		
-		}
-
-		@Override
-		public void windowDeiconified(WindowEvent e) {
-			// TODO Auto-generated method stub			
-		}
-
-		@Override
-		public void windowIconified(WindowEvent e) {
-			// TODO Auto-generated method stub			
-		}
-
-		@Override
-		public void windowOpened(WindowEvent e) {
-			// TODO Auto-generated method stub		
-		}
-		
-		private void saveVocabLists() {
-			try {
-				File file = new File(LISTS_FILE_PATH);
-				if (file.exists() && !file.isDirectory()) {
-					file.delete();
-				}
-				ObjectOutputStream oos = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(file)));
-				oos.writeObject(vocabLists.getList()); //TODO make a class that handles the logic of saving a ComparatorSortedList.
-				oos.close();
-			} catch (FileNotFoundException e1) {
-				// TODO Auto-generated catch block
-				e1.printStackTrace();
-			} catch (IOException e1) {
-				// TODO Auto-generated catch block
-				e1.printStackTrace();
-			} finally {
-				Main.this.dispose();
-			}	
-		}
-	}
-	
-	private void showErrorDialog(String title, String message) {
-		JOptionPane.showMessageDialog(this, title, message, JOptionPane.ERROR_MESSAGE);
-	}
-
-	private void saveVocabListAsTextFile(VocabList vocabList, File file) {
-		try {
-			textFileVocabListSaver.saveVocabList(vocabList, file);
-		} catch (IOException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
-	}
 }
