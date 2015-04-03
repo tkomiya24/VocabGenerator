@@ -24,6 +24,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 
+import javax.annotation.processing.FilerException;
 import javax.swing.BorderFactory;
 import javax.swing.DefaultListModel;
 import javax.swing.JButton;
@@ -427,6 +428,17 @@ public class Main extends JFrame implements WindowListener{
 						saveVocabListAsTextFile(vocabList, file);
 					}
 				}
+			} else if (sourceName.equals(LOAD_ALL_MENU_ITEM_NAME)) {
+				int response = showConfirmationDialog("Load all files from backup", "This will overwrite all currently loaded vocab lists. Are you sure?");
+				if (response == JOptionPane.YES_OPTION) {
+					File backUpDirectory = new File(DEFAULT_SAVE_DIRECTORY);
+					File[] allFiles = backUpDirectory.listFiles();
+					for (File file : allFiles) {
+						if (file.isFile() && !file.isDirectory() && FileUtilities.getFileExtension(file).equals(TEXT_FILE_EXTENSION)) {
+							
+						}
+					}
+				} 
 			}
 		}
 	}
@@ -434,10 +446,6 @@ public class Main extends JFrame implements WindowListener{
 
 	private int showConfirmationDialog(String title, String message) {
 		return JOptionPane.showConfirmDialog(this, message, title, JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
-	}
-	
-	private void saveVocabList(VocabList vocabList) {
-		
 	}
 	
 	private void loadInVocabList() {
