@@ -101,6 +101,7 @@ public class Main extends JFrame implements WindowListener{
 	private static final String COMMON_MISTAKE_TEST_MENU_ITEM_NAME = "mistake test";
 	private static final String SAVE_MENU_ITEM_NAME = "save text";
 	private static final String BACKUP_ALL_MENU_ITEM_NAME = "backup all";
+	private static final String LOAD_ALL_MENU_ITEM_NAME = "load all";
 	
 	public Main() {
 		initializeFields();
@@ -231,6 +232,11 @@ public class Main extends JFrame implements WindowListener{
 		backupAll.setName(BACKUP_ALL_MENU_ITEM_NAME);
 		backupAll.addActionListener(menuListener);
 		menuItems.add(backupAll);
+		
+		JMenuItem loadAll = new JMenuItem("Load all");
+		loadAll.setName(LOAD_ALL_MENU_ITEM_NAME);
+		loadAll.addActionListener(menuListener);
+		menuItems.add(loadAll);
 		
 		return menuItems;
 	}
