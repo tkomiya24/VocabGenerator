@@ -347,7 +347,7 @@ public class Main extends JFrame implements WindowListener{
 					File file = fileChooser.getSelectedFile();
 					try {
 						String extension = FileUtilities.getFileExtension(file);
-						if(extension.equals(VOCAB_LIST_FILE_EXTENSION)){
+						if (extension.equals(VOCAB_LIST_FILE_EXTENSION)) {
 							vocabList = vlistGetter.getVocabListFromFile(file);
 							loadInVocabList();
 							currentChunk = 0;
@@ -355,11 +355,10 @@ public class Main extends JFrame implements WindowListener{
 							fillTextArea();
 							vocabListListModel.addElement(vocabList);
 						}
-						else{
+						else {
 							vocabList = reconstructVocabFile(file);
 							loadInVocabList();
 						}
-
 					} catch (Exception e1) {
 						try {
 							vocabList = reconstructVocabFile(file);
@@ -398,12 +397,7 @@ public class Main extends JFrame implements WindowListener{
 				int val = fileChooser.showSaveDialog(Main.this);
 				if (val == JFileChooser.APPROVE_OPTION) {
 					File file = fileChooser.getSelectedFile();
-					try {
-						textFileVocabListSaver.saveVocabList(vocabList, file);
-					} catch (IOException e1) {
-						// TODO Auto-generated catch block
-						e1.printStackTrace();
-					}
+					saveVocabListAsTextFile(vocabList, file);
 				}
 			} else if (sourceName.equals(LOAD_MENU_ITEM_NAME)) {
 				JFileChooser fileChooser = new JFileChooser(DEFAULT_SAVE_DIRECTORY);
@@ -418,8 +412,26 @@ public class Main extends JFrame implements WindowListener{
 						e1.printStackTrace();
 					}
 				}
+			} else if (sourceName.equals(BACKUP_ALL_MENU_ITEM_NAME)) {
+				int response = showConfirmationDialog("Back up vocab files", "This will overwrite all previous backup files. Are you sure?");
+				if (response == JOptionPane.YES_OPTION) {
+					Collection<VocabList> vocabLists = Main.this.vocabLists.values();
+					for (VocabList vocabList : vocabLists) {
+						File file = new File(DEFAULT_SAVE_DIRECTORY + vocabList.getName() + "." + TEXT_FILE_EXTENSION);
+						saveVocabListAsTextFile(vocabList, file);
+					}
+				}
 			}
 		}
+	}
+		
+
+	private int showConfirmationDialog(String title, String message) {
+		return JOptionPane.showConfirmDialog(this, message, title, JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
+	}
+	
+	private void saveVocabList(VocabList vocabList) {
+		
 	}
 	
 	private void loadInVocabList() {
@@ -570,5 +582,14 @@ public class Main extends JFrame implements WindowListener{
 	 
 	private void showErrorDialog(String title, String message) {
 		JOptionPane.showMessageDialog(this, title, message, JOptionPane.ERROR_MESSAGE);
+	}
+
+	private void saveVocabListAsTextFile(VocabList vocabList, File file) {
+		try {
+			textFileVocabListSaver.saveVocabList(vocabList, file);
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
 	}
 }
