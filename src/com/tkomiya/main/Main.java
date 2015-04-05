@@ -47,7 +47,6 @@ import com.tkomiya.infrastructure.ComparatorSortedList;
 import com.tkomiya.infrastructure.FileUtilities;
 import com.tkomiya.infrastructure.MostMistakenDescendingVocabComparator;
 import com.tkomiya.infrastructure.NaturalOrderComparator;
-import com.tkomiya.infrastructure.VocabListNameComparator;
 import com.tkomiya.infrastructure.VocabListTableModel;
 import com.tkomiya.listgetter.ListStringGetter;
 import com.tkomiya.listgetter.NewlineSeparatedTextfileStringListGetter;
@@ -240,11 +239,9 @@ public class Main extends JFrame {
 	}
 	
 	private JList<VocabList> makeShortcutPanelList(){
-
 		vocabListListModel = new DefaultListModel<VocabList>();
 		JList<VocabList> links = new JList<VocabList>(vocabListListModel);
-		links.addMouseListener(new MouseAdapter(){
-			
+		links.addMouseListener(new MouseAdapter(){			
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				
