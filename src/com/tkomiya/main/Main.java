@@ -79,7 +79,9 @@ public class Main extends JFrame {
 	private boolean showAnswers = false;
 	private DefaultListModel<VocabList> vocabListListModel;
 	private VocabListTableModel vltm;
-
+	private Collection<JMenuItem> menuItems;
+	private ActionListener menuListener;
+	
 	private static final int PRIMARY_LANGUAGE = Vocab.ENGLISH;
 	public static final String VOCAB_LIST_FILE_EXTENSION = "voc";
 	public static final String TEXT_FILE_EXTENSION = "txt";
@@ -90,15 +92,16 @@ public class Main extends JFrame {
 	private TextFileVocabListGetter textFileVocabListGetter;
 	
 	//Button and MeniItem names.
-	private static final String LOAD_MENU_ITEM_NAME = "load text";
-	private static final String WRITTEN_TEST_MENU_ITEM = "written";
-	private static final String MAKE_LINK_MENU_ITEM_NAME = "link";
-	private static final String DELETE_MENU_ITEM_NAME = "delete";
+	private static final String LOAD_MENU_ITEM_NAME = "Load a text file";
+	private static final String WRITTEN_TEST_MENU_ITEM = "Start a written test";
+	private static final String DELETE_MENU_ITEM_NAME = "Delete a menu item";
 	private static final String ADD_BUTTON_NAME = "add";
-	private static final String COMMON_MISTAKE_TEST_MENU_ITEM_NAME = "mistake test";
-	private static final String SAVE_MENU_ITEM_NAME = "save text";
-	private static final String BACKUP_ALL_MENU_ITEM_NAME = "backup all";
-	private static final String LOAD_ALL_MENU_ITEM_NAME = "load all";
+	private static final String COMMON_MISTAKE_TEST_MENU_ITEM_NAME = "Test common mistakes";
+	private static final String SAVE_MENU_ITEM_NAME = "Save as text file";
+	private static final String BACKUP_ALL_MENU_ITEM_NAME = "Back up all vocablists as text files";
+	private static final String LOAD_ALL_MENU_ITEM_NAME = "Load all backup text files";
+	private static final String OPEN_MENU_ITEM_NAME = "Open";
+	private static final String START_TEST_MENU_ITEM_NAME = "Start a test";
 	
 	public Main() {
 		initializeFields();
@@ -188,55 +191,24 @@ public class Main extends JFrame {
 	}
 	
 	private Collection<JMenuItem> makeMenuItems(){		
-		ActionListener menuListener = new MenuItemListener();
-		Collection<JMenuItem> menuItems = new ArrayList<JMenuItem>();
-		
-		JMenuItem open = new JMenuItem("Open");
-		open.setName("Open");
-		open.addActionListener(menuListener);
-		menuItems.add(open);
-
-		JMenuItem startTest = new JMenuItem("Start a test");
-		startTest.setName("test");
-		startTest.addActionListener(menuListener);
-		menuItems.add(startTest);
-		
-		JMenuItem written = new JMenuItem("Start a written test");
-		written.setName(WRITTEN_TEST_MENU_ITEM);
-		written.addActionListener(menuListener);
-		menuItems.add(written);
-		
-		JMenuItem makeLink = new JMenuItem("Add a shortcut");
-		makeLink.setName(MAKE_LINK_MENU_ITEM_NAME );
-		makeLink.addActionListener(menuListener);
-		menuItems.add(makeLink);
-		
-		JMenuItem commonMistakeTest = new JMenuItem("Retest common mistakes");
-		commonMistakeTest.setName(COMMON_MISTAKE_TEST_MENU_ITEM_NAME);
-		commonMistakeTest.addActionListener(menuListener);
-		menuItems.add(commonMistakeTest);
-		
-		JMenuItem save = new JMenuItem("Save as text file");
-		save.setName(SAVE_MENU_ITEM_NAME);
-		save.addActionListener(menuListener);
-		menuItems.add(save);
-		
-		JMenuItem load = new JMenuItem("Load a text file");
-		load.setName(LOAD_MENU_ITEM_NAME);
-		load.addActionListener(menuListener);
-		menuItems.add(load);
-		
-		JMenuItem backupAll = new JMenuItem("Back up all");
-		backupAll.setName(BACKUP_ALL_MENU_ITEM_NAME);
-		backupAll.addActionListener(menuListener);
-		menuItems.add(backupAll);
-		
-		JMenuItem loadAll = new JMenuItem("Load all");
-		loadAll.setName(LOAD_ALL_MENU_ITEM_NAME);
-		loadAll.addActionListener(menuListener);
-		menuItems.add(loadAll);
-		
+		menuListener = new MenuItemListener();
+		menuItems = new ArrayList<JMenuItem>();	
+		makeMenuItem(OPEN_MENU_ITEM_NAME);
+		makeMenuItem(START_TEST_MENU_ITEM_NAME);
+		makeMenuItem(WRITTEN_TEST_MENU_ITEM);
+		makeMenuItem(COMMON_MISTAKE_TEST_MENU_ITEM_NAME);
+		makeMenuItem(SAVE_MENU_ITEM_NAME);
+		makeMenuItem(LOAD_MENU_ITEM_NAME);
+		makeMenuItem(BACKUP_ALL_MENU_ITEM_NAME);
+		makeMenuItem(LOAD_ALL_MENU_ITEM_NAME);	
 		return menuItems;
+	}
+	
+	private void makeMenuItem(String name) {
+		JMenuItem menuItem = new JMenuItem(name);
+		menuItem.setName(name);
+		menuItem.addActionListener(menuListener);
+		menuItems.add(menuItem);
 	}
 	
 	private JMenu makeMenu(){
@@ -477,6 +449,7 @@ public class Main extends JFrame {
 	}
 	
 	private class MenuItemListener implements ActionListener {
+
 		@Override
 		public void actionPerformed(ActionEvent e) {
 			JMenuItem sourceItem = (JMenuItem) e.getSource();
@@ -511,7 +484,7 @@ public class Main extends JFrame {
 					}
 				}
 			}
-			else if (sourceName == "test") {		
+			else if (sourceName.equals(START_TEST_MENU_ITEM_NAME)) {		
 				new TypedTest(Main.this.vocabList, Vocab.KOREAN);
 			}
 			else if (sourceName == WRITTEN_TEST_MENU_ITEM) {			
