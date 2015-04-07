@@ -341,16 +341,41 @@ public class Main extends JFrame {
 		this.vltm.setVocabList(vocabList);
 	}
 	
-	private VocabList reconstructVocabFile(File file) throws Exception{				
+	private VocabList reconstructVocabFile(File file) throws Exception {				
 		String fileName = FileUtilities.getFileNameWithNoExtension(file);
 		String filePath = FileUtilities.getFilePathWithoutFileName(file);
-		List<String> englishList = getEnglishList(fileName, filePath);
-		List<String> koreanList = getKoreanList(fileName, filePath);
+		List<String> englishList;
+		englishList = getEnglishList(fileName, filePath);
 		VocabListBuilder vlb = new VocabListBuilder();
 		vlb.setPrimaryLanguage(Vocab.ENGLISH, englishList);
-		vlb.addLanguage(Vocab.KOREAN, koreanList);
 		vlb.setName(FileUtilities.getFileNameWithNoExtension(file));
+		List<String> koreanList;
+		try {
+			koreanList = getKoreanList(fileName, filePath);
+			vlb.addLanguage(Vocab.KOREAN, koreanList);
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (UnsupportedEncodingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		List<String> japaneseList;
+		try {
+			japaneseList = getJapaneseList(fileName, filePath);
+			vlb.addLanguage(Vocab.JAPANESE, japaneseList);
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (UnsupportedEncodingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		return vlb.build();
+	}
+
+	private List<String> getJapaneseList(String fileName, String filePath) throws FileNotFoundException, UnsupportedEncodingException {
+		return vocabGetter.getVocabFromFile(filePath + "/" + fileName + " Japanese");
 	}
 
 	private File saveNewVocabListAsFile(File file) throws FileNotFoundException, IOException {
