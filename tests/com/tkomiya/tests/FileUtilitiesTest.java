@@ -5,13 +5,13 @@ import static org.junit.Assert.*;
 import java.io.File;
 import org.junit.Test;
 import com.tkomiya.infrastructure.FileUtilities;
-import com.tkomiya.main.Main;
+import com.tkomiya.main.MainController;
 
 public class FileUtilitiesTest {
 
 	public static final String TEST_DIRECTORY = "./TEST/";
 	File noExtensionFile = new File(TEST_DIRECTORY + "TESTFILE");
-	File extensionFile = new File(TEST_DIRECTORY + "TESTFILE." + Main.VOCAB_LIST_FILE_EXTENSION);
+	File extensionFile = new File(TEST_DIRECTORY + "TESTFILE." + MainController.VOCAB_LIST_FILE_EXTENSION);
 	String pathToFiles;
 	
 	@Test
@@ -32,7 +32,7 @@ public class FileUtilitiesTest {
 		String extensionFileExtension = FileUtilities.getFileExtension(extensionFile);
 		//Assert
 		assertEquals("", noExtensionFileExtension);
-		assertEquals(Main.VOCAB_LIST_FILE_EXTENSION, extensionFileExtension);
+		assertEquals(MainController.VOCAB_LIST_FILE_EXTENSION, extensionFileExtension);
 	}
 	
 	@Test
@@ -51,7 +51,7 @@ public class FileUtilitiesTest {
 		String noExtensionFilePath = FileUtilities.formatFilepathForSerialization(noExtensionFile);
 		String extensionFilePath = FileUtilities.formatFilepathForSerialization(extensionFile);
 		//Assert
-		assertEquals("./TEST/TESTFILE" + "." + Main.VOCAB_LIST_FILE_EXTENSION, noExtensionFilePath);
-		assertEquals("./TEST/TESTFILE" + "." + Main.VOCAB_LIST_FILE_EXTENSION, extensionFilePath);
+		assertEquals("./TEST/TESTFILE" + "." + MainController.VOCAB_LIST_FILE_EXTENSION, noExtensionFilePath);
+		assertEquals("./TEST/TESTFILE" + "." + MainController.VOCAB_LIST_FILE_EXTENSION, extensionFilePath);
 	}
 }

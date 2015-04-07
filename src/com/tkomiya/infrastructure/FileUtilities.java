@@ -2,7 +2,7 @@ package com.tkomiya.infrastructure;
 
 import java.io.File;
 
-import com.tkomiya.main.Main;
+import com.tkomiya.main.MainController;
 
 public class FileUtilities {
 
@@ -33,11 +33,11 @@ public class FileUtilities {
 	
 	public static String formatFilepathForSerialization(File file) {
 		String fileExtension = getFileExtension(file);
-		if(fileExtension.equals(Main.VOCAB_LIST_FILE_EXTENSION)){
+		if(fileExtension.equals(MainController.VOCAB_LIST_FILE_EXTENSION)){
 			return file.getPath();
 		}
 		else{
-			return getFilePathWithoutFileName(file) + getFileNameWithNoExtension(file) + "." + Main.VOCAB_LIST_FILE_EXTENSION;
+			return getFilePathWithoutFileName(file) + getFileNameWithNoExtension(file) + "." + MainController.VOCAB_LIST_FILE_EXTENSION;
 		}
 	}
 	
