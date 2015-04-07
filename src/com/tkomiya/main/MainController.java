@@ -91,16 +91,16 @@ public class MainController extends JFrame {
 	private TextFileVocabListGetter textFileVocabListGetter;
 	
 	//Button and MeniItem names.
-	private static final String LOAD_MENU_ITEM_NAME = "Load a text file";
-	private static final String WRITTEN_TEST_MENU_ITEM = "Start a written test";
-	private static final String DELETE_MENU_ITEM_NAME = "Delete a menu item";
-	private static final String ADD_BUTTON_NAME = "add";
-	private static final String COMMON_MISTAKE_TEST_MENU_ITEM_NAME = "Test common mistakes";
-	private static final String SAVE_MENU_ITEM_NAME = "Save as text file";
-	private static final String BACKUP_ALL_MENU_ITEM_NAME = "Back up all vocablists as text files";
-	private static final String LOAD_ALL_MENU_ITEM_NAME = "Load all backup text files";
-	private static final String OPEN_MENU_ITEM_NAME = "Open";
-	private static final String START_TEST_MENU_ITEM_NAME = "Start a test";
+	public static final String LOAD_MENU_ITEM_NAME = "Load a text file";
+	public static final String WRITTEN_TEST_MENU_ITEM = "Start a written test";
+	public static final String DELETE_MENU_ITEM_NAME = "Delete a menu item";
+	public static final String ADD_BUTTON_NAME = "add";
+	public static final String COMMON_MISTAKE_TEST_MENU_ITEM_NAME = "Test common mistakes";
+	public static final String SAVE_MENU_ITEM_NAME = "Save as text file";
+	public static final String BACKUP_ALL_MENU_ITEM_NAME = "Back up all vocablists as text files";
+	public static final String LOAD_ALL_MENU_ITEM_NAME = "Load all backup text files";
+	public static final String OPEN_MENU_ITEM_NAME = "Open";
+	public static final String START_TEST_MENU_ITEM_NAME = "Start a test";
 	
 	public MainController() {
 		initializeFields();
