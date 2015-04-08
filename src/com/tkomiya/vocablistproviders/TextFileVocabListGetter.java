@@ -1,4 +1,4 @@
-package com.tkomiya.vocablistgetter;
+package com.tkomiya.vocablistproviders;
 
 import java.io.BufferedReader;
 import java.io.File;
