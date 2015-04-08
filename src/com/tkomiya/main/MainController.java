@@ -55,18 +55,15 @@ import com.tkomiya.models.VocabList;
 import com.tkomiya.models.VocabListBuilder;
 import com.tkomiya.views.TypedTest;
 import com.tkomiya.views.WrittenTest;
-import com.tkomiya.vocablistproviders.SerializedFileVocabListGetter;
-import com.tkomiya.vocablistproviders.TextFileVocabListGetter;
-import com.tkomiya.vocablistproviders.VocabListGetter;
-import com.tkomiya.vocablistsaver.SerializedFileVocabListSaver;
-import com.tkomiya.vocablistsaver.TextFileVocabListSaver;
-import com.tkomiya.vocablistsaver.VocabListSaver;
+import com.tkomiya.vocablistproviders.SerializedFileVocabListProvider;
+import com.tkomiya.vocablistproviders.TextFileVocabListProvider;
+import com.tkomiya.vocablistproviders.VocabListProvider;
 
 public class MainController {
 
 	private ComparatorSortedList<VocabList> vocabLists;
 	private ListStringGetter vocabGetter;
-	private VocabListGetter vlistGetter;
+	private VocabListProvider vlistGetter;
 	public static final String DEFAULT_DIRECTORY = "./res/";
 	private static final String LISTS_FILE_PATH = "./lists.config";
 	private static final String DEFAULT_SAVE_DIRECTORY = DEFAULT_DIRECTORY + "backup/";
@@ -79,8 +76,7 @@ public class MainController {
 	public static final String TEXT_FILE_EXTENSION = "txt";
 	
 	private FileLink currentLink;
-	private TextFileVocabListSaver textFileVocabListSaver;
-	private TextFileVocabListGetter textFileVocabListGetter;
+	private TextFileVocabListProvider textFileVocabListProvider;
 	
 	//Button and MeniItem names.
 	public static final String LOAD_MENU_ITEM_NAME = "Load a text file";
@@ -103,9 +99,8 @@ public class MainController {
 	private void initializeFields(){
 		vocabLists = new ComparatorSortedList<VocabList>(new NaturalOrderComparator());
 		vocabGetter = new NewlineSeparatedTextfileStringListGetter();
-		vlistGetter = new SerializedFileVocabListGetter();
-		textFileVocabListSaver = new TextFileVocabListSaver();
-		textFileVocabListGetter = new TextFileVocabListGetter();
+		vlistGetter = new SerializedFileVocabListProvider();
+		textFileVocabListProvider = new TextFileVocabListProvider();
 	}
 	
 	@SuppressWarnings("unchecked")
@@ -129,7 +124,7 @@ public class MainController {
 	}	
 	
 	private VocabList loadVocabListFromTextFile(File file) throws Exception {
-		return textFileVocabListGetter.getVocabListFromFile(file);
+		return textFileVocabListProvider.getVocabListFromFile(file);
 	}
 	
 	@SuppressWarnings("unchecked")
@@ -185,7 +180,7 @@ public class MainController {
 	}
 
 	private File saveNewVocabListAsFile(VocabList vocabList, File file) throws FileNotFoundException, IOException {
-		VocabListSaver vls = new SerializedFileVocabListSaver();
+		VocabListProvider vls = new SerializedFileVocabListProvider();
 		String filePath = FileUtilities.formatFilepathForSerialization(file);
 		vls.saveVocabList(vocabList, filePath);
 		return new File(filePath);
@@ -207,7 +202,7 @@ public class MainController {
 	 
 	private void saveVocabListAsTextFile(VocabList vocabList, File file) {
 		try {
-			textFileVocabListSaver.saveVocabList(vocabList, file);
+			textFileVocabListProvider.saveVocabList(vocabList, file);
 		} catch (IOException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();

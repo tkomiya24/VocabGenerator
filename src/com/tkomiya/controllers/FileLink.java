@@ -4,8 +4,8 @@ import java.io.File;
 import java.io.Serializable;
 
 import com.tkomiya.models.VocabList;
-import com.tkomiya.vocablistproviders.SerializedFileVocabListGetter;
-import com.tkomiya.vocablistproviders.VocabListGetter;
+import com.tkomiya.vocablistproviders.SerializedFileVocabListProvider;
+import com.tkomiya.vocablistproviders.VocabListProvider;
 
 public class FileLink implements Serializable{
 
@@ -23,7 +23,7 @@ public class FileLink implements Serializable{
 	
 	public VocabList getVocabList() throws Exception{
 		
-		VocabListGetter vlg = new SerializedFileVocabListGetter();
+		VocabListProvider vlg = new SerializedFileVocabListProvider();
 		return vlg.getVocabListFromFile(file);
 	}
 	

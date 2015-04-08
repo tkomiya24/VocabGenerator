@@ -26,8 +26,8 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 import com.tkomiya.models.Vocab;
 import com.tkomiya.models.VocabList;
 import com.tkomiya.models.VocabListBuilder;
-import com.tkomiya.vocablistsaver.SerializedFileVocabListSaver;
-import com.tkomiya.vocablistsaver.VocabListSaver;
+import com.tkomiya.vocablistproviders.SerializedFileVocabListProvider;
+import com.tkomiya.vocablistproviders.VocabListProvider;
 
 public class ListInput extends JFrame {
 
@@ -183,7 +183,7 @@ public class ListInput extends JFrame {
 
 				try {
 					VocabList vl = vlb.build();
-					VocabListSaver vls = new SerializedFileVocabListSaver();
+					VocabListProvider vls = new SerializedFileVocabListProvider();
 					vls.saveVocabList(vl, jfc.getSelectedFile());
 					ListInput.this.dispose();
 				} catch (Exception e1) {
