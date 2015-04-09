@@ -69,7 +69,6 @@ public class MainController {
 	private static final String DEFAULT_SAVE_DIRECTORY = DEFAULT_DIRECTORY + "backup/";
 	private boolean showAnswers = false;
 	private MainView mainView;
-	private JList<VocabList> links; 
 	
 	private static final int PRIMARY_LANGUAGE = Vocab.ENGLISH;
 	public static final String VOCAB_LIST_FILE_EXTENSION = "voc";
@@ -177,13 +176,6 @@ public class MainController {
 
 	private List<String> getJapaneseList(String fileName, String filePath) throws FileNotFoundException, UnsupportedEncodingException {
 		return vocabGetter.getVocabFromFile(filePath + "/" + fileName + " Japanese");
-	}
-
-	private File saveNewVocabListAsFile(VocabList vocabList, File file) throws FileNotFoundException, IOException {
-		VocabListProvider vls = new SerializedFileVocabListProvider();
-		String filePath = FileUtilities.formatFilepathForSerialization(file);
-		vls.saveVocabList(vocabList, filePath);
-		return new File(filePath);
 	}
 
 	private List<String> getKoreanList(String fileName, String filePath) throws FileNotFoundException, UnsupportedEncodingException {
@@ -370,10 +362,10 @@ public class MainController {
 				mainView.refreshShortcutPanel();
 			} 
 		} else if (sourceName.equals(DELETE_MENU_ITEM_NAME)) {
-			VocabList list = links.getSelectedValue();
+			JList<VocabList> links = mainView.getLinks();
 			int index = links.getSelectedIndex();
-			vocabLists.remove(list.getName());
-			links.remove(index);
+			vocabLists.remove(index);
+			mainView.removeLink(index);
 		}
 	}
 
@@ -408,6 +400,7 @@ public class MainController {
 				mainView.setCurrentlySelectedVocabList(vocabList);
 				mainView.updateVocabListTable();
 			} else if(SwingUtilities.isRightMouseButton(e)){
+				JList<VocabList> links = mainView.getLinks();
 				int row = links.locationToIndex(e.getPoint());
 				links.setSelectedIndex(row);
 				mainView.showShortcutPopup(e.getX(), e.getY());

@@ -97,6 +97,17 @@ public class MainView extends JFrame {
 		fillShortcutPanel();
 	}
 	
+	public void removeLink(int index) {
+		vocabListListModel.remove(index);
+	}
+	
+	/**
+	 * @return the links
+	 */
+	public JList<VocabList> getLinks() {
+		return links;
+	}
+	
 	private void init() {
 		 menuItems = new ArrayList<JMenuItem>();	
 		 buttonPanel = new JPanel();
