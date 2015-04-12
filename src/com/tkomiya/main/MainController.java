@@ -81,7 +81,7 @@ public class MainController {
 	//Button and MeniItem names.
 	public static final String LOAD_MENU_ITEM_NAME = "Load a text file";
 	public static final String WRITTEN_TEST_MENU_ITEM = "Start a written test";
-	public static final String DELETE_MENU_ITEM_NAME = "Delete a menu item";
+	public static final String DELETE_MENU_ITEM_NAME = "Delete vocab list";
 	public static final String ADD_BUTTON_NAME = "add";
 	public static final String COMMON_MISTAKE_TEST_MENU_ITEM_NAME = "Test common mistakes";
 	public static final String SAVE_MENU_ITEM_NAME = "Save as text file";
@@ -89,6 +89,7 @@ public class MainController {
 	public static final String LOAD_ALL_MENU_ITEM_NAME = "Load all backup text files";
 	public static final String OPEN_MENU_ITEM_NAME = "Open";
 	public static final String START_TEST_MENU_ITEM_NAME = "Start a test";
+	public static final String DELETE_VOCAB_MENU_ITEM_NAME = "Delete vocab";
 	
 	public MainController() {
 		initializeFields();
@@ -381,6 +382,11 @@ public class MainController {
 			int index = links.getSelectedIndex();
 			vocabLists.remove(index);
 			mainView.removeLink(index);
+		} else if (sourceName.equals(DELETE_VOCAB_MENU_ITEM_NAME)) {
+			Vocab vocab = mainView.getCurrentlySelectedVocab();
+			VocabList selectedVocabList = mainView.getCurrentlySelectedVocabList();
+			selectedVocabList.removeVocab(vocab);
+			mainView.updateVocabListTable();
 		}
 	}
 
@@ -408,17 +414,31 @@ public class MainController {
 	public class JListMouseAdapter extends MouseAdapter {
 		@Override
 		public void mouseClicked(MouseEvent e) {
+			if (e.getSource() instanceof JList) {
+				handleMouseClickForJList(e);
+			} else if (e.getSource() instanceof JTable) {
+				handleMouseClickForJTable(e);
+			}
+		}		
+
+		private void handleMouseClickForJList(MouseEvent e) {
 			if (e.getClickCount() == 2) {			
 				@SuppressWarnings("unchecked")
 				JList<VocabList> list = (JList<VocabList>) e.getSource();
 				VocabList vocabList = list.getSelectedValue();
 				mainView.setCurrentlySelectedVocabList(vocabList);
 				mainView.updateVocabListTable();
-			} else if(SwingUtilities.isRightMouseButton(e)){
+			} else if(SwingUtilities.isRightMouseButton(e)) {
 				JList<VocabList> links = mainView.getLinks();
 				int row = links.locationToIndex(e.getPoint());
 				links.setSelectedIndex(row);
 				mainView.showShortcutPopup(e.getX(), e.getY());
+			}
+		}
+		
+		private void handleMouseClickForJTable(MouseEvent e) {
+			if (SwingUtilities.isRightMouseButton(e)) {
+				mainView.showVocabTableShortcut(e);
 			}
 		}
 	}

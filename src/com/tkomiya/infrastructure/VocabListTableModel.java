@@ -78,5 +78,9 @@ public class VocabListTableModel extends AbstractTableModel {
 		int language = columnIndex / 2;
 		editedVocab.addLanguage(language, (String) aValue);
 	}
+
+	public Vocab getVocab(int selectedRow) {
+		return vocabList.get(selectedRow);
+	}
 	
 }

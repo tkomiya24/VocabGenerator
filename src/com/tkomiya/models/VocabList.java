@@ -104,4 +104,8 @@ public class VocabList implements Serializable{
 		}
 		return testedVocab;
 	}
+
+	public void removeVocab(Vocab vocab) {
+		vocabList.remove(vocab);
+	}
 }

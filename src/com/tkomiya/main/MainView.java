@@ -1,8 +1,10 @@
 package com.tkomiya.main;
 
 import java.awt.BorderLayout;
+import java.awt.Point;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 import java.awt.event.WindowListener;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -26,6 +28,7 @@ import javax.swing.ListSelectionModel;
 import javax.swing.border.EtchedBorder;
 
 import com.tkomiya.infrastructure.VocabListTableModel;
+import com.tkomiya.models.Vocab;
 import com.tkomiya.models.VocabList;
 
 /**
@@ -35,22 +38,24 @@ import com.tkomiya.models.VocabList;
 public class MainView extends JFrame {
 	private JTextArea textArea;
 	private JPopupMenu shortcutListPopup;
+	private JPopupMenu vocabTablePopup;
 	private ActionListener menuListener;
 	private ActionListener buttonListener;
 	private List<JMenuItem> menuItems;
 	private DefaultListModel<VocabList> vocabListListModel;
 	private VocabList currentlySelectedVocabList;
 	private JList<VocabList> links;
-	private MouseAdapter shorcutListMouseAdapter;
+	private MouseAdapter mouseAdapter;
 	private JPanel buttonPanel;
 	private VocabListTableModel vltm;
 	private List<VocabList> vocabLists;
+	private JTable vocabTable;
 	
-	public MainView(WindowListener mainWindowsListener, ActionListener mainMenuItemListener, ActionListener mainButtonListener, MouseAdapter mouseAdapterForShortcutList, List<VocabList> vocabLists) {
+	public MainView(WindowListener mainWindowsListener, ActionListener mainMenuItemListener, ActionListener mainButtonListener, MouseAdapter mouseAdapter, List<VocabList> vocabLists) {
 		super();
 		this.menuListener = mainMenuItemListener;
 		this.buttonListener = mainButtonListener;
-		this.shorcutListMouseAdapter = mouseAdapterForShortcutList;
+		this.mouseAdapter = mouseAdapter;
 		this.vocabLists = vocabLists;
 		init();
 		addWindowListener(mainWindowsListener);
@@ -87,6 +92,13 @@ public class MainView extends JFrame {
 	public void showShortcutPopup(int x, int y) {
 		shortcutListPopup.show(links, x, y);
 	}
+
+	public void showVocabTableShortcut(MouseEvent e) {
+		vocabTablePopup.show(vocabTable, e.getX(), e.getY());
+		Point mouseLocation = e.getPoint();
+		int selectedRow = vocabTable.rowAtPoint(mouseLocation);
+		vocabTable.setRowSelectionInterval(selectedRow, selectedRow);
+	}
 	
 	public void addToShortcutPane(VocabList vocabList, int index) {
 		vocabListListModel.insertElementAt(vocabList, index);
@@ -96,7 +108,7 @@ public class MainView extends JFrame {
 		vocabListListModel.clear();
 		fillShortcutPanel();
 	}
-	
+
 	public void removeLink(int index) {
 		vocabListListModel.remove(index);
 	}
@@ -110,6 +122,10 @@ public class MainView extends JFrame {
 	 */
 	public JList<VocabList> getLinks() {
 		return links;
+	}
+	
+	public Vocab getCurrentlySelectedVocab() {
+		return vltm.getVocab(vocabTable.getSelectedRow());
 	}
 	
 	private void init() {
@@ -135,21 +151,26 @@ public class MainView extends JFrame {
 		makeMenuItem(MainController.LOAD_ALL_MENU_ITEM_NAME);	
 		return menuItems;
 	}
-	
-	private void makeShorcutListPopup(JList<VocabList> links){
-		shortcutListPopup = new JPopupMenu();
-		JMenuItem deleteMenuItem = new JMenuItem(MainController.DELETE_MENU_ITEM_NAME);
-		deleteMenuItem.setName(MainController.DELETE_MENU_ITEM_NAME);
-		deleteMenuItem.addActionListener(menuListener);
-		shortcutListPopup.add(deleteMenuItem);
-	}
-	
+
 	private JList<VocabList> makeShortcutPanelList(){
 		vocabListListModel = new DefaultListModel<VocabList>();
 		links = new JList<VocabList>(vocabListListModel);
-		links.addMouseListener(shorcutListMouseAdapter);
-		makeShorcutListPopup(links);
+		links.addMouseListener(mouseAdapter);
+		makeShorcutListPopup();
 		return links;
+	}
+	
+	private void makeShorcutListPopup(){
+		shortcutListPopup = new JPopupMenu();
+		JMenuItem deleteMenuItem = makePopupMenuItem(MainController.DELETE_MENU_ITEM_NAME);
+		shortcutListPopup.add(deleteMenuItem);
+	}
+	
+	private JMenuItem makePopupMenuItem(String name) {
+		JMenuItem menuItem = new JMenuItem(name);
+		menuItem.setName(name);
+		menuItem.addActionListener(menuListener);
+		return menuItem;
 	}
 	
 	private void makeButtonAndAddItToButtonPanel(String buttonName) {
@@ -213,17 +234,22 @@ public class MainView extends JFrame {
 	
 	private JTable makeVocabTable(){
 		vltm = new VocabListTableModel();
-		JTable vocabTable = new JTable(vltm);
+		vocabTable = new JTable(vltm);
 		vocabTable.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+		vocabTable.addMouseListener(mouseAdapter);
+		makeVocabTablePopup();
 		return vocabTable;
+	}
+	
+	private void makeVocabTablePopup() {
+		vocabTablePopup = new JPopupMenu();
+		vocabTablePopup.add(makePopupMenuItem(MainController.DELETE_VOCAB_MENU_ITEM_NAME));
 	}
 	
 	private void makeTextArea(){
 		textArea = new JTextArea();
 		textArea.setEditable(false);
 	}
-	
-
 	
 	private void addMainPanel(){
 		JPanel mainPanel = new JPanel(new BorderLayout());
