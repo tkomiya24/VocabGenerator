@@ -101,6 +101,10 @@ public class MainView extends JFrame {
 		vocabListListModel.remove(index);
 	}
 	
+	public void refreshVocabTable() {
+		vltm.fireTableDataChanged();
+	}
+	
 	/**
 	 * @return the links
 	 */
@@ -190,11 +194,13 @@ public class MainView extends JFrame {
 		menuItems.add(menuItem);
 	}
 	
-	private JTable makeVocabTable(){
-		vltm = new VocabListTableModel();
-		JTable vocabTable = new JTable(vltm);
-		vocabTable.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
-		return vocabTable;
+	private void makeFrame(){
+		addMainPanel();
+		setJMenuBar(makeMenuBar());
+		setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+		setSize(900, 500);
+		setLocationRelativeTo(null);
+		setVisible(true);
 	}
 	
 	private JScrollPane makeVocabTablePane(){
@@ -205,23 +211,24 @@ public class MainView extends JFrame {
 		return scrollPane;
 	}
 	
+	private JTable makeVocabTable(){
+		vltm = new VocabListTableModel();
+		JTable vocabTable = new JTable(vltm);
+		vocabTable.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+		return vocabTable;
+	}
+	
 	private void makeTextArea(){
 		textArea = new JTextArea();
 		textArea.setEditable(false);
 	}
 	
-	private void makeFrame(){
-		addMainPanel();
-		setJMenuBar(makeMenuBar());
-		setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
-		setSize(900, 500);
-		setLocationRelativeTo(null);
-		setVisible(true);
-	}
+
 	
 	private void addMainPanel(){
 		JPanel mainPanel = new JPanel(new BorderLayout());
 		mainPanel.add(makeVocabTablePane(), BorderLayout.CENTER);
+		makeButtonPanel();
 		mainPanel.add(buttonPanel, BorderLayout.SOUTH);
 		mainPanel.add(makeShortcutPanel(), BorderLayout.WEST);
 		add(mainPanel);

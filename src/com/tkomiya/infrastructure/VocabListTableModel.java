@@ -76,7 +76,7 @@ public class VocabListTableModel extends AbstractTableModel {
 	public void setValueAt(Object aValue, int rowIndex, int columnIndex) {
 		Vocab editedVocab = vocabList.get(rowIndex);
 		int language = columnIndex / 2;
-		editedVocab.editTranslation(language, (String) aValue);
+		editedVocab.addLanguage(language, (String) aValue);
 	}
 	
 }

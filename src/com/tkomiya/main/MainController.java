@@ -20,6 +20,7 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
 
 import javax.swing.BorderFactory;
@@ -187,11 +188,25 @@ public class MainController {
 		return vocabGetter.getVocabFromFile(englishListFile);
 	}
 
-	private Vocab addDialog(){
+	private void addDialog(){
+		//make error dialog if null, then eixt
+		if (mainView.getCurrentlySelectedVocabList() == null) {
+			showNoVocabListSelectedDialog();
+			return;
+		}
+		//make a new vocab object with a default 'translation'.
 		Vocab vocab = new Vocab(PRIMARY_LANGUAGE);
-		return vocab;
+		vocab.addLanguage(PRIMARY_LANGUAGE, "New word");
+		//add it to the vocablist.
+		mainView.getCurrentlySelectedVocabList().addVocab(vocab);
+		//update the table.
+		mainView.refreshVocabTable();
 	}	
 	 
+	private void showNoVocabListSelectedDialog() {
+		mainView.showErrorDialog("No vocab list selected", "Please choose a vocab list.");
+	}
+	
 	private void saveVocabListAsTextFile(VocabList vocabList, File file) {
 		try {
 			textFileVocabListProvider.saveVocabList(vocabList, file);
