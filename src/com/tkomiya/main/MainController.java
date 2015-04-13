@@ -1,6 +1,5 @@
 package com.tkomiya.main;
 
-import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
@@ -18,29 +17,16 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.List;
 
-import javax.swing.BorderFactory;
-import javax.swing.DefaultListModel;
 import javax.swing.JButton;
 import javax.swing.JFileChooser;
-import javax.swing.JFrame;
 import javax.swing.JList;
-import javax.swing.JMenu;
-import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JPopupMenu;
-import javax.swing.JScrollPane;
 import javax.swing.JTable;
-import javax.swing.JTextArea;
-import javax.swing.ListSelectionModel;
 import javax.swing.SwingUtilities;
-import javax.swing.border.EtchedBorder;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
 import com.tkomiya.controllers.FileLink;
@@ -48,7 +34,6 @@ import com.tkomiya.infrastructure.ComparatorSortedList;
 import com.tkomiya.infrastructure.FileUtilities;
 import com.tkomiya.infrastructure.MostMistakenDescendingVocabComparator;
 import com.tkomiya.infrastructure.NaturalOrderComparator;
-import com.tkomiya.infrastructure.VocabListTableModel;
 import com.tkomiya.listgetter.ListStringGetter;
 import com.tkomiya.listgetter.NewlineSeparatedTextfileStringListGetter;
 import com.tkomiya.models.Vocab;
