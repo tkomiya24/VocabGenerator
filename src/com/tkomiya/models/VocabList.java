@@ -30,6 +30,11 @@ public class VocabList implements Serializable{
 		vocabList = new ArrayList<Vocab>();
 	} 
 	
+	public VocabList(VocabList vList) {
+		listName = vList.getName();
+		vocabList = new ArrayList<Vocab>(vList.getList());
+	}
+
 	public void setName(String listName){
 		this.listName = listName;
 	}
@@ -107,5 +112,9 @@ public class VocabList implements Serializable{
 
 	public void removeVocab(Vocab vocab) {
 		vocabList.remove(vocab);
+	}
+	
+	public List<Vocab> getList() {
+		return vocabList;
 	}
 }

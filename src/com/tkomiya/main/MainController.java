@@ -353,12 +353,12 @@ public class MainController {
 				for (File file : allFiles) {
 					if (file.isFile() && !file.isDirectory() && FileUtilities.getFileExtension(file).equals(TEXT_FILE_EXTENSION)) {
 						try {
-							loadVocabListFromTextFile(file);
+							vocabList = loadVocabListFromTextFile(file);
+							vocabLists.add(vocabList);
 						} catch (Exception e) {
 							// TODO Auto-generated catch block
 							e.printStackTrace();
 						}
-						vocabLists.add(vocabList);
 					}
 				}
 				mainView.refreshShortcutPanel();

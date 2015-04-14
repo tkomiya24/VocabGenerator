@@ -44,11 +44,11 @@ public class TypedTest extends JFrame{
 	private boolean isRetest;
 	
 	public TypedTest(VocabList vList, int languageTested){
-		this.vList = vList;
+		this.vList = new VocabList(vList);
 		this.incorrectlyAnsweredVocabList = new ArrayList<Vocab>();
 		this.languageTested = languageTested;
 		this.isRetest = false;
-		makeTestScrollPane(vList);
+		makeTestScrollPane(this.vList);
 		defaultBorder = fields.get(0).getBorder();
 		
 		//Make the buttons
@@ -86,11 +86,11 @@ public class TypedTest extends JFrame{
 		pack();
 		setLocationRelativeTo(null);
 		setVisible(true);
-		
 	}
 	
 	private void makeTestScrollPane(VocabList vList) {
 		this.fields = new ArrayList<JTextField>();
+		vList.shuffle();
 		JPanel testPanel = new JPanel(new GridLayout(vList.size(), 2));
 		for(int i = 0; i < vList.size(); i++){			
 			Vocab vocab = vList.get(i);
