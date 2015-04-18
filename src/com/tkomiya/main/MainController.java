@@ -302,13 +302,7 @@ public class MainController {
 		} else if (sourceName == WRITTEN_TEST_MENU_ITEM) {			
 			new WrittenTest(mainView.getCurrentlySelectedVocabList(), Vocab.KOREAN);
 		} else if (sourceName.equals(COMMON_MISTAKE_TEST_MENU_ITEM_NAME)) {
-			List<Vocab> mostMistakenVocabs = findMostMistakenVocabs(Vocab.KOREAN);
-			if (mostMistakenVocabs.size() > 0) {
-				VocabList mostMistakenVocabsVocabList = new VocabList(mostMistakenVocabs);
-				new TypedTest(mostMistakenVocabsVocabList, Vocab.KOREAN);
-			} else {
-				//TODO message dialog.
-			}
+			commonMistakeTest();
 		} else if (sourceName.equals(SAVE_MENU_ITEM_NAME)) {
 			if (vocabList == null) {
 				mainView.showErrorDialog("There is no vocab list selected", "Please select a vocab list to save.");
@@ -376,6 +370,31 @@ public class MainController {
 		}
 	}
 
+	private void commonMistakeTest() {
+		boolean badInput = true;
+		do {
+			String response = mainView.showInputDialog("Length", "Please enter the maximum desired test length");
+			if (response == null) {
+				return;
+			} else {
+				try {
+					int testLength = Integer.parseInt(response);
+					badInput = false;
+					List<Vocab> mostMistakenVocabs = findMostMistakenVocabs(Vocab.KOREAN);
+					mostMistakenVocabs = mostMistakenVocabs.subList(0, testLength);
+					if (mostMistakenVocabs.size() > 0) {
+						VocabList mostMistakenVocabsVocabList = new VocabList(mostMistakenVocabs);
+						new TypedTest(mostMistakenVocabsVocabList, Vocab.KOREAN);
+					} else {
+						//TODO message dialog.
+					}
+				} catch(NumberFormatException e) {
+					mainView.showErrorDialog("Error with input", "Please input a number");
+				}
+			}
+		} while(badInput);
+	}
+	
 	private void addNewVocabList(VocabList vocabList) {
 		vocabLists.add(vocabList);
 		//add to shortcut pane

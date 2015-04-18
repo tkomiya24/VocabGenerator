@@ -72,6 +72,10 @@ public class MainView extends JFrame {
 		return JOptionPane.showConfirmDialog(this, message, title, JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
 	}
 
+	public String showInputDialog(String title, String message) {
+		return JOptionPane.showInputDialog(this, message, title, JOptionPane.QUESTION_MESSAGE);
+	}
+	
 	/**
 	 * @return the currentlySelectedVocabList
 	 */
