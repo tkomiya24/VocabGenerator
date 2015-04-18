@@ -1,6 +1,7 @@
 package com.tkomiya.main;
 
 import java.awt.BorderLayout;
+import java.awt.Component;
 import java.awt.Point;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
@@ -152,12 +153,15 @@ public class MainView extends JFrame {
 		return menuItems;
 	}
 
-	private JList<VocabList> makeShortcutPanelList(){
+	private Component makeShortcutPanelList(){
 		vocabListListModel = new DefaultListModel<VocabList>();
 		links = new JList<VocabList>(vocabListListModel);
+		fillShortcutPanel();
+		JScrollPane scrollPane = new JScrollPane(links);
+		scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
 		links.addMouseListener(mouseAdapter);
 		makeShorcutListPopup();
-		return links;
+		return scrollPane;
 	}
 	
 	private void makeShorcutListPopup(){
@@ -193,13 +197,6 @@ public class MainView extends JFrame {
 			fileMenu.add(menuItem);
 		}
 		return fileMenu;
-	}
-	
-	private JPanel makeShortcutPanel(){
-		JPanel sidePanel = new JPanel();
-		sidePanel.add(makeShortcutPanelList());
-		fillShortcutPanel();
-		return sidePanel;
 	}
 	
 	private void fillShortcutPanel() {
@@ -256,7 +253,7 @@ public class MainView extends JFrame {
 		mainPanel.add(makeVocabTablePane(), BorderLayout.CENTER);
 		makeButtonPanel();
 		mainPanel.add(buttonPanel, BorderLayout.SOUTH);
-		mainPanel.add(makeShortcutPanel(), BorderLayout.WEST);
+		mainPanel.add(makeShortcutPanelList(), BorderLayout.WEST);
 		add(mainPanel);
 	}
 
