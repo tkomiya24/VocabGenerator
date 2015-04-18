@@ -270,129 +270,130 @@ public class MainController {
 				handleMenuAction(sourceItem);
 			} 
 		}
-	}
-	
-	private void handleMenuAction(JMenuItem sourceItem) {
-		String sourceName = sourceItem.getName();
-		VocabList vocabList = mainView.getCurrentlySelectedVocabList();
-		if (sourceName == "Open") {
-			JFileChooser fileChooser = new JFileChooser(DEFAULT_DIRECTORY);
-			int val = fileChooser.showOpenDialog(mainView);
-			if (val == JFileChooser.APPROVE_OPTION) {
-				File file = fileChooser.getSelectedFile();
-				VocabList newVocabList;
-				try {
-					String extension = FileUtilities.getFileExtension(file);
-					if (extension.equals(VOCAB_LIST_FILE_EXTENSION)) {
-						newVocabList = vlistGetter.getVocabListFromFile(file);
-					} else {
-						newVocabList = reconstructVocabFile(file);	
-					}
-					addNewVocabList(newVocabList);
-				} catch (Exception e1) {
+		
+		private void handleMenuAction(JMenuItem sourceItem) {
+			String sourceName = sourceItem.getName();
+			VocabList vocabList = mainView.getCurrentlySelectedVocabList();
+			if (sourceName == "Open") {
+				JFileChooser fileChooser = new JFileChooser(DEFAULT_DIRECTORY);
+				int val = fileChooser.showOpenDialog(mainView);
+				if (val == JFileChooser.APPROVE_OPTION) {
+					File file = fileChooser.getSelectedFile();
+					VocabList newVocabList;
 					try {
-						newVocabList = reconstructVocabFile(file);
-					} catch (Exception e2) {
-						e2.printStackTrace();
-					}
-				}
-			}
-		} else if (sourceName.equals(START_TEST_MENU_ITEM_NAME)) {		
-			new TypedTest(mainView.getCurrentlySelectedVocabList(), Vocab.KOREAN);
-		} else if (sourceName == WRITTEN_TEST_MENU_ITEM) {			
-			new WrittenTest(mainView.getCurrentlySelectedVocabList(), Vocab.KOREAN);
-		} else if (sourceName.equals(COMMON_MISTAKE_TEST_MENU_ITEM_NAME)) {
-			commonMistakeTest();
-		} else if (sourceName.equals(SAVE_MENU_ITEM_NAME)) {
-			if (vocabList == null) {
-				mainView.showErrorDialog("There is no vocab list selected", "Please select a vocab list to save.");
-				return;
-			}
-			JFileChooser fileChooser = new JFileChooser(DEFAULT_SAVE_DIRECTORY);
-			fileChooser.setFileFilter(new FileNameExtensionFilter("Text Files", TEXT_FILE_EXTENSION));
-			File suggestedSaveFile = new File(DEFAULT_SAVE_DIRECTORY + vocabList.getName() + "." + TEXT_FILE_EXTENSION);
-			fileChooser.setSelectedFile(suggestedSaveFile);
-			int val = fileChooser.showSaveDialog(mainView);
-			if (val == JFileChooser.APPROVE_OPTION) {
-				File file = fileChooser.getSelectedFile();
-				saveVocabListAsTextFile(vocabList, file);
-			}
-		} else if (sourceName.equals(LOAD_MENU_ITEM_NAME)) {
-			JFileChooser fileChooser = new JFileChooser(DEFAULT_SAVE_DIRECTORY);
-			fileChooser.setFileFilter(new FileNameExtensionFilter("Text files", TEXT_FILE_EXTENSION));
-			int val = fileChooser.showOpenDialog(mainView);
-			if (val == JFileChooser.APPROVE_OPTION) {
-				File file = fileChooser.getSelectedFile();
-				try {
-					VocabList newVocabList = loadVocabListFromTextFile(file);
-				} catch (Exception e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-			}
-		} else if (sourceName.equals(BACKUP_ALL_MENU_ITEM_NAME)) {
-			int response = mainView.showConfirmationDialog("Back up vocab files", "This will overwrite all previous backup files. Are you sure?");
-			if (response == JOptionPane.YES_OPTION) {
-				for (VocabList vlist : vocabLists) {
-					File file = new File(DEFAULT_SAVE_DIRECTORY + vlist.getName() + "." + TEXT_FILE_EXTENSION);
-					saveVocabListAsTextFile(vlist, file);
-				}
-			}
-		} else if (sourceName.equals(LOAD_ALL_MENU_ITEM_NAME)) {
-			int response = mainView.showConfirmationDialog("Load all files from backup", "This will overwrite all currently loaded vocab lists. Are you sure?");
-			if (response == JOptionPane.YES_OPTION) {
-				vocabLists.clear();
-				File backUpDirectory = new File(DEFAULT_SAVE_DIRECTORY);
-				File[] allFiles = backUpDirectory.listFiles();
-				for (File file : allFiles) {
-					if (file.isFile() && !file.isDirectory() && FileUtilities.getFileExtension(file).equals(TEXT_FILE_EXTENSION)) {
+						String extension = FileUtilities.getFileExtension(file);
+						if (extension.equals(VOCAB_LIST_FILE_EXTENSION)) {
+							newVocabList = vlistGetter.getVocabListFromFile(file);
+						} else {
+							newVocabList = reconstructVocabFile(file);	
+						}
+						addNewVocabList(newVocabList);
+					} catch (Exception e1) {
 						try {
-							vocabList = loadVocabListFromTextFile(file);
-							vocabLists.add(vocabList);
-						} catch (Exception e) {
-							// TODO Auto-generated catch block
-							e.printStackTrace();
+							newVocabList = reconstructVocabFile(file);
+						} catch (Exception e2) {
+							e2.printStackTrace();
 						}
 					}
 				}
-				mainView.refreshShortcutPanel();
-			} 
-		} else if (sourceName.equals(DELETE_MENU_ITEM_NAME)) {
-			JList<VocabList> links = mainView.getLinks();
-			int index = links.getSelectedIndex();
-			vocabLists.remove(index);
-			mainView.removeLink(index);
-		} else if (sourceName.equals(DELETE_VOCAB_MENU_ITEM_NAME)) {
-			Vocab vocab = mainView.getCurrentlySelectedVocab();
-			VocabList selectedVocabList = mainView.getCurrentlySelectedVocabList();
-			selectedVocabList.removeVocab(vocab);
-			mainView.updateVocabListTable();
-		}
-	}
-
-	private void commonMistakeTest() {
-		boolean badInput = true;
-		do {
-			String response = mainView.showInputDialog("Length", "Please enter the maximum desired test length");
-			if (response == null) {
-				return;
-			} else {
-				try {
-					int testLength = Integer.parseInt(response);
-					badInput = false;
-					List<Vocab> mostMistakenVocabs = findMostMistakenVocabs(Vocab.KOREAN);
-					mostMistakenVocabs = mostMistakenVocabs.subList(0, testLength);
-					if (mostMistakenVocabs.size() > 0) {
-						VocabList mostMistakenVocabsVocabList = new VocabList(mostMistakenVocabs);
-						new TypedTest(mostMistakenVocabsVocabList, Vocab.KOREAN);
-					} else {
-						//TODO message dialog.
-					}
-				} catch(NumberFormatException e) {
-					mainView.showErrorDialog("Error with input", "Please input a number");
+			} else if (sourceName.equals(START_TEST_MENU_ITEM_NAME)) {		
+				new TypedTest(mainView.getCurrentlySelectedVocabList(), Vocab.KOREAN);
+			} else if (sourceName == WRITTEN_TEST_MENU_ITEM) {			
+				new WrittenTest(mainView.getCurrentlySelectedVocabList(), Vocab.KOREAN);
+			} else if (sourceName.equals(COMMON_MISTAKE_TEST_MENU_ITEM_NAME)) {
+				commonMistakeTest();
+			} else if (sourceName.equals(SAVE_MENU_ITEM_NAME)) {
+				if (vocabList == null) {
+					mainView.showErrorDialog("There is no vocab list selected", "Please select a vocab list to save.");
+					return;
 				}
+				JFileChooser fileChooser = new JFileChooser(DEFAULT_SAVE_DIRECTORY);
+				fileChooser.setFileFilter(new FileNameExtensionFilter("Text Files", TEXT_FILE_EXTENSION));
+				File suggestedSaveFile = new File(DEFAULT_SAVE_DIRECTORY + vocabList.getName() + "." + TEXT_FILE_EXTENSION);
+				fileChooser.setSelectedFile(suggestedSaveFile);
+				int val = fileChooser.showSaveDialog(mainView);
+				if (val == JFileChooser.APPROVE_OPTION) {
+					File file = fileChooser.getSelectedFile();
+					saveVocabListAsTextFile(vocabList, file);
+				}
+			} else if (sourceName.equals(LOAD_MENU_ITEM_NAME)) {
+				JFileChooser fileChooser = new JFileChooser(DEFAULT_SAVE_DIRECTORY);
+				fileChooser.setFileFilter(new FileNameExtensionFilter("Text files", TEXT_FILE_EXTENSION));
+				int val = fileChooser.showOpenDialog(mainView);
+				if (val == JFileChooser.APPROVE_OPTION) {
+					File file = fileChooser.getSelectedFile();
+					try {
+						VocabList newVocabList = loadVocabListFromTextFile(file);
+					} catch (Exception e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
+			} else if (sourceName.equals(BACKUP_ALL_MENU_ITEM_NAME)) {
+				int response = mainView.showConfirmationDialog("Back up vocab files", "This will overwrite all previous backup files. Are you sure?");
+				if (response == JOptionPane.YES_OPTION) {
+					for (VocabList vlist : vocabLists) {
+						File file = new File(DEFAULT_SAVE_DIRECTORY + vlist.getName() + "." + TEXT_FILE_EXTENSION);
+						saveVocabListAsTextFile(vlist, file);
+					}
+				}
+			} else if (sourceName.equals(LOAD_ALL_MENU_ITEM_NAME)) {
+				int response = mainView.showConfirmationDialog("Load all files from backup", "This will overwrite all currently loaded vocab lists. Are you sure?");
+				if (response == JOptionPane.YES_OPTION) {
+					vocabLists.clear();
+					File backUpDirectory = new File(DEFAULT_SAVE_DIRECTORY);
+					File[] allFiles = backUpDirectory.listFiles();
+					for (File file : allFiles) {
+						if (file.isFile() && !file.isDirectory() && FileUtilities.getFileExtension(file).equals(TEXT_FILE_EXTENSION)) {
+							try {
+								vocabList = loadVocabListFromTextFile(file);
+								vocabLists.add(vocabList);
+							} catch (Exception e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
+						}
+					}
+					mainView.refreshShortcutPanel();
+				} 
+			} else if (sourceName.equals(DELETE_MENU_ITEM_NAME)) {
+				JList<VocabList> links = mainView.getLinks();
+				int index = links.getSelectedIndex();
+				vocabLists.remove(index);
+				mainView.removeLink(index);
+			} else if (sourceName.equals(DELETE_VOCAB_MENU_ITEM_NAME)) {
+				Vocab vocab = mainView.getCurrentlySelectedVocab();
+				VocabList selectedVocabList = mainView.getCurrentlySelectedVocabList();
+				selectedVocabList.removeVocab(vocab);
+				mainView.updateVocabListTable();
 			}
-		} while(badInput);
+		}
+
+		private void commonMistakeTest() {
+			boolean badInput = true;
+			do {
+				String response = mainView.showInputDialog("Length", "Please enter the maximum desired test length");
+				if (response == null) {
+					return;
+				} else {
+					try {
+						int testLength = Integer.parseInt(response);
+						badInput = false;
+						List<Vocab> mostMistakenVocabs = findMostMistakenVocabs(Vocab.KOREAN);
+						mostMistakenVocabs = mostMistakenVocabs.subList(0, testLength);
+						if (mostMistakenVocabs.size() > 0) {
+							VocabList mostMistakenVocabsVocabList = new VocabList(mostMistakenVocabs);
+							new TypedTest(mostMistakenVocabsVocabList, Vocab.KOREAN);
+						} else {
+							//TODO message dialog.
+						}
+					} catch(NumberFormatException e) {
+						mainView.showErrorDialog("Error with input", "Please input a number");
+					}
+				}
+			} while(badInput);
+		}
+		
 	}
 	
 	private void addNewVocabList(VocabList vocabList) {
