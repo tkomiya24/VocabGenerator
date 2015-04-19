@@ -41,6 +41,7 @@ import com.tkomiya.models.VocabList;
 import com.tkomiya.models.VocabListBuilder;
 import com.tkomiya.views.TypedTest;
 import com.tkomiya.views.WrittenTest;
+import com.tkomiya.vocablistproviders.MultipleTextFileVocabListProvider;
 import com.tkomiya.vocablistproviders.SerializedFileVocabListProvider;
 import com.tkomiya.vocablistproviders.TextFileVocabListProvider;
 import com.tkomiya.vocablistproviders.VocabListProvider;
@@ -48,19 +49,16 @@ import com.tkomiya.vocablistproviders.VocabListProvider;
 public class MainController {
 
 	private ComparatorSortedList<VocabList> vocabLists;
-	private ListStringGetter vocabGetter;
+	private VocabListProvider separateFileVlistGetter;
 	private VocabListProvider vlistGetter;
 	public static final String DEFAULT_DIRECTORY = "./res/";
 	private static final String LISTS_FILE_PATH = "./lists.config";
 	private static final String DEFAULT_SAVE_DIRECTORY = DEFAULT_DIRECTORY + "backup/";
-	private boolean showAnswers = false;
 	private MainView mainView;
 	
 	private static final int PRIMARY_LANGUAGE = Vocab.ENGLISH;
 	public static final String VOCAB_LIST_FILE_EXTENSION = "voc";
 	public static final String TEXT_FILE_EXTENSION = "txt";
-	
-	private FileLink currentLink;
 	private TextFileVocabListProvider textFileVocabListProvider;
 	
 	//Button and MeniItem names.
@@ -84,7 +82,7 @@ public class MainController {
 
 	private void initializeFields(){
 		vocabLists = new ComparatorSortedList<VocabList>(new NaturalOrderComparator());
-		vocabGetter = new NewlineSeparatedTextfileStringListGetter();
+		separateFileVlistGetter = new MultipleTextFileVocabListProvider();
 		vlistGetter = new SerializedFileVocabListProvider();
 		textFileVocabListProvider = new TextFileVocabListProvider();
 	}
@@ -130,49 +128,7 @@ public class MainController {
 	}	
 	
 	private VocabList reconstructVocabFile(File file) throws Exception {				
-		String fileName = FileUtilities.getFileNameWithNoExtension(file);
-		String filePath = FileUtilities.getFilePathWithoutFileName(file);
-		List<String> englishList;
-		englishList = getEnglishList(fileName, filePath);
-		VocabListBuilder vlb = new VocabListBuilder();
-		vlb.setPrimaryLanguage(Vocab.ENGLISH, englishList);
-		vlb.setName(FileUtilities.getFileNameWithNoExtension(file));
-		List<String> koreanList;
-		try {
-			koreanList = getKoreanList(fileName, filePath);
-			vlb.addLanguage(Vocab.KOREAN, koreanList);
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (UnsupportedEncodingException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		List<String> japaneseList;
-		try {
-			japaneseList = getJapaneseList(fileName, filePath);
-			vlb.addLanguage(Vocab.JAPANESE, japaneseList);
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (UnsupportedEncodingException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		return vlb.build();
-	}
-
-	private List<String> getJapaneseList(String fileName, String filePath) throws FileNotFoundException, UnsupportedEncodingException {
-		return vocabGetter.getVocabFromFile(filePath + "/" + fileName + " Japanese");
-	}
-
-	private List<String> getKoreanList(String fileName, String filePath) throws FileNotFoundException, UnsupportedEncodingException {
-		return vocabGetter.getVocabFromFile(filePath + "/" + fileName + " Korean");
-	}
-
-	private List<String> getEnglishList(String fileName, String filePath) throws FileNotFoundException, UnsupportedEncodingException{
-		File englishListFile = new File(filePath + "/" + fileName);
-		return vocabGetter.getVocabFromFile(englishListFile);
+		return separateFileVlistGetter.getVocabListFromFile(file);
 	}
 
 	private void addDialog(){
