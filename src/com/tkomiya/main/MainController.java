@@ -230,28 +230,8 @@ public class MainController {
 		private void handleMenuAction(JMenuItem sourceItem) {
 			String sourceName = sourceItem.getName();
 			VocabList vocabList = mainView.getCurrentlySelectedVocabList();
-			if (sourceName == "Open") {
-				JFileChooser fileChooser = new JFileChooser(DEFAULT_DIRECTORY);
-				int val = fileChooser.showOpenDialog(mainView);
-				if (val == JFileChooser.APPROVE_OPTION) {
-					File file = fileChooser.getSelectedFile();
-					VocabList newVocabList;
-					try {
-						String extension = FileUtilities.getFileExtension(file);
-						if (extension.equals(VOCAB_LIST_FILE_EXTENSION)) {
-							newVocabList = vlistGetter.getVocabListFromFile(file);
-						} else {
-							newVocabList = reconstructVocabFile(file);	
-						}
-						addNewVocabList(newVocabList);
-					} catch (Exception e1) {
-						try {
-							newVocabList = reconstructVocabFile(file);
-						} catch (Exception e2) {
-							e2.printStackTrace();
-						}
-					}
-				}
+			if (sourceName.equals(OPEN_MENU_ITEM_NAME)) {
+				openMenuItemAction();
 			} else if (sourceName.equals(START_TEST_MENU_ITEM_NAME)) {		
 				new TypedTest(mainView.getCurrentlySelectedVocabList(), Vocab.KOREAN);
 			} else if (sourceName == WRITTEN_TEST_MENU_ITEM) {			
@@ -349,7 +329,53 @@ public class MainController {
 				}
 			} while(badInput);
 		}
+
+		private void openMenuItemAction() {
+			JFileChooser fileChooser = new JFileChooser(DEFAULT_DIRECTORY);
+			int val = fileChooser.showOpenDialog(mainView);
+			if (val == JFileChooser.APPROVE_OPTION) {
+				File file = fileChooser.getSelectedFile();
+				boolean vocabListExists = checkIfVocabListExists(file);
+				if (vocabListExists) {
+					boolean proceed = checkIfShouldOpenAnyways();
+					if (!proceed) {
+						return;
+					}
+				}
+				VocabList newVocabList;
+				try {
+					String extension = FileUtilities.getFileExtension(file);
+					if (extension.equals(VOCAB_LIST_FILE_EXTENSION)) {
+						newVocabList = vlistGetter.getVocabListFromFile(file);
+					} else {
+						newVocabList = reconstructVocabFile(file);	
+					}
+					addNewVocabList(newVocabList);
+				} catch (Exception e1) {
+					try {
+						newVocabList = reconstructVocabFile(file);
+					} catch (Exception e2) {
+						e2.printStackTrace();
+					}
+				}
+			}
+		}
 		
+		private boolean checkIfVocabListExists(File file) {
+			String vocabListName = FileUtilities.getFileNameWithNoExtension(file);
+			List<VocabList> vocabLists = MainController.this.vocabLists.getList();
+			for (VocabList vocabList : vocabLists) {
+				if (vocabList.getName().equals(vocabListName)) {
+					return true;
+				}
+			}
+			return false;
+		}
+		
+		private boolean checkIfShouldOpenAnyways() {
+			int response = mainView.showConfirmationDialog("Name conflict", "A vocablist with this name already exists. Would you like to proceed anyways? (Neither will be overwritten)");
+			return response == JOptionPane.YES_OPTION;
+		}
 	}
 	
 	private void addNewVocabList(VocabList vocabList) {
