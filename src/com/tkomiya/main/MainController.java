@@ -233,10 +233,10 @@ public class MainController {
 			VocabList vocabList = mainView.getCurrentlySelectedVocabList();
 			if (sourceName.equals(OPEN_MENU_ITEM_NAME)) {
 				openMenuItemAction();
-			} else if (sourceName.equals(START_TEST_MENU_ITEM_NAME)) {		
-				new TypedTest(mainView.getCurrentlySelectedVocabList(), Vocab.KOREAN);
-			} else if (sourceName == WRITTEN_TEST_MENU_ITEM) {			
-				new WrittenTest(mainView.getCurrentlySelectedVocabList(), Vocab.KOREAN);
+			} else if (sourceName.equals(START_TEST_MENU_ITEM_NAME)) {
+				startTestMenuItemAction();
+			} else if (sourceName == WRITTEN_TEST_MENU_ITEM) {
+				startWrittenTestMenuItemAction();
 			} else if (sourceName.equals(COMMON_MISTAKE_TEST_MENU_ITEM_NAME)) {
 				commonMistakeTest();
 			} else if (sourceName.equals(SAVE_MENU_ITEM_NAME)) {
@@ -388,6 +388,26 @@ public class MainController {
 						saveVocabListAsTextFile(vocabList, file);
 					}
 				}
+			}
+		}
+		
+		private void startTestMenuItemAction() {
+			if (mainView.getCurrentlySelectedVocabList() == null) {
+				reportNoVocabListSelectedError();
+			} else {
+				new TypedTest(mainView.getCurrentlySelectedVocabList(), Vocab.KOREAN);
+			}
+		}
+		
+		private void reportNoVocabListSelectedError() {
+			mainView.showErrorDialog("No vocablist selected", "Please select a vocablist first.");
+		}
+		
+		private void startWrittenTestMenuItemAction() {
+			if (mainView.getCurrentlySelectedVocabList() == null) {
+				reportNoVocabListSelectedError();
+			} else {
+				new WrittenTest(mainView.getCurrentlySelectedVocabList(), Vocab.KOREAN);
 			}
 		}
 	}
