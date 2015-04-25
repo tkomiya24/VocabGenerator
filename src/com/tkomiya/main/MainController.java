@@ -239,19 +239,7 @@ public class MainController {
 			} else if (sourceName.equals(COMMON_MISTAKE_TEST_MENU_ITEM_NAME)) {
 				commonMistakeTest();
 			} else if (sourceName.equals(SAVE_MENU_ITEM_NAME)) {
-				if (vocabList == null) {
-					mainView.showErrorDialog("There is no vocab list selected", "Please select a vocab list to save.");
-					return;
-				}
-				JFileChooser fileChooser = new JFileChooser(DEFAULT_SAVE_DIRECTORY);
-				fileChooser.setFileFilter(new FileNameExtensionFilter("Text Files", TEXT_FILE_EXTENSION));
-				File suggestedSaveFile = new File(DEFAULT_SAVE_DIRECTORY + vocabList.getName() + "." + TEXT_FILE_EXTENSION);
-				fileChooser.setSelectedFile(suggestedSaveFile);
-				int val = fileChooser.showSaveDialog(mainView);
-				if (val == JFileChooser.APPROVE_OPTION) {
-					File file = fileChooser.getSelectedFile();
-					saveVocabListAsTextFile(vocabList, file);
-				}
+				backUpMenuItemAction(vocabList);
 			} else if (sourceName.equals(LOAD_MENU_ITEM_NAME)) {
 				JFileChooser fileChooser = new JFileChooser(DEFAULT_SAVE_DIRECTORY);
 				fileChooser.setFileFilter(new FileNameExtensionFilter("Text files", TEXT_FILE_EXTENSION));
@@ -375,6 +363,27 @@ public class MainController {
 		private boolean checkIfShouldOpenAnyways() {
 			int response = mainView.showConfirmationDialog("Name conflict", "A vocablist with this name already exists. Would you like to proceed anyways? (Neither will be overwritten)");
 			return response == JOptionPane.YES_OPTION;
+		}
+		
+		private void backUpMenuItemAction(VocabList vocabList) {
+			if (vocabList == null) {
+				mainView.showErrorDialog("There is no vocab list selected", "Please select a vocab list to save.");
+				return;
+			}
+			JFileChooser fileChooser = new JFileChooser(DEFAULT_SAVE_DIRECTORY);
+			fileChooser.setFileFilter(new FileNameExtensionFilter("Text Files", TEXT_FILE_EXTENSION));
+			File suggestedSaveFile = new File(DEFAULT_SAVE_DIRECTORY + vocabList.getName() + "." + TEXT_FILE_EXTENSION);
+			fileChooser.setSelectedFile(suggestedSaveFile);
+			int val = fileChooser.showSaveDialog(mainView);
+			if (val == JFileChooser.APPROVE_OPTION) {
+				File file = fileChooser.getSelectedFile();
+				if (file.exists()) {
+					int response = mainView.showConfirmationDialog("File exists", "This file already exists. Proceed and overwrite?");
+					if (response == JOptionPane.YES_OPTION) {
+						saveVocabListAsTextFile(vocabList, file);
+					}
+				}
+			}
 		}
 	}
 	
