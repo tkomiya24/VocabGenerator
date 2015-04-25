@@ -65,7 +65,7 @@ public class MainView extends JFrame {
 	}
 	
 	public void showErrorDialog(String title, String message) {
-		JOptionPane.showMessageDialog(this, title, message, JOptionPane.ERROR_MESSAGE);
+		JOptionPane.showMessageDialog(this, message, title, JOptionPane.ERROR_MESSAGE);
 	}
 	
 	public int showConfirmationDialog(String title, String message) {
