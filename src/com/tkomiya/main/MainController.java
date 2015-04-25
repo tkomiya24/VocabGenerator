@@ -30,6 +30,7 @@ import javax.swing.SwingUtilities;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
 import com.tkomiya.controllers.FileLink;
+import com.tkomiya.exceptions.ListLengthsDoNotMatchException;
 import com.tkomiya.infrastructure.ComparatorSortedList;
 import com.tkomiya.infrastructure.FileUtilities;
 import com.tkomiya.infrastructure.MostMistakenDescendingVocabComparator;
@@ -127,7 +128,7 @@ public class MainController {
 		return vocabs;
 	}	
 	
-	private VocabList reconstructVocabFile(File file) throws Exception {				
+	private VocabList reconstructVocabFile(File file) throws Exception {	
 		return separateFileVlistGetter.getVocabListFromFile(file);
 	}
 
@@ -339,9 +340,13 @@ public class MainController {
 						newVocabList = reconstructVocabFile(file);	
 					}
 					addNewVocabList(newVocabList);
+				} catch (ListLengthsDoNotMatchException e) {
+					mainView.showErrorDialog("Error", "The length of the lists do not match");
 				} catch (Exception e1) {
 					try {
 						newVocabList = reconstructVocabFile(file);
+					} catch (ListLengthsDoNotMatchException e) {
+						mainView.showErrorDialog("Error", "The length of the lists do not match");
 					} catch (Exception e2) {
 						e2.printStackTrace();
 					}

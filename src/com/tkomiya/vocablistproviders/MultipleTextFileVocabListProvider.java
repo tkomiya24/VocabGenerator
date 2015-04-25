@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.util.List;
 
+import com.tkomiya.exceptions.ListLengthsDoNotMatchException;
 import com.tkomiya.infrastructure.FileUtilities;
 import com.tkomiya.listgetter.ListStringGetter;
 import com.tkomiya.listgetter.NewlineSeparatedTextfileStringListGetter;
@@ -33,6 +34,9 @@ public class MultipleTextFileVocabListProvider implements VocabListProvider {
 		List<String> koreanList;
 		try {
 			koreanList = getKoreanList(fileName, filePath);
+			if (koreanList.size() != englishList.size()) {
+				throw new ListLengthsDoNotMatchException();
+			}
 			vlb.addLanguage(Vocab.KOREAN, koreanList);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
@@ -44,6 +48,9 @@ public class MultipleTextFileVocabListProvider implements VocabListProvider {
 		List<String> japaneseList;
 		try {
 			japaneseList = getJapaneseList(fileName, filePath);
+			if (japaneseList.size() != englishList.size()) {
+				throw new ListLengthsDoNotMatchException();
+			}
 			vlb.addLanguage(Vocab.JAPANESE, japaneseList);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
