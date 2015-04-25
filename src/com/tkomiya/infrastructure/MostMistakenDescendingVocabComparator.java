@@ -16,7 +16,15 @@ public class MostMistakenDescendingVocabComparator implements Comparator {
 	public int compare(Object arg0, Object arg1) {
 		Vocab vocab1 = (Vocab) arg0;
 		Vocab vocab2 = (Vocab) arg1;
-		return (vocab2.getTimesTested(language) - vocab2.getTimesCorrect(language)) - (vocab1.getTimesTested(language) - vocab1.getTimesCorrect(language));
+		float successRate1 = vocab2.getTimesTested(language) == Integer.MAX_VALUE ? 0 : (float) vocab2.getTimesCorrect(language) / vocab2.getTimesTested(language);
+		float successRate0 = vocab1.getTimesTested(language) == Integer.MAX_VALUE ? 0 : (float) vocab1.getTimesCorrect(language) / vocab1.getTimesTested(language);
+		if (successRate1 > successRate0) {
+			return -1;
+		} else if (successRate1 < successRate0) {
+			return 1;
+		} else {
+			return 0;
+		}
 	}
 
 }
