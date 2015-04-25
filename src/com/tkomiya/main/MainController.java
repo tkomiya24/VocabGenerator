@@ -230,67 +230,26 @@ public class MainController {
 		
 		private void handleMenuAction(JMenuItem sourceItem) {
 			String sourceName = sourceItem.getName();
-			VocabList vocabList = mainView.getCurrentlySelectedVocabList();
 			if (sourceName.equals(OPEN_MENU_ITEM_NAME)) {
 				openMenuItemAction();
 			} else if (sourceName.equals(START_TEST_MENU_ITEM_NAME)) {
 				startTestMenuItemAction();
-			} else if (sourceName == WRITTEN_TEST_MENU_ITEM) {
+			} else if (sourceName.equals(WRITTEN_TEST_MENU_ITEM)) {
 				startWrittenTestMenuItemAction();
 			} else if (sourceName.equals(COMMON_MISTAKE_TEST_MENU_ITEM_NAME)) {
 				commonMistakeTest();
 			} else if (sourceName.equals(SAVE_MENU_ITEM_NAME)) {
-				backUpMenuItemAction(vocabList);
+				backUpMenuItemAction();
 			} else if (sourceName.equals(LOAD_MENU_ITEM_NAME)) {
-				JFileChooser fileChooser = new JFileChooser(DEFAULT_SAVE_DIRECTORY);
-				fileChooser.setFileFilter(new FileNameExtensionFilter("Text files", TEXT_FILE_EXTENSION));
-				int val = fileChooser.showOpenDialog(mainView);
-				if (val == JFileChooser.APPROVE_OPTION) {
-					File file = fileChooser.getSelectedFile();
-					try {
-						VocabList newVocabList = loadVocabListFromTextFile(file);
-					} catch (Exception e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
-				}
+				loadMenuItemAction();
 			} else if (sourceName.equals(BACKUP_ALL_MENU_ITEM_NAME)) {
-				int response = mainView.showConfirmationDialog("Back up vocab files", "This will overwrite all previous backup files. Are you sure?");
-				if (response == JOptionPane.YES_OPTION) {
-					for (VocabList vlist : vocabLists) {
-						File file = new File(DEFAULT_SAVE_DIRECTORY + vlist.getName() + "." + TEXT_FILE_EXTENSION);
-						saveVocabListAsTextFile(vlist, file);
-					}
-				}
+				backupAllMenuItemAction();
 			} else if (sourceName.equals(LOAD_ALL_MENU_ITEM_NAME)) {
-				int response = mainView.showConfirmationDialog("Load all files from backup", "This will overwrite all currently loaded vocab lists. Are you sure?");
-				if (response == JOptionPane.YES_OPTION) {
-					vocabLists.clear();
-					File backUpDirectory = new File(DEFAULT_SAVE_DIRECTORY);
-					File[] allFiles = backUpDirectory.listFiles();
-					for (File file : allFiles) {
-						if (file.isFile() && !file.isDirectory() && FileUtilities.getFileExtension(file).equals(TEXT_FILE_EXTENSION)) {
-							try {
-								vocabList = loadVocabListFromTextFile(file);
-								vocabLists.add(vocabList);
-							} catch (Exception e) {
-								// TODO Auto-generated catch block
-								e.printStackTrace();
-							}
-						}
-					}
-					mainView.refreshShortcutPanel();
-				} 
+				loadAllMenuItemAction();
 			} else if (sourceName.equals(DELETE_MENU_ITEM_NAME)) {
-				JList<VocabList> links = mainView.getLinks();
-				int index = links.getSelectedIndex();
-				vocabLists.remove(index);
-				mainView.removeLink(index);
+				deleteMenuItemAction();
 			} else if (sourceName.equals(DELETE_VOCAB_MENU_ITEM_NAME)) {
-				Vocab vocab = mainView.getCurrentlySelectedVocab();
-				VocabList selectedVocabList = mainView.getCurrentlySelectedVocabList();
-				selectedVocabList.removeVocab(vocab);
-				mainView.updateVocabListTable();
+				deleteVocabMenuItemAction();
 			}
 		}
 
@@ -370,10 +329,10 @@ public class MainController {
 			return response == JOptionPane.YES_OPTION;
 		}
 		
-		private void backUpMenuItemAction(VocabList vocabList) {
+		private void backUpMenuItemAction() {
+			VocabList vocabList = mainView.getCurrentlySelectedVocabList();
 			if (vocabList == null) {
-				mainView.showErrorDialog("There is no vocab list selected", "Please select a vocab list to save.");
-				return;
+				reportNoVocabListSelectedError();
 			}
 			JFileChooser fileChooser = new JFileChooser(DEFAULT_SAVE_DIRECTORY);
 			fileChooser.setFileFilter(new FileNameExtensionFilter("Text Files", TEXT_FILE_EXTENSION));
@@ -410,7 +369,68 @@ public class MainController {
 				new WrittenTest(mainView.getCurrentlySelectedVocabList(), Vocab.KOREAN);
 			}
 		}
-	}
+		
+		private void loadMenuItemAction() {
+			JFileChooser fileChooser = new JFileChooser(DEFAULT_SAVE_DIRECTORY);
+			fileChooser.setFileFilter(new FileNameExtensionFilter("Text files", TEXT_FILE_EXTENSION));
+			int val = fileChooser.showOpenDialog(mainView);
+			if (val == JFileChooser.APPROVE_OPTION) {
+				File file = fileChooser.getSelectedFile();
+				try {
+					VocabList newVocabList = loadVocabListFromTextFile(file);
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+		}
+	
+		private void loadAllMenuItemAction() {
+			int response = mainView.showConfirmationDialog("Load all files from backup", "This will overwrite all currently loaded vocab lists. Are you sure?");
+			if (response == JOptionPane.YES_OPTION) {
+				vocabLists.clear();
+				File backUpDirectory = new File(DEFAULT_SAVE_DIRECTORY);
+				File[] allFiles = backUpDirectory.listFiles();
+				for (File file : allFiles) {
+					if (file.isFile() && !file.isDirectory() && FileUtilities.getFileExtension(file).equals(TEXT_FILE_EXTENSION)) {
+						try {
+							VocabList vocabList = loadVocabListFromTextFile(file);
+							vocabLists.add(vocabList);
+						} catch (Exception e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+					}
+				}
+				mainView.refreshShortcutPanel();
+			}
+		}
+
+		private void backupAllMenuItemAction() {
+			int response = mainView.showConfirmationDialog("Back up vocab files", "This will overwrite all previous backup files. Are you sure?");
+			if (response == JOptionPane.YES_OPTION) {
+				for (VocabList vlist : vocabLists) {
+					File file = new File(DEFAULT_SAVE_DIRECTORY + vlist.getName() + "." + TEXT_FILE_EXTENSION);
+					saveVocabListAsTextFile(vlist, file);
+				}
+			}
+		}
+		
+		private void deleteMenuItemAction() {
+			JList<VocabList> links = mainView.getLinks();
+			int index = links.getSelectedIndex();
+			vocabLists.remove(index);
+			mainView.removeLink(index);
+		}
+
+		private void deleteVocabMenuItemAction() {
+			Vocab vocab = mainView.getCurrentlySelectedVocab();
+			VocabList selectedVocabList = mainView.getCurrentlySelectedVocabList();
+			selectedVocabList.removeVocab(vocab);
+			mainView.updateVocabListTable();
+		}
+	
+}
 	
 	private void addNewVocabList(VocabList vocabList) {
 		vocabLists.add(vocabList);
