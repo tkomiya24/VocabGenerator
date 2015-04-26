@@ -117,4 +117,14 @@ public class VocabList implements Serializable{
 	public List<Vocab> getList() {
 		return vocabList;
 	}
+	
+	public List<Vocab> search(String searchTerm) {
+		List<Vocab> results = new ArrayList<Vocab>();
+		for (Vocab vocab : vocabList) {
+			if (vocab.contains(searchTerm)) {
+				results.add(vocab);
+			}
+		}
+		return results;
+	}
 }
