@@ -1,6 +1,7 @@
 package com.tkomiya.models;
 
 import java.io.Serializable;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Iterator;
 
@@ -85,4 +86,15 @@ public class Vocab implements Serializable{
 			this.timesTested.put(language, timesTested);
 		}
 	}
+	
+	public boolean contains(String searchTerm) {
+		Collection<String> translations = vocab.values();
+		for (String translation : translations) {
+			if (translation.toLowerCase().contains(searchTerm.toLowerCase())) {
+				return true;
+			}
+		}
+		return false;
+	}
+	
 }
