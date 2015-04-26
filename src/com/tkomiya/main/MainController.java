@@ -430,6 +430,15 @@ public class MainController {
 			mainView.updateVocabListTable();
 		}
 	
+		private void search(String searchTerm) {
+			List<Vocab> lists = new ArrayList<Vocab>();
+			for (VocabList vocablist : vocabLists) {
+				lists.addAll(vocablist.search(searchTerm));
+			}
+			VocabList newVocabList = new VocabList(lists);
+			mainView.setCurrentlySelectedVocabList(newVocabList);
+			mainView.updateVocabListTable();
+		}
 }
 	
 	private void addNewVocabList(VocabList vocabList) {
