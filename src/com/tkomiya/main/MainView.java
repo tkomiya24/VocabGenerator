@@ -25,6 +25,7 @@ import javax.swing.JPopupMenu;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.JTextArea;
+import javax.swing.JTextField;
 import javax.swing.ListSelectionModel;
 import javax.swing.border.EtchedBorder;
 
@@ -191,6 +192,7 @@ public class MainView extends JFrame {
 	private JMenuBar makeMenuBar(){
 		JMenuBar mb = new JMenuBar();
 		mb.add(makeMenu());
+		mb.add(makeSearchField());
 		return mb;
 	}
 	
@@ -201,6 +203,17 @@ public class MainView extends JFrame {
 			fileMenu.add(menuItem);
 		}
 		return fileMenu;
+	}
+	
+	private JTextField makeSearchField() {
+		JTextField searchField = new JTextField();
+		searchField.setName(MainController.SEARCH_FIELD_NAME);
+		addListenerToSearchField(searchField);
+		return searchField;
+	}
+	
+	private void addListenerToSearchField(JTextField searchField) {
+		searchField.addActionListener(buttonListener);
 	}
 	
 	private void fillShortcutPanel() {

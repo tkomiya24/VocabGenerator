@@ -26,6 +26,7 @@ import javax.swing.JList;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 import javax.swing.JTable;
+import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
@@ -74,6 +75,7 @@ public class MainController {
 	public static final String OPEN_MENU_ITEM_NAME = "Open";
 	public static final String START_TEST_MENU_ITEM_NAME = "Start a test";
 	public static final String DELETE_VOCAB_MENU_ITEM_NAME = "Delete vocab";
+	public static final String SEARCH_FIELD_NAME = "Search";
 	
 	public MainController() {
 		initializeFields();
@@ -430,15 +432,6 @@ public class MainController {
 			mainView.updateVocabListTable();
 		}
 	
-		private void search(String searchTerm) {
-			List<Vocab> lists = new ArrayList<Vocab>();
-			for (VocabList vocablist : vocabLists) {
-				lists.addAll(vocablist.search(searchTerm));
-			}
-			VocabList newVocabList = new VocabList(lists);
-			mainView.setCurrentlySelectedVocabList(newVocabList);
-			mainView.updateVocabListTable();
-		}
 }
 	
 	private void addNewVocabList(VocabList vocabList) {
@@ -454,11 +447,29 @@ public class MainController {
 	public class MainButtonListener implements ActionListener {
 		@Override
 		public void actionPerformed(ActionEvent e) {
-			JButton source = (JButton) e.getSource();
-			String buttonName = source.getName();
-			if (buttonName.equals(ADD_BUTTON_NAME)) {			
-				addDialog();
+			if (e.getSource() instanceof JButton) {
+				JButton source = (JButton) e.getSource();
+				String buttonName = source.getName();
+				if (buttonName.equals(ADD_BUTTON_NAME)) {			
+					addDialog();
+				}
+			} else if (e.getSource() instanceof JTextField) {
+				JTextField source = (JTextField) e.getSource();
+				String sourceName = source.getName();
+				if (sourceName.equals(SEARCH_FIELD_NAME)) {
+					search(source.getText());
+				}
 			}
+		}
+		
+		private void search(String searchTerm) {
+			List<Vocab> lists = new ArrayList<Vocab>();
+			for (VocabList vocablist : vocabLists) {
+				lists.addAll(vocablist.search(searchTerm));
+			}
+			VocabList newVocabList = new VocabList(lists);
+			mainView.setCurrentlySelectedVocabList(newVocabList);
+			mainView.updateVocabListTable();
 		}
 	}
 	
