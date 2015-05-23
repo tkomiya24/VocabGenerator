@@ -127,4 +127,15 @@ public class VocabList implements Serializable{
 		}
 		return results;
 	}
+	
+	public int getMinimumTimesTested(int language) {
+		int minimum = Integer.MAX_VALUE;
+		for (Vocab vocab : vocabList) {
+			if (vocab.getTimesTested(language) < minimum) {
+				minimum = vocab.getTimesTested(language);
+			}
+		}
+		return minimum;
+	}
+	
 }
