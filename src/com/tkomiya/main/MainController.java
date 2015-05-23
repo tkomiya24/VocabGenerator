@@ -76,6 +76,7 @@ public class MainController {
 	public static final String START_TEST_MENU_ITEM_NAME = "Start a test";
 	public static final String DELETE_VOCAB_MENU_ITEM_NAME = "Delete vocab";
 	public static final String SEARCH_FIELD_NAME = "Search";
+	public static final String LEAST_TESTED_VOCABLIST_MENU_ITEM_NAME = "Start a test with the least tested vocablist";
 	
 	public MainController() {
 		initializeFields();
