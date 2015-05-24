@@ -15,6 +15,7 @@ import javax.swing.BorderFactory;
 import javax.swing.DefaultListModel;
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JList;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
@@ -38,6 +39,7 @@ import com.tkomiya.models.VocabList;
  *
  */
 public class MainView extends JFrame {
+	
 	private JTextArea textArea;
 	private JPopupMenu shortcutListPopup;
 	private JPopupMenu vocabTablePopup;
@@ -52,6 +54,7 @@ public class MainView extends JFrame {
 	private VocabListTableModel vltm;
 	private List<VocabList> vocabLists;
 	private JTable vocabTable;
+	private JLabel vocabListNameLabel;
 	
 	public MainView(WindowListener mainWindowsListener, ActionListener mainMenuItemListener, ActionListener mainButtonListener, MouseAdapter mouseAdapter, List<VocabList> vocabLists) {
 		super();
@@ -93,6 +96,7 @@ public class MainView extends JFrame {
 
 	public void updateVocabListTable() {
 		this.vltm.setVocabList(currentlySelectedVocabList);
+		this.vocabListNameLabel.setText(currentlySelectedVocabList.getName());
 	}
 	
 	public void showShortcutPopup(int x, int y) {
@@ -139,14 +143,14 @@ public class MainView extends JFrame {
 		 buttonPanel = new JPanel();
 	}
 	
-	private void makeButtonPanel(){		
+	private void makeButtonPanel() {		
 		makeButtonAndAddItToButtonPanel("Next");
 		makeButtonAndAddItToButtonPanel("Previous");
 		makeButtonAndAddItToButtonPanel("show");
 		makeButtonAndAddItToButtonPanel(MainController.ADD_BUTTON_NAME);
 	}
 	
-	private Collection<JMenuItem> makeMenuItems(){		
+	private Collection<JMenuItem> makeMenuItems() {		
 		makeMenuItem(MainController.OPEN_MENU_ITEM_NAME);
 		makeMenuItem(MainController.START_TEST_MENU_ITEM_NAME);
 		makeMenuItem(MainController.WRITTEN_TEST_MENU_ITEM);
@@ -159,7 +163,7 @@ public class MainView extends JFrame {
 		return menuItems;
 	}
 
-	private Component makeShortcutPanelList(){
+	private Component makeShortcutPanelList() {
 		vocabListListModel = new DefaultListModel<VocabList>();
 		links = new JList<VocabList>(vocabListListModel);
 		fillShortcutPanel();
@@ -170,7 +174,7 @@ public class MainView extends JFrame {
 		return scrollPane;
 	}
 	
-	private void makeShorcutListPopup(){
+	private void makeShorcutListPopup() {
 		shortcutListPopup = new JPopupMenu();
 		JMenuItem deleteMenuItem = makePopupMenuItem(MainController.DELETE_MENU_ITEM_NAME);
 		shortcutListPopup.add(deleteMenuItem);
@@ -190,17 +194,17 @@ public class MainView extends JFrame {
 		buttonPanel.add(button);
 	}
 	
-	private JMenuBar makeMenuBar(){
+	private JMenuBar makeMenuBar() {
 		JMenuBar mb = new JMenuBar();
 		mb.add(makeMenu());
 		mb.add(makeSearchField());
 		return mb;
 	}
 	
-	private JMenu makeMenu(){
+	private JMenu makeMenu() {
 		JMenu fileMenu = new JMenu("File");
 		Collection<JMenuItem> menuItems = makeMenuItems();
-		for(JMenuItem menuItem : menuItems){
+		for(JMenuItem menuItem : menuItems) {
 			fileMenu.add(menuItem);
 		}
 		return fileMenu;
@@ -230,7 +234,7 @@ public class MainView extends JFrame {
 		menuItems.add(menuItem);
 	}
 	
-	private void makeFrame(){
+	private void makeFrame() {
 		addMainPanel();
 		setJMenuBar(makeMenuBar());
 		setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
@@ -239,7 +243,23 @@ public class MainView extends JFrame {
 		setVisible(true);
 	}
 	
-	private JScrollPane makeVocabTablePane(){
+	private void addMainPanel() {
+		JPanel mainPanel = new JPanel(new BorderLayout());
+		mainPanel.add(makeMainPanel(), BorderLayout.CENTER);
+		makeButtonPanel();
+		mainPanel.add(buttonPanel, BorderLayout.SOUTH);
+		mainPanel.add(makeShortcutPanelList(), BorderLayout.WEST);
+		add(mainPanel);
+	}
+	
+	private JPanel makeMainPanel() {
+		JPanel mainPanel = new JPanel(new BorderLayout());
+		mainPanel.add(makeVocabTablePane(), BorderLayout.CENTER);
+		mainPanel.add((vocabListNameLabel = new JLabel()), BorderLayout.NORTH);
+		return mainPanel;
+	}
+	
+	private JScrollPane makeVocabTablePane() {
 		JScrollPane scrollPane = new JScrollPane(makeVocabTable());
 		scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
 		scrollPane.setBorder(BorderFactory.createEtchedBorder(EtchedBorder.RAISED));
@@ -247,7 +267,7 @@ public class MainView extends JFrame {
 		return scrollPane;
 	}
 	
-	private JTable makeVocabTable(){
+	private JTable makeVocabTable() {
 		vltm = new VocabListTableModel();
 		vocabTable = new JTable(vltm);
 		vocabTable.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
@@ -261,18 +281,9 @@ public class MainView extends JFrame {
 		vocabTablePopup.add(makePopupMenuItem(MainController.DELETE_VOCAB_MENU_ITEM_NAME));
 	}
 	
-	private void makeTextArea(){
+	private void makeTextArea() {
 		textArea = new JTextArea();
 		textArea.setEditable(false);
-	}
-	
-	private void addMainPanel(){
-		JPanel mainPanel = new JPanel(new BorderLayout());
-		mainPanel.add(makeVocabTablePane(), BorderLayout.CENTER);
-		makeButtonPanel();
-		mainPanel.add(buttonPanel, BorderLayout.SOUTH);
-		mainPanel.add(makeShortcutPanelList(), BorderLayout.WEST);
-		add(mainPanel);
 	}
 
 }
