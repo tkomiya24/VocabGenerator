@@ -41,6 +41,7 @@ import com.tkomiya.listgetter.NewlineSeparatedTextfileStringListGetter;
 import com.tkomiya.models.Vocab;
 import com.tkomiya.models.VocabList;
 import com.tkomiya.models.VocabListBuilder;
+import com.tkomiya.models.utils.VocabListUtils;
 import com.tkomiya.views.TypedTest;
 import com.tkomiya.views.WrittenTest;
 import com.tkomiya.vocablistproviders.MultipleTextFileVocabListProvider;
@@ -61,6 +62,7 @@ public class MainController {
 	private static final int PRIMARY_LANGUAGE = Vocab.ENGLISH;
 	public static final String VOCAB_LIST_FILE_EXTENSION = "voc";
 	public static final String TEXT_FILE_EXTENSION = "txt";
+	public static final int TESTING_LANGUAGE = Vocab.KOREAN;
 	private TextFileVocabListProvider textFileVocabListProvider;
 	
 	//Button and MeniItem names.
@@ -76,6 +78,7 @@ public class MainController {
 	public static final String START_TEST_MENU_ITEM_NAME = "Start a test";
 	public static final String DELETE_VOCAB_MENU_ITEM_NAME = "Delete vocab";
 	public static final String SEARCH_FIELD_NAME = "Search";
+	public static final String LEAST_TESTED_VOCABLIST_MENU_ITEM_NAME = "Start a test with the least tested vocablist";
 	
 	public MainController() {
 		initializeFields();
@@ -221,6 +224,7 @@ public class MainController {
 	}
 	
 	public class MainMenuItemListener implements ActionListener {
+
 		@Override
 		public void actionPerformed(ActionEvent e) {
 			Object source = e.getSource();
@@ -252,6 +256,8 @@ public class MainController {
 				deleteMenuItemAction();
 			} else if (sourceName.equals(DELETE_VOCAB_MENU_ITEM_NAME)) {
 				deleteVocabMenuItemAction();
+			} else if (sourceName.equals(LEAST_TESTED_VOCABLIST_MENU_ITEM_NAME)) {
+				leastTestedTest();
 			}
 		}
 
@@ -265,11 +271,11 @@ public class MainController {
 					try {
 						int testLength = Integer.parseInt(response);
 						badInput = false;
-						List<Vocab> mostMistakenVocabs = findMostMistakenVocabs(Vocab.KOREAN);
+						List<Vocab> mostMistakenVocabs = findMostMistakenVocabs(TESTING_LANGUAGE);
 						mostMistakenVocabs = mostMistakenVocabs.subList(0, testLength);
 						if (mostMistakenVocabs.size() > 0) {
 							VocabList mostMistakenVocabsVocabList = new VocabList(mostMistakenVocabs);
-							new TypedTest(mostMistakenVocabsVocabList, Vocab.KOREAN);
+							new TypedTest(mostMistakenVocabsVocabList, TESTING_LANGUAGE);
 						} else {
 							//TODO message dialog.
 						}
@@ -356,7 +362,7 @@ public class MainController {
 			if (mainView.getCurrentlySelectedVocabList() == null) {
 				reportNoVocabListSelectedError();
 			} else {
-				new TypedTest(mainView.getCurrentlySelectedVocabList(), Vocab.KOREAN);
+				new TypedTest(mainView.getCurrentlySelectedVocabList(), TESTING_LANGUAGE);
 			}
 		}
 		
@@ -368,7 +374,7 @@ public class MainController {
 			if (mainView.getCurrentlySelectedVocabList() == null) {
 				reportNoVocabListSelectedError();
 			} else {
-				new WrittenTest(mainView.getCurrentlySelectedVocabList(), Vocab.KOREAN);
+				new WrittenTest(mainView.getCurrentlySelectedVocabList(), TESTING_LANGUAGE);
 			}
 		}
 		
@@ -431,7 +437,12 @@ public class MainController {
 			selectedVocabList.removeVocab(vocab);
 			mainView.updateVocabListTable();
 		}
-	
+
+		private void leastTestedTest() {
+			VocabList testingList = VocabListUtils.getLeastTestedVocabList(vocabLists, TESTING_LANGUAGE);
+			new TypedTest(testingList, TESTING_LANGUAGE);
+		}
+		
 }
 	
 	private void addNewVocabList(VocabList vocabList) {

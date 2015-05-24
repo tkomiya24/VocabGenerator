@@ -151,6 +151,7 @@ public class MainView extends JFrame {
 		makeMenuItem(MainController.START_TEST_MENU_ITEM_NAME);
 		makeMenuItem(MainController.WRITTEN_TEST_MENU_ITEM);
 		makeMenuItem(MainController.COMMON_MISTAKE_TEST_MENU_ITEM_NAME);
+		makeMenuItem(MainController.LEAST_TESTED_VOCABLIST_MENU_ITEM_NAME);
 		makeMenuItem(MainController.SAVE_MENU_ITEM_NAME);
 		makeMenuItem(MainController.LOAD_MENU_ITEM_NAME);
 		makeMenuItem(MainController.BACKUP_ALL_MENU_ITEM_NAME);
