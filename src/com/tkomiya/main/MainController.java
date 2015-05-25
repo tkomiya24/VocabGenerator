@@ -362,7 +362,11 @@ public class MainController {
 			if (mainView.getCurrentlySelectedVocabList() == null) {
 				reportNoVocabListSelectedError();
 			} else {
-				new TypedTest(mainView.getCurrentlySelectedVocabList(), TESTING_LANGUAGE);
+				Object[] options = {Vocab.SUPPORTED_LANGUAGES[1], Vocab.SUPPORTED_LANGUAGES[2]};
+				int languageToTest = mainView.showOptionDialog("Which language would you like to test?", "Please enter option", options, Vocab.KOREAN);
+				if (languageToTest != JOptionPane.CANCEL_OPTION) {
+					new TypedTest(mainView.getCurrentlySelectedVocabList(), languageToTest + 1); //TODO make this more elegent
+				}
 			}
 		}
 		
