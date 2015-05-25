@@ -80,6 +80,11 @@ public class MainView extends JFrame {
 		return JOptionPane.showInputDialog(this, message, title, JOptionPane.QUESTION_MESSAGE);
 	}
 	
+	public int showOptionDialog(String message, String title, Object[] options, Object initialValue) {
+		return JOptionPane.showOptionDialog(this, message, title, JOptionPane.DEFAULT_OPTION
+				, JOptionPane.QUESTION_MESSAGE, null, options, initialValue);
+	}
+	
 	/**
 	 * @return the currentlySelectedVocabList
 	 */
