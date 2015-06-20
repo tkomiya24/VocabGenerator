@@ -2,13 +2,8 @@ package com.tkomiya.tests;
 
 import static org.junit.Assert.assertEquals;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
-import java.util.Scanner;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -17,6 +12,7 @@ import org.junit.Test;
 import com.tkomiya.infrastructure.VocabJsonConverter;
 import com.tkomiya.models.Vocab;
 import com.tkomiya.testutils.Constants;
+import com.tkomiya.testutils.TestUtils;
 
 public class VocabJsonConverterTest {
 
@@ -43,14 +39,7 @@ public class VocabJsonConverterTest {
 	
 	private JSONObject testReadArrange() throws UnsupportedEncodingException,
 			FileNotFoundException, JSONException {
-		File file = new File(Constants.JSON_TEST_FILE_DIRECTORY);
-		Scanner scan = new Scanner(new BufferedReader(new InputStreamReader(new FileInputStream(file), "UTF-8")));
-		String jsonString = new String();
-		while (scan.hasNextLine()) {
-			jsonString = jsonString.concat(scan.nextLine());
-		}
-		scan.close();
-		return new JSONObject(jsonString);
+		return new JSONObject(TestUtils.readFile(Constants.JSON_TEST_FILE_DIRECTORY));
 	}
 
 }
