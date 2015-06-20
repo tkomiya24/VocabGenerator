@@ -1,14 +1,20 @@
 package com.tkomiya.infrastructure;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.io.UnsupportedEncodingException;
+import java.nio.charset.Charset;
 import java.util.Scanner;
 
 import com.tkomiya.main.MainController;
+import com.tkomiya.models.Vocab;
 
 public class FileUtilities {
 
@@ -59,6 +65,12 @@ public class FileUtilities {
 		}
 		scan.close();
 		return jsonString;
+	}
+	
+	public static void writeFile(String string, File file) throws IOException {
+		BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file), Charset.forName("UTF-8").newEncoder()));
+		writer.write(string);
+		writer.close();
 	}
 	
 }
