@@ -1,8 +1,20 @@
 package com.tkomiya.infrastructure;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.UnsupportedEncodingException;
+import java.nio.charset.Charset;
+import java.util.Scanner;
 
 import com.tkomiya.main.MainController;
+import com.tkomiya.models.Vocab;
 
 public class FileUtilities {
 
@@ -39,6 +51,26 @@ public class FileUtilities {
 		else{
 			return getFilePathWithoutFileName(file) + getFileNameWithNoExtension(file) + "." + MainController.VOCAB_LIST_FILE_EXTENSION;
 		}
+	}
+	
+	public static String readFile(String filePath) throws UnsupportedEncodingException, FileNotFoundException {
+		return readFile(new File(filePath));
+	}
+	
+	public static String readFile(File file) throws UnsupportedEncodingException, FileNotFoundException {
+		Scanner scan = new Scanner(new BufferedReader(new InputStreamReader(new FileInputStream(file), "UTF-8")));
+		String jsonString = new String();
+		while (scan.hasNextLine()) {
+			jsonString = jsonString.concat(scan.nextLine());
+		}
+		scan.close();
+		return jsonString;
+	}
+	
+	public static void writeFile(String string, File file) throws IOException {
+		BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file), Charset.forName("UTF-8").newEncoder()));
+		writer.write(string);
+		writer.close();
 	}
 	
 }

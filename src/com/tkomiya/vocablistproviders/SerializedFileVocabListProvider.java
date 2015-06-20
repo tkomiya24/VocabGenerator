@@ -25,13 +25,6 @@ public class SerializedFileVocabListProvider implements VocabListProvider {
 	}
 
 	@Override
-	public void saveVocabList(VocabList vocabList, String filePath) throws FileNotFoundException, IOException {
-		
-		File file = new File(filePath);
-		saveVocabList(vocabList, file);
-	}
-
-	@Override
 	public void saveVocabList(VocabList vocabList, File file) throws FileNotFoundException, IOException {
 		ObjectOutputStream oos = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(file)));
 		oos.writeObject(vocabList);
