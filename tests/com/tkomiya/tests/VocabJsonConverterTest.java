@@ -9,10 +9,10 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.junit.Test;
 
+import com.tkomiya.infrastructure.FileUtilities;
 import com.tkomiya.infrastructure.VocabJsonConverter;
 import com.tkomiya.models.Vocab;
 import com.tkomiya.testutils.Constants;
-import com.tkomiya.testutils.TestUtils;
 
 public class VocabJsonConverterTest {
 
@@ -39,7 +39,7 @@ public class VocabJsonConverterTest {
 	
 	private JSONObject testReadArrange() throws UnsupportedEncodingException,
 			FileNotFoundException, JSONException {
-		return new JSONObject(TestUtils.readFile(Constants.JSON_TEST_FILE_DIRECTORY));
+		return new JSONObject(FileUtilities.readFile(Constants.JSON_TEST_FILE_DIRECTORY));
 	}
 
 }

@@ -5,15 +5,14 @@ import static org.junit.Assert.assertEquals;
 import java.io.FileNotFoundException;
 import java.io.UnsupportedEncodingException;
 
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.junit.Test;
 
+import com.tkomiya.infrastructure.FileUtilities;
 import com.tkomiya.infrastructure.VocabListJsonConverter;
 import com.tkomiya.models.VocabList;
 import com.tkomiya.testutils.Constants;
-import com.tkomiya.testutils.TestUtils;
 
 public class VocabListJsonConverterTest {
 
@@ -22,7 +21,7 @@ public class VocabListJsonConverterTest {
 	@Test
 	public void testReadJson() throws UnsupportedEncodingException, FileNotFoundException, JSONException {
 		//Arrange
-		JSONObject vocabListJson = new JSONObject(TestUtils.readFile(JSON_FILEPATH));
+		JSONObject vocabListJson = new JSONObject(FileUtilities.readFile(JSON_FILEPATH));
 		VocabList expectedList = TestVocabListLoader.makeTestList();
 		//Act
 		VocabList vocabList = VocabListJsonConverter.convertJsonToVocabList(vocabListJson);
