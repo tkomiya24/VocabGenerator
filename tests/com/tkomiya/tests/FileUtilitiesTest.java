@@ -3,15 +3,17 @@ package com.tkomiya.tests;
 import static org.junit.Assert.*;
 
 import java.io.File;
+
 import org.junit.Test;
+
 import com.tkomiya.infrastructure.FileUtilities;
 import com.tkomiya.main.MainController;
+import com.tkomiya.testutils.Constants;
 
 public class FileUtilitiesTest {
 
-	public static final String TEST_DIRECTORY = "./TEST/";
-	File noExtensionFile = new File(TEST_DIRECTORY + "TESTFILE");
-	File extensionFile = new File(TEST_DIRECTORY + "TESTFILE." + MainController.VOCAB_LIST_FILE_EXTENSION);
+	File noExtensionFile = new File(Constants.TEST_DIRECTORY + "TESTFILE");
+	File extensionFile = new File(Constants.TEST_DIRECTORY + "TESTFILE." + MainController.VOCAB_LIST_FILE_EXTENSION);
 	String pathToFiles;
 	
 	@Test
