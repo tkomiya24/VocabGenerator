@@ -43,7 +43,7 @@ public class VocabJsonConverter {
 				if (json.has(Vocab.SUPPORTED_LANGUAGES[i])) {
 					JSONObject langJson = json.getJSONObject(Vocab.SUPPORTED_LANGUAGES[i]);
 					vocab.addLanguage(i, langJson.getString(TRANSLATION));
-					vocab.setScore(i, json.getInt(TIMES_TESTED), json.getInt(TIMES_CORRECT));
+					vocab.setScore(i, langJson.getInt(TIMES_TESTED), langJson.getInt(TIMES_CORRECT));
 				}
 			}
 			return vocab;
