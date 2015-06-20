@@ -15,7 +15,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -30,20 +29,17 @@ import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
-import com.tkomiya.controllers.FileLink;
 import com.tkomiya.exceptions.ListLengthsDoNotMatchException;
 import com.tkomiya.infrastructure.ComparatorSortedList;
 import com.tkomiya.infrastructure.FileUtilities;
 import com.tkomiya.infrastructure.MostMistakenDescendingVocabComparator;
 import com.tkomiya.infrastructure.NaturalOrderComparator;
-import com.tkomiya.listgetter.ListStringGetter;
-import com.tkomiya.listgetter.NewlineSeparatedTextfileStringListGetter;
 import com.tkomiya.models.Vocab;
 import com.tkomiya.models.VocabList;
-import com.tkomiya.models.VocabListBuilder;
 import com.tkomiya.models.utils.VocabListUtils;
 import com.tkomiya.views.TypedTest;
 import com.tkomiya.views.WrittenTest;
+import com.tkomiya.vocablistproviders.JsonFileVocabListProvider;
 import com.tkomiya.vocablistproviders.MultipleTextFileVocabListProvider;
 import com.tkomiya.vocablistproviders.SerializedFileVocabListProvider;
 import com.tkomiya.vocablistproviders.TextFileVocabListProvider;
@@ -54,6 +50,8 @@ public class MainController {
 	private ComparatorSortedList<VocabList> vocabLists;
 	private VocabListProvider separateFileVlistGetter;
 	private VocabListProvider vlistGetter;
+	private VocabListProvider backupFileVlistProvider;
+	
 	public static final String DEFAULT_DIRECTORY = "./res/";
 	private static final String LISTS_FILE_PATH = "./lists.config";
 	private static final String DEFAULT_SAVE_DIRECTORY = DEFAULT_DIRECTORY + "backup/";
@@ -63,8 +61,7 @@ public class MainController {
 	public static final String VOCAB_LIST_FILE_EXTENSION = "voc";
 	public static final String TEXT_FILE_EXTENSION = "txt";
 	public static final int TESTING_LANGUAGE = Vocab.KOREAN;
-	private TextFileVocabListProvider textFileVocabListProvider;
-	
+
 	//Button and MeniItem names.
 	public static final String LOAD_MENU_ITEM_NAME = "Load a text file";
 	public static final String WRITTEN_TEST_MENU_ITEM = "Start a written test";
@@ -90,7 +87,7 @@ public class MainController {
 		vocabLists = new ComparatorSortedList<VocabList>(new NaturalOrderComparator());
 		separateFileVlistGetter = new MultipleTextFileVocabListProvider();
 		vlistGetter = new SerializedFileVocabListProvider();
-		textFileVocabListProvider = new TextFileVocabListProvider();
+		backupFileVlistProvider = new JsonFileVocabListProvider();
 	}
 	
 	@SuppressWarnings("unchecked")
@@ -115,7 +112,7 @@ public class MainController {
 	}	
 	
 	private VocabList loadVocabListFromTextFile(File file) throws Exception {
-		return textFileVocabListProvider.getVocabListFromFile(file);
+		return backupFileVlistProvider.getVocabListFromFile(file);
 	}
 	
 	@SuppressWarnings("unchecked")
@@ -158,10 +155,10 @@ public class MainController {
 	
 	private void saveVocabListAsTextFile(VocabList vocabList, File file) {
 		try {
-			textFileVocabListProvider.saveVocabList(vocabList, file);
-		} catch (IOException e1) {
+			backupFileVlistProvider.saveVocabList(vocabList, file);
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
-			e1.printStackTrace();
+			e.printStackTrace();
 		}
 	}
 	
