@@ -96,5 +96,36 @@ public class Vocab implements Serializable{
 		}
 		return false;
 	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (!(obj instanceof Vocab)) {
+			return false;
+		}
+		Vocab other = (Vocab) obj;
+		for (int language : SUPPORTED_LANGUAGES_INTS) {
+			if (!translationEquals(other, language)) {
+				return false;
+			}
+		}
+		return true;
+	}
+	
+	private boolean translationEquals(Vocab other, int language) {
+		String languageString = Vocab.SUPPORTED_LANGUAGES[language];
+		boolean different = other.vocab.containsKey(languageString) 
+				^ this.vocab.containsKey(languageString);
+		if (different) {
+			return false;
+		}
+		boolean bothContain = other.vocab.containsKey(languageString) 
+				&& this.vocab.containsKey(languageString);
+		if (!bothContain) {
+			return true;
+		}
+		return other.vocab.get(language).equals(this.vocab.get(language))
+				&& other.getTimesCorrect(language) == this.getTimesCorrect(language)
+				&& other.getTimesTested(language) == this.getTimesTested(language);
+	}
 	
 }
