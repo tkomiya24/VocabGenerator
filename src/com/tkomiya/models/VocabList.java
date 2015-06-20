@@ -138,4 +138,39 @@ public class VocabList implements Serializable{
 		return minimum;
 	}
 	
+	public boolean contains(Vocab other) {
+		for (Vocab vocab : vocabList) {
+			if (vocab.equals(other)) {
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	@Override
+	public boolean equals(Object other) {
+		if (other == this) {
+			return true;
+		}
+		if (other instanceof VocabList) {
+			VocabList otherList = (VocabList) other;
+			if (otherList.size() != this.size()) {
+				return false;
+			}
+			for (Vocab vocab : this.vocabList) {
+				if (!otherList.contains(vocab)) {
+					return false;
+				}
+			}
+			for (Vocab vocab : otherList.vocabList) {
+				if (!this.contains(vocab)) {
+					return false;
+				}
+			}
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
 }
