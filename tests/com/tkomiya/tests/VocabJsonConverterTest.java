@@ -12,9 +12,6 @@ import java.util.Scanner;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 import com.tkomiya.infrastructure.VocabJsonConverter;
@@ -22,19 +19,6 @@ import com.tkomiya.models.Vocab;
 import com.tkomiya.testutils.Constants;
 
 public class VocabJsonConverterTest {
-	
-	@BeforeClass
-	public static void setUpBeforeClass() throws Exception {
-		
-	}
-
-	@Before
-	public void setUp() throws Exception {
-	}
-
-	@After
-	public void tearDown() throws Exception {
-	}
 
 	@Test
 	public void testJsonToVocab() throws FileNotFoundException, JSONException, UnsupportedEncodingException {
