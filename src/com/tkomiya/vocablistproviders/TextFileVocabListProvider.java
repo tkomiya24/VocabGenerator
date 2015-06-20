@@ -58,11 +58,6 @@ public class TextFileVocabListProvider implements VocabListProvider {
 		String[] parts = string.split("/");
 		return Integer.parseInt(parts[1]);
 	}
-	
-	@Override
-	public void saveVocabList(VocabList vocabList, String filePath) throws FileNotFoundException, IOException {
-		
-	}
 
 	@Override
 	public void saveVocabList(VocabList vocabList, File file) throws FileNotFoundException, IOException {

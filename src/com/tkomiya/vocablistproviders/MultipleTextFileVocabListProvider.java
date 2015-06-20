@@ -63,13 +63,6 @@ public class MultipleTextFileVocabListProvider implements VocabListProvider {
 	}
 
 	@Override
-	public void saveVocabList(VocabList vocabList, String filePath)
-			throws FileNotFoundException, IOException {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
 	public void saveVocabList(VocabList vocabList, File file)
 			throws FileNotFoundException, IOException {
 		// TODO Auto-generated method stub
