@@ -1,0 +1,18 @@
+{
+   "Primary Language" : "English",
+   "Korean" : {
+                 "Times Tested" : 7,
+                 "Times Correct" : 1,
+                 "Translation" : "수요일"
+               },
+   "English" : {
+                 "Times Tested" : 0,
+                 "Times Correct" : 0,
+                 "Translation" : "Wednesday"
+               },
+   "Japanese" : {
+                 "Times Tested" : 15,
+                 "Times Correct" : 9,
+                 "Translation" : "水曜日"
+               }               
+}
