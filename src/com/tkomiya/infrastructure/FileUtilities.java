@@ -48,7 +48,11 @@ public class FileUtilities {
 	}
 	
 	public static String readFile(String filePath) throws UnsupportedEncodingException, FileNotFoundException {
-		Scanner scan = new Scanner(new BufferedReader(new InputStreamReader(new FileInputStream(new File(filePath)), "UTF-8")));
+		return readFile(new File(filePath));
+	}
+	
+	public static String readFile(File file) throws UnsupportedEncodingException, FileNotFoundException {
+		Scanner scan = new Scanner(new BufferedReader(new InputStreamReader(new FileInputStream(file), "UTF-8")));
 		String jsonString = new String();
 		while (scan.hasNextLine()) {
 			jsonString = jsonString.concat(scan.nextLine());
