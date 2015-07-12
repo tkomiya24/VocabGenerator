@@ -22,7 +22,6 @@ import java.util.List;
 import javax.swing.JButton;
 import javax.swing.JFileChooser;
 import javax.swing.JList;
-import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 import javax.swing.JTable;
 import javax.swing.JTextField;
@@ -42,7 +41,6 @@ import com.tkomiya.views.WrittenTest;
 import com.tkomiya.vocablistproviders.JsonFileVocabListProvider;
 import com.tkomiya.vocablistproviders.MultipleTextFileVocabListProvider;
 import com.tkomiya.vocablistproviders.SerializedFileVocabListProvider;
-import com.tkomiya.vocablistproviders.TextFileVocabListProvider;
 import com.tkomiya.vocablistproviders.VocabListProvider;
 
 public class MainController {
@@ -64,24 +62,13 @@ public class MainController {
 	public static final String BACKUP_FILE_EXTENSION = "json";
 
 	//Button and MeniItem names.
-	public static final String LOAD_MENU_ITEM_NAME = "Load a text file";
-	public static final String WRITTEN_TEST_MENU_ITEM = "Start a written test";
-	public static final String DELETE_MENU_ITEM_NAME = "Delete vocab list";
 	public static final String ADD_BUTTON_NAME = "add";
-	public static final String COMMON_MISTAKE_TEST_MENU_ITEM_NAME = "Test common mistakes";
-	public static final String SAVE_MENU_ITEM_NAME = "Save as text file";
-	public static final String BACKUP_ALL_MENU_ITEM_NAME = "Back up all vocablists as text files";
-	public static final String LOAD_ALL_MENU_ITEM_NAME = "Load all backup text files";
-	public static final String OPEN_MENU_ITEM_NAME = "Open";
-	public static final String START_TEST_MENU_ITEM_NAME = "Start a test";
-	public static final String DELETE_VOCAB_MENU_ITEM_NAME = "Delete vocab";
 	public static final String SEARCH_FIELD_NAME = "Search";
-	public static final String LEAST_TESTED_VOCABLIST_MENU_ITEM_NAME = "Start a test with the least tested vocablist";
 	
 	public MainController() {
 		initializeFields();
 		loadVocabLists();
-		mainView = new MainView(new MainWindowListener(), new MainMenuItemListener(), new MainButtonListener(), new JListMouseAdapter(), vocabLists);
+		mainView = new MainView(this, new MainWindowListener(), new MainButtonListener(), new JListMouseAdapter(), vocabLists);
 	}
 
 	private void initializeFields(){
@@ -220,47 +207,8 @@ public class MainController {
 			}	
 		}
 	}
-	
-	public class MainMenuItemListener implements ActionListener {
 
-		@Override
-		public void actionPerformed(ActionEvent e) {
-			Object source = e.getSource();
-			if (source instanceof JMenuItem) {
-				JMenuItem sourceItem = (JMenuItem) e.getSource();
-				handleMenuAction(sourceItem);
-			} 
-		}
-		
-		private void handleMenuAction(JMenuItem sourceItem) {
-			String sourceName = sourceItem.getName();
-			if (sourceName.equals(OPEN_MENU_ITEM_NAME)) {
-				openMenuItemAction();
-			} else if (sourceName.equals(START_TEST_MENU_ITEM_NAME)) {
-				startTestMenuItemAction();
-			} else if (sourceName.equals(WRITTEN_TEST_MENU_ITEM)) {
-				startWrittenTestMenuItemAction();
-			} else if (sourceName.equals(COMMON_MISTAKE_TEST_MENU_ITEM_NAME)) {
-				commonMistakeTest();
-			} else if (sourceName.equals(SAVE_MENU_ITEM_NAME)) {
-				backUpMenuItemAction();
-			} else if (sourceName.equals(LOAD_MENU_ITEM_NAME)) {
-				loadMenuItemAction();
-			} else if (sourceName.equals(BACKUP_ALL_MENU_ITEM_NAME)) {
-				backupAllMenuItemAction();
-			} else if (sourceName.equals(LOAD_ALL_MENU_ITEM_NAME)) {
-				loadAllMenuItemAction();
-			} else if (sourceName.equals(DELETE_MENU_ITEM_NAME)) {
-				deleteMenuItemAction();
-			} else if (sourceName.equals(DELETE_VOCAB_MENU_ITEM_NAME)) {
-				deleteVocabMenuItemAction();
-			} else if (sourceName.equals(LEAST_TESTED_VOCABLIST_MENU_ITEM_NAME)) {
-				leastTestedTest();
-			}
-		}
-	}
-
-	private void commonMistakeTest() {
+	public void commonMistakeTest() {
 		boolean badInput = true;
 		do {
 			String response = mainView.showInputDialog("Length", "Please enter the maximum desired test length");
@@ -285,7 +233,7 @@ public class MainController {
 		} while(badInput);
 	}
 
-	private void openMenuItemAction() {
+	public void openMenuItemAction() {
 		JFileChooser fileChooser = new JFileChooser(DEFAULT_DIRECTORY);
 		int val = fileChooser.showOpenDialog(mainView);
 		if (val == JFileChooser.APPROVE_OPTION) {
@@ -320,7 +268,7 @@ public class MainController {
 		}
 	}
 	
-	private boolean checkIfVocabListExists(File file) {
+	public boolean checkIfVocabListExists(File file) {
 		String vocabListName = FileUtilities.getFileNameWithNoExtension(file);
 		List<VocabList> vocabLists = MainController.this.vocabLists.getList();
 		for (VocabList vocabList : vocabLists) {
@@ -336,7 +284,7 @@ public class MainController {
 		return response == JOptionPane.YES_OPTION;
 	}
 	
-	private void backUpMenuItemAction() {
+	public void backUpMenuItemAction() {
 		VocabList vocabList = mainView.getCurrentlySelectedVocabList();
 		if (vocabList == null) {
 			reportNoVocabListSelectedError();
@@ -357,7 +305,7 @@ public class MainController {
 		}
 	}
 	
-	private void startTestMenuItemAction() {
+	public void startTestMenuItemAction() {
 		if (mainView.getCurrentlySelectedVocabList() == null) {
 			reportNoVocabListSelectedError();
 		} else {
@@ -373,7 +321,7 @@ public class MainController {
 		mainView.showErrorDialog("No vocablist selected", "Please select a vocablist first.");
 	}
 	
-	private void startWrittenTestMenuItemAction() {
+	public void startWrittenTestMenuItemAction() {
 		if (mainView.getCurrentlySelectedVocabList() == null) {
 			reportNoVocabListSelectedError();
 		} else {
@@ -381,7 +329,7 @@ public class MainController {
 		}
 	}
 	
-	private void loadMenuItemAction() {
+	public void loadMenuItemAction() {
 		JFileChooser fileChooser = new JFileChooser(DEFAULT_SAVE_DIRECTORY);
 		fileChooser.setFileFilter(new FileNameExtensionFilter("Text files", TEXT_FILE_EXTENSION));
 		int val = fileChooser.showOpenDialog(mainView);
@@ -396,7 +344,7 @@ public class MainController {
 		}
 	}
 
-	private void loadAllMenuItemAction() {
+	public void loadAllMenuItemAction() {
 		int response = mainView.showConfirmationDialog("Load all files from backup", "This will overwrite all currently loaded vocab lists. Are you sure?");
 		if (response == JOptionPane.YES_OPTION) {
 			vocabLists.clear();
@@ -417,7 +365,7 @@ public class MainController {
 		}
 	}
 
-	private void backupAllMenuItemAction() {
+	public void backupAllMenuItemAction() {
 		int response = mainView.showConfirmationDialog("Back up vocab files", "This will overwrite all previous backup files. Are you sure?");
 		if (response == JOptionPane.YES_OPTION) {
 			for (VocabList vlist : vocabLists) {
@@ -427,21 +375,21 @@ public class MainController {
 		}
 	}
 	
-	private void deleteMenuItemAction() {
+	public void deleteMenuItemAction() {
 		JList<VocabList> links = mainView.getLinks();
 		int index = links.getSelectedIndex();
 		vocabLists.remove(index);
 		mainView.removeLink(index);
 	}
 
-	private void deleteVocabMenuItemAction() {
+	public void deleteVocabMenuItemAction() {
 		Vocab vocab = mainView.getCurrentlySelectedVocab();
 		VocabList selectedVocabList = mainView.getCurrentlySelectedVocabList();
 		selectedVocabList.removeVocab(vocab);
 		mainView.updateVocabListTable();
 	}
 
-	private void leastTestedTest() {
+	public void leastTestedTest() {
 		VocabList testingList = VocabListUtils.getLeastTestedVocabList(vocabLists, TESTING_LANGUAGE);
 		new TypedTest(testingList, TESTING_LANGUAGE);
 	}

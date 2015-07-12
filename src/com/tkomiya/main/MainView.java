@@ -3,6 +3,7 @@ package com.tkomiya.main;
 import java.awt.BorderLayout;
 import java.awt.Component;
 import java.awt.Point;
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
@@ -55,12 +56,28 @@ public class MainView extends JFrame {
 	private List<VocabList> vocabLists;
 	private JTable vocabTable;
 	private JLabel vocabListNameLabel;
+	private MainController mainController;
 	
-	public MainView(WindowListener mainWindowsListener, ActionListener mainMenuItemListener, ActionListener mainButtonListener, MouseAdapter mouseAdapter, List<VocabList> vocabLists) {
+	//Menu Item names
+	public static final String LOAD_MENU_ITEM_NAME = "Load a text file";
+	public static final String WRITTEN_TEST_MENU_ITEM = "Start a written test";
+	public static final String DELETE_MENU_ITEM_NAME = "Delete vocab list";
+	public static final String COMMON_MISTAKE_TEST_MENU_ITEM_NAME = "Test common mistakes";
+	public static final String SAVE_MENU_ITEM_NAME = "Save as text file";
+	public static final String BACKUP_ALL_MENU_ITEM_NAME = "Back up all vocablists as text files";
+	public static final String LOAD_ALL_MENU_ITEM_NAME = "Load all backup text files";
+	public static final String OPEN_MENU_ITEM_NAME = "Open";
+	public static final String START_TEST_MENU_ITEM_NAME = "Start a test";
+	public static final String DELETE_VOCAB_MENU_ITEM_NAME = "Delete vocab";
+	public static final String LEAST_TESTED_VOCABLIST_MENU_ITEM_NAME = "Start a test with the least tested vocablist";
+	
+	
+	public MainView(MainController mainController, WindowListener mainWindowsListener, ActionListener mainButtonListener, MouseAdapter mouseAdapter, List<VocabList> vocabLists) {
 		super();
-		this.menuListener = mainMenuItemListener;
+		this.menuListener = new MainMenuItemListener();
 		this.buttonListener = mainButtonListener;
 		this.mouseAdapter = mouseAdapter;
+		this.mainController = mainController;
 		this.vocabLists = vocabLists;
 		init();
 		addWindowListener(mainWindowsListener);
@@ -156,15 +173,15 @@ public class MainView extends JFrame {
 	}
 	
 	private Collection<JMenuItem> makeMenuItems() {		
-		makeMenuItem(MainController.OPEN_MENU_ITEM_NAME);
-		makeMenuItem(MainController.START_TEST_MENU_ITEM_NAME);
-		makeMenuItem(MainController.WRITTEN_TEST_MENU_ITEM);
-		makeMenuItem(MainController.COMMON_MISTAKE_TEST_MENU_ITEM_NAME);
-		makeMenuItem(MainController.LEAST_TESTED_VOCABLIST_MENU_ITEM_NAME);
-		makeMenuItem(MainController.SAVE_MENU_ITEM_NAME);
-		makeMenuItem(MainController.LOAD_MENU_ITEM_NAME);
-		makeMenuItem(MainController.BACKUP_ALL_MENU_ITEM_NAME);
-		makeMenuItem(MainController.LOAD_ALL_MENU_ITEM_NAME);	
+		makeMenuItem(OPEN_MENU_ITEM_NAME);
+		makeMenuItem(START_TEST_MENU_ITEM_NAME);
+		makeMenuItem(WRITTEN_TEST_MENU_ITEM);
+		makeMenuItem(COMMON_MISTAKE_TEST_MENU_ITEM_NAME);
+		makeMenuItem(LEAST_TESTED_VOCABLIST_MENU_ITEM_NAME);
+		makeMenuItem(SAVE_MENU_ITEM_NAME);
+		makeMenuItem(LOAD_MENU_ITEM_NAME);
+		makeMenuItem(BACKUP_ALL_MENU_ITEM_NAME);
+		makeMenuItem(LOAD_ALL_MENU_ITEM_NAME);	
 		return menuItems;
 	}
 
@@ -181,7 +198,7 @@ public class MainView extends JFrame {
 	
 	private void makeShorcutListPopup() {
 		shortcutListPopup = new JPopupMenu();
-		JMenuItem deleteMenuItem = makePopupMenuItem(MainController.DELETE_MENU_ITEM_NAME);
+		JMenuItem deleteMenuItem = makePopupMenuItem(DELETE_MENU_ITEM_NAME);
 		shortcutListPopup.add(deleteMenuItem);
 	}
 	
@@ -283,12 +300,51 @@ public class MainView extends JFrame {
 	
 	private void makeVocabTablePopup() {
 		vocabTablePopup = new JPopupMenu();
-		vocabTablePopup.add(makePopupMenuItem(MainController.DELETE_VOCAB_MENU_ITEM_NAME));
+		vocabTablePopup.add(makePopupMenuItem(DELETE_VOCAB_MENU_ITEM_NAME));
 	}
 	
 	private void makeTextArea() {
 		textArea = new JTextArea();
 		textArea.setEditable(false);
+	}
+	
+	private class MainMenuItemListener implements ActionListener {
+
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			Object source = e.getSource();
+			if (source instanceof JMenuItem) {
+				JMenuItem sourceItem = (JMenuItem) e.getSource();
+				handleMenuAction(sourceItem);
+			} 
+		}
+		
+		private void handleMenuAction(JMenuItem sourceItem) {
+			String sourceName = sourceItem.getName();
+			if (sourceName.equals(OPEN_MENU_ITEM_NAME)) {
+				mainController.openMenuItemAction();
+			} else if (sourceName.equals(START_TEST_MENU_ITEM_NAME)) {
+				mainController.startTestMenuItemAction();
+			} else if (sourceName.equals(WRITTEN_TEST_MENU_ITEM)) {
+				mainController.startWrittenTestMenuItemAction();
+			} else if (sourceName.equals(COMMON_MISTAKE_TEST_MENU_ITEM_NAME)) {
+				mainController.commonMistakeTest();
+			} else if (sourceName.equals(SAVE_MENU_ITEM_NAME)) {
+				mainController.backUpMenuItemAction();
+			} else if (sourceName.equals(LOAD_MENU_ITEM_NAME)) {
+				mainController.loadMenuItemAction();
+			} else if (sourceName.equals(BACKUP_ALL_MENU_ITEM_NAME)) {
+				mainController.backupAllMenuItemAction();
+			} else if (sourceName.equals(LOAD_ALL_MENU_ITEM_NAME)) {
+				mainController.loadAllMenuItemAction();
+			} else if (sourceName.equals(DELETE_MENU_ITEM_NAME)) {
+				mainController.deleteMenuItemAction();
+			} else if (sourceName.equals(DELETE_VOCAB_MENU_ITEM_NAME)) {
+				mainController.deleteVocabMenuItemAction();
+			} else if (sourceName.equals(LEAST_TESTED_VOCABLIST_MENU_ITEM_NAME)) {
+				mainController.leastTestedTest();
+			}
+		}
 	}
 
 }
