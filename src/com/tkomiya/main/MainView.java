@@ -340,7 +340,7 @@ public class MainView extends JFrame {
 			} else if (sourceName.equals(DELETE_MENU_ITEM_NAME)) {
 				mainController.deleteMenuItemAction();
 			} else if (sourceName.equals(DELETE_VOCAB_MENU_ITEM_NAME)) {
-				mainController.deleteVocabMenuItemAction();
+				mainController.deleteVocabMenuItemAction(vocabTable.getSelectedRow());
 			} else if (sourceName.equals(LEAST_TESTED_VOCABLIST_MENU_ITEM_NAME)) {
 				mainController.leastTestedTest();
 			}

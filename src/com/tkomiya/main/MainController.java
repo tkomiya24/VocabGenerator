@@ -382,10 +382,9 @@ public class MainController {
 		mainView.removeLink(index);
 	}
 
-	public void deleteVocabMenuItemAction() {
-		Vocab vocab = mainView.getCurrentlySelectedVocab();
+	public void deleteVocabMenuItemAction(int row) {
 		VocabList selectedVocabList = mainView.getCurrentlySelectedVocabList();
-		selectedVocabList.removeVocab(vocab);
+		selectedVocabList.remove(row);
 		mainView.updateVocabListTable();
 	}
 
