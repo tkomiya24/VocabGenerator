@@ -35,10 +35,6 @@ import com.tkomiya.infrastructure.VocabListTableModel;
 import com.tkomiya.models.Vocab;
 import com.tkomiya.models.VocabList;
 
-/**
- * @author Takeru
- *
- */
 public class MainView extends JFrame {
 	
 	private JTextArea textArea;
@@ -308,6 +304,27 @@ public class MainView extends JFrame {
 		textArea.setEditable(false);
 	}
 	
+	private int getTestingLanguageFromUser() {
+		Object[] options = {Vocab.SUPPORTED_LANGUAGES[1], Vocab.SUPPORTED_LANGUAGES[2]};
+		return showOptionDialog("Which language would you like to test?", "Please enter option", options, Vocab.KOREAN);
+	}
+	
+	private int getTestLengthFromUser() {
+		boolean badInput = true;
+		int testLength = 0;
+		do {
+			String response = showInputDialog("Length", "Please enter the maximum desired test length");
+			try {
+				testLength = Integer.parseInt(response);
+				badInput = false;
+				return testLength;
+			} catch(NumberFormatException e) {
+				showErrorDialog("Error with input", "Please input a number");
+			}
+		} while(badInput);
+		return testLength;
+	}
+	
 	private class MainMenuItemListener implements ActionListener {
 
 		@Override
@@ -328,7 +345,7 @@ public class MainView extends JFrame {
 			} else if (sourceName.equals(WRITTEN_TEST_MENU_ITEM)) {
 				mainController.startWrittenTestMenuItemAction();
 			} else if (sourceName.equals(COMMON_MISTAKE_TEST_MENU_ITEM_NAME)) {
-				mainController.commonMistakeTest();
+				mainController.commonMistakeTest(getTestingLanguageFromUser(), getTestLengthFromUser());
 			} else if (sourceName.equals(SAVE_MENU_ITEM_NAME)) {
 				mainController.backUpMenuItemAction();
 			} else if (sourceName.equals(LOAD_MENU_ITEM_NAME)) {

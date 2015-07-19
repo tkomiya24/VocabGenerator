@@ -16,7 +16,6 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 import javax.swing.JButton;
@@ -31,7 +30,6 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 import com.tkomiya.exceptions.ListLengthsDoNotMatchException;
 import com.tkomiya.infrastructure.ComparatorSortedList;
 import com.tkomiya.infrastructure.FileUtilities;
-import com.tkomiya.infrastructure.MostMistakenDescendingVocabComparator;
 import com.tkomiya.infrastructure.NaturalOrderComparator;
 import com.tkomiya.models.Vocab;
 import com.tkomiya.models.VocabList;
@@ -102,21 +100,6 @@ public class MainController {
 	private VocabList loadVocabListFromTextFile(File file) throws Exception {
 		return backupFileVlistProvider.getVocabListFromFile(file);
 	}
-	
-	@SuppressWarnings("unchecked")
-	private List<Vocab> findMostMistakenVocabs(int language) {
-		List<Vocab> allVocabsTestedAtLeastOnce = getAllVocabsMistakenAtLeastOnce(language);
-		Collections.sort(allVocabsTestedAtLeastOnce, new MostMistakenDescendingVocabComparator(language));
-		return allVocabsTestedAtLeastOnce;
-	}
-	
-	private List<Vocab> getAllVocabsMistakenAtLeastOnce(int language) {
-		ArrayList<Vocab> vocabs = new ArrayList<Vocab>();
-		for (VocabList vocabList : vocabLists) {
-			vocabs.addAll(vocabList.getAllTestedVocabsWithOneMistake(language));
-		}
-		return vocabs;
-	}	
 	
 	private VocabList reconstructVocabFile(File file) throws Exception {	
 		return separateFileVlistGetter.getVocabListFromFile(file);
@@ -208,29 +191,15 @@ public class MainController {
 		}
 	}
 
-	public void commonMistakeTest() {
-		boolean badInput = true;
-		do {
-			String response = mainView.showInputDialog("Length", "Please enter the maximum desired test length");
-			if (response == null) {
-				return;
-			} else {
-				try {
-					int testLength = Integer.parseInt(response);
-					badInput = false;
-					List<Vocab> mostMistakenVocabs = findMostMistakenVocabs(TESTING_LANGUAGE);
-					mostMistakenVocabs = mostMistakenVocabs.subList(0, testLength);
-					if (mostMistakenVocabs.size() > 0) {
-						VocabList mostMistakenVocabsVocabList = new VocabList(mostMistakenVocabs);
-						new TypedTest(mostMistakenVocabsVocabList, TESTING_LANGUAGE);
-					} else {
-						//TODO message dialog.
-					}
-				} catch(NumberFormatException e) {
-					mainView.showErrorDialog("Error with input", "Please input a number");
-				}
-			}
-		} while(badInput);
+	public void commonMistakeTest(int testingLanguage, int length) {
+		List<Vocab> mostMistakenVocabs = VocabListUtils.findMostMistakenVocabs(vocabLists, testingLanguage);
+		mostMistakenVocabs = mostMistakenVocabs.subList(0, length);
+		if (mostMistakenVocabs.size() > 0) {
+			VocabList mostMistakenVocabsVocabList = new VocabList(mostMistakenVocabs);
+			new TypedTest(mostMistakenVocabsVocabList, testingLanguage);
+		} else {
+			//TODO message dialog.
+		}
 	}
 
 	public void openMenuItemAction() {
