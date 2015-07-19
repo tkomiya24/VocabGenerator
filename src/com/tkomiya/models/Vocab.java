@@ -17,7 +17,19 @@ public class Vocab implements Serializable{
 	private HashMap<SupportedLanguage, Integer> timesCorrect;
 	
 	public static enum SupportedLanguage {
-		ENGLISH, KOREAN, JAPANESE
+		ENGLISH, KOREAN, JAPANESE;
+		
+		@Override
+		public String toString() {
+			return capitalize(this);
+		}
+		
+		private String capitalize(SupportedLanguage supportedLanguage) {
+			String language = supportedLanguage.toString();
+			String firstLetter = language.substring(0, 1);
+			String remainingLetters = language.substring(1, language.length()).toLowerCase();
+			return firstLetter + remainingLetters;
+		}
 	}
 	
 	public Vocab(SupportedLanguage primaryLanguage2) {
