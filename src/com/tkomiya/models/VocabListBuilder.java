@@ -5,18 +5,20 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import com.tkomiya.models.Vocab.SupportedLanguage;
+
 
 public class VocabListBuilder {
 	
 	private VocabList vList;
-	private int primaryLanguage;
+	private SupportedLanguage primaryLanguage;
 	private boolean primaryLanguageSet;
 	private int languageCount;
-	private HashMap<Integer, List<String>> map;
+	private HashMap<SupportedLanguage, List<String>> map;
 	
 	public VocabListBuilder(){
 		this.vList = new VocabList();
-		map = new HashMap<Integer, List<String>>();
+		map = new HashMap<SupportedLanguage, List<String>>();
 		primaryLanguageSet = false;
 		languageCount = 0;
 	}
@@ -25,14 +27,14 @@ public class VocabListBuilder {
 		vList.setName(name);
 	}
 	
-	public void setPrimaryLanguage(int language, List<String> words){
+	public void setPrimaryLanguage(SupportedLanguage language, List<String> words){
 		this.primaryLanguage = language;
 		primaryLanguageSet = true;
 		map.put(language, words);
 		languageCount++;
 	}
 	
-	public void addLanguage(int language, List<String> words){
+	public void addLanguage(SupportedLanguage language, List<String> words){
 		map.put(language, words);
 		languageCount++;
 	}
@@ -45,7 +47,7 @@ public class VocabListBuilder {
 		}
 		
 		List<String> vocabs = map.get(primaryLanguage);
-		Set<Integer> languages = new HashSet<Integer>();
+		Set<SupportedLanguage> languages = new HashSet<SupportedLanguage>();
 		languages.addAll(map.keySet());
 		languages.remove(primaryLanguage);
 		
@@ -53,7 +55,7 @@ public class VocabListBuilder {
 			Vocab vocab = new Vocab(this.primaryLanguage);
 			vocab.addLanguage(primaryLanguage, vocabs.get(i));
 			
-			for(Integer lang : languages){
+			for(SupportedLanguage lang : languages){
 				String translation = map.get(lang).get(i);
 				vocab.addLanguage(lang, translation);
 			}		
