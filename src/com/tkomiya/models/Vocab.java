@@ -30,6 +30,10 @@ public class Vocab implements Serializable{
 			String remainingLetters = language.substring(1, language.length()).toLowerCase();
 			return firstLetter + remainingLetters;
 		}
+		
+		public static int size() {
+			return SupportedLanguage.values().length;
+		}
 	}
 	
 	public Vocab(SupportedLanguage primaryLanguage2) {
