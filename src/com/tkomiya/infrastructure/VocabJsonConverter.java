@@ -31,7 +31,6 @@ public class VocabJsonConverter {
 	public static Vocab convertToVocab(JSONObject json) throws JSONException {
 		String primaryLanguageString = json.getString(PRIMARY_LANGUAGE);
 		SupportedLanguage primaryLanguage = SupportedLanguage.valueOf(primaryLanguageString.toUpperCase().trim());
-		System.out.println(primaryLanguage.name());
 		Vocab vocab = new Vocab(primaryLanguage);
 		for (SupportedLanguage language : SupportedLanguage.values()) {
 			if (json.has(language.toString())) {
