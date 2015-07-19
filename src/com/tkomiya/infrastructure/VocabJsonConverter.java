@@ -6,6 +6,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import com.tkomiya.models.Vocab;
+import com.tkomiya.models.Vocab.SupportedLanguage;
 
 public class VocabJsonConverter {
 
@@ -17,14 +18,14 @@ public class VocabJsonConverter {
 	public static JSONObject convertToJson(Vocab vocab) {
 		JSONObject vocabJson = new JSONObject();
 		try {
-			vocabJson.put(PRIMARY_LANGUAGE, Vocab.SUPPORTED_LANGUAGES[vocab.getPrimaryLanguage()]);
-			for (int i : Vocab.SUPPORTED_LANGUAGES_INTS) {
-				if (vocab.getTranslation(i) != null) {
+			vocabJson.put(PRIMARY_LANGUAGE, vocab.getPrimaryLanguage());
+			for (SupportedLanguage language : SupportedLanguage.values()) {
+				if (vocab.getTranslation(language) != null) {
 					JSONObject languageJson = new JSONObject();
-					languageJson.put(TRANSLATION, vocab.getTranslation(i));
-					languageJson.put(TIMES_CORRECT, vocab.getTimesCorrect(i));
-					languageJson.put(TIMES_TESTED, vocab.getTimesTested(i));
-					vocabJson.put(Vocab.SUPPORTED_LANGUAGES[i], languageJson);
+					languageJson.put(TRANSLATION, vocab.getTranslation(language));
+					languageJson.put(TIMES_CORRECT, vocab.getTimesCorrect(language));
+					languageJson.put(TIMES_TESTED, vocab.getTimesTested(language));
+					vocabJson.put(language.toString(), languageJson);
 				}
 			}
 			return vocabJson;  
@@ -37,13 +38,13 @@ public class VocabJsonConverter {
 	public static Vocab convertToVocab(JSONObject json) {
 		try {
 			String primaryLanguageString = json.getString(PRIMARY_LANGUAGE);
-			int primaryLanguage = Arrays.asList(Vocab.SUPPORTED_LANGUAGES).indexOf(primaryLanguageString);
+			SupportedLanguage primaryLanguage = SupportedLanguage.valueOf(primaryLanguageString.toUpperCase().trim());
 			Vocab vocab = new Vocab(primaryLanguage);
-			for (int i : Vocab.SUPPORTED_LANGUAGES_INTS) {
-				if (json.has(Vocab.SUPPORTED_LANGUAGES[i])) {
-					JSONObject langJson = json.getJSONObject(Vocab.SUPPORTED_LANGUAGES[i]);
-					vocab.addLanguage(i, langJson.getString(TRANSLATION));
-					vocab.setScore(i, langJson.getInt(TIMES_TESTED), langJson.getInt(TIMES_CORRECT));
+			for (SupportedLanguage language : SupportedLanguage.values()) {
+				if (json.has(language.toString())) {
+					JSONObject langJson = json.getJSONObject(language.toString());
+					vocab.addLanguage(language, langJson.getString(TRANSLATION));
+					vocab.setScore(language, langJson.getInt(TIMES_TESTED), langJson.getInt(TIMES_CORRECT));
 				}
 			}
 			return vocab;
