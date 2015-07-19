@@ -7,11 +7,10 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
+import com.tkomiya.models.Vocab.SupportedLanguage;
+
 public class VocabList implements Serializable, Iterable<Vocab> {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 7788088203628363163L;
 	private String listName;
 	private List<Vocab> vocabList;
@@ -79,17 +78,17 @@ public class VocabList implements Serializable, Iterable<Vocab> {
 		return new VocabList(this.vocabList.subList(fromIndex, toIndex));
 	}
 	
-	public void incrementTimesTested(int testLanguage) {
+	public void incrementTimesTested(SupportedLanguage testLanguage) {
 		incrementTimesTestedForAllVocabs(testLanguage);
 	}
 	
-	private void incrementTimesTestedForAllVocabs(int testLanguage) {
+	private void incrementTimesTestedForAllVocabs(SupportedLanguage testLanguage) {
 		for(Vocab vocab : vocabList) {
 			vocab.incrementTimesTested(testLanguage);
 		}
 	}
 	
-	public void setCorrect(int index, int testedLanguage) {
+	public void setCorrect(int index, SupportedLanguage testedLanguage) {
 		vocabList.get(index).incrementTimesCorrect(testedLanguage);
 	}
 	
@@ -98,9 +97,12 @@ public class VocabList implements Serializable, Iterable<Vocab> {
 		return listName;
 	}
 
-	public Collection<? extends Vocab> getAllTestedVocabsWithOneMistake(int language) {
+	public Collection<? extends Vocab> getAllTestedVocabsWithOneMistake(SupportedLanguage language) {
 		ArrayList<Vocab> testedVocab = new ArrayList<Vocab>();
 		for (Vocab vocab : vocabList) {
+			if (vocab.getTranslation(language) == null) {
+				continue;
+			}
 			int timesTested = vocab.getTimesTested(language);
 			int timesCorrect = vocab.getTimesCorrect(language);
 			if (timesTested > 0 && timesCorrect < timesTested) {
@@ -128,7 +130,7 @@ public class VocabList implements Serializable, Iterable<Vocab> {
 		return results;
 	}
 	
-	public int getMinimumTimesTested(int language) {
+	public int getMinimumTimesTested(SupportedLanguage language) {
 		int minimum = Integer.MAX_VALUE;
 		for (Vocab vocab : vocabList) {
 			if (vocab.getTimesTested(language) < minimum) {

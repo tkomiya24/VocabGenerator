@@ -5,6 +5,7 @@ import javax.swing.event.TableModelListener;
 import javax.swing.table.AbstractTableModel;
 
 import com.tkomiya.models.Vocab;
+import com.tkomiya.models.Vocab.SupportedLanguage;
 import com.tkomiya.models.VocabList;
 
 public class VocabListTableModel extends AbstractTableModel {
@@ -23,7 +24,7 @@ public class VocabListTableModel extends AbstractTableModel {
 	@Override
 	public String getColumnName(int column) {
 		if (column % 2 == 0) {
-			return Vocab.SUPPORTED_LANGUAGES[column/2];
+			return SupportedLanguage.values()[column/2].toString();
 		} else {
 			return "Score";
 		}
@@ -31,7 +32,7 @@ public class VocabListTableModel extends AbstractTableModel {
 	
 	@Override
 	public int getColumnCount() {
-		return Vocab.VOCAB_SUPPORT_SIZE * 2;
+		return SupportedLanguage.values().length * 2;
 	}
 
 	@Override
@@ -44,7 +45,7 @@ public class VocabListTableModel extends AbstractTableModel {
 		if (row >= vocabList.size()) {
 			return null;
 		}		
-		int lang = column/2;
+		SupportedLanguage lang = getLanguageFromColumn(column);
 		Vocab vocab = vocabList.get(row);
 		if (vocab.getTranslation(lang) == null) {
 			return null;
@@ -58,6 +59,10 @@ public class VocabListTableModel extends AbstractTableModel {
 		}
 	}
 	
+	private SupportedLanguage getLanguageFromColumn(int column) {
+		return SupportedLanguage.values()[column/2];
+	}
+	
 	public void setVocabList(VocabList list){
 		vocabList = list;
 		fireTableDataChanged();
@@ -65,7 +70,7 @@ public class VocabListTableModel extends AbstractTableModel {
 
 	@Override
 	public boolean isCellEditable(int rowIndex, int columnIndex) {
-		if (columnIndex / 2 < Vocab.VOCAB_SUPPORT_SIZE && rowIndex < vocabList.size() && columnIndex % 2 == 0) {
+		if (columnIndex / 2 < SupportedLanguage.size() && rowIndex < vocabList.size() && columnIndex % 2 == 0) {
 			return true;
 		} else {
 			return false;
@@ -75,7 +80,7 @@ public class VocabListTableModel extends AbstractTableModel {
 	@Override
 	public void setValueAt(Object aValue, int rowIndex, int columnIndex) {
 		Vocab editedVocab = vocabList.get(rowIndex);
-		int language = columnIndex / 2;
+		SupportedLanguage language = getLanguageFromColumn(columnIndex);
 		if (editedVocab.getTranslation(language) == null) {
 			editedVocab.addLanguage(language, (String) aValue);
 		} else {

@@ -16,7 +16,6 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 import javax.swing.JButton;
@@ -31,13 +30,12 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 import com.tkomiya.exceptions.ListLengthsDoNotMatchException;
 import com.tkomiya.infrastructure.ComparatorSortedList;
 import com.tkomiya.infrastructure.FileUtilities;
-import com.tkomiya.infrastructure.MostMistakenDescendingVocabComparator;
 import com.tkomiya.infrastructure.NaturalOrderComparator;
 import com.tkomiya.models.Vocab;
+import com.tkomiya.models.Vocab.SupportedLanguage;
 import com.tkomiya.models.VocabList;
 import com.tkomiya.models.utils.VocabListUtils;
 import com.tkomiya.views.TypedTest;
-import com.tkomiya.views.WrittenTest;
 import com.tkomiya.vocablistproviders.JsonFileVocabListProvider;
 import com.tkomiya.vocablistproviders.MultipleTextFileVocabListProvider;
 import com.tkomiya.vocablistproviders.SerializedFileVocabListProvider;
@@ -55,10 +53,9 @@ public class MainController {
 	private static final String DEFAULT_SAVE_DIRECTORY = DEFAULT_DIRECTORY + "backup/";
 	private MainView mainView;
 	
-	private static final int PRIMARY_LANGUAGE = Vocab.ENGLISH;
+	private static final SupportedLanguage PRIMARY_LANGUAGE = SupportedLanguage.ENGLISH;
 	public static final String VOCAB_LIST_FILE_EXTENSION = "voc";
 	public static final String TEXT_FILE_EXTENSION = "txt";
-	public static final int TESTING_LANGUAGE = Vocab.KOREAN;
 	public static final String BACKUP_FILE_EXTENSION = "json";
 
 	//Button and MeniItem names.
@@ -102,21 +99,6 @@ public class MainController {
 	private VocabList loadVocabListFromTextFile(File file) throws Exception {
 		return backupFileVlistProvider.getVocabListFromFile(file);
 	}
-	
-	@SuppressWarnings("unchecked")
-	private List<Vocab> findMostMistakenVocabs(int language) {
-		List<Vocab> allVocabsTestedAtLeastOnce = getAllVocabsMistakenAtLeastOnce(language);
-		Collections.sort(allVocabsTestedAtLeastOnce, new MostMistakenDescendingVocabComparator(language));
-		return allVocabsTestedAtLeastOnce;
-	}
-	
-	private List<Vocab> getAllVocabsMistakenAtLeastOnce(int language) {
-		ArrayList<Vocab> vocabs = new ArrayList<Vocab>();
-		for (VocabList vocabList : vocabLists) {
-			vocabs.addAll(vocabList.getAllTestedVocabsWithOneMistake(language));
-		}
-		return vocabs;
-	}	
 	
 	private VocabList reconstructVocabFile(File file) throws Exception {	
 		return separateFileVlistGetter.getVocabListFromFile(file);
@@ -208,29 +190,15 @@ public class MainController {
 		}
 	}
 
-	public void commonMistakeTest() {
-		boolean badInput = true;
-		do {
-			String response = mainView.showInputDialog("Length", "Please enter the maximum desired test length");
-			if (response == null) {
-				return;
-			} else {
-				try {
-					int testLength = Integer.parseInt(response);
-					badInput = false;
-					List<Vocab> mostMistakenVocabs = findMostMistakenVocabs(TESTING_LANGUAGE);
-					mostMistakenVocabs = mostMistakenVocabs.subList(0, testLength);
-					if (mostMistakenVocabs.size() > 0) {
-						VocabList mostMistakenVocabsVocabList = new VocabList(mostMistakenVocabs);
-						new TypedTest(mostMistakenVocabsVocabList, TESTING_LANGUAGE);
-					} else {
-						//TODO message dialog.
-					}
-				} catch(NumberFormatException e) {
-					mainView.showErrorDialog("Error with input", "Please input a number");
-				}
-			}
-		} while(badInput);
+	public void commonMistakeTest(SupportedLanguage testingLanguage, int length) {
+		List<Vocab> mostMistakenVocabs = VocabListUtils.findMostMistakenVocabs(vocabLists, testingLanguage);
+		mostMistakenVocabs = mostMistakenVocabs.subList(0, length);
+		if (mostMistakenVocabs.size() > 0) {
+			VocabList mostMistakenVocabsVocabList = new VocabList(mostMistakenVocabs);
+			new TypedTest(mostMistakenVocabsVocabList, testingLanguage);
+		} else {
+			//TODO message dialog.
+		}
 	}
 
 	public void openMenuItemAction() {
@@ -305,28 +273,16 @@ public class MainController {
 		}
 	}
 	
-	public void startTestMenuItemAction() {
+	public void startTestMenuItemAction(SupportedLanguage language) {
 		if (mainView.getCurrentlySelectedVocabList() == null) {
 			reportNoVocabListSelectedError();
-		} else {
-			Object[] options = {Vocab.SUPPORTED_LANGUAGES[1], Vocab.SUPPORTED_LANGUAGES[2]};
-			int languageToTest = mainView.showOptionDialog("Which language would you like to test?", "Please enter option", options, Vocab.KOREAN);
-			if (languageToTest != JOptionPane.CANCEL_OPTION) {
-				new TypedTest(mainView.getCurrentlySelectedVocabList(), languageToTest + 1); //TODO make this more elegent
-			}
-		}
+		} 
+		new TypedTest(mainView.getCurrentlySelectedVocabList(), language);
+
 	}
 	
 	private void reportNoVocabListSelectedError() {
 		mainView.showErrorDialog("No vocablist selected", "Please select a vocablist first.");
-	}
-	
-	public void startWrittenTestMenuItemAction() {
-		if (mainView.getCurrentlySelectedVocabList() == null) {
-			reportNoVocabListSelectedError();
-		} else {
-			new WrittenTest(mainView.getCurrentlySelectedVocabList(), TESTING_LANGUAGE);
-		}
 	}
 	
 	public void loadMenuItemAction() {
@@ -388,9 +344,9 @@ public class MainController {
 		mainView.updateVocabListTable();
 	}
 
-	public void leastTestedTest() {
-		VocabList testingList = VocabListUtils.getLeastTestedVocabList(vocabLists, TESTING_LANGUAGE);
-		new TypedTest(testingList, TESTING_LANGUAGE);
+	public void leastTestedTest(SupportedLanguage language) {
+		VocabList testingList = VocabListUtils.getLeastTestedVocabList(vocabLists, language);
+		new TypedTest(testingList, language);
 	}
 	
 	private void addNewVocabList(VocabList vocabList) {

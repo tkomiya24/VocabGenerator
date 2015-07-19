@@ -7,6 +7,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.tkomiya.models.Vocab;
+import com.tkomiya.models.Vocab.SupportedLanguage;
 import com.tkomiya.models.VocabList;
 import com.tkomiya.models.VocabListBuilder;
 
@@ -35,9 +36,9 @@ public class VocabListTest {
 		koreanWords.add("수요일");
 		
 		VocabListBuilder vlb = new VocabListBuilder();
-		vlb.setPrimaryLanguage(Vocab.ENGLISH, englishWords);
-		vlb.addLanguage(Vocab.JAPANESE, japaneseWords);
-		vlb.addLanguage(Vocab.KOREAN, koreanWords);
+		vlb.setPrimaryLanguage(SupportedLanguage.ENGLISH, englishWords);
+		vlb.addLanguage(SupportedLanguage.JAPANESE, japaneseWords);
+		vlb.addLanguage(SupportedLanguage.KOREAN, koreanWords);
 		try {
 			list = vlb.build();
 		} catch (Exception e) {
@@ -49,10 +50,10 @@ public class VocabListTest {
 	public void testBuilder() {
 		
 		//Arrange
-		Vocab vocab = new Vocab(Vocab.ENGLISH);
-		vocab.addLanguage(Vocab.ENGLISH, "Thursday");
-		vocab.addLanguage(Vocab.JAPANESE, "木曜日");
-		vocab.addLanguage(Vocab.KOREAN, "목요일");
+		Vocab vocab = new Vocab(SupportedLanguage.ENGLISH);
+		vocab.addLanguage(SupportedLanguage.ENGLISH, "Thursday");
+		vocab.addLanguage(SupportedLanguage.JAPANESE, "木曜日");
+		vocab.addLanguage(SupportedLanguage.KOREAN, "목요일");
 		
 		//act
 		list.addVocab(vocab);

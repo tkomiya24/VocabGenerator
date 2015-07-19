@@ -18,6 +18,7 @@ import com.tkomiya.infrastructure.FileUtilities;
 import com.tkomiya.models.Vocab;
 import com.tkomiya.models.VocabList;
 import com.tkomiya.models.VocabListBuilder;
+import com.tkomiya.models.Vocab.SupportedLanguage;
 
 public class TextFileVocabListProvider implements VocabListProvider {
 
@@ -38,13 +39,13 @@ public class TextFileVocabListProvider implements VocabListProvider {
 			scores.add(next);
 		}
 		VocabListBuilder vocabListBuilder = new VocabListBuilder();
-		vocabListBuilder.setPrimaryLanguage(Vocab.ENGLISH, englishWords);
-		vocabListBuilder.addLanguage(Vocab.KOREAN, koreanWords);
+		vocabListBuilder.setPrimaryLanguage(SupportedLanguage.ENGLISH, englishWords);
+		vocabListBuilder.addLanguage(SupportedLanguage.KOREAN, koreanWords);
 		VocabList vocabList = vocabListBuilder.build();
 		vocabList.setName(FileUtilities.getFileNameWithNoExtension(file));
 		for (int i = 0; i < vocabList.size(); i++) {
 			Vocab vocab = vocabList.get(i);
-			vocab.setScore(Vocab.KOREAN, getTimesTested(scores.get(i)), getTimesCorrect(scores.get(i)));
+			vocab.setScore(SupportedLanguage.KOREAN, getTimesTested(scores.get(i)), getTimesCorrect(scores.get(i)));
 		}
 		return vocabList;
 	}
@@ -62,14 +63,14 @@ public class TextFileVocabListProvider implements VocabListProvider {
 	@Override
 	public void saveVocabList(VocabList vocabList, File file) throws FileNotFoundException, IOException {
 		BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file), Charset.forName("UTF-8").newEncoder()));
-		int lang = Vocab.ENGLISH;
+		SupportedLanguage lang = SupportedLanguage.ENGLISH;
 		for (int i = 0; i < vocabList.size(); i++) {
 			Vocab vocab = vocabList.get(i);
 			writer.write(vocab.getTranslation(lang));
 			writer.newLine();
 		}
 		writer.newLine();
-		lang = Vocab.KOREAN;
+		lang = SupportedLanguage.KOREAN;
 		for (int i = 0; i < vocabList.size(); i++) {
 			Vocab vocab = vocabList.get(i);
 			writer.write(vocab.getTranslation(lang));
