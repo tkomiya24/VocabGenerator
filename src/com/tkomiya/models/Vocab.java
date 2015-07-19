@@ -11,35 +11,33 @@ public class Vocab implements Serializable{
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private HashMap<Integer, String> vocab;
+	private HashMap<SupportedLanguage, String> vocab;
 	private int primaryLanguage;
-	private HashMap<Integer, Integer> timesTested;
-	private HashMap<Integer, Integer> timesCorrect;
-	public static final int ENGLISH = 0;
-	public static final int KOREAN = 1;
-	public static final int JAPANESE = 2;
-	public static final int VOCAB_SUPPORT_SIZE = 3;
-	public static final String[] SUPPORTED_LANGUAGES = {"English", "Korean", "Japanese"};
-	public static final int[] SUPPORTED_LANGUAGES_INTS = {0, 1, 2};
+	private HashMap<SupportedLanguage, Integer> timesTested;
+	private HashMap<SupportedLanguage, Integer> timesCorrect;
 	
-	public Vocab(int primaryLanguage) {
-		vocab = new HashMap<Integer, String>();
-		this.primaryLanguage = primaryLanguage;
-		timesTested = new HashMap<Integer, Integer>();
-		timesCorrect = new HashMap<Integer, Integer>();
+	public static enum SupportedLanguage {
+		ENGLISH, KOREAN, JAPANESE
 	}
 	
-	public void addLanguage(int language, String definitions) {
+	public Vocab(int primaryLanguage) {
+		vocab = new HashMap<SupportedLanguage, String>();
+		this.primaryLanguage = primaryLanguage;
+		timesTested = new HashMap<SupportedLanguage, Integer>();
+		timesCorrect = new HashMap<SupportedLanguage, Integer>();
+	}
+	
+	public void addLanguage(SupportedLanguage language, String definitions) {
 		vocab.put(language, definitions);
 		timesTested.put(language, 0);
 		timesCorrect.put(language, 0);
 	}
 	
-	public String getTranslation(int language) {
+	public String getTranslation(SupportedLanguage language) {
 		return vocab.get(language);
 	}
 
-	public void editTranslation(int language, String definition) {
+	public void editTranslation(SupportedLanguage language, String definition) {
 		if (vocab.containsKey(language)) {
 			vocab.put(language, definition);
 		}
@@ -60,25 +58,25 @@ public class Vocab implements Serializable{
 		return this.primaryLanguage;
 	}
 
-	public void incrementTimesTested(int language) {
+	public void incrementTimesTested(SupportedLanguage language) {
 		int timesTestedForThisLanguage = timesTested.get(language);
 		timesTested.put(language, ++timesTestedForThisLanguage);
 	}
 	
-	public void incrementTimesCorrect(int language) {
+	public void incrementTimesCorrect(SupportedLanguage language) {
 		int timesCorrectForThisLanguage = timesCorrect.get(language);
 		timesCorrect.put(language, ++timesCorrectForThisLanguage);
 	}
 
-	public int getTimesTested(int language) {
+	public int getTimesTested(SupportedLanguage language) {
 		return timesTested.get(language);
 	}
 	
-	public int getTimesCorrect(int language) {
+	public int getTimesCorrect(SupportedLanguage language) {
 		return timesCorrect.get(language);
 	}
 	
-	public void setScore(int language, int timesTested, int timesCorrect) {
+	public void setScore(SupportedLanguage language, int timesTested, int timesCorrect) {
 		if (this.getTranslation(language) == null) {
 			return;
 		} else {
@@ -103,7 +101,7 @@ public class Vocab implements Serializable{
 			return false;
 		}
 		Vocab other = (Vocab) obj;
-		for (int language : SUPPORTED_LANGUAGES_INTS) {
+		for (SupportedLanguage language : SupportedLanguage.values()) {
 			if (!translationEquals(other, language)) {
 				return false;
 			}
@@ -111,15 +109,14 @@ public class Vocab implements Serializable{
 		return true;
 	}
 	
-	private boolean translationEquals(Vocab other, int language) {
-		String languageString = Vocab.SUPPORTED_LANGUAGES[language];
-		boolean different = other.vocab.containsKey(languageString) 
-				^ this.vocab.containsKey(languageString);
+	private boolean translationEquals(Vocab other, SupportedLanguage language) {
+		boolean different = other.vocab.containsKey(language) 
+				^ this.vocab.containsKey(language);
 		if (different) {
 			return false;
 		}
-		boolean bothContain = other.vocab.containsKey(languageString) 
-				&& this.vocab.containsKey(languageString);
+		boolean bothContain = other.vocab.containsKey(language) 
+				&& this.vocab.containsKey(language);
 		if (!bothContain) {
 			return true;
 		}
