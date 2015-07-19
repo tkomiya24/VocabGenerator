@@ -33,6 +33,7 @@ import javax.swing.border.EtchedBorder;
 
 import com.tkomiya.infrastructure.VocabListTableModel;
 import com.tkomiya.models.Vocab;
+import com.tkomiya.models.Vocab.SupportedLanguage;
 import com.tkomiya.models.VocabList;
 
 public class MainView extends JFrame {
@@ -56,7 +57,6 @@ public class MainView extends JFrame {
 	
 	//Menu Item names
 	public static final String LOAD_MENU_ITEM_NAME = "Load a text file";
-	public static final String WRITTEN_TEST_MENU_ITEM = "Start a written test";
 	public static final String DELETE_MENU_ITEM_NAME = "Delete vocab list";
 	public static final String COMMON_MISTAKE_TEST_MENU_ITEM_NAME = "Test common mistakes";
 	public static final String SAVE_MENU_ITEM_NAME = "Save as text file";
@@ -171,7 +171,6 @@ public class MainView extends JFrame {
 	private Collection<JMenuItem> makeMenuItems() {		
 		makeMenuItem(OPEN_MENU_ITEM_NAME);
 		makeMenuItem(START_TEST_MENU_ITEM_NAME);
-		makeMenuItem(WRITTEN_TEST_MENU_ITEM);
 		makeMenuItem(COMMON_MISTAKE_TEST_MENU_ITEM_NAME);
 		makeMenuItem(LEAST_TESTED_VOCABLIST_MENU_ITEM_NAME);
 		makeMenuItem(SAVE_MENU_ITEM_NAME);
@@ -304,9 +303,16 @@ public class MainView extends JFrame {
 		textArea.setEditable(false);
 	}
 	
-	private int getTestingLanguageFromUser() {
-		Object[] options = {Vocab.SUPPORTED_LANGUAGES[1], Vocab.SUPPORTED_LANGUAGES[2]};
-		return showOptionDialog("Which language would you like to test?", "Please enter option", options, Vocab.KOREAN);
+	private SupportedLanguage getTestingLanguageFromUser() {
+		ArrayList<SupportedLanguage> optionList = new ArrayList<Vocab.SupportedLanguage>();
+		for (SupportedLanguage language : SupportedLanguage.values()) {
+			if (language != SupportedLanguage.ENGLISH) {
+				optionList.add(language);
+			}
+		}
+		Object[] options = optionList.toArray();
+		int selectedIndex = showOptionDialog("Which language would you like to test?", "Please enter option", options, 0);
+		return (SupportedLanguage) options[selectedIndex];
 	}
 	
 	private int getTestLengthFromUser() {
@@ -341,9 +347,7 @@ public class MainView extends JFrame {
 			if (sourceName.equals(OPEN_MENU_ITEM_NAME)) {
 				mainController.openMenuItemAction();
 			} else if (sourceName.equals(START_TEST_MENU_ITEM_NAME)) {
-				mainController.startTestMenuItemAction();
-			} else if (sourceName.equals(WRITTEN_TEST_MENU_ITEM)) {
-				mainController.startWrittenTestMenuItemAction();
+				mainController.startTestMenuItemAction(getTestingLanguageFromUser());
 			} else if (sourceName.equals(COMMON_MISTAKE_TEST_MENU_ITEM_NAME)) {
 				mainController.commonMistakeTest(getTestingLanguageFromUser(), getTestLengthFromUser());
 			} else if (sourceName.equals(SAVE_MENU_ITEM_NAME)) {
@@ -359,7 +363,7 @@ public class MainView extends JFrame {
 			} else if (sourceName.equals(DELETE_VOCAB_MENU_ITEM_NAME)) {
 				mainController.deleteVocabMenuItemAction(vocabTable.getSelectedRow());
 			} else if (sourceName.equals(LEAST_TESTED_VOCABLIST_MENU_ITEM_NAME)) {
-				mainController.leastTestedTest();
+				mainController.leastTestedTest(getTestingLanguageFromUser());
 			}
 		}
 	}
