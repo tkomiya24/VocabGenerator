@@ -18,6 +18,7 @@ import javax.swing.JTextField;
 import javax.swing.border.Border;
 
 import com.tkomiya.models.Vocab;
+import com.tkomiya.models.Vocab.SupportedLanguage;
 import com.tkomiya.models.VocabList;
 
 public class TypedTest extends JFrame{
@@ -29,7 +30,7 @@ public class TypedTest extends JFrame{
 	private VocabList vList;
 	private List<Vocab> incorrectlyAnsweredVocabList;
 	private VocabList retestVocabList;
-	private int languageTested;
+	private SupportedLanguage languageTested;
 	private static final int TEXTFIELD_SIZE = 10;
 	private List<JTextField> fields; 
 	private Border defaultBorder;
@@ -43,7 +44,7 @@ public class TypedTest extends JFrame{
 	private static final String RETEST_INCORRECT_BUTTON_NAME = "Retest Incorrect";
 	private boolean isRetest;
 	
-	public TypedTest(VocabList vList, int languageTested){
+	public TypedTest(VocabList vList, SupportedLanguage languageTested){
 		this.vList = new VocabList(vList);
 		this.incorrectlyAnsweredVocabList = new ArrayList<Vocab>();
 		this.languageTested = languageTested;
@@ -94,7 +95,7 @@ public class TypedTest extends JFrame{
 		JPanel testPanel = new JPanel(new GridLayout(vList.size(), 2));
 		for(int i = 0; i < vList.size(); i++){			
 			Vocab vocab = vList.get(i);
-			int primaryLang = vocab.getPrimaryLanguage();
+			SupportedLanguage primaryLang = vocab.getPrimaryLanguage();
 			String labelTitle = vocab.getTranslation(primaryLang);
 			JLabel label = new JLabel(labelTitle);
 			JTextField field = new JTextField(TEXTFIELD_SIZE);
