@@ -12,7 +12,7 @@ public class Vocab implements Serializable{
 	 */
 	private static final long serialVersionUID = 1L;
 	private HashMap<SupportedLanguage, String> vocab;
-	private int primaryLanguage;
+	private SupportedLanguage primaryLanguage;
 	private HashMap<SupportedLanguage, Integer> timesTested;
 	private HashMap<SupportedLanguage, Integer> timesCorrect;
 	
@@ -20,9 +20,9 @@ public class Vocab implements Serializable{
 		ENGLISH, KOREAN, JAPANESE
 	}
 	
-	public Vocab(int primaryLanguage) {
+	public Vocab(SupportedLanguage primaryLanguage2) {
 		vocab = new HashMap<SupportedLanguage, String>();
-		this.primaryLanguage = primaryLanguage;
+		this.primaryLanguage = primaryLanguage2;
 		timesTested = new HashMap<SupportedLanguage, Integer>();
 		timesCorrect = new HashMap<SupportedLanguage, Integer>();
 	}
@@ -54,7 +54,7 @@ public class Vocab implements Serializable{
 		return false;
 	}
 
-	public int getPrimaryLanguage() {
+	public SupportedLanguage getPrimaryLanguage() {
 		return this.primaryLanguage;
 	}
 
