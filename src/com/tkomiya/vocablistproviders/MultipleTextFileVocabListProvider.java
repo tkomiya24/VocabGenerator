@@ -11,6 +11,7 @@ import com.tkomiya.infrastructure.FileUtilities;
 import com.tkomiya.listgetter.ListStringGetter;
 import com.tkomiya.listgetter.NewlineSeparatedTextfileStringListGetter;
 import com.tkomiya.models.Vocab;
+import com.tkomiya.models.Vocab.SupportedLanguage;
 import com.tkomiya.models.VocabList;
 import com.tkomiya.models.VocabListBuilder;
 
@@ -29,7 +30,7 @@ public class MultipleTextFileVocabListProvider implements VocabListProvider {
 		List<String> englishList;
 		englishList = getEnglishList(fileName, filePath);
 		VocabListBuilder vlb = new VocabListBuilder();
-		vlb.setPrimaryLanguage(Vocab.ENGLISH, englishList);
+		vlb.setPrimaryLanguage(SupportedLanguage.ENGLISH, englishList);
 		vlb.setName(FileUtilities.getFileNameWithNoExtension(file));
 		List<String> koreanList;
 		try {
@@ -37,7 +38,7 @@ public class MultipleTextFileVocabListProvider implements VocabListProvider {
 			if (koreanList.size() != englishList.size()) {
 				throw new ListLengthsDoNotMatchException();
 			}
-			vlb.addLanguage(Vocab.KOREAN, koreanList);
+			vlb.addLanguage(SupportedLanguage.KOREAN, koreanList);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -51,7 +52,7 @@ public class MultipleTextFileVocabListProvider implements VocabListProvider {
 			if (japaneseList.size() != englishList.size()) {
 				throw new ListLengthsDoNotMatchException();
 			}
-			vlb.addLanguage(Vocab.JAPANESE, japaneseList);
+			vlb.addLanguage(SupportedLanguage.JAPANESE, japaneseList);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
