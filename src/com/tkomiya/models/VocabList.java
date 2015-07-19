@@ -101,6 +101,9 @@ public class VocabList implements Serializable, Iterable<Vocab> {
 	public Collection<? extends Vocab> getAllTestedVocabsWithOneMistake(int language) {
 		ArrayList<Vocab> testedVocab = new ArrayList<Vocab>();
 		for (Vocab vocab : vocabList) {
+			if (vocab.getTranslation(language) == null) {
+				continue;
+			}
 			int timesTested = vocab.getTimesTested(language);
 			int timesCorrect = vocab.getTimesCorrect(language);
 			if (timesTested > 0 && timesCorrect < timesTested) {
