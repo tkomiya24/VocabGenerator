@@ -17,18 +17,17 @@ public class Vocab implements Serializable{
 	private HashMap<SupportedLanguage, Integer> timesCorrect;
 	
 	public static enum SupportedLanguage {
-		ENGLISH, KOREAN, JAPANESE;
+		ENGLISH("English"), KOREAN("Korean"), JAPANESE("Japanese");
+		
+		private String name;
+		
+		private SupportedLanguage(String name) {
+			this.name = name;
+		}
 		
 		@Override
 		public String toString() {
-			return capitalize(this);
-		}
-		
-		private String capitalize(SupportedLanguage supportedLanguage) {
-			String language = supportedLanguage.toString();
-			String firstLetter = language.substring(0, 1);
-			String remainingLetters = language.substring(1, language.length()).toLowerCase();
-			return firstLetter + remainingLetters;
+			return name;
 		}
 		
 		public static int size() {
