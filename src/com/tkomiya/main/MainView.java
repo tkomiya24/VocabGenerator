@@ -160,9 +160,6 @@ public class MainView extends JFrame {
 	}
 	
 	private void makeButtonPanel() {		
-		makeButtonAndAddItToButtonPanel("Next");
-		makeButtonAndAddItToButtonPanel("Previous");
-		makeButtonAndAddItToButtonPanel("show");
 		makeButtonAndAddItToButtonPanel(MainController.ADD_BUTTON_NAME);
 	}
 	
