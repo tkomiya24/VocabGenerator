@@ -14,6 +14,7 @@ public class VocabList implements Serializable, Iterable<Vocab> {
 	private static final long serialVersionUID = 7788088203628363163L;
 	private String listName;
 	private List<Vocab> vocabList;
+	private Integer chapter;
 	
 	public VocabList(List<Vocab> vocab){
 		this.vocabList = vocab;
@@ -36,6 +37,14 @@ public class VocabList implements Serializable, Iterable<Vocab> {
 
 	public void setName(String listName){
 		this.listName = listName;
+	}
+	
+	public void setChapter(int chapter) {
+		this.chapter = chapter;
+	}
+	
+	public Integer getChapter() {
+		return chapter;
 	}
 	
 	public String getName(){

@@ -1,4 +1,4 @@
-package com.tkomiya.tests;
+package com.tkomiya.testutils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,6 +16,7 @@ public class TestVocabListLoader {
 		vocabs.add(wednesday());
 		VocabList vlist = new VocabList(vocabs);
 		vlist.setName("Days of the Week");
+		vlist.setChapter(22);
 		return vlist; 
 	}
 	
@@ -35,9 +36,9 @@ public class TestVocabListLoader {
 		tuesday.addLanguage(SupportedLanguage.ENGLISH, "Tuesday");
 		tuesday.addLanguage(SupportedLanguage.KOREAN, "화요일");
 		tuesday.addLanguage(SupportedLanguage.JAPANESE, "火曜日");
-		tuesday.setScore(SupportedLanguage.ENGLISH, 4, 5);
-		tuesday.setScore(SupportedLanguage.KOREAN, 6, 14);
-		tuesday.setScore(SupportedLanguage.JAPANESE, 1, 7);
+		tuesday.setScore(SupportedLanguage.ENGLISH, 5, 4);
+		tuesday.setScore(SupportedLanguage.KOREAN, 14, 6);
+		tuesday.setScore(SupportedLanguage.JAPANESE, 7, 1);
 		return tuesday;
 	}
 	
@@ -47,8 +48,8 @@ public class TestVocabListLoader {
 		wednesday.addLanguage(SupportedLanguage.KOREAN, "수요일");
 		wednesday.addLanguage(SupportedLanguage.JAPANESE, "水曜日");
 		wednesday.setScore(SupportedLanguage.ENGLISH, 0, 0);
-		wednesday.setScore(SupportedLanguage.KOREAN, 1, 7);
-		wednesday.setScore(SupportedLanguage.JAPANESE, 9, 15);
+		wednesday.setScore(SupportedLanguage.KOREAN, 7, 1);
+		wednesday.setScore(SupportedLanguage.JAPANESE, 15, 9);
 		return wednesday;
 	}
 	
