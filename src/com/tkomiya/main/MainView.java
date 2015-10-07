@@ -56,10 +56,8 @@ public class MainView extends JFrame {
 	private MainController mainController;
 	
 	//Menu Item names
-	public static final String LOAD_MENU_ITEM_NAME = "Load a text file";
 	public static final String DELETE_MENU_ITEM_NAME = "Delete vocab list";
 	public static final String COMMON_MISTAKE_TEST_MENU_ITEM_NAME = "Test common mistakes";
-	public static final String SAVE_MENU_ITEM_NAME = "Save as text file";
 	public static final String BACKUP_ALL_MENU_ITEM_NAME = "Back up all vocablists as text files";
 	public static final String LOAD_ALL_MENU_ITEM_NAME = "Load all backup text files";
 	public static final String OPEN_MENU_ITEM_NAME = "Open";
@@ -173,8 +171,6 @@ public class MainView extends JFrame {
 		makeMenuItem(START_TEST_MENU_ITEM_NAME);
 		makeMenuItem(COMMON_MISTAKE_TEST_MENU_ITEM_NAME);
 		makeMenuItem(LEAST_TESTED_VOCABLIST_MENU_ITEM_NAME);
-		makeMenuItem(SAVE_MENU_ITEM_NAME);
-		makeMenuItem(LOAD_MENU_ITEM_NAME);
 		makeMenuItem(BACKUP_ALL_MENU_ITEM_NAME);
 		makeMenuItem(LOAD_ALL_MENU_ITEM_NAME);	
 		return menuItems;
@@ -350,10 +346,6 @@ public class MainView extends JFrame {
 				mainController.startTestMenuItemAction(getTestingLanguageFromUser());
 			} else if (sourceName.equals(COMMON_MISTAKE_TEST_MENU_ITEM_NAME)) {
 				mainController.commonMistakeTest(getTestingLanguageFromUser(), getTestLengthFromUser());
-			} else if (sourceName.equals(SAVE_MENU_ITEM_NAME)) {
-				mainController.backUpMenuItemAction();
-			} else if (sourceName.equals(LOAD_MENU_ITEM_NAME)) {
-				mainController.loadMenuItemAction();
 			} else if (sourceName.equals(BACKUP_ALL_MENU_ITEM_NAME)) {
 				mainController.backupAllMenuItemAction();
 			} else if (sourceName.equals(LOAD_ALL_MENU_ITEM_NAME)) {

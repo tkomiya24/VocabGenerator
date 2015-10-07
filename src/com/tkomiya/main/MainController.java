@@ -252,27 +252,6 @@ public class MainController {
 		return response == JOptionPane.YES_OPTION;
 	}
 	
-	public void backUpMenuItemAction() {
-		VocabList vocabList = mainView.getCurrentlySelectedVocabList();
-		if (vocabList == null) {
-			reportNoVocabListSelectedError();
-		}
-		JFileChooser fileChooser = new JFileChooser(DEFAULT_SAVE_DIRECTORY);
-		fileChooser.setFileFilter(new FileNameExtensionFilter("Text Files", BACKUP_FILE_EXTENSION));
-		File suggestedSaveFile = new File(DEFAULT_SAVE_DIRECTORY + vocabList.getName() + "." + BACKUP_FILE_EXTENSION);
-		fileChooser.setSelectedFile(suggestedSaveFile);
-		int val = fileChooser.showSaveDialog(mainView);
-		if (val == JFileChooser.APPROVE_OPTION) {
-			File file = fileChooser.getSelectedFile();
-			if (file.exists()) {
-				int response = mainView.showConfirmationDialog("File exists", "This file already exists. Proceed and overwrite?");
-				if (response == JOptionPane.YES_OPTION) {
-					saveVocabListAsTextFile(vocabList, file);
-				}
-			}
-		}
-	}
-	
 	public void startTestMenuItemAction(SupportedLanguage language) {
 		if (mainView.getCurrentlySelectedVocabList() == null) {
 			reportNoVocabListSelectedError();
@@ -283,21 +262,6 @@ public class MainController {
 	
 	private void reportNoVocabListSelectedError() {
 		mainView.showErrorDialog("No vocablist selected", "Please select a vocablist first.");
-	}
-	
-	public void loadMenuItemAction() {
-		JFileChooser fileChooser = new JFileChooser(DEFAULT_SAVE_DIRECTORY);
-		fileChooser.setFileFilter(new FileNameExtensionFilter("Text files", TEXT_FILE_EXTENSION));
-		int val = fileChooser.showOpenDialog(mainView);
-		if (val == JFileChooser.APPROVE_OPTION) {
-			File file = fileChooser.getSelectedFile();
-			try {
-				VocabList newVocabList = loadVocabListFromTextFile(file);
-			} catch (Exception e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}
 	}
 
 	public void loadAllMenuItemAction() {
