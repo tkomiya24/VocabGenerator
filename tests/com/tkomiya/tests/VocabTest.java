@@ -5,6 +5,7 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 
 import com.tkomiya.models.Vocab;
+import com.tkomiya.testutils.TestVocabListLoader;
 
 public class VocabTest {
 

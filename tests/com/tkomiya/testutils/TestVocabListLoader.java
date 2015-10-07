@@ -1,4 +1,4 @@
-package com.tkomiya.tests;
+package com.tkomiya.testutils;
 
 import java.util.ArrayList;
 import java.util.List;

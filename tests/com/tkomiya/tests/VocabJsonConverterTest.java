@@ -13,6 +13,7 @@ import com.tkomiya.infrastructure.FileUtilities;
 import com.tkomiya.infrastructure.VocabJsonConverter;
 import com.tkomiya.models.Vocab;
 import com.tkomiya.testutils.Constants;
+import com.tkomiya.testutils.TestVocabListLoader;
 
 public class VocabJsonConverterTest {
 
