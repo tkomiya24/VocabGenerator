@@ -1,5 +1,7 @@
 package com.tkomiya.tests;
 
+import static org.junit.Assert.*;
+
 import java.io.FileNotFoundException;
 import java.io.UnsupportedEncodingException;
 
@@ -22,7 +24,7 @@ public class VocabJsonConverterTest {
 		//Act
 		Vocab vocab = VocabJsonConverter.convertToVocab(jsonVocab);
 		//Assert
-		assert(vocab.equals(TestVocabListLoader.wednesday()));
+		assertEquals("The JSON read should be equal to the Wednesday Vocab object", TestVocabListLoader.wednesday(), vocab);
 	}
 
 	@Test
@@ -32,7 +34,7 @@ public class VocabJsonConverterTest {
 		//Act
 		JSONObject actualJson = VocabJsonConverter.convertToJson(wednesday);
 		//Assert
-		assert(wednesday.equals(testReadArrange()));
+		assertEquals("The vocab read should be equal to the Wednesday JSON", testReadArrange(), actualJson);
 	}
 	
 	private JSONObject testReadArrange() throws UnsupportedEncodingException,

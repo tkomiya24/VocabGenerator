@@ -47,8 +47,8 @@ public class TestVocabListLoader {
 		wednesday.addLanguage(SupportedLanguage.KOREAN, "수요일");
 		wednesday.addLanguage(SupportedLanguage.JAPANESE, "水曜日");
 		wednesday.setScore(SupportedLanguage.ENGLISH, 0, 0);
-		wednesday.setScore(SupportedLanguage.KOREAN, 1, 7);
-		wednesday.setScore(SupportedLanguage.JAPANESE, 9, 15);
+		wednesday.setScore(SupportedLanguage.KOREAN, 7, 1);
+		wednesday.setScore(SupportedLanguage.JAPANESE, 15, 9);
 		return wednesday;
 	}
 	

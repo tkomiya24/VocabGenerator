@@ -1,6 +1,6 @@
 package com.tkomiya.tests;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 import org.junit.Test;
 
@@ -18,6 +18,7 @@ public class VocabTest {
 		
 		//Assert
 		assertTrue(monday.equals(monday));
+		assertEquals(monday, monday);
 		assertTrue(monday.equals(monday2));
 		assertTrue(!monday.equals(null));
 		assertTrue(!monday.equals(tuesday));
