@@ -1,7 +1,5 @@
 package com.tkomiya.tests;
 
-import static org.junit.Assert.assertEquals;
-
 import java.io.FileNotFoundException;
 import java.io.UnsupportedEncodingException;
 
