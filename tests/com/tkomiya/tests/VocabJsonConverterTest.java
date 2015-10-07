@@ -24,7 +24,7 @@ public class VocabJsonConverterTest {
 		//Act
 		Vocab vocab = VocabJsonConverter.convertToVocab(jsonVocab);
 		//Assert
-		assertEquals(vocab, TestVocabListLoader.wednesday());
+		assert(vocab.equals(TestVocabListLoader.wednesday()));
 	}
 
 	@Test
@@ -33,9 +33,8 @@ public class VocabJsonConverterTest {
 		Vocab wednesday = TestVocabListLoader.wednesday();
 		//Act
 		JSONObject actualJson = VocabJsonConverter.convertToJson(wednesday);
-		Vocab wednesdayReread = VocabJsonConverter.convertToVocab(actualJson);
 		//Assert
-		assertEquals(wednesday, wednesdayReread);
+		assert(wednesday.equals(testReadArrange()));
 	}
 	
 	private JSONObject testReadArrange() throws UnsupportedEncodingException,
