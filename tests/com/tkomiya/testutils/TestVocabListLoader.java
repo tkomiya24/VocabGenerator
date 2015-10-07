@@ -16,6 +16,7 @@ public class TestVocabListLoader {
 		vocabs.add(wednesday());
 		VocabList vlist = new VocabList(vocabs);
 		vlist.setName("Days of the Week");
+		vlist.setChapter(22);
 		return vlist; 
 	}
 	
@@ -35,9 +36,9 @@ public class TestVocabListLoader {
 		tuesday.addLanguage(SupportedLanguage.ENGLISH, "Tuesday");
 		tuesday.addLanguage(SupportedLanguage.KOREAN, "화요일");
 		tuesday.addLanguage(SupportedLanguage.JAPANESE, "火曜日");
-		tuesday.setScore(SupportedLanguage.ENGLISH, 4, 5);
-		tuesday.setScore(SupportedLanguage.KOREAN, 6, 14);
-		tuesday.setScore(SupportedLanguage.JAPANESE, 1, 7);
+		tuesday.setScore(SupportedLanguage.ENGLISH, 5, 4);
+		tuesday.setScore(SupportedLanguage.KOREAN, 14, 6);
+		tuesday.setScore(SupportedLanguage.JAPANESE, 7, 1);
 		return tuesday;
 	}
 	
