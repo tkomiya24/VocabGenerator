@@ -1,8 +1,13 @@
 package com.tkomiya.testutils;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import com.tkomiya.infrastructure.VocabJsonConverter;
 import com.tkomiya.models.Vocab;
 import com.tkomiya.models.Vocab.SupportedLanguage;
 import com.tkomiya.models.VocabList;
@@ -53,4 +58,18 @@ public class TestVocabListLoader {
 		return wednesday;
 	}
 	
+	public static String wednesdayJsonString() throws JSONException {
+		return new JSONObject().put(VocabJsonConverter.PRIMARY_LANGUAGE, Vocab.SupportedLanguage.ENGLISH).
+			put(Vocab.SupportedLanguage.KOREAN.toString(), makeTranslation("수요일", 1, 7)).
+			put(Vocab.SupportedLanguage.JAPANESE.toString(), makeTranslation("水曜日", 9, 15)).
+			put(Vocab.SupportedLanguage.ENGLISH.toString(), makeTranslation("Wednesday", 0, 0)).
+			toString();
+	}
+
+	private static JSONObject makeTranslation(String translation, int timesCorrect, int timesTested) throws JSONException {
+		return new JSONObject().
+				put(VocabJsonConverter.TRANSLATION, translation).
+				put(VocabJsonConverter.TIMES_CORRECT, timesCorrect).
+				put(VocabJsonConverter.TIMES_TESTED, timesTested);
+	}
 }

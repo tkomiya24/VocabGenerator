@@ -34,10 +34,8 @@ public class VocabListJsonConverterTest {
 	public void testMakeJson() throws UnsupportedEncodingException, FileNotFoundException, JSONException {
 		//Arrange
 		VocabList testList = TestVocabListLoader.makeTestList();
-//		JSONObject expectedJson = new JSONObject(TestUtils.readFile(JSON_FILEPATH));
 		//Act
 		JSONObject actualJson = VocabListJsonConverter.convertVocabListToJson(testList);
-		System.out.println(actualJson.toString());
 		//Assert
 		assertEquals(testList, VocabListJsonConverter.convertJsonToVocabList(actualJson));
 	}
