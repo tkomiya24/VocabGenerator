@@ -38,7 +38,7 @@ public class FileUtilitiesTest {
 	}
 	
 	@Test
-	public void testGetPathWithouFileName(){
+	public void testGetPathWithoutFileName(){
 		//Act
 		String noExtensionFilePath = FileUtilities.getFilePathWithoutFileName(noExtensionFile);
 		String extensionFilePath = FileUtilities.getFilePathWithoutFileName(extensionFile);
