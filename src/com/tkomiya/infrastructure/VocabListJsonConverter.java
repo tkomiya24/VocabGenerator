@@ -11,9 +11,9 @@ import com.tkomiya.models.VocabList;
 
 public class VocabListJsonConverter {
 
-	public static final String VOCABLIST_NAME = "Name";
-	public static final String VOCABLIST_CHAPTER = "Chapter";
-	public static final String VOCAB = "Vocab";
+	public static final String VOCABLIST_NAME = "name";
+	public static final String VOCABLIST_CHAPTER = "chapter";
+	public static final String VOCAB = "vocab";
 	
 	public static VocabList convertJsonToVocabList(JSONObject listJson) throws JSONException {
 		ArrayList<Vocab> vocabs = new ArrayList<Vocab>(); 
