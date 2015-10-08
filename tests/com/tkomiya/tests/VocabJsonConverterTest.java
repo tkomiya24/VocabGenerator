@@ -8,6 +8,7 @@ import java.io.UnsupportedEncodingException;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.junit.Test;
+import org.skyscreamer.jsonassert.JSONAssert;
 
 import com.tkomiya.infrastructure.FileUtilities;
 import com.tkomiya.infrastructure.VocabJsonConverter;
@@ -24,17 +25,17 @@ public class VocabJsonConverterTest {
 		//Act
 		Vocab vocab = VocabJsonConverter.convertToVocab(jsonVocab);
 		//Assert
-		assertEquals("The JSON read should be equal to the Wednesday Vocab object", TestVocabListLoader.wednesday(), vocab);
+		assertEquals("The JSON read should be equal to the Wednesday Vocab object", TestVocabListLoader.wednesdayVocab(), vocab);
 	}
 
 	@Test
 	public void testVocabToJson() throws UnsupportedEncodingException, FileNotFoundException, JSONException {
 		//Arrange
-		Vocab wednesday = TestVocabListLoader.wednesday();
+		Vocab wednesday = TestVocabListLoader.wednesdayVocab();
 		//Act
 		JSONObject actualJson = VocabJsonConverter.convertToJson(wednesday);
 		//Assert
-		assertEquals("The vocab read should be equal to the Wednesday JSON", testReadArrange(), actualJson);
+		JSONAssert.assertEquals(testReadArrange().toString(), actualJson, false);
 	}
 	
 	private JSONObject testReadArrange() throws UnsupportedEncodingException,

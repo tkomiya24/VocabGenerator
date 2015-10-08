@@ -11,16 +11,16 @@ public class TestVocabListLoader {
 
 	public static VocabList makeTestList() {
 		List<Vocab> vocabs = new ArrayList<Vocab>();
-		vocabs.add(monday());
-		vocabs.add(tuesday());
-		vocabs.add(wednesday());
+		vocabs.add(mondayVocab());
+		vocabs.add(tuesdayVocab());
+		vocabs.add(wednesdayVocab());
 		VocabList vlist = new VocabList(vocabs);
 		vlist.setName("Days of the Week");
 		vlist.setChapter(22);
 		return vlist; 
 	}
 	
-	public static Vocab monday() {
+	public static Vocab mondayVocab() {
 		Vocab monday = new Vocab(SupportedLanguage.ENGLISH);
 		monday.addLanguage(SupportedLanguage.ENGLISH, "Monday");
 		monday.setScore(SupportedLanguage.ENGLISH, 0, 0);
@@ -31,7 +31,7 @@ public class TestVocabListLoader {
 		return monday;
 	}
 	
-	public static Vocab tuesday() {
+	public static Vocab tuesdayVocab() {
 		Vocab tuesday = new Vocab(SupportedLanguage.ENGLISH);
 		tuesday.addLanguage(SupportedLanguage.ENGLISH, "Tuesday");
 		tuesday.addLanguage(SupportedLanguage.KOREAN, "화요일");
@@ -42,7 +42,7 @@ public class TestVocabListLoader {
 		return tuesday;
 	}
 	
-	public static Vocab wednesday() {
+	public static Vocab wednesdayVocab() {
 		Vocab wednesday = new Vocab(SupportedLanguage.ENGLISH);
 		wednesday.addLanguage(SupportedLanguage.ENGLISH, "Wednesday");
 		wednesday.addLanguage(SupportedLanguage.KOREAN, "수요일");

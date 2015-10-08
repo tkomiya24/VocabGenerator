@@ -43,8 +43,8 @@ public class FileUtilitiesTest {
 		String noExtensionFilePath = FileUtilities.getFilePathWithoutFileName(noExtensionFile);
 		String extensionFilePath = FileUtilities.getFilePathWithoutFileName(extensionFile);
 		//Assert
-		assertEquals("./TEST/", noExtensionFilePath);
-		assertEquals("./TEST/", extensionFilePath);
+		assertEquals(".\\TEST\\", noExtensionFilePath);
+		assertEquals(".\\TEST\\", extensionFilePath);
 	}
 	
 	@Test
@@ -53,7 +53,7 @@ public class FileUtilitiesTest {
 		String noExtensionFilePath = FileUtilities.formatFilepathForSerialization(noExtensionFile);
 		String extensionFilePath = FileUtilities.formatFilepathForSerialization(extensionFile);
 		//Assert
-		assertEquals("./TEST/TESTFILE" + "." + MainController.VOCAB_LIST_FILE_EXTENSION, noExtensionFilePath);
-		assertEquals("./TEST/TESTFILE" + "." + MainController.VOCAB_LIST_FILE_EXTENSION, extensionFilePath);
+		assertEquals(".\\TEST\\TESTFILE" + "." + MainController.VOCAB_LIST_FILE_EXTENSION, noExtensionFilePath);
+		assertEquals(".\\TEST\\TESTFILE" + "." + MainController.VOCAB_LIST_FILE_EXTENSION, extensionFilePath);
 	}
 }

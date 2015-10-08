@@ -12,13 +12,12 @@ public class VocabTest {
 	@Test
 	public void testEquals() {
 		//Arrange
-		Vocab monday = TestVocabListLoader.monday();
-		Vocab monday2 = TestVocabListLoader.monday();
-		Vocab tuesday = TestVocabListLoader.tuesday();
+		Vocab monday = TestVocabListLoader.mondayVocab();
+		Vocab monday2 = TestVocabListLoader.mondayVocab();
+		Vocab tuesday = TestVocabListLoader.tuesdayVocab();
 		
 		//Assert
 		assertTrue(monday.equals(monday));
-		assertEquals(monday, monday);
 		assertTrue(monday.equals(monday2));
 		assertTrue(!monday.equals(null));
 		assertTrue(!monday.equals(tuesday));
