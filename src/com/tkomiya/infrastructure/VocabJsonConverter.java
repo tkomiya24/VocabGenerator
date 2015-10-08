@@ -15,7 +15,7 @@ public class VocabJsonConverter {
 	
 	public static JSONObject convertToJson(Vocab vocab) throws JSONException {
 		JSONObject vocabJson = new JSONObject();
-		vocabJson.put(PRIMARY_LANGUAGE, vocab.getPrimaryLanguage());
+		vocabJson.put(PRIMARY_LANGUAGE, vocab.getPrimaryLanguage().toString());
 		for (SupportedLanguage language : SupportedLanguage.values()) {
 			if (vocab.getTranslation(language) != null) {
 				JSONObject languageJson = new JSONObject();
