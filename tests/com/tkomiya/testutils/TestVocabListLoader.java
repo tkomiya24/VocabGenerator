@@ -58,12 +58,15 @@ public class TestVocabListLoader {
 		return wednesday;
 	}
 	
+	public static JSONObject wednesdayJsonObject() throws JSONException {
+		return new JSONObject().put(VocabJsonConverter.PRIMARY_LANGUAGE, Vocab.SupportedLanguage.ENGLISH.toString()).
+				put(Vocab.SupportedLanguage.KOREAN.toString().toLowerCase(), makeTranslation("수요일", 1, 7)).
+				put(Vocab.SupportedLanguage.JAPANESE.toString().toLowerCase(), makeTranslation("水曜日", 9, 15)).
+				put(Vocab.SupportedLanguage.ENGLISH.toString().toLowerCase(), makeTranslation("Wednesday", 0, 0)); 
+	}
+	
 	public static String wednesdayJsonString() throws JSONException {
-		return new JSONObject().put(VocabJsonConverter.PRIMARY_LANGUAGE, Vocab.SupportedLanguage.ENGLISH).
-			put(Vocab.SupportedLanguage.KOREAN.toString(), makeTranslation("수요일", 1, 7)).
-			put(Vocab.SupportedLanguage.JAPANESE.toString(), makeTranslation("水曜日", 9, 15)).
-			put(Vocab.SupportedLanguage.ENGLISH.toString(), makeTranslation("Wednesday", 0, 0)).
-			toString();
+		return wednesdayJsonObject().toString();
 	}
 
 	private static JSONObject makeTranslation(String translation, int timesCorrect, int timesTested) throws JSONException {

@@ -8,10 +8,10 @@ import com.tkomiya.models.Vocab.SupportedLanguage;
 
 public class VocabJsonConverter {
 
-	public static final String PRIMARY_LANGUAGE = "Primary Language";
-	public static final String TIMES_TESTED = "Times Tested";
-	public static final String TIMES_CORRECT = "Times Correct";
-	public static final String TRANSLATION = "Translation";
+	public static final String PRIMARY_LANGUAGE = "primaryLanguage";
+	public static final String TIMES_TESTED = "timesTested";
+	public static final String TIMES_CORRECT = "timesCorrect";
+	public static final String TRANSLATION = "translation";
 	
 	public static JSONObject convertToJson(Vocab vocab) throws JSONException {
 		JSONObject vocabJson = new JSONObject();
@@ -22,7 +22,7 @@ public class VocabJsonConverter {
 				languageJson.put(TRANSLATION, vocab.getTranslation(language));
 				languageJson.put(TIMES_CORRECT, vocab.getTimesCorrect(language));
 				languageJson.put(TIMES_TESTED, vocab.getTimesTested(language));
-				vocabJson.put(language.toString(), languageJson);
+				vocabJson.put(language.toString().toLowerCase(), languageJson);
 			}
 		}
 		return vocabJson;  
@@ -33,8 +33,8 @@ public class VocabJsonConverter {
 		SupportedLanguage primaryLanguage = SupportedLanguage.valueOf(primaryLanguageString.toUpperCase().trim());
 		Vocab vocab = new Vocab(primaryLanguage);
 		for (SupportedLanguage language : SupportedLanguage.values()) {
-			if (json.has(language.toString())) {
-				JSONObject langJson = json.getJSONObject(language.toString());
+			if (json.has(language.toString().toLowerCase())) {
+				JSONObject langJson = json.getJSONObject(language.toString().toLowerCase());
 				vocab.addLanguage(language, langJson.getString(TRANSLATION));
 				vocab.setScore(language, langJson.getInt(TIMES_TESTED), langJson.getInt(TIMES_CORRECT));
 			}

@@ -21,7 +21,7 @@ public class VocabJsonConverterTest {
 	@Test
 	public void testJsonToVocab() throws FileNotFoundException, JSONException, UnsupportedEncodingException {
 		//Arrange
-		JSONObject jsonVocab = testReadArrange();
+		JSONObject jsonVocab = TestVocabListLoader.wednesdayJsonObject();
 		//Act
 		Vocab vocab = VocabJsonConverter.convertToVocab(jsonVocab);
 		//Assert
@@ -36,11 +36,6 @@ public class VocabJsonConverterTest {
 		JSONObject actualJson = VocabJsonConverter.convertToJson(wednesday);
 		//Assert
 		JSONAssert.assertEquals(TestVocabListLoader.wednesdayJsonString(), actualJson, false);
-	}
-	
-	private JSONObject testReadArrange() throws UnsupportedEncodingException,
-			FileNotFoundException, JSONException {
-		return new JSONObject(FileUtilities.readFile(Constants.JSON_TEST_FILE_DIRECTORY));
 	}
 
 }

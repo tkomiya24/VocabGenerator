@@ -1,59 +1,59 @@
 {
-	"Name" : "Days of the Week",
-	"Chapter": 22,
-	"Vocab" : [ 
+	"name" : "Days of the Week",
+	"chapter": 22,
+	"vocab" : [ 
 					{
-					   "Primary Language" : "English",
-					   "Korean" : {
-					                 "Times Tested" : 7,
-					                 "Times Correct" : 1,
-					                 "Translation" : "수요일"
+					   "primaryLanguage" : "english",
+					   "korean" : {
+					                 "timesTested" : 7,
+					                 "timesCorrect" : 1,
+					                 "translation" : "수요일"
 					               },
-					   "English" : {
-					                 "Times Tested" : 0,
-					                 "Times Correct" : 0,
-					                 "Translation" : "Wednesday"
+					   "english" : {
+					                 "timesTested" : 0,
+					                 "timesCorrect" : 0,
+					                 "translation" : "Wednesday"
 					               },
-					   "Japanese" : {
-					                 "Times Tested" : 15,
-					                 "Times Correct" : 9,
-					                 "Translation" : "水曜日"
+					   "japanese" : {
+					                 "timesTested" : 15,
+					                 "timesCorrect" : 9,
+					                 "translation" : "水曜日"
 					               }               
 					}, 
 					{
-					   "Primary Language" : "English",
-					   "Korean" : {
-					                 "Times Tested" : 14,
-					                 "Times Correct" : 6,
-					                 "Translation" : "화요일"
+					   "primaryLanguage" : "english",
+					   "korean" : {
+					                 "timesTested" : 14,
+					                 "timesCorrect" : 6,
+					                 "translation" : "화요일"
 					               },
-					   "English" : {
-					                 "Times Tested" : 5,
-					                 "Times Correct" : 4,
-					                 "Translation" : "Tuesday"
+					   "english" : {
+					                 "timesTested" : 5,
+					                 "timesCorrect" : 4,
+					                 "translation" : "Tuesday"
 					               },
-					   "Japanese" : {
-					                 "Times Tested" : 7,
-					                 "Times Correct" : 1,
-					                 "Translation" : "火曜日"
+					   "japanese" : {
+					                 "timesTested" : 7,
+					                 "timesCorrect" : 1,
+					                 "translation" : "火曜日"
 					               }               
 					}, 
 					{
-					   "Primary Language" : "English",
-					   "Korean" : {
-					                 "Times Tested" : 1,
-					                 "Times Correct" : 1,
-					                 "Translation" : "월요일"
+					   "primaryLanguage" : "english",
+					   "korean" : {
+					                 "timesTested" : 1,
+					                 "timesCorrect" : 1,
+					                 "translation" : "월요일"
 					               },
-					   "English" : {
-					                 "Times Tested" : 0,
-					                 "Times Correct" : 0,
-					                 "Translation" : "Monday"
+					   "english" : {
+					                 "timesTested" : 0,
+					                 "timesCorrect" : 0,
+					                 "translation" : "Monday"
 					               },
-					   "Japanese" : {
-					                 "Times Tested" : 2,
-					                 "Times Correct" : 2,
-					                 "Translation" : "月曜日"
+					   "japanese" : {
+					                 "timesTested" : 2,
+					                 "timesCorrect" : 2,
+					                 "translation" : "月曜日"
 					               }               
 					}
 				]
