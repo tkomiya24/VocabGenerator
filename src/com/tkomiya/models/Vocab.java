@@ -2,6 +2,7 @@ package com.tkomiya.models;
 
 import java.io.Serializable;
 import java.util.Collection;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 
@@ -13,6 +14,7 @@ public class Vocab implements Serializable{
 	private static final long serialVersionUID = 1L;
 	private HashMap<SupportedLanguage, String> vocab;
 	private SupportedLanguage primaryLanguage;
+	private Date lastTested;
 	private HashMap<SupportedLanguage, Integer> timesTested;
 	private HashMap<SupportedLanguage, Integer> timesCorrect;
 	
