@@ -141,5 +141,22 @@ public class Vocab implements Serializable{
 				&& other.getTimesCorrect(language) == this.getTimesCorrect(language)
 				&& other.getTimesTested(language) == this.getTimesTested(language);
 	}
+
+	/**
+	 * @return the lastTested
+	 */
+	public Date getLastTested() {
+		return lastTested;
+	}
+
+	/**
+	 * @param lastTested the lastTested to set
+	 */
+	public void setLastTested(Date lastTested) {
+		this.lastTested = lastTested;
+	}
 	
+	public void setLastTested() {
+		setLastTested(new Date());
+	}
 }

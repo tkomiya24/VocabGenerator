@@ -1,5 +1,7 @@
 package com.tkomiya.infrastructure;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
 import org.json.JSONArray;
@@ -15,7 +17,7 @@ public class VocabListJsonConverter {
 	public static final String VOCABLIST_CHAPTER = "chapter";
 	public static final String VOCAB = "vocab";
 	
-	public static VocabList convertJsonToVocabList(JSONObject listJson) throws JSONException {
+	public static VocabList convertJsonToVocabList(JSONObject listJson) throws JSONException, ParseException {
 		ArrayList<Vocab> vocabs = new ArrayList<Vocab>(); 
 		JSONArray vocabListJson = listJson.getJSONArray(VOCAB);
 		for (int i = 0; i < vocabListJson.length(); i++) {
@@ -28,6 +30,7 @@ public class VocabListJsonConverter {
 		if (listJson.has(VOCABLIST_CHAPTER)) {
 			vlist.setChapter(listJson.getInt(VOCABLIST_CHAPTER));
 		}
+
 		return vlist;
 	}
 
