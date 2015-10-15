@@ -1,6 +1,6 @@
 package com.tkomiya.tests;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import java.io.FileNotFoundException;
 import java.io.UnsupportedEncodingException;
@@ -11,10 +11,8 @@ import org.json.JSONObject;
 import org.junit.Test;
 import org.skyscreamer.jsonassert.JSONAssert;
 
-import com.tkomiya.infrastructure.FileUtilities;
 import com.tkomiya.infrastructure.VocabJsonConverter;
 import com.tkomiya.models.Vocab;
-import com.tkomiya.testutils.Constants;
 import com.tkomiya.testutils.TestVocabListLoader;
 
 public class VocabJsonConverterTest {
