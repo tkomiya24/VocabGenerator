@@ -40,17 +40,14 @@ public class TypedTestView extends JFrame {
 	public TypedTestView(TypedTestController controller, VocabList vocabList) {
 		this.controller = controller;
 		ActionListener listener = new ButtonListener();
-	
-		cheat = JComponentFactory.makeButton(CHEAT_BUTTON_NAME, listener);
-		submit = JComponentFactory.makeButton(SUBMIT_BUTTON_NAME, listener);
-		JButton restartButton = JComponentFactory.makeButton(RESTART_BUTTON_NAME, listener);
+		
 		retestIncorrectButton = JComponentFactory.makeButton(RETEST_INCORRECT_BUTTON_NAME, listener);
 		retestIncorrectButton.setEnabled(false);
 		
 		JPanel buttonPanel = new JPanel();
-		buttonPanel.add(cheat);
-		buttonPanel.add(submit);
-		buttonPanel.add(restartButton);
+		buttonPanel.add(cheat = JComponentFactory.makeButton(CHEAT_BUTTON_NAME, listener));
+		buttonPanel.add(submit = JComponentFactory.makeButton(SUBMIT_BUTTON_NAME, listener));
+		buttonPanel.add(JComponentFactory.makeButton(RESTART_BUTTON_NAME, listener));
 		buttonPanel.add(retestIncorrectButton);
 		makeTestScrollPane(vocabList);
 		mainPanel = new JPanel(new BorderLayout());
