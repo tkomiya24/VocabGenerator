@@ -14,7 +14,6 @@ import java.util.List;
 
 import javax.swing.BorderFactory;
 import javax.swing.DefaultListModel;
-import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JList;
@@ -38,8 +37,9 @@ import com.tkomiya.models.VocabList;
 import com.tkomiya.views.utils.JComponentFactory;
 
 public class MainView extends JFrame {
-	
-	private JTextArea textArea;
+
+  private static final long serialVersionUID = -9134764614592744974L;
+  private JTextArea textArea;
 	private JPopupMenu shortcutListPopup;
 	private JPopupMenu vocabTablePopup;
 	private ActionListener menuListener;
