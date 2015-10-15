@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 
 import java.io.FileNotFoundException;
 import java.io.UnsupportedEncodingException;
+import java.text.ParseException;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -19,7 +20,7 @@ import com.tkomiya.testutils.TestVocabListLoader;
 public class VocabJsonConverterTest {
 
 	@Test
-	public void testJsonToVocab() throws FileNotFoundException, JSONException, UnsupportedEncodingException {
+	public void testJsonToVocab() throws FileNotFoundException, JSONException, UnsupportedEncodingException, ParseException {
 		//Arrange
 		JSONObject jsonVocab = TestVocabListLoader.wednesdayJsonObject();
 		//Act
