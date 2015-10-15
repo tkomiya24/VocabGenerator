@@ -3,7 +3,6 @@ package com.tkomiya.testutils;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
-import java.util.TimeZone;
 
 import org.json.JSONArray;
 import org.json.JSONException;
