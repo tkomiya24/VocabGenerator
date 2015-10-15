@@ -35,7 +35,7 @@ import com.tkomiya.models.Vocab;
 import com.tkomiya.models.Vocab.SupportedLanguage;
 import com.tkomiya.models.VocabList;
 import com.tkomiya.models.utils.VocabListUtils;
-import com.tkomiya.views.TypedTest;
+import com.tkomiya.views.TypedTestController;
 import com.tkomiya.vocablistproviders.JsonFileVocabListProvider;
 import com.tkomiya.vocablistproviders.MultipleTextFileVocabListProvider;
 import com.tkomiya.vocablistproviders.SerializedFileVocabListProvider;
@@ -195,7 +195,7 @@ public class MainController {
 		mostMistakenVocabs = mostMistakenVocabs.subList(0, length);
 		if (mostMistakenVocabs.size() > 0) {
 			VocabList mostMistakenVocabsVocabList = new VocabList(mostMistakenVocabs);
-			new TypedTest(mostMistakenVocabsVocabList, testingLanguage);
+			new TypedTestController(mostMistakenVocabsVocabList, testingLanguage);
 		} else {
 			//TODO message dialog.
 		}
@@ -256,7 +256,7 @@ public class MainController {
 		if (mainView.getCurrentlySelectedVocabList() == null) {
 			reportNoVocabListSelectedError();
 		} 
-		new TypedTest(mainView.getCurrentlySelectedVocabList(), language);
+		new TypedTestController(mainView.getCurrentlySelectedVocabList(), language);
 
 	}
 	
@@ -310,7 +310,7 @@ public class MainController {
 
 	public void leastTestedTest(SupportedLanguage language) {
 		VocabList testingList = VocabListUtils.getLeastTestedVocabList(vocabLists, language);
-		new TypedTest(testingList, language);
+		new TypedTestController(testingList, language);
 	}
 	
 	private void addNewVocabList(VocabList vocabList) {

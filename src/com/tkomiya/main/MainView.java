@@ -14,7 +14,6 @@ import java.util.List;
 
 import javax.swing.BorderFactory;
 import javax.swing.DefaultListModel;
-import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JList;
@@ -35,10 +34,12 @@ import com.tkomiya.infrastructure.VocabListTableModel;
 import com.tkomiya.models.Vocab;
 import com.tkomiya.models.Vocab.SupportedLanguage;
 import com.tkomiya.models.VocabList;
+import com.tkomiya.views.utils.JComponentFactory;
 
 public class MainView extends JFrame {
-	
-	private JTextArea textArea;
+
+  private static final long serialVersionUID = -9134764614592744974L;
+  private JTextArea textArea;
 	private JPopupMenu shortcutListPopup;
 	private JPopupMenu vocabTablePopup;
 	private ActionListener menuListener;
@@ -198,10 +199,7 @@ public class MainView extends JFrame {
 	}
 	
 	private void makeButtonAndAddItToButtonPanel(String buttonName) {
-		JButton button = new JButton(buttonName);
-		button.setName(buttonName);
-		button.addActionListener(buttonListener);
-		buttonPanel.add(button);
+		buttonPanel.add(JComponentFactory.makeButton(buttonName, buttonListener));
 	}
 	
 	private JMenuBar makeMenuBar() {
