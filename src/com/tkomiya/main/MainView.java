@@ -35,6 +35,7 @@ import com.tkomiya.infrastructure.VocabListTableModel;
 import com.tkomiya.models.Vocab;
 import com.tkomiya.models.Vocab.SupportedLanguage;
 import com.tkomiya.models.VocabList;
+import com.tkomiya.views.utils.JComponentFactory;
 
 public class MainView extends JFrame {
 	
@@ -198,10 +199,7 @@ public class MainView extends JFrame {
 	}
 	
 	private void makeButtonAndAddItToButtonPanel(String buttonName) {
-		JButton button = new JButton(buttonName);
-		button.setName(buttonName);
-		button.addActionListener(buttonListener);
-		buttonPanel.add(button);
+		buttonPanel.add(JComponentFactory.makeButton(buttonName, buttonListener));
 	}
 	
 	private JMenuBar makeMenuBar() {

@@ -18,6 +18,7 @@ import javax.swing.border.Border;
 import com.tkomiya.models.Vocab;
 import com.tkomiya.models.VocabList;
 import com.tkomiya.models.Vocab.SupportedLanguage;
+import com.tkomiya.views.utils.JComponentFactory;
 
 public class TypedTestView extends JFrame {
 
@@ -25,6 +26,7 @@ public class TypedTestView extends JFrame {
 	private static final String CHEAT_BUTTON_NAME = "Cheat";
 	private static final String SUBMIT_BUTTON_NAME = "Submit";
 	private static final String RETEST_INCORRECT_BUTTON_NAME = "Retest Incorrect";
+	private static final String RESTART_BUTTON_NAME = "Restart";
 	private static final int TEXTFIELD_SIZE = 10;
 	private JButton cheat;
 	private JButton submit;
@@ -37,24 +39,12 @@ public class TypedTestView extends JFrame {
 	
 	public TypedTestView(TypedTestController controller, VocabList vocabList) {
 		this.controller = controller;
-
 		ActionListener listener = new ButtonListener();
-		
-		cheat = new JButton(CHEAT_BUTTON_NAME);
-		cheat.setName(CHEAT_BUTTON_NAME);
-		cheat.addActionListener(listener);
-		
-		submit = new JButton(SUBMIT_BUTTON_NAME);
-		submit.setName(SUBMIT_BUTTON_NAME);
-		submit.addActionListener(listener);
-		
-		JButton restartButton = new JButton("Restart");
-		restartButton.setName("restart");
-		restartButton.addActionListener(listener);
-		
-		retestIncorrectButton = new JButton("Restest incorrect");
-		retestIncorrectButton.setName(RETEST_INCORRECT_BUTTON_NAME);
-		retestIncorrectButton.addActionListener(listener);
+	
+		cheat = JComponentFactory.makeButton(CHEAT_BUTTON_NAME, listener);
+		submit = JComponentFactory.makeButton(SUBMIT_BUTTON_NAME, listener);
+		JButton restartButton = JComponentFactory.makeButton(RESTART_BUTTON_NAME, listener);
+		retestIncorrectButton = JComponentFactory.makeButton(RETEST_INCORRECT_BUTTON_NAME, listener);
 		retestIncorrectButton.setEnabled(false);
 		
 		JPanel buttonPanel = new JPanel();
@@ -110,7 +100,7 @@ public class TypedTestView extends JFrame {
 				controller.cheatButtonAction();	
 			} else if (buttonName.equals(SUBMIT_BUTTON_NAME)) {
 				controller.submitButtonAction();
-			} else if (buttonName.equals("restart")) {				
+			} else if (buttonName.equals(RESTART_BUTTON_NAME)) {				
 				controller.restartButtonAction();
 			} else if (buttonName.equals(RETEST_INCORRECT_BUTTON_NAME)) {
 				controller.retestIncorrectButtonAction();
