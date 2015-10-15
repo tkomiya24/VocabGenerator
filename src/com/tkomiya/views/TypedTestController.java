@@ -21,7 +21,7 @@ import com.tkomiya.models.Vocab;
 import com.tkomiya.models.Vocab.SupportedLanguage;
 import com.tkomiya.models.VocabList;
 
-public class TypedTestController extends JFrame{
+public class TypedTestController extends JFrame {
 
 	/**
 	 * 
