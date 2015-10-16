@@ -67,6 +67,7 @@ public class TypedTestController {
 			enableRetestIncorrectButton();
 		}	
 		vList.incrementTimesTested(TypedTestController.this.languageTested);
+		vList.updateLastTested();
 	}
 
 	public void enableRetestIncorrectButton() {

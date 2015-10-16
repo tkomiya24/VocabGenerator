@@ -1,25 +1,24 @@
 package com.tkomiya.tests;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import java.io.FileNotFoundException;
 import java.io.UnsupportedEncodingException;
+import java.text.ParseException;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.junit.Test;
 import org.skyscreamer.jsonassert.JSONAssert;
 
-import com.tkomiya.infrastructure.FileUtilities;
 import com.tkomiya.infrastructure.VocabJsonConverter;
 import com.tkomiya.models.Vocab;
-import com.tkomiya.testutils.Constants;
 import com.tkomiya.testutils.TestVocabListLoader;
 
 public class VocabJsonConverterTest {
 
 	@Test
-	public void testJsonToVocab() throws FileNotFoundException, JSONException, UnsupportedEncodingException {
+	public void testJsonToVocab() throws FileNotFoundException, JSONException, UnsupportedEncodingException, ParseException {
 		//Arrange
 		JSONObject jsonVocab = TestVocabListLoader.wednesdayJsonObject();
 		//Act

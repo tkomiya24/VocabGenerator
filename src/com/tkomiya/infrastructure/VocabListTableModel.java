@@ -1,7 +1,5 @@
 package com.tkomiya.infrastructure;
 
-import javax.swing.event.TableModelEvent;
-import javax.swing.event.TableModelListener;
 import javax.swing.table.AbstractTableModel;
 
 import com.tkomiya.models.Vocab;
@@ -23,8 +21,10 @@ public class VocabListTableModel extends AbstractTableModel {
 	
 	@Override
 	public String getColumnName(int column) {
-		if (column % 2 == 0) {
+		if (column % 3 == 0) {
 			return SupportedLanguage.values()[column/2].toString();
+		} else if (column % 3 == 1) {
+		  return "Last Tested";
 		} else {
 			return "Score";
 		}
@@ -50,8 +50,10 @@ public class VocabListTableModel extends AbstractTableModel {
 		if (vocab.getTranslation(lang) == null) {
 			return null;
 		}
-		if (column % 2 == 0) {
+		if (column % 3 == 0) {
 			return vocab.getTranslation(lang);		
+		} else if (column % 3 == 1) {
+		  return vocab.getLastTested();
 		} else {
 			String timesCorrect = Integer.toString(vocab.getTimesCorrect(lang));
 			String timesTested = Integer.toString(vocab.getTimesTested(lang));
@@ -60,7 +62,7 @@ public class VocabListTableModel extends AbstractTableModel {
 	}
 	
 	private SupportedLanguage getLanguageFromColumn(int column) {
-		return SupportedLanguage.values()[column/2];
+		return SupportedLanguage.values()[column/3];
 	}
 	
 	public void setVocabList(VocabList list){

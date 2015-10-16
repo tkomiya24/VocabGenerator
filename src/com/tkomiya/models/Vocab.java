@@ -1,9 +1,12 @@
 package com.tkomiya.models;
 
 import java.io.Serializable;
+import java.util.Calendar;
 import java.util.Collection;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.TimeZone;
 
 public class Vocab implements Serializable{
 
@@ -13,6 +16,7 @@ public class Vocab implements Serializable{
 	private static final long serialVersionUID = 1L;
 	private HashMap<SupportedLanguage, String> vocab;
 	private SupportedLanguage primaryLanguage;
+	private Date lastTested;
 	private HashMap<SupportedLanguage, Integer> timesTested;
 	private HashMap<SupportedLanguage, Integer> timesCorrect;
 	
@@ -139,5 +143,24 @@ public class Vocab implements Serializable{
 				&& other.getTimesCorrect(language) == this.getTimesCorrect(language)
 				&& other.getTimesTested(language) == this.getTimesTested(language);
 	}
+
+	/**
+	 * @return the lastTested
+	 */
+	public Date getLastTested() {
+		return lastTested;
+	}
+
+	/**
+	 * @param lastTested the lastTested to set
+	 */
+	public void setLastTested(Date lastTested) {
+		this.lastTested = lastTested;
+	}
 	
+	public void setLastTested() {
+	  Calendar cal = Calendar.getInstance();
+	  cal.setTimeZone(TimeZone.getTimeZone("GMT"));
+		setLastTested(cal.getTime());
+	}
 }
