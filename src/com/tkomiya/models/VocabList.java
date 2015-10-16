@@ -187,5 +187,11 @@ public class VocabList implements Serializable, Iterable<Vocab> {
 	public void remove(int index) {
 		vocabList.remove(index);
 	}
+
+  public void updateLastTested() {
+    for (Vocab vocab : vocabList) {
+      vocab.setLastTested();
+    }
+  }
 	
 }
