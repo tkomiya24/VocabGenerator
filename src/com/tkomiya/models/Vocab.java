@@ -1,10 +1,12 @@
 package com.tkomiya.models;
 
 import java.io.Serializable;
+import java.util.Calendar;
 import java.util.Collection;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.TimeZone;
 
 public class Vocab implements Serializable{
 
@@ -157,6 +159,8 @@ public class Vocab implements Serializable{
 	}
 	
 	public void setLastTested() {
-		setLastTested(new Date());
+	  Calendar cal = Calendar.getInstance();
+	  cal.setTimeZone(TimeZone.getTimeZone("GMT"));
+		setLastTested(cal.getTime());
 	}
 }
