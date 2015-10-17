@@ -1,7 +1,6 @@
 package com.tkomiya.infrastructure;
 
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
 import org.json.JSONArray;

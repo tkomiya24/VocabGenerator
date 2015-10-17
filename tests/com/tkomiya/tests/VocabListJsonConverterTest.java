@@ -23,13 +23,7 @@ public class VocabListJsonConverterTest {
 	
 	@Test
 	public void testReadJson() throws UnsupportedEncodingException, FileNotFoundException, JSONException, ParseException {
-		//Arrange
-		JSONObject vocabListJson = new JSONObject(FileUtilities.readFile(JSON_FILEPATH));
-		VocabList expectedList = TestVocabListLoader.makeTestList();
-		//Act
-		VocabList vocabList = VocabListJsonConverter.convertJsonToVocabList(vocabListJson);
-		//Assert
-		assertEquals(expectedList, vocabList);
+		assertEquals(TestVocabListLoader.makeTestList(), VocabListJsonConverter.convertJsonToVocabList(TestVocabListLoader.makeTestListJson()));
 	}
 	
 	@Test
