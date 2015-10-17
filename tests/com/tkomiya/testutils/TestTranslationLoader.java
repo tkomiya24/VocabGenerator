@@ -8,10 +8,7 @@ import org.json.JSONObject;
 import com.tkomiya.main.Translation;
 
 public class TestTranslationLoader {
-  
-  private static final long RANDOM_LONG_2 = 8789456135156456L;
-  private static final long RANDOM_LONG_1 = 564897894564156L;
-  
+
   public static JSONObject mondayEnglishJson() throws JSONException {
     return TestTranslationLoaderUtil.makeTranslation("Monday", 0, 0, "");
   }
@@ -46,38 +43,6 @@ public class TestTranslationLoader {
 
   public static JSONObject wednesdayJapaneseJson() throws JSONException {
     return TestTranslationLoaderUtil.makeTranslation("水曜日", 9, 15, "2015-01-15T12:15:44.000Z");
-  }
- 
-  public static Translation makeNervousTranslation1() {
-    Calendar cal = Calendar.getInstance();
-    cal.clear();
-    cal.setTimeInMillis(RANDOM_LONG_1);
-    return TestTranslationLoaderUtil.makeTranslation(6, 17, cal, "신경(을) 쓰-", "신경(이) 쓰이-");
-  }
-  
-  public static Translation makeNervousTranslation2() {
-    Calendar cal = Calendar.getInstance();
-    cal.clear();
-    cal.setTimeInMillis(RANDOM_LONG_1);
-    return TestTranslationLoaderUtil.makeTranslation(0, 2, cal, "신경(을) 쓰-", "신경(이) 쓰이-");
-  }
-  
-  public static Translation makeNervousTranslation3() {
-    Calendar cal = Calendar.getInstance();
-    cal.clear();
-    cal.setTimeInMillis(RANDOM_LONG_2);
-    return TestTranslationLoaderUtil.makeTranslation(6, 17, cal, "신경(을) 쓰-", "신경(이) 쓰이-");
-  }
-  
-  public static Translation makeNervousTranslation4() {
-    return TestTranslationLoaderUtil.makeTranslation(6, 17, "신경(을) 쓰-", "신경(이) 쓰이-");
-  }
-  
-  public static Translation makeNervousTranslation5() {
-    Calendar cal = Calendar.getInstance();
-    cal.clear();
-    cal.setTimeInMillis(RANDOM_LONG_2);
-    return TestTranslationLoaderUtil.makeTranslation(6, 17, cal, "신경(을) 쓰-", "신경(이) 쓰이-", "Pen Island");
   }
 
 }
