@@ -17,10 +17,10 @@ public class VocabTest {
 		Vocab tuesday = TestVocabListLoader.tuesdayVocab();
 		
 		//Assert
-		assertTrue(monday.equals(monday));
-		assertTrue(monday.equals(monday2));
-		assertTrue(!monday.equals(null));
-		assertTrue(!monday.equals(tuesday));
+		assertEquals(monday, monday);
+		assertEquals(monday, monday2);
+		assertNotEquals(monday, null);
+		assertNotEquals(monday, tuesday);
 	}
 
 }
