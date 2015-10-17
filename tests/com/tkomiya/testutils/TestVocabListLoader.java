@@ -14,9 +14,9 @@ import com.tkomiya.main.Translation;
 import com.tkomiya.models.Vocab;
 import com.tkomiya.models.Vocab.SupportedLanguage;
 import com.tkomiya.models.VocabList;
-import com.tkomiya.testutils.datageneration.JapaneseTranslationFactory;
-import com.tkomiya.testutils.datageneration.KoreanTranslationFactory;
-import com.tkomiya.testutils.datageneration.EnglishTranslationFactory;
+import com.tkomiya.testutils.datageneration.translation.EnglishTranslationFactory;
+import com.tkomiya.testutils.datageneration.translation.JapaneseTranslationFactory;
+import com.tkomiya.testutils.datageneration.translation.KoreanTranslationFactory;
 
 public class TestVocabListLoader {
 

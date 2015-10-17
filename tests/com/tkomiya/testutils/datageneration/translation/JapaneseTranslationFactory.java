@@ -1,4 +1,4 @@
-package com.tkomiya.testutils.datageneration;
+package com.tkomiya.testutils.datageneration.translation;
 
 import java.util.Calendar;
 
