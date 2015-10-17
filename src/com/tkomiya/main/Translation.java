@@ -86,8 +86,20 @@ public class Translation {
       Translation trans2 = (Translation) other;
       return this.timesCorrect == trans2.timesCorrect &&
              this.timesTested == trans2.timesTested &&
-             this.lastTested.equals(trans2.lastTested) &&
+             sameDateHelper(trans2) &&
              CollectionUtils.isEqualCollection(this.translations, trans2.translations);
     }
+  }
+  
+  private boolean sameDateHelper(Translation other) {
+    if (this.lastTested == null && other.lastTested == null) {
+      return true;
+    }
+    
+    if (this.lastTested != null ^ other.lastTested == null) {
+      return false;
+    }
+    
+    return this.lastTested.equals(other.lastTested);
   }
 }
