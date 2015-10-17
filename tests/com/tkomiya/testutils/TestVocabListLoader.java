@@ -1,7 +1,6 @@
 package com.tkomiya.testutils;
 
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.List;
 
 import org.json.JSONArray;
@@ -10,21 +9,17 @@ import org.json.JSONObject;
 
 import com.tkomiya.infrastructure.VocabJsonConverter;
 import com.tkomiya.infrastructure.VocabListJsonConverter;
-import com.tkomiya.main.Translation;
 import com.tkomiya.models.Vocab;
-import com.tkomiya.models.Vocab.SupportedLanguage;
 import com.tkomiya.models.VocabList;
-import com.tkomiya.testutils.datageneration.translation.EnglishTranslationFactory;
-import com.tkomiya.testutils.datageneration.translation.JapaneseTranslationFactory;
-import com.tkomiya.testutils.datageneration.translation.KoreanTranslationFactory;
+import com.tkomiya.testutils.datageneration.vocab.VocabFactory;
 
 public class TestVocabListLoader {
 
 	public static VocabList makeTestList() {
 		List<Vocab> vocabs = new ArrayList<Vocab>();
-		vocabs.add(mondayVocab());
-		vocabs.add(tuesdayVocab());
-		vocabs.add(wednesdayVocab());
+		vocabs.add(VocabFactory.mondayVocab());
+		vocabs.add(VocabFactory.tuesdayVocab());
+		vocabs.add(VocabFactory.wednesdayVocab());
 		VocabList vlist = new VocabList(vocabs);
 		vlist.setName("Days of the Week");
 		vlist.setChapter(22);
@@ -39,26 +34,6 @@ public class TestVocabListLoader {
 						put(mondayJsonObject()).
 						put(tuesdayJsonObject()).
 						put(wednesdayJsonObject()));
-	}
-	
-	public static Vocab mondayVocab() {
-	  return makeVocab(SupportedLanguage.ENGLISH, EnglishTranslationFactory.mondayTranslation(), KoreanTranslationFactory.mondayTranslation(), JapaneseTranslationFactory.mondayTranslation());
-	}
-	
-	public static Vocab tuesdayVocab() {
-	  return makeVocab(SupportedLanguage.ENGLISH, EnglishTranslationFactory.tuesdayTranslation(), KoreanTranslationFactory.tuesdayTranslation(), JapaneseTranslationFactory.tuesdayTranslation());
-	}
-	
-	public static Vocab wednesdayVocab() {
-		return makeVocab(SupportedLanguage.ENGLISH, EnglishTranslationFactory.wednesdayTranslation(), KoreanTranslationFactory.wednesdayTranslation(), JapaneseTranslationFactory.wednesdayTranslation());
-	}
-	
-	private static Vocab makeVocab(SupportedLanguage primaryLanguage, Translation englishTranslation, Translation koreanTranslation, Translation japaneseTranslation) {
-	  Vocab vocab = new Vocab(primaryLanguage);
-//    vocab.addTranslation(SupportedLanguage.ENGLISH, englishTranslation);
-//    vocab.addTranslation(SupportedLanguage.KOREAN, koreanTranslation);
-//    vocab.addTranslation(SupportedLanguage.JAPANESE, japaneseTranslation);
-    return vocab;
 	}
 	
 	public static JSONObject vocablistJson() throws JSONException {

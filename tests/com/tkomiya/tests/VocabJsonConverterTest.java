@@ -14,6 +14,7 @@ import org.skyscreamer.jsonassert.JSONAssert;
 import com.tkomiya.infrastructure.VocabJsonConverter;
 import com.tkomiya.models.Vocab;
 import com.tkomiya.testutils.TestVocabListLoader;
+import com.tkomiya.testutils.datageneration.vocab.VocabFactory;
 
 public class VocabJsonConverterTest {
 
@@ -24,13 +25,13 @@ public class VocabJsonConverterTest {
 		//Act
 		Vocab vocab = VocabJsonConverter.convertToVocab(jsonVocab);
 		//Assert
-		assertEquals("The JSON read should be equal to the Wednesday Vocab object", TestVocabListLoader.wednesdayVocab(), vocab);
+		assertEquals("The JSON read should be equal to the Wednesday Vocab object", VocabFactory.wednesdayVocab(), vocab);
 	}
 
 	@Test
 	public void testVocabToJson() throws UnsupportedEncodingException, FileNotFoundException, JSONException {
 		//Arrange
-		Vocab wednesday = TestVocabListLoader.wednesdayVocab();
+		Vocab wednesday = VocabFactory.wednesdayVocab();
 		//Act
 		JSONObject actualJson = VocabJsonConverter.convertToJson(wednesday);
 		//Assert
