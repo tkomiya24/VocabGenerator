@@ -38,43 +38,26 @@ public class TestVocabListLoader {
 	}
 	
 	public static Vocab mondayVocab() {
-		Vocab monday = new Vocab(SupportedLanguage.ENGLISH);
-		monday.addLanguage(SupportedLanguage.ENGLISH, "Monday");
-		monday.setScore(SupportedLanguage.ENGLISH, 0, 0);
-		monday.addLanguage(SupportedLanguage.KOREAN, "월요일");
-		monday.setScore(SupportedLanguage.KOREAN, 1, 1);
-		monday.addLanguage(SupportedLanguage.JAPANESE, "月曜日");
-		monday.setScore(SupportedLanguage.JAPANESE, 2, 2);
-		return monday;
+    Vocab monday = new Vocab(SupportedLanguage.ENGLISH);
+    monday.addTranslation(SupportedLanguage.ENGLISH, TestTranslationLoader.mondayEnglishTranslation());
+    monday.addTranslation(SupportedLanguage.KOREAN, TestTranslationLoader.mondayKoreanTranslation());
+    monday.addTranslation(SupportedLanguage.JAPANESE, TestTranslationLoader.mondayJapaneseTranslation());
+    return monday;
 	}
 	
 	public static Vocab tuesdayVocab() {
-		Vocab tuesday = new Vocab(SupportedLanguage.ENGLISH);
-		tuesday.addLanguage(SupportedLanguage.ENGLISH, "Tuesday");
-		tuesday.addLanguage(SupportedLanguage.KOREAN, "화요일");
-		tuesday.addLanguage(SupportedLanguage.JAPANESE, "火曜日");
-		tuesday.setScore(SupportedLanguage.ENGLISH, 5, 4);
-		tuesday.setScore(SupportedLanguage.KOREAN, 14, 6);
-		tuesday.setScore(SupportedLanguage.JAPANESE, 7, 1);
-		Calendar cal = Calendar.getInstance();
-		cal.clear();
-		cal.set(1991, Calendar.JULY, 17, 6, 40, 44);
-		tuesday.setLastTested(cal.getTime());
-		return tuesday;
+    Vocab tuesday = new Vocab(SupportedLanguage.ENGLISH);
+    tuesday.addTranslation(SupportedLanguage.ENGLISH, TestTranslationLoader.tuesdayEnglishTranslation());
+    tuesday.addTranslation(SupportedLanguage.KOREAN, TestTranslationLoader.tuesdayKoreanTranslation());
+    tuesday.addTranslation(SupportedLanguage.JAPANESE, TestTranslationLoader.tuesdayJapaneseTranslation());
+    return tuesday;
 	}
 	
 	public static Vocab wednesdayVocab() {
 		Vocab wednesday = new Vocab(SupportedLanguage.ENGLISH);
-		wednesday.addLanguage(SupportedLanguage.ENGLISH, "Wednesday");
-		wednesday.addLanguage(SupportedLanguage.KOREAN, "수요일");
-		wednesday.addLanguage(SupportedLanguage.JAPANESE, "水曜日");
-		wednesday.setScore(SupportedLanguage.ENGLISH, 0, 0);
-		wednesday.setScore(SupportedLanguage.KOREAN, 7, 1);
-		wednesday.setScore(SupportedLanguage.JAPANESE, 15, 9);
-		Calendar cal = Calendar.getInstance();
-		cal.clear();
-		cal.set(2015, Calendar.JANUARY, 15, 12, 15, 44);
-		wednesday.setLastTested(cal.getTime());
+		wednesday.addTranslation(SupportedLanguage.ENGLISH, TestTranslationLoader.wednesdayEnglishTranslation());
+		wednesday.addTranslation(SupportedLanguage.KOREAN, TestTranslationLoader.wednesdayKoreanTranslation());
+		wednesday.addTranslation(SupportedLanguage.JAPANESE, TestTranslationLoader.wednesdayJapaneseTranslation());
 		return wednesday;
 	}
 		
