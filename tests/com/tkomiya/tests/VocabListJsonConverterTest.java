@@ -11,11 +11,10 @@ import org.json.JSONObject;
 import org.junit.Test;
 import org.skyscreamer.jsonassert.JSONAssert;
 
-import com.tkomiya.infrastructure.FileUtilities;
 import com.tkomiya.infrastructure.VocabListJsonConverter;
 import com.tkomiya.models.VocabList;
 import com.tkomiya.testutils.Constants;
-import com.tkomiya.testutils.datageneration.vocablist.TestVocabListLoader;
+import com.tkomiya.testutils.datageneration.vocablist.VocabListFactory;
 
 public class VocabListJsonConverterTest {
 
@@ -23,17 +22,17 @@ public class VocabListJsonConverterTest {
 	
 	@Test
 	public void testReadJson() throws UnsupportedEncodingException, FileNotFoundException, JSONException, ParseException {
-		assertEquals(TestVocabListLoader.makeTestList(), VocabListJsonConverter.convertJsonToVocabList(TestVocabListLoader.makeTestListJson()));
+		assertEquals(VocabListFactory.makeTestList(), VocabListJsonConverter.convertJsonToVocabList(VocabListFactory.makeTestListJson()));
 	}
 	
 	@Test
 	public void testMakeJson() throws UnsupportedEncodingException, FileNotFoundException, JSONException, ParseException {
 		//Arrange
-		VocabList testList = TestVocabListLoader.makeTestList();
+		VocabList testList = VocabListFactory.makeTestList();
 		//Act
 		JSONObject actualJson = VocabListJsonConverter.convertVocabListToJson(testList);
 		//Assert
-		JSONAssert.assertEquals(TestVocabListLoader.makeTestListJson().toString(), actualJson, false);
+		JSONAssert.assertEquals(VocabListFactory.makeTestListJson().toString(), actualJson, false);
 	}
 	
 }

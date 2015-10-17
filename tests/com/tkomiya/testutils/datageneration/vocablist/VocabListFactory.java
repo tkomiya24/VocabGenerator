@@ -13,7 +13,7 @@ import com.tkomiya.models.VocabList;
 import com.tkomiya.testutils.datageneration.vocab.VocabFactory;
 import com.tkomiya.testutils.datageneration.vocab.VocabJsonFactory;
 
-public class TestVocabListLoader {
+public class VocabListFactory {
 
 	public static VocabList makeTestList() {
 		List<Vocab> vocabs = new ArrayList<Vocab>();
