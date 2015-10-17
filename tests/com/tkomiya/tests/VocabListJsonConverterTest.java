@@ -15,7 +15,7 @@ import com.tkomiya.infrastructure.FileUtilities;
 import com.tkomiya.infrastructure.VocabListJsonConverter;
 import com.tkomiya.models.VocabList;
 import com.tkomiya.testutils.Constants;
-import com.tkomiya.testutils.TestVocabListLoader;
+import com.tkomiya.testutils.datageneration.vocablist.TestVocabListLoader;
 
 public class VocabListJsonConverterTest {
 

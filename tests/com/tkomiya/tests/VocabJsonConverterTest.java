@@ -13,8 +13,8 @@ import org.skyscreamer.jsonassert.JSONAssert;
 
 import com.tkomiya.infrastructure.VocabJsonConverter;
 import com.tkomiya.models.Vocab;
-import com.tkomiya.testutils.TestVocabListLoader;
 import com.tkomiya.testutils.datageneration.vocab.VocabFactory;
+import com.tkomiya.testutils.datageneration.vocablist.TestVocabListLoader;
 
 public class VocabJsonConverterTest {
 

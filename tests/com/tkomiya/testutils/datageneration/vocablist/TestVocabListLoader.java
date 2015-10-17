@@ -1,4 +1,4 @@
-package com.tkomiya.testutils;
+package com.tkomiya.testutils.datageneration.vocablist;
 
 import java.util.ArrayList;
 import java.util.List;
