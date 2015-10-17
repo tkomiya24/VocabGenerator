@@ -10,7 +10,7 @@ import com.tkomiya.main.Translation;
 
 public class TestTranslationLoaderUtil {
 
-  public static JSONObject makeTranslation(String translation, int timesCorrect, int timesTested, String lastTested) throws JSONException {
+  public static JSONObject makeTranslationJson(String translation, int timesCorrect, int timesTested, String lastTested) throws JSONException {
     return new JSONObject().
         put(TranslationJsonConverter.TRANSLATION, translation).
         put(TranslationJsonConverter.TIMES_CORRECT, timesCorrect).
