@@ -10,6 +10,7 @@ import org.json.JSONObject;
 
 import com.tkomiya.infrastructure.VocabJsonConverter;
 import com.tkomiya.infrastructure.VocabListJsonConverter;
+import com.tkomiya.main.Translation;
 import com.tkomiya.models.Vocab;
 import com.tkomiya.models.Vocab.SupportedLanguage;
 import com.tkomiya.models.VocabList;
@@ -38,29 +39,25 @@ public class TestVocabListLoader {
 	}
 	
 	public static Vocab mondayVocab() {
-    Vocab monday = new Vocab(SupportedLanguage.ENGLISH);
-    monday.addTranslation(SupportedLanguage.ENGLISH, TestTranslationLoader.mondayEnglishTranslation());
-    monday.addTranslation(SupportedLanguage.KOREAN, TestTranslationLoader.mondayKoreanTranslation());
-    monday.addTranslation(SupportedLanguage.JAPANESE, TestTranslationLoader.mondayJapaneseTranslation());
-    return monday;
+	  return makeVocab(SupportedLanguage.ENGLISH, TestTranslationLoader.mondayEnglishTranslation(), TestTranslationLoader.mondayKoreanTranslation(), TestTranslationLoader.mondayJapaneseTranslation());
 	}
 	
 	public static Vocab tuesdayVocab() {
-    Vocab tuesday = new Vocab(SupportedLanguage.ENGLISH);
-    tuesday.addTranslation(SupportedLanguage.ENGLISH, TestTranslationLoader.tuesdayEnglishTranslation());
-    tuesday.addTranslation(SupportedLanguage.KOREAN, TestTranslationLoader.tuesdayKoreanTranslation());
-    tuesday.addTranslation(SupportedLanguage.JAPANESE, TestTranslationLoader.tuesdayJapaneseTranslation());
-    return tuesday;
+	  return makeVocab(SupportedLanguage.ENGLISH, TestTranslationLoader.tuesdayEnglishTranslation(), TestTranslationLoader.tuesdayKoreanTranslation(), TestTranslationLoader.tuesdayJapaneseTranslation());
 	}
 	
 	public static Vocab wednesdayVocab() {
-		Vocab wednesday = new Vocab(SupportedLanguage.ENGLISH);
-		wednesday.addTranslation(SupportedLanguage.ENGLISH, TestTranslationLoader.wednesdayEnglishTranslation());
-		wednesday.addTranslation(SupportedLanguage.KOREAN, TestTranslationLoader.wednesdayKoreanTranslation());
-		wednesday.addTranslation(SupportedLanguage.JAPANESE, TestTranslationLoader.wednesdayJapaneseTranslation());
-		return wednesday;
+		return makeVocab(SupportedLanguage.ENGLISH, TestTranslationLoader.wednesdayEnglishTranslation(), TestTranslationLoader.wednesdayKoreanTranslation(), TestTranslationLoader.wednesdayJapaneseTranslation());
 	}
-		
+	
+	private static Vocab makeVocab(SupportedLanguage primaryLanguage, Translation englishTranslation, Translation koreanTranslation, Translation japaneseTranslation) {
+	  Vocab vocab = new Vocab(primaryLanguage);
+    vocab.addTranslation(SupportedLanguage.ENGLISH, englishTranslation);
+    vocab.addTranslation(SupportedLanguage.KOREAN, koreanTranslation);
+    vocab.addTranslation(SupportedLanguage.JAPANESE, japaneseTranslation);
+    return vocab;
+	}
+	
 	public static JSONObject vocablistJson() throws JSONException {
 		return new JSONObject().
 				put(VocabListJsonConverter.VOCABLIST_CHAPTER, 22).
