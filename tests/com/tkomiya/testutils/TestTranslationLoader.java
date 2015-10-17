@@ -11,24 +11,6 @@ public class TestTranslationLoader {
   
   private static final long RANDOM_LONG_2 = 8789456135156456L;
   private static final long RANDOM_LONG_1 = 564897894564156L;
-
-  public static Translation mondayJapaneseTranslation() {
-    return TestTranslationLoaderUtil.makeTranslation(2, 2, "月曜日");
-  }
-  
-  public static Translation tuesdayJapaneseTranslation() {
-    Calendar cal = Calendar.getInstance();
-    cal.clear();
-    cal.set(1991, Calendar.JULY, 17, 6, 40, 44);
-    return TestTranslationLoaderUtil.makeTranslation(1, 7, cal, "火曜日");
-  }
-  
-  public static Translation wednesdayJapaneseTranslation() {
-    Calendar cal = Calendar.getInstance();
-    cal.clear();
-    cal.set(2015, Calendar.JANUARY, 15, 12, 15, 44);
-    return TestTranslationLoaderUtil.makeTranslation(9, 15, cal, "水曜日");
-  }
   
   public static JSONObject mondayEnglishJson() throws JSONException {
     return TestTranslationLoaderUtil.makeTranslation("Monday", 0, 0, "");
