@@ -5,6 +5,8 @@ import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
+import org.apache.commons.collections4.CollectionUtils;
+
 public class Translation {
 
    private Set<String> translations;
@@ -85,21 +87,7 @@ public class Translation {
       return this.timesCorrect == trans2.timesCorrect &&
              this.timesTested == trans2.timesTested &&
              this.lastTested.equals(trans2.lastTested) &&
-             translationSetsEqual(trans2);
+             CollectionUtils.isEqualCollection(this.translations, trans2.translations);
     }
-  }
-  
-  private boolean translationSetsEqual(Translation translation) {
-    for (String transString : this.translations) {
-      if (!translation.translations.contains(transString)) {
-        return false;
-      }
-    }
-    for (String transString : translation.translations) {
-      if (!this.translations.contains(transString)) {
-        return false;
-      }
-    }
-    return true;
   }
 }
