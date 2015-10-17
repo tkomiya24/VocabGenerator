@@ -5,7 +5,7 @@ import java.util.Calendar;
 import com.tkomiya.main.Translation;
 import com.tkomiya.testutils.TestTranslationLoaderUtil;
 
-public class TestEnglishTranslationLoader {
+public class EnglishTranslationFactory {
 
   public static Translation mondayEnglishTranslation() {
     return TestTranslationLoaderUtil.makeTranslation(0, 0, "Monday");
