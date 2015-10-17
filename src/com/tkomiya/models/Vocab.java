@@ -8,6 +8,9 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.TimeZone;
 
+import com.tkomiya.main.Translation;
+import com.tkomiya.models.Vocab.SupportedLanguage;
+
 public class Vocab implements Serializable{
 
 	/**
@@ -19,6 +22,7 @@ public class Vocab implements Serializable{
 	private Date lastTested;
 	private HashMap<SupportedLanguage, Integer> timesTested;
 	private HashMap<SupportedLanguage, Integer> timesCorrect;
+	private HashMap<SupportedLanguage, Translation> translations;
 	
 	public static enum SupportedLanguage {
 		ENGLISH("English"), KOREAN("Korean"), JAPANESE("Japanese");
@@ -44,6 +48,7 @@ public class Vocab implements Serializable{
 		this.primaryLanguage = primaryLanguage2;
 		timesTested = new HashMap<SupportedLanguage, Integer>();
 		timesCorrect = new HashMap<SupportedLanguage, Integer>();
+		translations = new HashMap<SupportedLanguage, Translation>();
 	}
 	
 	public void addLanguage(SupportedLanguage language, String definitions) {
@@ -163,4 +168,9 @@ public class Vocab implements Serializable{
 	  cal.setTimeZone(TimeZone.getTimeZone("GMT"));
 		setLastTested(cal.getTime());
 	}
+
+  public void addTranslation(SupportedLanguage language, Translation translation) {
+    translations.put(language, translation);
+  }
+	
 }
