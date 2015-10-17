@@ -36,15 +36,4 @@ public class VocabListFactory {
 						put(VocabJsonFactory.wednesdayJsonObject()));
 	}
 	
-	public static JSONObject vocablistJson() throws JSONException {
-		return new JSONObject().
-				put(VocabListJsonConverter.VOCABLIST_CHAPTER, 22).
-				put(VocabListJsonConverter.VOCABLIST_NAME, "Days of the Week").
-				put(VocabListJsonConverter.VOCAB, new JSONArray().
-					put(VocabJsonFactory.mondayJsonObject()).
-					put(VocabJsonFactory.tuesdayJsonObject()).
-					put(VocabJsonFactory.wednesdayJsonObject())
-				);
-	}
-	
 }
