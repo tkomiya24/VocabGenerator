@@ -7,12 +7,10 @@ import java.io.UnsupportedEncodingException;
 import java.text.ParseException;
 
 import org.json.JSONException;
-import org.json.JSONObject;
 import org.junit.Test;
 import org.skyscreamer.jsonassert.JSONAssert;
 
 import com.tkomiya.infrastructure.VocabJsonConverter;
-import com.tkomiya.models.Vocab;
 import com.tkomiya.testutils.datageneration.vocab.VocabFactory;
 import com.tkomiya.testutils.datageneration.vocab.VocabJsonFactory;
 
