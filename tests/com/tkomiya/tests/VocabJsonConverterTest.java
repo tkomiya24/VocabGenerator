@@ -14,14 +14,14 @@ import org.skyscreamer.jsonassert.JSONAssert;
 import com.tkomiya.infrastructure.VocabJsonConverter;
 import com.tkomiya.models.Vocab;
 import com.tkomiya.testutils.datageneration.vocab.VocabFactory;
-import com.tkomiya.testutils.datageneration.vocablist.TestVocabListLoader;
+import com.tkomiya.testutils.datageneration.vocab.VocabJsonFactory;
 
 public class VocabJsonConverterTest {
 
 	@Test
 	public void testJsonToVocab() throws FileNotFoundException, JSONException, UnsupportedEncodingException, ParseException {
 		//Arrange
-		JSONObject jsonVocab = TestVocabListLoader.wednesdayJsonObject();
+		JSONObject jsonVocab = VocabJsonFactory.wednesdayJsonObject();
 		//Act
 		Vocab vocab = VocabJsonConverter.convertToVocab(jsonVocab);
 		//Assert
@@ -35,7 +35,7 @@ public class VocabJsonConverterTest {
 		//Act
 		JSONObject actualJson = VocabJsonConverter.convertToJson(wednesday);
 		//Assert
-		JSONAssert.assertEquals(TestVocabListLoader.wednesdayJsonString(), actualJson, false);
+		JSONAssert.assertEquals(VocabJsonFactory.wednesdayJsonObject(), actualJson, false);
 	}
 
 }
