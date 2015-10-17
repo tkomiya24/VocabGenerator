@@ -14,7 +14,7 @@ public class TranslationTest {
   public void test() {
     Translation trans = KoreanTranslationFactory.makeNervousTranslation1();
     assertEquals("References to the same object should be equal", trans, trans);
-    assertEquals("Objects with the same date, scores, and translation set shoudl be equal", KoreanTranslationFactory.makeNervousTranslation1(), KoreanTranslationFactory.makeNervousTranslation1());
+    assertEquals("Objects with the same date, scores, and translation set should be equal", KoreanTranslationFactory.makeNervousTranslation1(), KoreanTranslationFactory.makeNervousTranslation1());
     assertNotEquals("Objects with the same date and translation but different scores should not be equal", KoreanTranslationFactory.makeNervousTranslation1(), KoreanTranslationFactory.makeNervousTranslation2());
     assertNotEquals("Objects with the same scores and translation but different date should not be equal", KoreanTranslationFactory.makeNervousTranslation1(), KoreanTranslationFactory.makeNervousTranslation3());
     assertNotEquals("Objects with the same scores and translation but one with no date should not be equal", KoreanTranslationFactory.makeNervousTranslation1(), KoreanTranslationFactory.makeNervousTranslation4());
