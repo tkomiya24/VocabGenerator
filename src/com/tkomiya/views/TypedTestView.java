@@ -68,8 +68,7 @@ public class TypedTestView extends JFrame {
 		JPanel testPanel = new JPanel(new GridLayout(vList.size(), 2));
 		for (int i = 0; i < vList.size(); i++) {			
 			Vocab vocab = vList.get(i);
-			SupportedLanguage primaryLang = vocab.getPrimaryLanguage();
-			String labelTitle = vocab.getTranslation(primaryLang);
+			String labelTitle = getLabelTitleFromVocab(vocab);
 			JLabel label = new JLabel(labelTitle);
 			JTextField field = new JTextField(TEXTFIELD_SIZE);
 			
@@ -79,6 +78,11 @@ public class TypedTestView extends JFrame {
 		}
 		testScrollPane = new JScrollPane(testPanel);
 		testScrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+	}
+	
+	private String getLabelTitleFromVocab(Vocab vocab) {
+    SupportedLanguage primaryLang = vocab.getPrimaryLanguage();
+	  vocab.getTranslation(primaryLang);
 	}
 	
 	protected void remakeGUI(VocabList retestVocabList) {
