@@ -22,6 +22,8 @@ public class VocabTest {
 		assertEquals(monday, monday2);
 		assertNotEquals(monday, null);
 		assertNotEquals(monday, tuesday);
+		assertNotEquals(VocabFactory.nervous(), VocabFactory.nervousTranslationDifferent());
+		assertNotEquals(VocabFactory.nervous(), VocabFactory.nervousTranslationMissing());
 	}
 
 }
