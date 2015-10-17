@@ -42,15 +42,15 @@ public class TestVocabListLoader {
 	}
 	
 	public static Vocab mondayVocab() {
-	  return makeVocab(SupportedLanguage.ENGLISH, EnglishTranslationFactory.mondayEnglishTranslation(), KoreanTranslationFactory.mondayKoreanTranslation(), JapaneseTranslationFactory.mondayJapaneseTranslation());
+	  return makeVocab(SupportedLanguage.ENGLISH, EnglishTranslationFactory.mondayTranslation(), KoreanTranslationFactory.mondayTranslation(), JapaneseTranslationFactory.mondayTranslation());
 	}
 	
 	public static Vocab tuesdayVocab() {
-	  return makeVocab(SupportedLanguage.ENGLISH, EnglishTranslationFactory.tuesdayEnglishTranslation(), KoreanTranslationFactory.tuesdayKoreanTranslation(), JapaneseTranslationFactory.tuesdayJapaneseTranslation());
+	  return makeVocab(SupportedLanguage.ENGLISH, EnglishTranslationFactory.tuesdayTranslation(), KoreanTranslationFactory.tuesdayTranslation(), JapaneseTranslationFactory.tuesdayTranslation());
 	}
 	
 	public static Vocab wednesdayVocab() {
-		return makeVocab(SupportedLanguage.ENGLISH, EnglishTranslationFactory.wednesdayEnglishTranslation(), KoreanTranslationFactory.wednesdayKoreanTranslation(), JapaneseTranslationFactory.wednesdayJapaneseTranslation());
+		return makeVocab(SupportedLanguage.ENGLISH, EnglishTranslationFactory.wednesdayTranslation(), KoreanTranslationFactory.wednesdayTranslation(), JapaneseTranslationFactory.wednesdayTranslation());
 	}
 	
 	private static Vocab makeVocab(SupportedLanguage primaryLanguage, Translation englishTranslation, Translation koreanTranslation, Translation japaneseTranslation) {

@@ -7,18 +7,18 @@ import com.tkomiya.testutils.TestTranslationLoaderUtil;
 
 public class JapaneseTranslationFactory {
 
-  public static Translation mondayJapaneseTranslation() {
+  public static Translation mondayTranslation() {
     return TestTranslationLoaderUtil.makeTranslation(2, 2, "月曜日");
   }
   
-  public static Translation tuesdayJapaneseTranslation() {
+  public static Translation tuesdayTranslation() {
     Calendar cal = Calendar.getInstance();
     cal.clear();
     cal.set(1991, Calendar.JULY, 17, 6, 40, 44);
     return TestTranslationLoaderUtil.makeTranslation(1, 7, cal, "火曜日");
   }
   
-  public static Translation wednesdayJapaneseTranslation() {
+  public static Translation wednesdayTranslation() {
     Calendar cal = Calendar.getInstance();
     cal.clear();
     cal.set(2015, Calendar.JANUARY, 15, 12, 15, 44);

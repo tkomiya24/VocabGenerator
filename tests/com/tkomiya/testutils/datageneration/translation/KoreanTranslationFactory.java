@@ -10,18 +10,18 @@ public class KoreanTranslationFactory {
   private static final long RANDOM_LONG_2 = 8789456135156456L;
   private static final long RANDOM_LONG_1 = 564897894564156L;
   
-  public static Translation mondayKoreanTranslation() {
+  public static Translation mondayTranslation() {
     return TestTranslationLoaderUtil.makeTranslation(1, 1, "월요일");
   }
   
-  public static Translation tuesdayKoreanTranslation() {
+  public static Translation tuesdayTranslation() {
     Calendar cal = Calendar.getInstance();
     cal.clear();
     cal.set(1991, Calendar.JULY, 17, 6, 40, 44);
     return TestTranslationLoaderUtil.makeTranslation(6, 14, cal, "화요일");
   }
  
-  public static Translation wednesdayKoreanTranslation() {
+  public static Translation wednesdayTranslation() {
     Calendar cal = Calendar.getInstance();
     cal.clear();
     cal.set(2015, Calendar.JANUARY, 15, 12, 15, 44);
