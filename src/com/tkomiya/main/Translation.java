@@ -1,5 +1,6 @@
 package com.tkomiya.main;
 
+import java.io.Serializable;
 import java.util.Collection;
 import java.util.Date;
 import java.util.HashSet;
@@ -7,9 +8,10 @@ import java.util.Set;
 
 import org.apache.commons.collections4.CollectionUtils;
 
-public class Translation {
+public class Translation implements Serializable {
 
-   private Set<String> translations;
+  private static final long serialVersionUID = 2746919310902901290L;
+  private Set<String> translations;
    private int timesTested;
    private int timesCorrect;
    private Date lastTested;
