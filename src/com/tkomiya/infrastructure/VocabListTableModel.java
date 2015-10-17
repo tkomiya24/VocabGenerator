@@ -53,7 +53,7 @@ public class VocabListTableModel extends AbstractTableModel {
 		if (column % 3 == 0) {
 			return vocab.getTranslation(lang);		
 		} else if (column % 3 == 1) {
-		  return vocab.getLastTested();
+		  return vocab.getLastTested(lang);
 		} else {
 			String timesCorrect = Integer.toString(vocab.getTimesCorrect(lang));
 			String timesTested = Integer.toString(vocab.getTimesTested(lang));

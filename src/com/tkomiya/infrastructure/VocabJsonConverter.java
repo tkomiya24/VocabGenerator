@@ -1,7 +1,6 @@
 package com.tkomiya.infrastructure;
 
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -15,7 +14,6 @@ public class VocabJsonConverter {
 	public static final String TIMES_TESTED = "timesTested";
 	public static final String TIMES_CORRECT = "timesCorrect";
 	public static final String TRANSLATION = "translation";
-	private static final SimpleDateFormat SIMPLED_DATE_FORMAT= new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");
 	public static final String LAST_TESTED = "lastTested";
 	
 	public static JSONObject convertToJson(Vocab vocab) throws JSONException {
@@ -33,9 +31,6 @@ public class VocabJsonConverter {
 		String primaryLanguageString = json.getString(PRIMARY_LANGUAGE);
 		SupportedLanguage primaryLanguage = SupportedLanguage.valueOf(primaryLanguageString.toUpperCase().trim());
 		Vocab vocab = new Vocab(primaryLanguage);
-		if (json.has(LAST_TESTED)) {
-			vocab.setLastTested(SIMPLED_DATE_FORMAT.parse(json.getString(LAST_TESTED)));
-		}
 		for (SupportedLanguage language : SupportedLanguage.values()) {
 			if (json.has(language.toString().toLowerCase())) {
 				vocab.addTranslation(language, TranslationJsonConverter.convertToTranslation(json.getJSONObject(language.toString().toLowerCase())));

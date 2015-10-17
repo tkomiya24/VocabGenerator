@@ -5,6 +5,7 @@ import java.util.Calendar;
 import java.util.Collection;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.TimeZone;
 
@@ -18,11 +19,7 @@ public class Vocab implements Serializable{
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private HashMap<SupportedLanguage, String> vocab;
 	private SupportedLanguage primaryLanguage;
-	private Date lastTested;
-	private HashMap<SupportedLanguage, Integer> timesTested;
-	private HashMap<SupportedLanguage, Integer> timesCorrect;
 	private HashMap<SupportedLanguage, Translation> translations;
 	
 	public static enum SupportedLanguage {
@@ -45,38 +42,12 @@ public class Vocab implements Serializable{
 	}
 	
 	public Vocab(SupportedLanguage primaryLanguage2) {
-		vocab = new HashMap<SupportedLanguage, String>();
 		this.primaryLanguage = primaryLanguage2;
-		timesTested = new HashMap<SupportedLanguage, Integer>();
-		timesCorrect = new HashMap<SupportedLanguage, Integer>();
 		translations = new HashMap<SupportedLanguage, Translation>();
-	}
-	
-	public void addLanguage(SupportedLanguage language, String definitions) {
-		vocab.put(language, definitions);
-		timesTested.put(language, 0);
-		timesCorrect.put(language, 0);
 	}
 	
 	public Translation getTranslation(SupportedLanguage language) {
 		return translations.get(language);
-	}
-
-	public void editTranslation(SupportedLanguage language, String definition) {
-		if (vocab.containsKey(language)) {
-			vocab.put(language, definition);
-		}
-	}
-	
-	public boolean means(String word) {
-		Iterator<String> itr = vocab.values().iterator();
-		while(itr.hasNext()){
-			String next = itr.next();
-			if(next.toLowerCase().equals(word.toLowerCase())){
-				return true;
-			}
-		}
-		return false;
 	}
 
 	public SupportedLanguage getPrimaryLanguage() {
@@ -84,40 +55,51 @@ public class Vocab implements Serializable{
 	}
 
 	public void incrementTimesTested(SupportedLanguage language) {
-		int timesTestedForThisLanguage = timesTested.get(language);
-		timesTested.put(language, ++timesTestedForThisLanguage);
-	}
-	
-	public void incrementTimesCorrect(SupportedLanguage language) {
-		int timesCorrectForThisLanguage = timesCorrect.get(language);
-		timesCorrect.put(language, ++timesCorrectForThisLanguage);
-	}
-
-	public int getTimesTested(SupportedLanguage language) {
-		return timesTested.get(language);
-	}
-	
-	public int getTimesCorrect(SupportedLanguage language) {
-		return timesCorrect.get(language);
-	}
-	
-	public void setScore(SupportedLanguage language, int timesTested, int timesCorrect) {
-		if (this.getTranslation(language) == null) {
-			return;
-		} else {
-			this.timesCorrect.put(language, timesCorrect);
-			this.timesTested.put(language, timesTested);
+		if (translations.containsKey(language)) {
+	    translations.get(language).setTimesTested(translations.get(language).getTimesTested() + 1);
 		}
 	}
 	
+	public void incrementTimesCorrect(SupportedLanguage language) {
+    if (translations.containsKey(language)) {
+      translations.get(language).setTimesCorrect(translations.get(language).getTimesCorrect() + 1);
+    }
+	}
+
+	public int getTimesTested(SupportedLanguage language) {
+    if (translations.containsKey(language)) {
+      return translations.get(language).getTimesTested();
+    } else {
+      return 0;
+    }
+	}
+	
+	public int getTimesCorrect(SupportedLanguage language) {
+    if (translations.containsKey(language)) {
+      return translations.get(language).getTimesCorrect();
+    } else {
+      return 0;
+    }
+	}
+	
 	public boolean contains(String searchTerm) {
-		Collection<String> translations = vocab.values();
+		Collection<String> translations = getAllTranslations();
 		for (String translation : translations) {
 			if (translation.toLowerCase().contains(searchTerm.toLowerCase())) {
 				return true;
 			}
 		}
 		return false;
+	}
+	
+	private Collection<String> getAllTranslations() {
+	  Collection<String> allTranslations = new HashSet<String>();
+	  for (Translation translation : this.translations.values()) {
+	    for (String trans : translation.getTranslations()) {
+	      allTranslations.add(trans);
+	    }
+	  }
+	  return allTranslations;
 	}
 
 	@Override
@@ -137,21 +119,27 @@ public class Vocab implements Serializable{
 	/**
 	 * @return the lastTested
 	 */
-	public Date getLastTested() {
-		return lastTested;
+	public Date getLastTested(SupportedLanguage language) {
+		if (translations.containsKey(language)) {
+		  return translations.get(language).getLastTested();
+		} else {
+		  return null;
+		}
 	}
 
 	/**
 	 * @param lastTested the lastTested to set
 	 */
-	public void setLastTested(Date lastTested) {
-		this.lastTested = lastTested;
+	public void setLastTested(SupportedLanguage language, Date lastTested) {
+    if (translations.containsKey(language)) {
+      translations.get(language).setLastTested(lastTested);
+    }
 	}
 	
-	public void setLastTested() {
+	public void setLastTested(SupportedLanguage lang) {
 	  Calendar cal = Calendar.getInstance();
 	  cal.setTimeZone(TimeZone.getTimeZone("GMT"));
-		setLastTested(cal.getTime());
+		setLastTested(lang, cal.getTime());
 	}
 
   public void addTranslation(SupportedLanguage language, Translation translation) {
