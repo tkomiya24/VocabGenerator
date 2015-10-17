@@ -2,6 +2,8 @@ package com.tkomiya.tests;
 
 import static org.junit.Assert.assertEquals;
 
+import java.text.ParseException;
+
 import org.json.JSONException;
 import org.junit.Test;
 
@@ -11,7 +13,7 @@ import com.tkomiya.testutils.TestTranslationLoader;
 public class TranslationJsonConverterTest {
 
   @Test
-  public void jsonToTranslation() throws JSONException {
+  public void jsonToTranslation() throws JSONException, ParseException {
     assertEquals(TestTranslationLoader.mondayEnglishTranslation(), TranslationJsonConverter.convertToTranslation(TestTranslationLoader.mondayEnglishJson()));
     assertEquals(TestTranslationLoader.mondayKoreanTranslation(), TranslationJsonConverter.convertToTranslation(TestTranslationLoader.mondayKoreanJson()));
     assertEquals(TestTranslationLoader.mondayJapaneseTranslation(), TranslationJsonConverter.convertToTranslation(TestTranslationLoader.mondayJapaneseJson()));
