@@ -11,15 +11,15 @@ import com.tkomiya.main.Translation;
 public class TestTranslationLoader {
   
   public static Translation mondayEnglishTranslation() {
-    return makeTranslation("Monday", 0, 0);
+    return makeTranslation(0, 0, "Monday");
   }
   
   public static Translation mondayKoreanTranslation() {
-    return makeTranslation("월요일", 1, 1);
+    return makeTranslation(1, 1, "월요일");
   }
   
   public static Translation mondayJapaneseTranslation() {
-    return makeTranslation("月曜日", 2, 2);
+    return makeTranslation(2, 2, "月曜日");
   }
   
   public static Translation tuesdayEnglishTranslation() {
@@ -108,16 +108,18 @@ public class TestTranslationLoader {
         put(TranslationJsonConverter.LAST_TESTED, lastTested);
   }
   
-  private static Translation makeTranslation(String translationString, int timesCorrect, int timesTested) {
+  private static Translation makeTranslation(int timesCorrect, int timesTested, String... translationString) {
     Translation translation = new Translation();
     translation.setTimesCorrect(timesCorrect);
     translation.setTimesTested(timesTested);
-    translation.addTranslation(translationString);
+    for (String trans : translationString) {
+      translation.addTranslation(trans);
+    }
     return translation;
   }
   
   private static Translation makeTranslation(String translation, int timesCorrect, int timesTested, Calendar cal) {
-    Translation trans = makeTranslation(translation, timesCorrect, timesTested);
+    Translation trans = makeTranslation(timesCorrect, timesTested, translation);
     trans.setLastTested(cal.getTime());
     return trans;
   }
