@@ -12,6 +12,7 @@ import java.util.TimeZone;
 import org.apache.commons.collections4.CollectionUtils;
 
 import com.tkomiya.main.Translation;
+import com.tkomiya.models.Vocab.SupportedLanguage;
 
 public class Vocab implements Serializable{
 
@@ -144,6 +145,10 @@ public class Vocab implements Serializable{
 
   public void addTranslation(SupportedLanguage language, Translation translation) {
     translations.put(language, translation);
+  }
+
+  public boolean hasTranslation(SupportedLanguage language) {
+    return translations.containsKey(language);
   }
 	
 }
