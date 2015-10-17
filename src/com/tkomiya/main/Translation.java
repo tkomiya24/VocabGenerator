@@ -75,4 +75,31 @@ public class Translation {
       this.translations.add(trans);
     }
   }
+  
+  @Override
+  public boolean equals(Object other) {
+    if (!(other instanceof Translation)) {
+      return false;
+    } else {
+      Translation trans2 = (Translation) other;
+      return this.timesCorrect == trans2.timesCorrect &&
+             this.timesTested == trans2.timesTested &&
+             this.lastTested.equals(trans2.lastTested) &&
+             translationSetsEqual(trans2);
+    }
+  }
+  
+  private boolean translationSetsEqual(Translation translation) {
+    for (String transString : this.translations) {
+      if (!translation.translations.contains(transString)) {
+        return false;
+      }
+    }
+    for (String transString : translation.translations) {
+      if (!this.translations.contains(transString)) {
+        return false;
+      }
+    }
+    return true;
+  }
 }
