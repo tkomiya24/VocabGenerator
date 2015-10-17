@@ -17,7 +17,6 @@ import javax.swing.border.Border;
 
 import com.tkomiya.models.Vocab;
 import com.tkomiya.models.VocabList;
-import com.tkomiya.models.Vocab.SupportedLanguage;
 import com.tkomiya.views.utils.JComponentFactory;
 
 public class TypedTestView extends JFrame {
@@ -68,8 +67,7 @@ public class TypedTestView extends JFrame {
 		JPanel testPanel = new JPanel(new GridLayout(vList.size(), 2));
 		for (int i = 0; i < vList.size(); i++) {			
 			Vocab vocab = vList.get(i);
-			SupportedLanguage primaryLang = vocab.getPrimaryLanguage();
-			String labelTitle = vocab.getTranslation(primaryLang);
+			String labelTitle = vocab.getTranslation(vocab.getPrimaryLanguage()).printTranslations();
 			JLabel label = new JLabel(labelTitle);
 			JTextField field = new JTextField(TEXTFIELD_SIZE);
 			

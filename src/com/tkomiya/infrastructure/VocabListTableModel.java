@@ -45,23 +45,45 @@ public class VocabListTableModel extends AbstractTableModel {
 		if (row >= vocabList.size()) {
 			return null;
 		}		
-		SupportedLanguage lang = getLanguageFromColumn(column);
 		Vocab vocab = vocabList.get(row);
-		if (vocab.getTranslation(lang) == null) {
+		if (!vocab.hasTranslation(getLanguageFromColumn(column))) {
 			return null;
-		}
-		if (column % 3 == 0) {
-			return vocab.getTranslation(lang);		
-		} else if (column % 3 == 1) {
-		  return vocab.getLastTested();
 		} else {
-			String timesCorrect = Integer.toString(vocab.getTimesCorrect(lang));
-			String timesTested = Integer.toString(vocab.getTimesTested(lang));
-			return timesCorrect + '/' + timesTested;			
+		  return getColumnValue(vocab, column);
 		}
 	}
 	
-	private SupportedLanguage getLanguageFromColumn(int column) {
+	private Object getColumnValue(Vocab vocab, int column) {
+	  if (isTranslationColumn(column)) {
+	    return vocab.getTranslation(getLanguageFromColumn(column)).printTranslations();
+	  } else if (isDateColumn(column)) {
+	    return vocab.getTranslation(getLanguageFromColumn(column)).getLastTested();
+	  } else if (isScoreColumn(column)) {
+	    return formatScoreString(vocab, getLanguageFromColumn(column));
+	  } else {
+	    return null;
+	  }
+	}
+	
+	private Object formatScoreString(Vocab vocab, SupportedLanguage language) {
+	  String timesCorrect = Integer.toString(vocab.getTimesCorrect(language));
+    String timesTested = Integer.toString(vocab.getTimesTested(language));
+    return timesCorrect + '/' + timesTested;
+  }
+
+  private boolean isScoreColumn(int column) {
+    return column % 3 == 2;
+  }
+
+  private boolean isDateColumn(int column) {
+    return column % 3 == 1;
+  }
+
+  private boolean isTranslationColumn(int column) {
+    return column % 3 == 0;
+  }
+
+  private SupportedLanguage getLanguageFromColumn(int column) {
 		return SupportedLanguage.values()[column/3];
 	}
 	
@@ -79,16 +101,16 @@ public class VocabListTableModel extends AbstractTableModel {
 		}
 	}
 	
-	@Override
-	public void setValueAt(Object aValue, int rowIndex, int columnIndex) {
-		Vocab editedVocab = vocabList.get(rowIndex);
-		SupportedLanguage language = getLanguageFromColumn(columnIndex);
-		if (editedVocab.getTranslation(language) == null) {
-			editedVocab.addLanguage(language, (String) aValue);
-		} else {
-			editedVocab.editTranslation(language, (String) aValue);
-		}
-	}
+//	@Override
+//	public void setValueAt(Object aValue, int rowIndex, int columnIndex) {
+//		Vocab editedVocab = vocabList.get(rowIndex);
+//		SupportedLanguage language = getLanguageFromColumn(columnIndex);
+//		if (editedVocab.getTranslation(language) == null) {
+//			editedVocab.addLanguage(language, (String) aValue);
+//		} else {
+//			editedVocab.editTranslation(language, (String) aValue);
+//		}
+//	}
 
 	public Vocab getVocab(int selectedRow) {
 		return vocabList.get(selectedRow);

@@ -57,17 +57,17 @@ public class TypedTestController {
 				setCorrect(vList, i);
 			}
 			else {
-				field.setText(vList.get(i).getTranslation(languageTested));
+				field.setText(vList.get(i).getTranslation(languageTested).printTranslations());
 				field.setBorder(BorderFactory.createLineBorder(Color.RED, 2));
 				incorrectlyAnsweredVocabList.add(vList.get(i));
 			}
+			vList.get(i).setLastTested(languageTested);
 		}
 		disableSubmitAndGiveUpButtons();
 		if (!incorrectlyAnsweredVocabList.isEmpty()) {
 			enableRetestIncorrectButton();
 		}	
 		vList.incrementTimesTested(TypedTestController.this.languageTested);
-		vList.updateLastTested();
 	}
 
 	public void enableRetestIncorrectButton() {
@@ -121,7 +121,7 @@ public class TypedTestController {
 	private boolean checkAnswer(VocabList vList, int index){
 		Vocab vocab = vList.get(index);
 		String answer = view.getFields().get(index).getText().trim();
-		return answer.equals(vocab.getTranslation(languageTested).trim());
+		return answer.equals(vocab.getTranslation(languageTested).printTranslations().trim());
 	}
 
 	private void disableSubmitAndGiveUpButtons() {

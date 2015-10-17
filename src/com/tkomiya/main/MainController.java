@@ -36,7 +36,6 @@ import com.tkomiya.models.VocabList;
 import com.tkomiya.models.utils.VocabListUtils;
 import com.tkomiya.views.TypedTestController;
 import com.tkomiya.vocablistproviders.JsonFileVocabListProvider;
-import com.tkomiya.vocablistproviders.MultipleTextFileVocabListProvider;
 import com.tkomiya.vocablistproviders.SerializedFileVocabListProvider;
 import com.tkomiya.vocablistproviders.VocabListProvider;
 
@@ -69,7 +68,6 @@ public class MainController {
 
 	private void initializeFields(){
 		vocabLists = new ComparatorSortedList<VocabList>(new NaturalOrderComparator());
-		separateFileVlistGetter = new MultipleTextFileVocabListProvider();
 		vlistGetter = new SerializedFileVocabListProvider();
 		backupFileVlistProvider = new JsonFileVocabListProvider();
 	}
@@ -111,7 +109,9 @@ public class MainController {
 		}
 		//make a new vocab object with a default 'translation'.
 		Vocab vocab = new Vocab(PRIMARY_LANGUAGE);
-		vocab.addLanguage(PRIMARY_LANGUAGE, "New word");
+		Translation trans = new Translation();
+		trans.addTranslation("New word");
+		vocab.addTranslation(PRIMARY_LANGUAGE, trans);
 		//add it to the vocablist.
 		mainView.getCurrentlySelectedVocabList().addVocab(vocab);
 		//update the table.

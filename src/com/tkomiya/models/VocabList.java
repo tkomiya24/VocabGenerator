@@ -55,17 +55,6 @@ public class VocabList implements Serializable, Iterable<Vocab> {
 		vocabList.add(vocab);
 	}
 	
-	public void removeVocab(String word){
-		for(int i = 0; i < vocabList.size();i++){
-			
-			Vocab vocab = vocabList.get(i);
-			if(vocab.means(word)){
-				vocabList.remove(i);
-			}
-			
-		}
-	}
-	
 	public int size(){
 		return vocabList.size();
 	}
@@ -188,9 +177,9 @@ public class VocabList implements Serializable, Iterable<Vocab> {
 		vocabList.remove(index);
 	}
 
-  public void updateLastTested() {
+  public void updateLastTested(SupportedLanguage language) {
     for (Vocab vocab : vocabList) {
-      vocab.setLastTested();
+      vocab.setLastTested(language);
     }
   }
 	
