@@ -20,12 +20,7 @@ public class VocabJsonConverterTest {
 
 	@Test
 	public void testJsonToVocab() throws FileNotFoundException, JSONException, UnsupportedEncodingException, ParseException {
-		//Arrange
-		JSONObject jsonVocab = VocabJsonFactory.wednesdayJsonObject();
-		//Act
-		Vocab vocab = VocabJsonConverter.convertToVocab(jsonVocab);
-		//Assert
-		assertEquals("The JSON read should be equal to the Wednesday Vocab object", VocabFactory.wednesdayVocab(), vocab);
+		assertEquals("The JSON read should be equal to the Wednesday Vocab object", VocabFactory.wednesdayVocab(), VocabJsonConverter.convertToVocab(VocabJsonFactory.wednesdayJsonObject()));
 	}
 
 	@Test

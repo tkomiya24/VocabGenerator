@@ -58,8 +58,8 @@ public class Vocab implements Serializable{
 		timesCorrect.put(language, 0);
 	}
 	
-	public String getTranslation(SupportedLanguage language) {
-		return vocab.get(language);
+	public Translation getTranslation(SupportedLanguage language) {
+		return translations.get(language);
 	}
 
 	public void editTranslation(SupportedLanguage language, String definition) {

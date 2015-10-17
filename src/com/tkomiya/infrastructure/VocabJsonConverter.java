@@ -23,17 +23,8 @@ public class VocabJsonConverter {
 		vocabJson.put(PRIMARY_LANGUAGE, vocab.getPrimaryLanguage().toString());
 		for (SupportedLanguage language : SupportedLanguage.values()) {
 			if (vocab.getTranslation(language) != null) {
-				JSONObject languageJson = new JSONObject();
-				languageJson.put(TRANSLATION, vocab.getTranslation(language));
-				languageJson.put(TIMES_CORRECT, vocab.getTimesCorrect(language));
-				languageJson.put(TIMES_TESTED, vocab.getTimesTested(language));
-				vocabJson.put(language.toString().toLowerCase(), languageJson);
+				vocabJson.put(language.toString().toLowerCase(), TranslationJsonConverter.convertToJson(vocab.getTranslation(language)));
 			}
-		}
-		if (vocab.getLastTested() != null) {
-			vocabJson.put(LAST_TESTED, SIMPLED_DATE_FORMAT.format(vocab.getLastTested()));
-		} else {
-			vocabJson.put(LAST_TESTED, "");
 		}
 		return vocabJson;  
 	}
@@ -47,9 +38,7 @@ public class VocabJsonConverter {
 		}
 		for (SupportedLanguage language : SupportedLanguage.values()) {
 			if (json.has(language.toString().toLowerCase())) {
-				JSONObject langJson = json.getJSONObject(language.toString().toLowerCase());
-				vocab.addLanguage(language, langJson.getString(TRANSLATION));
-				vocab.setScore(language, langJson.getInt(TIMES_TESTED), langJson.getInt(TIMES_CORRECT));
+				vocab.addTranslation(language, TranslationJsonConverter.convertToTranslation(json.getJSONObject(language.toString().toLowerCase())));
 			}
 		}
 		return vocab;
