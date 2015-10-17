@@ -39,22 +39,22 @@ public class TestVocabListLoader {
 	}
 	
 	public static Vocab mondayVocab() {
-	  return makeVocab(SupportedLanguage.ENGLISH, TestTranslationLoader.mondayEnglishTranslation(), TestTranslationLoader.mondayKoreanTranslation(), TestTranslationLoader.mondayJapaneseTranslation());
+	  return makeVocab(SupportedLanguage.ENGLISH, TestEnglishTranslationLoader.mondayEnglishTranslation(), TestTranslationLoader.mondayKoreanTranslation(), TestTranslationLoader.mondayJapaneseTranslation());
 	}
 	
 	public static Vocab tuesdayVocab() {
-	  return makeVocab(SupportedLanguage.ENGLISH, TestTranslationLoader.tuesdayEnglishTranslation(), TestTranslationLoader.tuesdayKoreanTranslation(), TestTranslationLoader.tuesdayJapaneseTranslation());
+	  return makeVocab(SupportedLanguage.ENGLISH, TestEnglishTranslationLoader.tuesdayEnglishTranslation(), TestTranslationLoader.tuesdayKoreanTranslation(), TestTranslationLoader.tuesdayJapaneseTranslation());
 	}
 	
 	public static Vocab wednesdayVocab() {
-		return makeVocab(SupportedLanguage.ENGLISH, TestTranslationLoader.wednesdayEnglishTranslation(), TestTranslationLoader.wednesdayKoreanTranslation(), TestTranslationLoader.wednesdayJapaneseTranslation());
+		return makeVocab(SupportedLanguage.ENGLISH, TestEnglishTranslationLoader.wednesdayEnglishTranslation(), TestTranslationLoader.wednesdayKoreanTranslation(), TestTranslationLoader.wednesdayJapaneseTranslation());
 	}
 	
 	private static Vocab makeVocab(SupportedLanguage primaryLanguage, Translation englishTranslation, Translation koreanTranslation, Translation japaneseTranslation) {
 	  Vocab vocab = new Vocab(primaryLanguage);
-    vocab.addTranslation(SupportedLanguage.ENGLISH, englishTranslation);
-    vocab.addTranslation(SupportedLanguage.KOREAN, koreanTranslation);
-    vocab.addTranslation(SupportedLanguage.JAPANESE, japaneseTranslation);
+//    vocab.addTranslation(SupportedLanguage.ENGLISH, englishTranslation);
+//    vocab.addTranslation(SupportedLanguage.KOREAN, koreanTranslation);
+//    vocab.addTranslation(SupportedLanguage.JAPANESE, japaneseTranslation);
     return vocab;
 	}
 	
