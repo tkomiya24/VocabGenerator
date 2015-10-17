@@ -26,42 +26,42 @@ public class TestTranslationLoader {
     Calendar cal = Calendar.getInstance();
     cal.clear();
     cal.set(1991, Calendar.JULY, 17, 6, 40, 44);
-    return makeTranslation("Tuesday", 4, 5, cal);
+    return makeTranslation(4, 5, cal, "Tuesday");
   }
   
   public static Translation tuesdayKoreanTranslation() {
     Calendar cal = Calendar.getInstance();
     cal.clear();
     cal.set(1991, Calendar.JULY, 17, 6, 40, 44);
-    return makeTranslation("화요일", 6, 14, cal);
+    return makeTranslation(6, 14, cal, "화요일");
   }
   
   public static Translation tuesdayJapaneseTranslation() {
     Calendar cal = Calendar.getInstance();
     cal.clear();
     cal.set(1991, Calendar.JULY, 17, 6, 40, 44);
-    return makeTranslation("火曜日", 1, 7, cal);
+    return makeTranslation(1, 7, cal, "火曜日");
   }
   
   public static Translation wednesdayEnglishTranslation() {
     Calendar cal = Calendar.getInstance();
     cal.clear();
     cal.set(2015, Calendar.JANUARY, 15, 12, 15, 44);
-    return makeTranslation("Wednesday", 0, 0, cal);
+    return makeTranslation(0, 0, cal, "Wednesday");
   }
   
   public static Translation wednesdayKoreanTranslation() {
     Calendar cal = Calendar.getInstance();
     cal.clear();
     cal.set(2015, Calendar.JANUARY, 15, 12, 15, 44);
-    return makeTranslation("수요일", 1, 7, cal);
+    return makeTranslation(1, 7, cal, "수요일");
   }
   
   public static Translation wednesdayJapaneseTranslation() {
     Calendar cal = Calendar.getInstance();
     cal.clear();
     cal.set(2015, Calendar.JANUARY, 15, 12, 15, 44);
-    return makeTranslation("水曜日", 9, 15, cal);
+    return makeTranslation(9, 15, cal, "水曜日");
   }
   
   public static JSONObject mondayEnglishJson() throws JSONException {
@@ -118,8 +118,8 @@ public class TestTranslationLoader {
     return translation;
   }
   
-  private static Translation makeTranslation(String translation, int timesCorrect, int timesTested, Calendar cal) {
-    Translation trans = makeTranslation(timesCorrect, timesTested, translation);
+  private static Translation makeTranslation(int timesCorrect, int timesTested, Calendar cal, String... translations) {
+    Translation trans = makeTranslation(timesCorrect, timesTested, translations);
     trans.setLastTested(cal.getTime());
     return trans;
   }
