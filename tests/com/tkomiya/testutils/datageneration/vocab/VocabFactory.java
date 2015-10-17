@@ -21,12 +21,30 @@ public class VocabFactory {
     return makeVocab(SupportedLanguage.ENGLISH, EnglishTranslationFactory.wednesdayTranslation(), KoreanTranslationFactory.wednesdayTranslation(), JapaneseTranslationFactory.wednesdayTranslation());
   }
   
+  public static Vocab nervous() {
+    return makeVocab(SupportedLanguage.ENGLISH, EnglishTranslationFactory.makeNervousTranslation1(), KoreanTranslationFactory.makeNervousTranslation1(), null);
+  }
+  
+  public static Vocab nervousTranslationMissing() {
+    return makeVocab(SupportedLanguage.ENGLISH, EnglishTranslationFactory.makeNervousTranslation1(), null, null);
+  }
+  
+  public static Vocab nervousTranslationDifferent() {
+    return makeVocab(SupportedLanguage.ENGLISH, EnglishTranslationFactory.makeNervousTranslation1(), KoreanTranslationFactory.makeNervousTranslation2(), null);
+  }
+  
   private static Vocab makeVocab(SupportedLanguage primaryLanguage, Translation englishTranslation, Translation koreanTranslation, Translation japaneseTranslation) {
     Vocab vocab = new Vocab(primaryLanguage);
-//    vocab.addTranslation(SupportedLanguage.ENGLISH, englishTranslation);
-//    vocab.addTranslation(SupportedLanguage.KOREAN, koreanTranslation);
-//    vocab.addTranslation(SupportedLanguage.JAPANESE, japaneseTranslation);
+    addVocabIfNotNull(vocab, SupportedLanguage.ENGLISH, englishTranslation);
+    addVocabIfNotNull(vocab, SupportedLanguage.KOREAN, koreanTranslation);
+    addVocabIfNotNull(vocab, SupportedLanguage.JAPANESE, japaneseTranslation);
     return vocab;
+  }
+  
+  private static void addVocabIfNotNull(Vocab vocab, SupportedLanguage language, Translation translation) {
+    if (translation != null) {
+      vocab.addTranslation(language, translation);
+    }
   }
   
 }
