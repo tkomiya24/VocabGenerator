@@ -12,19 +12,8 @@ public class TestTranslationLoader {
   private static final long RANDOM_LONG_2 = 8789456135156456L;
   private static final long RANDOM_LONG_1 = 564897894564156L;
 
-  public static Translation mondayKoreanTranslation() {
-    return TestTranslationLoaderUtil.makeTranslation(1, 1, "월요일");
-  }
-  
   public static Translation mondayJapaneseTranslation() {
     return TestTranslationLoaderUtil.makeTranslation(2, 2, "月曜日");
-  }
-  
-  public static Translation tuesdayKoreanTranslation() {
-    Calendar cal = Calendar.getInstance();
-    cal.clear();
-    cal.set(1991, Calendar.JULY, 17, 6, 40, 44);
-    return TestTranslationLoaderUtil.makeTranslation(6, 14, cal, "화요일");
   }
   
   public static Translation tuesdayJapaneseTranslation() {
@@ -32,13 +21,6 @@ public class TestTranslationLoader {
     cal.clear();
     cal.set(1991, Calendar.JULY, 17, 6, 40, 44);
     return TestTranslationLoaderUtil.makeTranslation(1, 7, cal, "火曜日");
-  }
-  
-  public static Translation wednesdayKoreanTranslation() {
-    Calendar cal = Calendar.getInstance();
-    cal.clear();
-    cal.set(2015, Calendar.JANUARY, 15, 12, 15, 44);
-    return TestTranslationLoaderUtil.makeTranslation(1, 7, cal, "수요일");
   }
   
   public static Translation wednesdayJapaneseTranslation() {

@@ -14,6 +14,7 @@ import com.tkomiya.main.Translation;
 import com.tkomiya.models.Vocab;
 import com.tkomiya.models.Vocab.SupportedLanguage;
 import com.tkomiya.models.VocabList;
+import com.tkomiya.testutils.datageneration.KoreanTranslationFactory;
 
 public class TestVocabListLoader {
 
@@ -39,15 +40,15 @@ public class TestVocabListLoader {
 	}
 	
 	public static Vocab mondayVocab() {
-	  return makeVocab(SupportedLanguage.ENGLISH, TestEnglishTranslationLoader.mondayEnglishTranslation(), TestTranslationLoader.mondayKoreanTranslation(), TestTranslationLoader.mondayJapaneseTranslation());
+	  return makeVocab(SupportedLanguage.ENGLISH, TestEnglishTranslationLoader.mondayEnglishTranslation(), KoreanTranslationFactory.mondayKoreanTranslation(), TestTranslationLoader.mondayJapaneseTranslation());
 	}
 	
 	public static Vocab tuesdayVocab() {
-	  return makeVocab(SupportedLanguage.ENGLISH, TestEnglishTranslationLoader.tuesdayEnglishTranslation(), TestTranslationLoader.tuesdayKoreanTranslation(), TestTranslationLoader.tuesdayJapaneseTranslation());
+	  return makeVocab(SupportedLanguage.ENGLISH, TestEnglishTranslationLoader.tuesdayEnglishTranslation(), KoreanTranslationFactory.tuesdayKoreanTranslation(), TestTranslationLoader.tuesdayJapaneseTranslation());
 	}
 	
 	public static Vocab wednesdayVocab() {
-		return makeVocab(SupportedLanguage.ENGLISH, TestEnglishTranslationLoader.wednesdayEnglishTranslation(), TestTranslationLoader.wednesdayKoreanTranslation(), TestTranslationLoader.wednesdayJapaneseTranslation());
+		return makeVocab(SupportedLanguage.ENGLISH, TestEnglishTranslationLoader.wednesdayEnglishTranslation(), KoreanTranslationFactory.wednesdayKoreanTranslation(), TestTranslationLoader.wednesdayJapaneseTranslation());
 	}
 	
 	private static Vocab makeVocab(SupportedLanguage primaryLanguage, Translation englishTranslation, Translation koreanTranslation, Translation japaneseTranslation) {
