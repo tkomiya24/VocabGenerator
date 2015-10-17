@@ -1,8 +1,9 @@
-package com.tkomiya.testutils;
+package com.tkomiya.testutils.datageneration;
 
 import java.util.Calendar;
 
 import com.tkomiya.main.Translation;
+import com.tkomiya.testutils.TestTranslationLoaderUtil;
 
 public class TestEnglishTranslationLoader {
 

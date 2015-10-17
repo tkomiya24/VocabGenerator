@@ -8,9 +8,9 @@ import org.json.JSONException;
 import org.junit.Test;
 
 import com.tkomiya.infrastructure.TranslationJsonConverter;
-import com.tkomiya.testutils.TestEnglishTranslationLoader;
 import com.tkomiya.testutils.TestTranslationLoader;
 import com.tkomiya.testutils.datageneration.KoreanTranslationFactory;
+import com.tkomiya.testutils.datageneration.TestEnglishTranslationLoader;
 
 public class TranslationJsonConverterTest {
 
