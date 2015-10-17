@@ -6,7 +6,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import com.tkomiya.infrastructure.TranslationJsonConverter;
-import com.tkomiya.infrastructure.VocabJsonConverter;
 import com.tkomiya.main.Translation;
 
 public class TestTranslationLoader {
@@ -109,14 +108,17 @@ public class TestTranslationLoader {
         put(TranslationJsonConverter.LAST_TESTED, lastTested);
   }
   
-  private static Translation makeTranslation(String translation, int timesCorrect, int timesTested) {
-    return new Translation().
-        setTimesCorrect(timesCorrect).
-        setTimesTested(timesTested).
-        addTranslation(translation);
+  private static Translation makeTranslation(String translationString, int timesCorrect, int timesTested) {
+    Translation translation = new Translation();
+    translation.setTimesCorrect(timesCorrect);
+    translation.setTimesTested(timesTested);
+    translation.addTranslation(translationString);
+    return translation;
   }
   
   private static Translation makeTranslation(String translation, int timesCorrect, int timesTested, Calendar cal) {
-    return makeTranslation(translation, timesCorrect, timesTested).setLastTested(cal.getTime());
+    Translation trans = makeTranslation(translation, timesCorrect, timesTested);
+    trans.setLastTested(cal.getTime());
+    return trans;
   }
 }
