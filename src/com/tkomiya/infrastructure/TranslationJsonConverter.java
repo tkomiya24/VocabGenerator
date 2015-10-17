@@ -40,10 +40,9 @@ public class TranslationJsonConverter {
   
   public static JSONObject convertToJson(Translation translation) throws JSONException {
     JSONObject translationJson = new JSONObject();
-    JSONObject languageJson = new JSONObject();
-    languageJson.put(TRANSLATION, translationsToJsonArray(translation));
-    languageJson.put(TIMES_CORRECT, translation.getTimesCorrect());
-    languageJson.put(TIMES_TESTED, translation.getTimesTested());
+    translationJson.put(TRANSLATION, translationsToJsonArray(translation));
+    translationJson.put(TIMES_CORRECT, translation.getTimesCorrect());
+    translationJson.put(TIMES_TESTED, translation.getTimesTested());
     if (translation.getLastTested() != null) {
       translationJson.put(LAST_TESTED, SIMPLED_DATE_FORMAT.format(translation.getLastTested()));
     } else {
