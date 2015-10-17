@@ -105,4 +105,14 @@ public class Translation {
     
     return this.lastTested.equals(other.lastTested);
   }
+  
+  public String printTranslations() {
+    StringBuilder sb = new StringBuilder();
+    for (String trans : translations) {
+      sb.append(trans);
+      sb.append(", ");
+    }
+    sb.delete(sb.length() - 2, sb.length());
+    return sb.toString();
+  }
 }

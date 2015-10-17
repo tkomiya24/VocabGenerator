@@ -55,7 +55,7 @@ public class VocabListTableModel extends AbstractTableModel {
 	
 	private Object getColumnValue(Vocab vocab, int column) {
 	  if (isTranslationColumn(column)) {
-	    return formatTranslation(vocab, getLanguageFromColumn(column));
+	    return vocab.getTranslation(getLanguageFromColumn(column)).printTranslations();
 	  } else if (isDateColumn(column)) {
 	    return vocab.getTranslation(getLanguageFromColumn(column)).getLastTested();
 	  } else if (isScoreColumn(column)) {
@@ -81,16 +81,6 @@ public class VocabListTableModel extends AbstractTableModel {
 
   private boolean isTranslationColumn(int column) {
     return column % 3 == 0;
-  }
-
-  private String formatTranslation(Vocab vocab, SupportedLanguage lang) {
-    StringBuilder sb = new StringBuilder();
-	  for (String trans : vocab.getTranslation(lang).getTranslations()) {
-      sb.append(trans);
-      sb.append(", ");
-    }
-	  sb.delete(sb.length() - 2, sb.length());
-	  return sb.toString();
   }
 
   private SupportedLanguage getLanguageFromColumn(int column) {
