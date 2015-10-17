@@ -80,6 +80,9 @@ public class Translation {
   
   @Override
   public boolean equals(Object other) {
+    if (this == other) {
+      return true;
+    }
     if (!(other instanceof Translation)) {
       return false;
     } else {
@@ -96,7 +99,7 @@ public class Translation {
       return true;
     }
     
-    if (this.lastTested != null ^ other.lastTested == null) {
+    if (this.lastTested != null ^ other.lastTested != null) {
       return false;
     }
     
