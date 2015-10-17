@@ -30,12 +30,7 @@ public class VocabJsonConverterTest {
 
 	@Test
 	public void testVocabToJson() throws UnsupportedEncodingException, FileNotFoundException, JSONException {
-		//Arrange
-		Vocab wednesday = VocabFactory.wednesdayVocab();
-		//Act
-		JSONObject actualJson = VocabJsonConverter.convertToJson(wednesday);
-		//Assert
-		JSONAssert.assertEquals(VocabJsonFactory.wednesdayJsonObject(), actualJson, false);
+		JSONAssert.assertEquals(VocabJsonFactory.wednesdayJsonObject(), VocabJsonConverter.convertToJson(VocabFactory.wednesdayVocab()), false);
 	}
 
 }
