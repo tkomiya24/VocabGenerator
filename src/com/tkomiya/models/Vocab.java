@@ -8,8 +8,9 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.TimeZone;
 
+import org.apache.commons.collections4.CollectionUtils;
+
 import com.tkomiya.main.Translation;
-import com.tkomiya.models.Vocab.SupportedLanguage;
 
 public class Vocab implements Serializable{
 
@@ -121,32 +122,16 @@ public class Vocab implements Serializable{
 
 	@Override
 	public boolean equals(Object obj) {
+	  if (this == obj) {
+	    return true;
+	  }
+	  
 		if (!(obj instanceof Vocab)) {
 			return false;
 		}
 		Vocab other = (Vocab) obj;
-		for (SupportedLanguage language : SupportedLanguage.values()) {
-			if (!translationEquals(other, language)) {
-				return false;
-			}
-		}
-		return true;
-	}
-	
-	private boolean translationEquals(Vocab other, SupportedLanguage language) {
-		boolean different = other.vocab.containsKey(language) 
-				^ this.vocab.containsKey(language);
-		if (different) {
-			return false;
-		}
-		boolean bothContain = other.vocab.containsKey(language) 
-				&& this.vocab.containsKey(language);
-		if (!bothContain) {
-			return true;
-		}
-		return other.vocab.get(language).equals(this.vocab.get(language))
-				&& other.getTimesCorrect(language) == this.getTimesCorrect(language)
-				&& other.getTimesTested(language) == this.getTimesTested(language);
+		
+		return this.translations.equals(other.translations);
 	}
 
 	/**
