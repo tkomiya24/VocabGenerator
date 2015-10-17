@@ -1,11 +1,7 @@
 package com.tkomiya.testutils;
 
-import java.util.Calendar;
-
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import com.tkomiya.main.Translation;
 
 public class TestTranslationLoader {
 
