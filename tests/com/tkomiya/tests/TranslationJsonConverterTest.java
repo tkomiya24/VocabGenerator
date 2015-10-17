@@ -1,13 +1,9 @@
 package com.tkomiya.tests;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.json.JSONException;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
-import org.skyscreamer.jsonassert.JSONAssert;
 
 import com.tkomiya.infrastructure.TranslationJsonConverter;
 import com.tkomiya.testutils.TestTranslationLoader;
