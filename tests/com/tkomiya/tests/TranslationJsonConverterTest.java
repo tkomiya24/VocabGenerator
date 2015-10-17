@@ -6,6 +6,7 @@ import java.text.ParseException;
 
 import org.json.JSONException;
 import org.junit.Test;
+import org.skyscreamer.jsonassert.JSONAssert;
 
 import com.tkomiya.infrastructure.TranslationJsonConverter;
 import com.tkomiya.testutils.TestTranslationLoader;
@@ -30,15 +31,15 @@ public class TranslationJsonConverterTest {
 
   @Test
   public void translationToJson() throws JSONException {
-    assertEquals(TestTranslationLoader.mondayEnglishJson(), TranslationJsonConverter.convertToJson(EnglishTranslationFactory.mondayTranslation()));
-    assertEquals(TestTranslationLoader.mondayKoreanJson(), TranslationJsonConverter.convertToJson(KoreanTranslationFactory.mondayTranslation()));
-    assertEquals(TestTranslationLoader.mondayJapaneseJson(), TranslationJsonConverter.convertToJson(JapaneseTranslationFactory.mondayTranslation()));
-    assertEquals(TestTranslationLoader.tuesdayEnglishJson(), TranslationJsonConverter.convertToJson(EnglishTranslationFactory.tuesdayTranslation()));
-    assertEquals(TestTranslationLoader.tuesdayKoreanJson(), TranslationJsonConverter.convertToJson(KoreanTranslationFactory.tuesdayTranslation()));
-    assertEquals(TestTranslationLoader.tuesdayJapaneseJson(), TranslationJsonConverter.convertToJson(JapaneseTranslationFactory.tuesdayTranslation()));
-    assertEquals(TestTranslationLoader.wednesdayEnglishJson(), TranslationJsonConverter.convertToJson(EnglishTranslationFactory.wednesdayTranslation()));
-    assertEquals(TestTranslationLoader.wednesdayKoreanJson(), TranslationJsonConverter.convertToJson(KoreanTranslationFactory.wednesdayTranslation()));
-    assertEquals(TestTranslationLoader.wednesdayJapaneseJson(), TranslationJsonConverter.convertToJson(JapaneseTranslationFactory.wednesdayTranslation()));
+    JSONAssert.assertEquals(TestTranslationLoader.mondayEnglishJson(), TranslationJsonConverter.convertToJson(EnglishTranslationFactory.mondayTranslation()), false);
+    JSONAssert.assertEquals(TestTranslationLoader.mondayKoreanJson(), TranslationJsonConverter.convertToJson(KoreanTranslationFactory.mondayTranslation()), false);
+    JSONAssert.assertEquals(TestTranslationLoader.mondayJapaneseJson(), TranslationJsonConverter.convertToJson(JapaneseTranslationFactory.mondayTranslation()), false);
+    JSONAssert.assertEquals(TestTranslationLoader.tuesdayEnglishJson(), TranslationJsonConverter.convertToJson(EnglishTranslationFactory.tuesdayTranslation()), false);
+    JSONAssert.assertEquals(TestTranslationLoader.tuesdayKoreanJson(), TranslationJsonConverter.convertToJson(KoreanTranslationFactory.tuesdayTranslation()), false);
+    JSONAssert.assertEquals(TestTranslationLoader.tuesdayJapaneseJson(), TranslationJsonConverter.convertToJson(JapaneseTranslationFactory.tuesdayTranslation()), false);
+    JSONAssert.assertEquals(TestTranslationLoader.wednesdayEnglishJson(), TranslationJsonConverter.convertToJson(EnglishTranslationFactory.wednesdayTranslation()), false);
+    JSONAssert.assertEquals(TestTranslationLoader.wednesdayKoreanJson(), TranslationJsonConverter.convertToJson(KoreanTranslationFactory.wednesdayTranslation()), false);
+    JSONAssert.assertEquals(TestTranslationLoader.wednesdayJapaneseJson(), TranslationJsonConverter.convertToJson(JapaneseTranslationFactory.wednesdayTranslation()), false);
   }
   
 }
