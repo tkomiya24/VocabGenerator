@@ -26,6 +26,8 @@ import javax.swing.JTable;
 import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 
+import org.json.JSONException;
+
 import com.tkomiya.exceptions.ListLengthsDoNotMatchException;
 import com.tkomiya.infrastructure.ComparatorSortedList;
 import com.tkomiya.infrastructure.FileUtilities;
@@ -33,6 +35,7 @@ import com.tkomiya.infrastructure.NaturalOrderComparator;
 import com.tkomiya.models.Vocab;
 import com.tkomiya.models.Vocab.SupportedLanguage;
 import com.tkomiya.models.VocabList;
+import com.tkomiya.models.utils.VocabListMongoExporter;
 import com.tkomiya.models.utils.VocabListUtils;
 import com.tkomiya.views.TypedTestController;
 import com.tkomiya.vocablistproviders.JsonFileVocabListProvider;
@@ -45,6 +48,7 @@ public class MainController {
 	private VocabListProvider separateFileVlistGetter;
 	private VocabListProvider vlistGetter;
 	private VocabListProvider backupFileVlistProvider;
+	private VocabListMongoExporter exporter;
 	
 	public static final String DEFAULT_DIRECTORY = "./res/";
 	private static final String LISTS_FILE_PATH = "./lists.config";
@@ -69,6 +73,7 @@ public class MainController {
 	private void initializeFields(){
 		vocabLists = new ComparatorSortedList<VocabList>(new NaturalOrderComparator());
 		vlistGetter = new SerializedFileVocabListProvider();
+		exporter = new VocabListMongoExporter();
 		backupFileVlistProvider = new JsonFileVocabListProvider();
 	}
 	
@@ -321,7 +326,17 @@ public class MainController {
 		//make it fill the table
 		mainView.updateVocabListTable();
 	}
-	
+
+	public void exportMongo() {
+		File file = new File(DEFAULT_SAVE_DIRECTORY +  "master.json");
+		try {
+			VocabListMongoExporter.saveVocabListsAsMongoDbJson(vocabLists, file);
+		} catch (JSONException | IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
 	public class MainButtonListener implements ActionListener {
 		@Override
 		public void actionPerformed(ActionEvent e) {
