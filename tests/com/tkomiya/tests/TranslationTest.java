@@ -19,6 +19,7 @@ public class TranslationTest {
     assertNotEquals("Objects with the same scores and translation but different date should not be equal", KoreanTranslationFactory.makeNervousTranslation1(), KoreanTranslationFactory.makeNervousTranslation3());
     assertNotEquals("Objects with the same scores and translation but one with no date should not be equal", KoreanTranslationFactory.makeNervousTranslation1(), KoreanTranslationFactory.makeNervousTranslation4());
     assertNotEquals("Objects with the same scores and date but different translation sets should not be equal", KoreanTranslationFactory.makeNervousTranslation1(), KoreanTranslationFactory.makeNervousTranslation5());
+    assertEquals("Clone should make an Translation that is the same by equals()", KoreanTranslationFactory.makeNervousTranslation1(), (Translation) KoreanTranslationFactory.makeNervousTranslation1().clone());
   }
 
 }
