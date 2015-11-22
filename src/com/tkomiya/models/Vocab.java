@@ -151,18 +151,21 @@ public class Vocab implements Serializable{
     return translations.containsKey(language);
   }
 	
-//  public Vocab[] splitOnKorean() {
-//    if (this.hasTranslation(SupportedLanguage.KOREAN)) {
-//      Translation[] trans = this.getTranslation(SupportedLanguage.KOREAN).split();
-//      Vocab[] v = new Vocab[trans.length];
-//      for (int i = 0; i < trans.length; i++) {
-//        Vocab n = new Vocab(this.primaryLanguage);
-//      }
-//    } else {
-//      Vocab[] v = { this };
-//      return v;
-//    }
-//  }
+  public Vocab[] splitOnKorean() {
+    if (this.hasTranslation(SupportedLanguage.KOREAN)) {
+      Translation[] trans = this.getTranslation(SupportedLanguage.KOREAN).split();
+      Vocab[] v = new Vocab[trans.length];
+      for (int i = 0; i < trans.length; i++) {
+        Vocab n = (Vocab) this.clone();
+        n.translations.put(SupportedLanguage.KOREAN, trans[i]);
+        v[i] = n;
+      }
+      return v;
+    } else {
+      Vocab[] v = { this };
+      return v;
+    }
+  }
   
   @Override
   public Object clone() {
