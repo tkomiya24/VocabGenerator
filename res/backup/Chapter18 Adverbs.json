@@ -6,17 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "immediately",
-          "straight away",
-          "on the spot"
-        ],
+        "translation": "on the spot, immediately, straight away",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 12,
         "lastTested": "",
-        "translation": ["당장"],
+        "translation": "당장",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -25,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["separately"],
+        "translation": "separately",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["따로"],
+        "translation": "따로",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -40,16 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "very",
-          "awfully"
-        ],
+        "translation": "very, awfully",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["몹시"],
+        "translation": "몹시",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -58,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["however much [one VERBs]; at the very [(ADJ-est)]"],
+        "translation": "however much [one VERBs]; at the very [(ADJ-est)]",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["아무리 "],
+        "translation": "아무리 ",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -73,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["fluently"],
+        "translation": "fluently",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 24,
         "lastTested": "",
-        "translation": ["유창하게"],
+        "translation": "유창하게",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -88,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["naturally"],
+        "translation": "naturally",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 19,
         "lastTested": "",
-        "translation": ["자연스럽게"],
+        "translation": "자연스럽게",
         "timesCorrect": 8
       },
       "primaryLanguage": "English"
@@ -103,17 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "gradually",
-          "little by little",
-          "by degrees"
-        ],
+        "translation": "gradually, little by little, by degrees",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["점점"],
+        "translation": "점점",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -122,17 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "as it should/ought be done",
-          "properly",
-          "in proper fashion"
-        ],
+        "translation": "properly, as it should/ought be done, in proper fashion",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["제대로"],
+        "translation": "제대로",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -141,16 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "enjoyably",
-          "happily"
-        ],
+        "translation": "happily, enjoyably",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["즐겁게 "],
+        "translation": "즐겁게 ",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"

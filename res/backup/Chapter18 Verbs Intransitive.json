@@ -6,16 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "drop in",
-          "drop by"
-        ],
+        "translation": "drop in, drop by",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["들르-"],
+        "translation": "들르-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -24,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["disappear"],
+        "translation": "disappear",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["없어지- "],
+        "translation": "없어지- ",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"

@@ -24,7 +24,7 @@ public class TranslationJsonConverter {
     if (json.has(LAST_TESTED) && !json.getString(LAST_TESTED).trim().isEmpty()) {
       trans.setLastTested(SIMPLED_DATE_FORMAT.parse(json.getString(LAST_TESTED)));
     }
-    trans.addTranslations(jsonArrayToCollection(json.getJSONArray(TRANSLATION)));
+    trans.addTranslation(json.getString(TRANSLATION));
     trans.setTimesCorrect(json.getInt(TIMES_CORRECT));
     trans.setTimesTested(json.getInt(TIMES_TESTED));
     return trans;
@@ -40,7 +40,7 @@ public class TranslationJsonConverter {
   
   public static JSONObject convertToJson(Translation translation) throws JSONException {
     JSONObject translationJson = new JSONObject();
-    translationJson.put(TRANSLATION, translationsToJsonArray(translation));
+    translationJson.put(TRANSLATION, translation.printTranslations());
     translationJson.put(TIMES_CORRECT, translation.getTimesCorrect());
     translationJson.put(TIMES_TESTED, translation.getTimesTested());
     if (translation.getLastTested() != null) {

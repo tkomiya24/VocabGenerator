@@ -12,9 +12,8 @@ import com.tkomiya.main.Translation;
 public class TestTranslationLoaderUtil {
 
   public static JSONObject makeTranslationJson(String translation, int timesCorrect, int timesTested, String lastTested) throws JSONException {
-    JSONArray jsonArray = new JSONArray().put(translation);
     return new JSONObject().
-        put(TranslationJsonConverter.TRANSLATION, jsonArray).
+        put(TranslationJsonConverter.TRANSLATION, translation).
         put(TranslationJsonConverter.TIMES_CORRECT, timesCorrect).
         put(TranslationJsonConverter.TIMES_TESTED, timesTested).
         put(TranslationJsonConverter.LAST_TESTED, lastTested);

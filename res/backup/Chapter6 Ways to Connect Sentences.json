@@ -6,17 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "But...",
-          "And then...",
-          "By the way...."
-        ],
+        "translation": "By the way...., And then..., But...",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["그런데"],
+        "translation": "그런데",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -25,17 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "And so...",
-          "And then...",
-          "Therefore..."
-        ],
+        "translation": "And then..., Therefore..., And so...",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["그래서"],
+        "translation": "그래서",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -44,16 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "And also...",
-          "And then..."
-        ],
+        "translation": "And then..., And also...",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["그리고"],
+        "translation": "그리고",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -62,16 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "Even so...",
-          "Nevertheless"
-        ],
+        "translation": "Even so..., Nevertheless",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["그래도"],
+        "translation": "그래도",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"

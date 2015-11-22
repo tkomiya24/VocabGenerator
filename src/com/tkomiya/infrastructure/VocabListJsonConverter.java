@@ -41,8 +41,10 @@ public class VocabListJsonConverter {
 		}
 		JSONArray array = new JSONArray();
 		for (Vocab vocab : list) {
-			JSONObject vocabJson = VocabJsonConverter.convertToJson(vocab);
-			array.put(vocabJson);
+		  for (Vocab splitVocab : vocab.splitOnKorean()) {
+	      JSONObject vocabJson = VocabJsonConverter.convertToJson(splitVocab);
+	      array.put(vocabJson);
+		  }
 		}
 		json.put(VOCAB, array);
 		return json;

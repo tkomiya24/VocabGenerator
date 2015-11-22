@@ -5,13 +5,13 @@
       "japanese": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["土足厳禁"],
+        "translation": "土足厳禁",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["shoes banned"],
+        "translation": "shoes banned",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -20,13 +20,13 @@
       "japanese": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["至急"],
+        "translation": "至急",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["urgent; emergency case"],
+        "translation": "urgent; emergency case",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -35,13 +35,13 @@
       "japanese": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["休暇を返上する"],
+        "translation": "休暇を返上する",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["to give up one's holiday"],
+        "translation": "to give up one's holiday",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -50,13 +50,13 @@
       "japanese": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["残滓"],
+        "translation": "残滓",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["leavings; vestiges"],
+        "translation": "leavings; vestiges",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -65,13 +65,13 @@
       "japanese": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["切り札"],
+        "translation": "切り札",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["a trump card; secret weapon"],
+        "translation": "a trump card; secret weapon",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -80,13 +80,13 @@
       "japanese": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["適合"],
+        "translation": "適合",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["conformity"],
+        "translation": "conformity",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -95,13 +95,13 @@
       "japanese": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["呼び名"],
+        "translation": "呼び名",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["a common name; a popular name"],
+        "translation": "a common name; a popular name",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -110,13 +110,13 @@
       "japanese": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["さらけ出す"],
+        "translation": "さらけ出す",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["to reveal"],
+        "translation": "to reveal",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -125,13 +125,13 @@
       "japanese": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["贅肉"],
+        "translation": "贅肉",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["flab; excess weight"],
+        "translation": "flab; excess weight",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -140,13 +140,13 @@
       "japanese": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["みすみす"],
+        "translation": "みすみす",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["before one's eyes; in full knowledge of"],
+        "translation": "before one's eyes; in full knowledge of",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -155,13 +155,13 @@
       "japanese": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["手記"],
+        "translation": "手記",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["a note; a memorandum"],
+        "translation": "a note; a memorandum",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"

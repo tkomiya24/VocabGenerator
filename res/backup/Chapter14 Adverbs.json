@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["of course"],
+        "translation": "of course",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 13,
         "lastTested": "",
-        "translation": ["물론"],
+        "translation": "물론",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["[It is a matter] of course."],
+        "translation": "[It is a matter] of course.",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 14,
         "lastTested": "",
-        "translation": ["물론이에요"],
+        "translation": "물론이에요",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -36,16 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "very",
-          "very much"
-        ],
+        "translation": "very, very much",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 13,
         "lastTested": "",
-        "translation": ["굉장히"],
+        "translation": "굉장히",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -54,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["day before yesterday"],
+        "translation": "day before yesterday",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 15,
         "lastTested": "",
-        "translation": ["그제께"],
+        "translation": "그제께",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -69,16 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["day after tomorrow ()"],
+        "translation": "day after tomorrow ()",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 17,
         "lastTested": "",
-        "translation": [
-          "모레",
-          "내일모레"
-        ],
+        "translation": "모레",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -87,17 +81,28 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "first of all",
-          "before everything",
-          "before anything else"
-        ],
+        "translation": "day after tomorrow ()",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 17,
+        "lastTested": "",
+        "translation": "내일모레",
+        "timesCorrect": 9
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "first of all, before everything, before anything else",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 10,
         "lastTested": "",
-        "translation": ["우선"],
+        "translation": "우선",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -106,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["let's contact the teacher first (formal)"],
+        "translation": "let's contact the teacher first (formal)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 15,
         "lastTested": "",
-        "translation": ["우선 선생님께 연락을 드립시다 "],
+        "translation": "우선 선생님께 연락을 드립시다 ",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -121,16 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "comfortably",
-          "in comfort"
-        ],
+        "translation": "comfortably, in comfort",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 10,
         "lastTested": "",
-        "translation": ["편히 "],
+        "translation": "편히 ",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -139,13 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Please make [seat] yourself comfortable. (honorific)"],
+        "translation": "Please make [seat] yourself comfortable. (honorific)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 11,
         "lastTested": "",
-        "translation": ["편히 앉으세요"],
+        "translation": "편히 앉으세요",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -154,13 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["a short while"],
+        "translation": "a short while",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 15,
         "lastTested": "",
-        "translation": ["잠시"],
+        "translation": "잠시",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -169,13 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["[Please wait] Just a moment (honorific)"],
+        "translation": "[Please wait] Just a moment (honorific)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 14,
         "lastTested": "",
-        "translation": ["잠시만 기다리세요"],
+        "translation": "잠시만 기다리세요",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -184,16 +186,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "the most; the first",
-          "number one"
-        ],
+        "translation": "the most; the first, number one",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 11,
         "lastTested": "",
-        "translation": ["제일 "],
+        "translation": "제일 ",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -202,13 +201,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Swimming is the best thing for your health"],
+        "translation": "Swimming is the best thing for your health",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 18,
         "lastTested": "",
-        "translation": ["수영이 건강에 제일이에요"],
+        "translation": "수영이 건강에 제일이에요",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -217,13 +216,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["The subway is fastest"],
+        "translation": "The subway is fastest",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 16,
         "lastTested": "",
-        "translation": ["지하철이 제일 빨라요"],
+        "translation": "지하철이 제일 빨라요",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -232,13 +231,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["the most"],
+        "translation": "the most",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 12,
         "lastTested": "",
-        "translation": ["가장"],
+        "translation": "가장",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -247,13 +246,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["This place [restaurant] has the tastiest side dishes"],
+        "translation": "This place [restaurant] has the tastiest side dishes",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 20,
         "lastTested": "",
-        "translation": ["이 집 반찬이 가장 맛이 있어요"],
+        "translation": "이 집 반찬이 가장 맛이 있어요",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"

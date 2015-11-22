@@ -6,16 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "Oh",
-          "I see you are living (in a rich neighbourhood)!"
-        ],
+        "translation": "Oh, I see you are living (in a rich neighbourhood)!",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["사는군요!"],
+        "translation": "사는군요!",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -24,16 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "Why",
-          "we're the same age! (mild surprise) "
-        ],
+        "translation": "we're the same age! (mild surprise) , Why",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["동갑이네요!"],
+        "translation": "동갑이네요!",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -42,16 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "Why",
-          "that makes you my hyung! (mild surprise)"
-        ],
+        "translation": "Why, that makes you my hyung! (mild surprise)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["형이네요!"],
+        "translation": "형이네요!",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -60,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Please look out for me. please take good care of me."],
+        "translation": "Please look out for me. please take good care of me.",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["잘 부탁드립니다"],
+        "translation": "잘 부탁드립니다",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -75,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["I've understood. [got it; i see; ok i get you point]"],
+        "translation": "I've understood. [got it; i see; ok i get you point]",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["알았어요"],
+        "translation": "알았어요",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -90,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["really? (formal)"],
+        "translation": "really? (formal)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["그렇습니까?"],
+        "translation": "그렇습니까?",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -105,16 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "why",
-          "it's lunchtime! (mild surprise)"
-        ],
+        "translation": "why, it's lunchtime! (mild surprise)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["점심시간이네요!"],
+        "translation": "점심시간이네요!",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"

@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be similar; be the same as something"],
+        "translation": "be similar; be the same as something",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["같-"],
+        "translation": "같-",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["together (adjective)"],
+        "translation": "together (adjective)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["같이 [가치]"],
+        "translation": "같이 [가치]",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -36,17 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "cut [hair]",
-          "sharpen [pencil",
-          "mow [grass]"
-        ],
+        "translation": "sharpen [pencil, cut [hair], mow [grass]",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["깎-"],
+        "translation": "깎-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -55,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["get a haircut (for females)"],
+        "translation": "get a haircut (for females)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["머리(를) 자르-"],
+        "translation": "머리(를) 자르-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -70,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be difficult"],
+        "translation": "be difficult",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["어려w-"],
+        "translation": "어려w-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -85,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be easy"],
+        "translation": "be easy",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["쉬w-"],
+        "translation": "쉬w-",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -100,16 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be good by nature; be a good boy [girl dog",
-          "etc.]"
-        ],
+        "translation": "etc.], be good by nature; be a good boy [girl dog",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["착하-"],
+        "translation": "착하-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -118,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["obey"],
+        "translation": "obey",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["말(을) 들-"],
+        "translation": "말(을) 들-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -133,13 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["He obeys well."],
+        "translation": "He obeys well.",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["말을 잘 들어요"],
+        "translation": "말을 잘 들어요",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -148,13 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["take (eat) medicine"],
+        "translation": "take (eat) medicine",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["약(을) 먹-"],
+        "translation": "약(을) 먹-",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -163,13 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["use"],
+        "translation": "use",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["쓰-"],
+        "translation": "쓰-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -178,16 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be cheap",
-          "inexpensive"
-        ],
+        "translation": "be cheap, inexpensive",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["싸-"],
+        "translation": "싸-",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"

@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["tea"],
+        "translation": "tea",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["차"],
+        "translation": "차",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -21,16 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "the news (on radio",
-          "tv)"
-        ],
+        "translation": "tv), the news (on radio",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["뉴스"],
+        "translation": "뉴스",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -39,19 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "car",
-          "automobile"
-        ],
+        "translation": "automobile, car",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": [
-          "자동차",
-          "차"
-        ],
+        "translation": "차",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -60,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["research"],
+        "translation": "automobile, car",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["연구"],
+        "translation": "자동차",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -75,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["do research"],
+        "translation": "research",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["연구(를) 하-"],
+        "translation": "연구",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -90,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["professor's office"],
+        "translation": "do research",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["연구실"],
+        "translation": "연구(를) 하-",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -105,16 +96,28 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "middle",
-          "midway"
-        ],
+        "translation": "professor's office",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": "연구실",
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "midway, middle",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["중간"],
+        "translation": "중간",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -123,13 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["business"],
+        "translation": "business",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["사업"],
+        "translation": "사업",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -138,13 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["trade"],
+        "translation": "trade",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["무역"],
+        "translation": "무역",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -153,13 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["trading company"],
+        "translation": "trading company",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["무역회사"],
+        "translation": "무역회사",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -168,13 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["new NOUN"],
+        "translation": "new NOUN",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["새 NOUN"],
+        "translation": "새 NOUN",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -183,13 +186,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["price"],
+        "translation": "price",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["값"],
+        "translation": "값",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -198,13 +201,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["how much is it?"],
+        "translation": "how much is it?",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["값이 얼마예요?"],
+        "translation": "값이 얼마예요?",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -213,13 +216,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["business card"],
+        "translation": "business card",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["명함"],
+        "translation": "명함",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -228,13 +231,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["upstairs; the floor above"],
+        "translation": "upstairs; the floor above",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["위층"],
+        "translation": "위층",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -243,13 +246,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["downstairs; the floor below"],
+        "translation": "downstairs; the floor below",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["아래층"],
+        "translation": "아래층",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -258,13 +261,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["tooth; teeth"],
+        "translation": "tooth; teeth",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["이"],
+        "translation": "이",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -273,13 +276,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["because of NOUN; on account of NOUN"],
+        "translation": "because of NOUN; on account of NOUN",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["NOUN 때문에"],
+        "translation": "NOUN 때문에",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -288,13 +291,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["i'm here [i've come] on business"],
+        "translation": "i'm here [i've come] on business",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 19,
         "lastTested": "",
-        "translation": ["사업 때문에 왔어요"],
+        "translation": "사업 때문에 왔어요",
         "timesCorrect": 8
       },
       "primaryLanguage": "English"
@@ -303,13 +306,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["i couldn't sleep because of the baby"],
+        "translation": "i couldn't sleep because of the baby",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["애기 때문에 못 잤어요"],
+        "translation": "애기 때문에 못 잤어요",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -318,16 +321,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "for TIME PERIOD",
-          "during TIME PERIOD"
-        ],
+        "translation": "for TIME PERIOD, during TIME PERIOD",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 19,
         "lastTested": "",
-        "translation": ["TIME PERIOD 동안(에)"],
+        "translation": "TIME PERIOD 동안(에)",
         "timesCorrect": 8
       },
       "primaryLanguage": "English"
@@ -336,13 +336,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["for how long? for what duration?"],
+        "translation": "for how long? for what duration?",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 18,
         "lastTested": "",
-        "translation": [" 얼마 동안?"],
+        "translation": " 얼마 동안?",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"
@@ -351,13 +351,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["for an hour"],
+        "translation": "for an hour",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": [" 한 시간 동안"],
+        "translation": " 한 시간 동안",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"

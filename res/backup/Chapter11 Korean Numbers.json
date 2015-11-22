@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["twenty"],
+        "translation": "twenty",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["스물"],
+        "translation": "스물",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["thirty "],
+        "translation": "thirty ",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["서른"],
+        "translation": "서른",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -36,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["fourty"],
+        "translation": "fourty",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["마흔"],
+        "translation": "마흔",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -51,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["fifty"],
+        "translation": "fifty",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["쉰"],
+        "translation": "쉰",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -66,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["sixty"],
+        "translation": "sixty",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["예순"],
+        "translation": "예순",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -81,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["seventy"],
+        "translation": "seventy",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["일흔"],
+        "translation": "일흔",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -96,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["eighty"],
+        "translation": "eighty",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["여든"],
+        "translation": "여든",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -111,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["ninety"],
+        "translation": "ninety",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["아흔"],
+        "translation": "아흔",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"

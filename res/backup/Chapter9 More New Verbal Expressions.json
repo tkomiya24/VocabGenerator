@@ -6,16 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "roast it",
-          "broil it"
-        ],
+        "translation": "broil it, roast it",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["구w-"],
+        "translation": "구w-",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -24,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["he cooks meat"],
+        "translation": "he cooks meat",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["고기를 구워요"],
+        "translation": "고기를 구워요",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -39,16 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be not interesting",
-          "boring; not fun"
-        ],
+        "translation": "be not interesting, boring; not fun",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["재미없-"],
+        "translation": "재미없-",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -57,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be intereesting; fun"],
+        "translation": "be intereesting; fun",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["재미있-"],
+        "translation": "재미있-",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -72,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["interestingly; in a fun way in such a way that it was interesting"],
+        "translation": "interestingly; in a fun way in such a way that it was interesting",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["재미있게"],
+        "translation": "재미있게",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -87,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["did you enjoy [watching] the movie?(honorific)"],
+        "translation": "did you enjoy [watching] the movie?(honorific)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["영화를 재미있게 보셨어요?"],
+        "translation": "영화를 재미있게 보셨어요?",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -102,19 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "no",
-          "i didn't find it very interesting"
-        ],
+        "translation": "no, i didn't find it very interesting",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 11,
         "lastTested": "",
-        "translation": [
-          "아니오",
-          "재미없게 봤어요"
-        ],
+        "translation": "아니오",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -123,13 +111,28 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["go up"],
+        "translation": "no, i didn't find it very interesting",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 11,
+        "lastTested": "",
+        "translation": "재미없게 봤어요",
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "go up",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["올라가-"],
+        "translation": "올라가-",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -138,13 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["come up"],
+        "translation": "come up",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["올라오-"],
+        "translation": "올라오-",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -153,16 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "ascend",
-          "go up"
-        ],
+        "translation": "ascend, go up",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 13,
         "lastTested": "",
-        "translation": ["오르-"],
+        "translation": "오르-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -171,13 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["the price has gone up a lot"],
+        "translation": "the price has gone up a lot",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 19,
         "lastTested": "",
-        "translation": ["값이 많이 올랐어요"],
+        "translation": "값이 많이 올랐어요",
         "timesCorrect": 8
       },
       "primaryLanguage": "English"
@@ -186,13 +186,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["go down"],
+        "translation": "go down",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["내려가- "],
+        "translation": "내려가- ",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -201,13 +201,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["come down"],
+        "translation": "come down",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 18,
         "lastTested": "",
-        "translation": ["내려오-"],
+        "translation": "내려오-",
         "timesCorrect": 8
       },
       "primaryLanguage": "English"
@@ -216,16 +216,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "descend; get off/out (bus",
-          "taxi)"
-        ],
+        "translation": "descend; get off/out (bus, taxi)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["내리-"],
+        "translation": "내리-",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -234,13 +231,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["the price has come down a lot"],
+        "translation": "the price has come down a lot",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["값이 많이 내렸어요"],
+        "translation": "값이 많이 내렸어요",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -249,13 +246,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["get off at seoul station"],
+        "translation": "get off at seoul station",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["서울역에서 내리세요"],
+        "translation": "서울역에서 내리세요",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -264,13 +261,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["come out"],
+        "translation": "come out",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["나오-"],
+        "translation": "나오-",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -279,13 +276,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["go out"],
+        "translation": "go out",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["나가-"],
+        "translation": "나가-",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -294,16 +291,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be quite something",
-          "be impressive"
-        ],
+        "translation": "be impressive, be quite something",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["굉장하-"],
+        "translation": "굉장하-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -312,13 +306,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["arrive"],
+        "translation": "arrive",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["도착(을) 하-"],
+        "translation": "도착(을) 하-",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -327,16 +321,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "get in touch",
-          "make contact"
-        ],
+        "translation": "make contact, get in touch",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["연락(을) 하-"],
+        "translation": "연락(을) 하-",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -345,16 +336,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "talk",
-          "chat"
-        ],
+        "translation": "chat, talk",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["이야기(를) 하-"],
+        "translation": "이야기(를) 하-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -363,16 +351,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["story"],
+        "translation": "story",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": [
-          "이야기",
-          "얘기"
-        ],
+        "translation": "얘기",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -381,13 +366,28 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["go (and come back)"],
+        "translation": "story",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["갔다 오-"],
+        "translation": "이야기",
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "go (and come back)",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": "갔다 오-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"

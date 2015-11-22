@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["concert"],
+        "translation": "concert",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["음악회"],
+        "translation": "음악회",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["jazz"],
+        "translation": "jazz",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["재즈"],
+        "translation": "재즈",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -36,16 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "play",
-          "drama"
-        ],
+        "translation": "play, drama",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["연극"],
+        "translation": "연극",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -54,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["mountain"],
+        "translation": "mountain",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["산"],
+        "translation": "산",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -69,16 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "countryside",
-          "the country"
-        ],
+        "translation": "the country, countryside",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["시골"],
+        "translation": "시골",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -87,16 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "the ocean",
-          "the sea"
-        ],
+        "translation": "the ocean, the sea",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["바다"],
+        "translation": "바다",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -105,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["the beach"],
+        "translation": "the beach",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["바닷가"],
+        "translation": "바닷가",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -120,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["city"],
+        "translation": "city",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["도시"],
+        "translation": "도시",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -135,13 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["suburbs"],
+        "translation": "suburbs",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["교외"],
+        "translation": "교외",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -150,16 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "hallway",
-          "corridor"
-        ],
+        "translation": "corridor, hallway",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["복도"],
+        "translation": "복도",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -168,13 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["customer;guest"],
+        "translation": "customer;guest",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["손님"],
+        "translation": "손님",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -183,16 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "mind",
-          "heart"
-        ],
+        "translation": "mind, heart",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["마음"],
+        "translation": "마음",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -201,16 +186,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "has a good heart",
-          "is good natured"
-        ],
+        "translation": "has a good heart, is good natured",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["마음(이) 좋-"],
+        "translation": "마음(이) 좋-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -219,17 +201,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "subway",
-          "underground",
-          "metro"
-        ],
+        "translation": "subway, underground, metro",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["지하철"],
+        "translation": "지하철",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -238,13 +216,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["brothers (for males); brothers and sisters"],
+        "translation": "brothers (for males); brothers and sisters",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["형제"],
+        "translation": "형제",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -253,13 +231,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["how many brothers and sisters do you have? (polite)"],
+        "translation": "how many brothers and sisters do you have? (polite)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["형제가 몇 명이에요? "],
+        "translation": "형제가 몇 명이에요? ",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"

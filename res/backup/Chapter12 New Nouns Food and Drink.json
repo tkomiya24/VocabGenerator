@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Coffee"],
+        "translation": "Coffee",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["커피"],
+        "translation": "커피",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Ice coffee"],
+        "translation": "Ice coffee",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["냉커피"],
+        "translation": "냉커피",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -36,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["ice water"],
+        "translation": "ice water",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["냉수찬물"],
+        "translation": "냉수찬물",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -51,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["cold noodle dish"],
+        "translation": "cold noodle dish",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["냉면"],
+        "translation": "냉면",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -66,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["cola"],
+        "translation": "cola",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["콜라"],
+        "translation": "콜라",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -81,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["ice"],
+        "translation": "ice",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 12,
         "lastTested": "",
-        "translation": ["얼음"],
+        "translation": "얼음",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -96,16 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "cooking",
-          "cuisine"
-        ],
+        "translation": "cuisine, cooking",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["요리"],
+        "translation": "요리",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -114,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["ice cream"],
+        "translation": "ice cream",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["아이스크림"],
+        "translation": "아이스크림",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -129,16 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "whiskey",
-          "western spirits"
-        ],
+        "translation": "western spirits, whiskey",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["영주"],
+        "translation": "영주",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -147,13 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["sugar"],
+        "translation": "sugar",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["설탕"],
+        "translation": "설탕",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -162,16 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["add/put in sugar ()"],
+        "translation": "add/put in sugar ()",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 24,
         "lastTested": "",
-        "translation": [
-          "설탕을 넣-",
-          "설탕을 타-"
-        ],
+        "translation": "설탕을 넣-",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -180,13 +171,28 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Do you take sugar? (honorific)"],
+        "translation": "add/put in sugar ()",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 24,
+        "lastTested": "",
+        "translation": "설탕을 타-",
+        "timesCorrect": 10
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "Do you take sugar? (honorific)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["설탕을 타세요?"],
+        "translation": "설탕을 타세요?",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -195,13 +201,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["cream"],
+        "translation": "cream",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["크림"],
+        "translation": "크림",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -210,13 +216,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["nondairy creamer"],
+        "translation": "nondairy creamer",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["프리마"],
+        "translation": "프리마",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -225,16 +231,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "black tea",
-          "english tea"
-        ],
+        "translation": "english tea, black tea",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["홍차"],
+        "translation": "홍차",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -243,13 +246,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["draft beer"],
+        "translation": "draft beer",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["생맥주"],
+        "translation": "생맥주",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -258,13 +261,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["pizza"],
+        "translation": "pizza",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["피자"],
+        "translation": "피자",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -273,13 +276,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["korean soft drink like 7up"],
+        "translation": "korean soft drink like 7up",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["사이다"],
+        "translation": "사이다",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -288,13 +291,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["shaved ice"],
+        "translation": "shaved ice",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["빙수"],
+        "translation": "빙수",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -303,13 +306,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["sandwich"],
+        "translation": "sandwich",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 11,
         "lastTested": "",
-        "translation": ["샌드위치"],
+        "translation": "샌드위치",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -318,13 +321,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["hamburger"],
+        "translation": "hamburger",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 10,
         "lastTested": "",
-        "translation": ["햄버거"],
+        "translation": "햄버거",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -333,13 +336,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["hotdog"],
+        "translation": "hotdog",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["핫도그"],
+        "translation": "핫도그",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"

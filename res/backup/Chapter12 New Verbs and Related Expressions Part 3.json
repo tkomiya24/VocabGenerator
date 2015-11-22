@@ -6,16 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "comes back",
-          "returns here"
-        ],
+        "translation": "returns here, comes back",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["돌아오-"],
+        "translation": "돌아오-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -24,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["dances (a dance)"],
+        "translation": "dances (a dance)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["춤(을) 추-"],
+        "translation": "춤(을) 추-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -39,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["How is it? How about it?"],
+        "translation": "How is it? How about it?",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["어때요?"],
+        "translation": "어때요?",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -54,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["how do you like seoul?"],
+        "translation": "how do you like seoul?",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["서울은 어때요?"],
+        "translation": "서울은 어때요?",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -69,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["how do you like seoul? [formal]"],
+        "translation": "how do you like seoul? [formal]",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["서울은 어떻습니까?"],
+        "translation": "서울은 어떻습니까?",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -84,16 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "come in",
-          "enter; return home"
-        ],
+        "translation": "come in, enter; return home",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["들어오-"],
+        "translation": "들어오-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -102,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["I got in late last night. (polite)"],
+        "translation": "I got in late last night. (polite)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 14,
         "lastTested": "",
-        "translation": ["어제 늦게 들어왔어요"],
+        "translation": "어제 늦게 들어왔어요",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -117,16 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "go in",
-          "enters"
-        ],
+        "translation": "go in, enters",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["들어가-"],
+        "translation": "들어가-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -135,13 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be good; be liked"],
+        "translation": "be good; be liked",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["좋-"],
+        "translation": "좋-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -150,16 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["I like Seoul (polite) (2)."],
+        "translation": "I like Seoul (polite) (2).",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": [
-          "나는 서울이 좋아요",
-          "나는 서울을 좋아해요"
-        ],
+        "translation": "나는 서울이 좋아요",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -168,13 +156,28 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["like it"],
+        "translation": "I like Seoul (polite) (2).",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": "나는 서울을 좋아해요",
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "like it",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["좋아하-"],
+        "translation": "좋아하-",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -183,16 +186,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be disliked",
-          "distasteful"
-        ],
+        "translation": "distasteful, be disliked",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["싫-"],
+        "translation": "싫-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -201,13 +201,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["dislike it"],
+        "translation": "dislike it",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["싫어하-"],
+        "translation": "싫어하-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -216,13 +216,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["order [at a restaurant]"],
+        "translation": "order [at a restaurant]",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["주문(을) 하-"],
+        "translation": "주문(을) 하-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -231,13 +231,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be healthy"],
+        "translation": "be healthy",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["건강하-"],
+        "translation": "건강하-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -246,13 +246,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["health"],
+        "translation": "health",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["건강"],
+        "translation": "건강",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"

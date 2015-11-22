@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["school"],
+        "translation": "school",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["학교"],
+        "translation": "학교",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["university"],
+        "translation": "university",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["대학교"],
+        "translation": "대학교",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -36,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["classroom"],
+        "translation": "classroom",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["교실"],
+        "translation": "교실",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -51,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["room"],
+        "translation": "room",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["방"],
+        "translation": "방",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -66,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["campus"],
+        "translation": "campus",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["캠퍼스"],
+        "translation": "캠퍼스",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -81,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["bookstore"],
+        "translation": "bookstore",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["서점"],
+        "translation": "서점",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -96,16 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "dormitory",
-          "residence hall"
-        ],
+        "translation": "residence hall, dormitory",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["기숙사"],
+        "translation": "기숙사",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -114,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["student union building"],
+        "translation": "student union building",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["학생회관"],
+        "translation": "학생회관",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -129,18 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "toilet",
-          "restroom",
-          "bathroom",
-          "washroom"
-        ],
+        "translation": "toilet, bathroom, washroom, restroom",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["화장실"],
+        "translation": "화장실",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -149,13 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["coffee shop"],
+        "translation": "coffee shop",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["커피숍"],
+        "translation": "커피숍",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -164,13 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["hotel"],
+        "translation": "hotel",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["호텔"],
+        "translation": "호텔",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -179,13 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["embassy"],
+        "translation": "embassy",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["대사관"],
+        "translation": "대사관",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -194,13 +186,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["consulate"],
+        "translation": "consulate",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["영사관"],
+        "translation": "영사관",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -209,13 +201,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["building ()"],
+        "translation": "building ()",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["건물,빌딩"],
+        "translation": "건물,빌딩",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -224,13 +216,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["city hall"],
+        "translation": "city hall",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["시청"],
+        "translation": "시청",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -239,13 +231,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["park"],
+        "translation": "park",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["공원"],
+        "translation": "공원",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -254,13 +246,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["department store"],
+        "translation": "department store",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["백화점"],
+        "translation": "백화점",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -269,13 +261,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["market"],
+        "translation": "market",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["시장"],
+        "translation": "시장",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -284,16 +276,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "Main gate",
-          "seimon"
-        ],
+        "translation": "seimon, Main gate",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["정문"],
+        "translation": "정문",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -302,13 +291,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["vicinity"],
+        "translation": "vicinity",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["근처"],
+        "translation": "근처",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -317,16 +306,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "shop",
-          "store"
-        ],
+        "translation": "shop, store",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["가게"],
+        "translation": "가게",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -335,13 +321,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["train station"],
+        "translation": "train station",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["역"],
+        "translation": "역",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -350,13 +336,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Here"],
+        "translation": "Here",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["여기"],
+        "translation": "여기",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -365,13 +351,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["There"],
+        "translation": "There",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["거기"],
+        "translation": "거기",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -380,13 +366,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Over there"],
+        "translation": "Over there",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["저기"],
+        "translation": "저기",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -395,13 +381,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["where"],
+        "translation": "where",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["어디"],
+        "translation": "어디",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"

@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["o'clock"],
+        "translation": "o'clock",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["시"],
+        "translation": "시",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["months"],
+        "translation": "months",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["달*"],
+        "translation": "달*",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -36,19 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "persons",
-          "people (2)"
-        ],
+        "translation": "persons, people (2)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": [
-          "명",
-          "사람*"
-        ],
+        "translation": "명",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -57,13 +51,28 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["esteemed people"],
+        "translation": "persons, people (2)",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": "사람*",
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "esteemed people",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["분"],
+        "translation": "분",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -72,17 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "animals",
-          "fish",
-          "birds"
-        ],
+        "translation": "fish, animals, birds",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["마리"],
+        "translation": "마리",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -91,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["age"],
+        "translation": "age",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["살"],
+        "translation": "살",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -106,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["cupfuls"],
+        "translation": "cupfuls",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["잔*"],
+        "translation": "잔*",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -121,16 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "vehicles",
-          "machines"
-        ],
+        "translation": "vehicles, machines",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["대"],
+        "translation": "대",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -139,16 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "kinds",
-          "varieties"
-        ],
+        "translation": "varieties, kinds",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 14,
         "lastTested": "",
-        "translation": ["가지"],
+        "translation": "가지",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -157,13 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["bottle"],
+        "translation": "bottle",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["병*"],
+        "translation": "병*",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -172,13 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["times"],
+        "translation": "times",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["번"],
+        "translation": "번",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -187,13 +186,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["hours"],
+        "translation": "hours",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["시간*"],
+        "translation": "시간*",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -202,13 +201,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["years"],
+        "translation": "years",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["해*"],
+        "translation": "해*",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -217,16 +216,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "places",
-          "institutions"
-        ],
+        "translation": "institutions, places",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["군데"],
+        "translation": "군데",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -235,13 +231,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["pack (of cigarettes)"],
+        "translation": "pack (of cigarettes)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["갑"],
+        "translation": "갑",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -250,13 +246,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["box; case; chest"],
+        "translation": "box; case; chest",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 16,
         "lastTested": "",
-        "translation": ["상자*"],
+        "translation": "상자*",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"
@@ -265,13 +261,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["newspapers; books (if bought in multiple copies)"],
+        "translation": "newspapers; books (if bought in multiple copies)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 13,
         "lastTested": "",
-        "translation": ["부"],
+        "translation": "부",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -280,13 +276,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["flat objects; pieces of paper"],
+        "translation": "flat objects; pieces of paper",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["장"],
+        "translation": "장",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -295,13 +291,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["buildings"],
+        "translation": "buildings",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 11,
         "lastTested": "",
-        "translation": ["채"],
+        "translation": "채",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -310,17 +306,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "items",
-          "units",
-          "objects"
-        ],
+        "translation": "objects, units, items",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["개"],
+        "translation": "개",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -329,13 +321,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["paper bag"],
+        "translation": "paper bag",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 13,
         "lastTested": "",
-        "translation": ["봉지*"],
+        "translation": "봉지*",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -344,13 +336,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["bound volumes; books or magqazines"],
+        "translation": "bound volumes; books or magqazines",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["권"],
+        "translation": "권",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"

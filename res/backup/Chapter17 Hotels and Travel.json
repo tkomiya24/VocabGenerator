@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["heating"],
+        "translation": "heating",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["난방 장치"],
+        "translation": "난방 장치",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["air-conditiong"],
+        "translation": "air-conditiong",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["냉방 장치"],
+        "translation": "냉방 장치",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -36,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["single room"],
+        "translation": "single room",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["독방"],
+        "translation": "독방",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -51,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["balcony"],
+        "translation": "balcony",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["발코니"],
+        "translation": "발코니",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -66,16 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "lodge at",
-          "put up at"
-        ],
+        "translation": "lodge at, put up at",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 10,
         "lastTested": "",
-        "translation": ["숙박(을) 하-"],
+        "translation": "숙박(을) 하-",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -84,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["lodging [registration] form"],
+        "translation": "lodging [registration] form",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["숙박부"],
+        "translation": "숙박부",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -99,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["to travel"],
+        "translation": "to travel",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["여행(을) 하-"],
+        "translation": "여행(을) 하-",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -114,16 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["key ()"],
+        "translation": "key ()",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 30,
         "lastTested": "",
-        "translation": [
-          "열쇠",
-          "키"
-        ],
+        "translation": "열쇠",
         "timesCorrect": 13
       },
       "primaryLanguage": "English"
@@ -132,13 +126,28 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["fee; fare"],
+        "translation": "key ()",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 30,
+        "lastTested": "",
+        "translation": "키",
+        "timesCorrect": 13
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "fee; fare",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["요금"],
+        "translation": "요금",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -147,16 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "bathroom",
-          "room with a bath"
-        ],
+        "translation": "room with a bath, bathroom",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["욕실"],
+        "translation": "욕실",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -165,13 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["europe"],
+        "translation": "europe",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["유럽"],
+        "translation": "유럽",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -180,13 +186,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["the view"],
+        "translation": "the view",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["전경 "],
+        "translation": "전경 ",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -195,13 +201,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["check in"],
+        "translation": "check in",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["체크인(을) 하-"],
+        "translation": "체크인(을) 하-",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -210,13 +216,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["give a discount"],
+        "translation": "give a discount",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["할인(을) 해 주-"],
+        "translation": "할인(을) 해 주-",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -225,13 +231,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["get a discount"],
+        "translation": "get a discount",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["할인(을) 받-"],
+        "translation": "할인(을) 받-",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -240,13 +246,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["holiday; leave from work"],
+        "translation": "holiday; leave from work",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["휴가"],
+        "translation": "휴가",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"

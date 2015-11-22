@@ -117,4 +117,33 @@ public class Translation implements Serializable {
     sb.delete(sb.length() - 2, sb.length());
     return sb.toString();
   }
+  
+  @Override
+  public Object clone() {
+    Translation clone = new Translation();
+    clone.timesCorrect = timesCorrect;
+    clone.timesTested = timesTested;
+    if (lastTested == null) {
+      clone.lastTested = null;
+    } else {
+      clone.lastTested = (Date) lastTested.clone();
+    }
+    clone.translations = new HashSet<String>();
+    for (String string : translations) {
+      clone.translations.add(new String(string));
+    }
+    return clone;
+  }
+
+  public Translation[] split() {
+    Translation[] trans = new Translation[translations.size()];
+    int i = 0;
+    for (String tranString : this.translations) {
+      Translation tran = (Translation) this.clone();
+      tran.translations = new HashSet<String>();
+      tran.addTranslation(new String(tranString));
+      trans[i++] = tran;
+    }
+    return trans;
+  }
 }

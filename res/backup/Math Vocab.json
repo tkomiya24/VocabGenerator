@@ -5,13 +5,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["振舞い"],
+        "translation": "振舞い",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Behaviour\t"],
+        "translation": "Behaviour\t",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -20,13 +20,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["無限小"],
+        "translation": "無限小",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["infinitesimal"],
+        "translation": "infinitesimal",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -35,13 +35,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["微分法"],
+        "translation": "微分法",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Differentiation"],
+        "translation": "Differentiation",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -50,13 +50,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["解析学"],
+        "translation": "解析学",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Analytical mathematics"],
+        "translation": "Analytical mathematics",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -65,13 +65,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["空間"],
+        "translation": "空間",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Space(s)"],
+        "translation": "Space(s)",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -80,13 +80,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["関数"],
+        "translation": "関数",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["function"],
+        "translation": "function",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -95,13 +95,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["写像"],
+        "translation": "写像",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["image; mapping"],
+        "translation": "image; mapping",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -110,13 +110,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["近傍"],
+        "translation": "近傍",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["neighbourhood"],
+        "translation": "neighbourhood",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -125,13 +125,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["代数学"],
+        "translation": "代数学",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Algebra"],
+        "translation": "Algebra",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -140,13 +140,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["方程式"],
+        "translation": "方程式",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["equation"],
+        "translation": "equation",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -155,13 +155,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["解法"],
+        "translation": "解法",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Solution"],
+        "translation": "Solution",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -170,13 +170,13 @@
       "japanese": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["抽象代数学"],
+        "translation": "抽象代数学",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["abstract algebra"],
+        "translation": "abstract algebra",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -185,13 +185,13 @@
       "japanese": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["代数的構造"],
+        "translation": "代数的構造",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["algebraic structure"],
+        "translation": "algebraic structure",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -200,13 +200,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["微分積分学"],
+        "translation": "微分積分学",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Calculus"],
+        "translation": "Calculus",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -215,13 +215,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["行例"],
+        "translation": "行例",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Matrix"],
+        "translation": "Matrix",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -230,13 +230,13 @@
       "japanese": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["線型代数学"],
+        "translation": "線型代数学",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Linear algebra"],
+        "translation": "Linear algebra",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -245,13 +245,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["公理"],
+        "translation": "公理",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Axiom"],
+        "translation": "Axiom",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -260,13 +260,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["集合論"],
+        "translation": "集合論",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["set theory"],
+        "translation": "set theory",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -275,13 +275,13 @@
       "japanese": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["幾何学"],
+        "translation": "幾何学",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["geometry"],
+        "translation": "geometry",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -290,13 +290,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["複素数"],
+        "translation": "複素数",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["complex number"],
+        "translation": "complex number",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -305,13 +305,13 @@
       "japanese": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["多項式関数"],
+        "translation": "多項式関数",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Polynomial function"],
+        "translation": "Polynomial function",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -320,13 +320,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["指数関数"],
+        "translation": "指数関数",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Exponential function"],
+        "translation": "Exponential function",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -335,13 +335,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["対数関数"],
+        "translation": "対数関数",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Logarithmic function"],
+        "translation": "Logarithmic function",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -350,13 +350,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["底"],
+        "translation": "底",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Base (of an exponent)"],
+        "translation": "Base (of an exponent)",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -365,13 +365,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["ネイピア数"],
+        "translation": "ネイピア数",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["e (Napier's constant)"],
+        "translation": "e (Napier's constant)",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -380,13 +380,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["四則演算"],
+        "translation": "四則演算",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["4 basic operators of arithmetic"],
+        "translation": "4 basic operators of arithmetic",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -395,13 +395,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["三角関数"],
+        "translation": "三角関数",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Trigonometric function"],
+        "translation": "Trigonometric function",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -410,13 +410,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["双曲線関数"],
+        "translation": "双曲線関数",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Hyperbolic function"],
+        "translation": "Hyperbolic function",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -425,13 +425,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["逆関数"],
+        "translation": "逆関数",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Inverse function"],
+        "translation": "Inverse function",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -440,13 +440,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["一価関数"],
+        "translation": "一価関数",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Single-valued function"],
+        "translation": "Single-valued function",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -455,13 +455,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["べき乗"],
+        "translation": "べき乗",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Power; exponentiation"],
+        "translation": "Power; exponentiation",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -470,13 +470,13 @@
       "japanese": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["変数"],
+        "translation": "変数",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Variable"],
+        "translation": "Variable",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -485,13 +485,13 @@
       "japanese": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["定義域"],
+        "translation": "定義域",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Domain of definition"],
+        "translation": "Domain of definition",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -500,13 +500,13 @@
       "japanese": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["初等超越関数"],
+        "translation": "初等超越関数",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Elementary transcental function"],
+        "translation": "Elementary transcental function",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -515,13 +515,13 @@
       "japanese": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["係数"],
+        "translation": "係数",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Coefficient"],
+        "translation": "Coefficient",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"

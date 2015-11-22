@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["do one's hair (used by women)"],
+        "translation": "do one's hair (used by women)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["머리(를) 하-"],
+        "translation": "머리(를) 하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -21,19 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "cut one's hair",
-          "get one's hair cut (2)"
-        ],
+        "translation": "cut one's hair, get one's hair cut (2)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": [
-          "머리(를) 깎-",
-          "머리(를) 자르-"
-        ],
+        "translation": "머리(를) 깎-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -42,13 +36,28 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["shave"],
+        "translation": "cut one's hair, get one's hair cut (2)",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": "머리(를) 자르-",
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "shave",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["면도(를) 하-"],
+        "translation": "면도(를) 하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -57,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["razor blade"],
+        "translation": "razor blade",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["면도칼"],
+        "translation": "면도칼",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -72,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["knife"],
+        "translation": "knife",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["칼"],
+        "translation": "칼",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -87,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["shaving cream"],
+        "translation": "shaving cream",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["면도크림"],
+        "translation": "면도크림",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -102,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["electric shaver"],
+        "translation": "electric shaver",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["면도기"],
+        "translation": "면도기",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -117,13 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["have a bath"],
+        "translation": "have a bath",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["목욕(을) 하-"],
+        "translation": "목욕(을) 하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -132,13 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["wash face"],
+        "translation": "wash face",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["세수(를) 하-"],
+        "translation": "세수(를) 하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -147,13 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["get a haircut (usually used by males)"],
+        "translation": "get a haircut (usually used by males)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["이발(을) 하-"],
+        "translation": "이발(을) 하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -162,13 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["get a perm"],
+        "translation": "get a perm",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["파마(를) 하-"],
+        "translation": "파마(를) 하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -177,13 +186,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["put on one's makeup"],
+        "translation": "put on one's makeup",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["화장(을) 하-"],
+        "translation": "화장(을) 하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"

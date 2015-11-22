@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["play the guitar"],
+        "translation": "play the guitar",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["기타(를) 치-"],
+        "translation": "기타(를) 치-",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -21,16 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "gathering",
-          "meeting"
-        ],
+        "translation": "gathering, meeting",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["모임"],
+        "translation": "모임",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -39,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["body"],
+        "translation": "body",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["몸"],
+        "translation": "몸",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -54,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be useless"],
+        "translation": "be useless",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 12,
         "lastTested": "",
-        "translation": ["소용(이) 없-"],
+        "translation": "소용(이) 없-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -69,16 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "pharmacy",
-          "drugstore"
-        ],
+        "translation": "pharmacy, drugstore",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["약국"],
+        "translation": "약국",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -87,16 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "pharmacist",
-          "chemist"
-        ],
+        "translation": "pharmacist, chemist",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["약사"],
+        "translation": "약사",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -105,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["misunderstand something"],
+        "translation": "misunderstand something",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["오해(를) 하-"],
+        "translation": "오해(를) 하-",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -120,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["understand something"],
+        "translation": "understand something",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["이해(를) 하-"],
+        "translation": "이해(를) 하-",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -135,13 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["one understands it; it is understandable"],
+        "translation": "one understands it; it is understandable",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["이해(가) 가-"],
+        "translation": "이해(가) 가-",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -150,16 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "seat",
-          "place"
-        ],
+        "translation": "seat, place",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["자리"],
+        "translation": "자리",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -168,13 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["ordinalizer"],
+        "translation": "ordinalizer",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["제- "],
+        "translation": "제- ",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -183,16 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["God()"],
+        "translation": "God()",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": [
-          "하나님",
-          "하느님"
-        ],
+        "translation": "하나님",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -201,13 +186,28 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["heaven; sky"],
+        "translation": "God()",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 9,
+        "lastTested": "",
+        "translation": "하느님",
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "heaven; sky",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["하늘"],
+        "translation": "하늘",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"

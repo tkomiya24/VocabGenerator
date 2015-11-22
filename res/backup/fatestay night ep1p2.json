@@ -5,13 +5,13 @@
       "japanese": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["備品"],
+        "translation": "備品",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["equipment; fixtures"],
+        "translation": "equipment; fixtures",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -20,13 +20,13 @@
       "japanese": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["肩入れ"],
+        "translation": "肩入れ",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["support; backing; patronage"],
+        "translation": "support; backing; patronage",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -35,13 +35,13 @@
       "japanese": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["孤児院"],
+        "translation": "孤児院",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["an orphanage"],
+        "translation": "an orphanage",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -50,13 +50,13 @@
       "japanese": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["門限"],
+        "translation": "門限",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["curfew"],
+        "translation": "curfew",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -65,13 +65,13 @@
       "japanese": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["刺殺"],
+        "translation": "刺殺",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["to kill by stabbing"],
+        "translation": "to kill by stabbing",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -80,13 +80,13 @@
       "japanese": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["優等生"],
+        "translation": "優等生",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["an honour student"],
+        "translation": "an honour student",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -95,13 +95,13 @@
       "japanese": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["てっきり"],
+        "translation": "てっきり",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["think something mistakenly"],
+        "translation": "think something mistakenly",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -110,13 +110,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["風貌"],
+        "translation": "風貌",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["looks; appearance"],
+        "translation": "looks; appearance",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -125,13 +125,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["腹いせ"],
+        "translation": "腹いせ",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["spite; revenge"],
+        "translation": "spite; revenge",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -140,13 +140,13 @@
       "japanese": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["かんしゃく"],
+        "translation": "かんしゃく",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["temper"],
+        "translation": "temper",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -155,13 +155,13 @@
       "japanese": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["八つ当たり"],
+        "translation": "八つ当たり",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["venting anger; taking out anger"],
+        "translation": "venting anger; taking out anger",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -170,13 +170,13 @@
       "japanese": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["初歩"],
+        "translation": "初歩",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["the rudiments (basics)"],
+        "translation": "the rudiments (basics)",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -185,13 +185,13 @@
       "japanese": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["材質"],
+        "translation": "材質",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["materials (something is made of)"],
+        "translation": "materials (something is made of)",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -200,13 +200,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["弱気を助け強気をくじく"],
+        "translation": "弱気を助け強気をくじく",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["help the weak and crush the strong"],
+        "translation": "help the weak and crush the strong",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -215,13 +215,13 @@
       "japanese": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["野暮用"],
+        "translation": "野暮用",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["minor business"],
+        "translation": "minor business",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -230,13 +230,13 @@
       "japanese": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["物騒"],
+        "translation": "物騒",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["danger; unsafe"],
+        "translation": "danger; unsafe",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -245,13 +245,13 @@
       "japanese": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["とがめる"],
+        "translation": "とがめる",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["to blame; to reproach;"],
+        "translation": "to blame; to reproach;",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -260,13 +260,13 @@
       "japanese": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["善行"],
+        "translation": "善行",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["a good deed"],
+        "translation": "a good deed",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -275,16 +275,13 @@
       "japanese": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["心無い"],
+        "translation": "心無い",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "heartless",
-          "unfeeling; incosiderate"
-        ],
+        "translation": "heartless, unfeeling; incosiderate",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -293,13 +290,13 @@
       "japanese": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["節操"],
+        "translation": "節操",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["principles"],
+        "translation": "principles",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"

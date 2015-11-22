@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["love"],
+        "translation": "love",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["사랑(을) 하-"],
+        "translation": "사랑(을) 하-",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["play baseball"],
+        "translation": "play baseball",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["야구(를) 하-"],
+        "translation": "야구(를) 하-",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -36,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["make a reservation"],
+        "translation": "make a reservation",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["예약(을) 하-"],
+        "translation": "예약(을) 하-",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -51,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["get through to/contact by telephone"],
+        "translation": "get through to/contact by telephone",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["통화(를) 하-"],
+        "translation": "통화(를) 하-",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -66,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["swim"],
+        "translation": "swim",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["수영(을) 하-"],
+        "translation": "수영(을) 하-",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -81,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["swimming pool"],
+        "translation": "swimming pool",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["수영장"],
+        "translation": "수영장",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -96,16 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "clean up",
-          "tidy up"
-        ],
+        "translation": "tidy up, clean up",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["청소(를) 하-"],
+        "translation": "청소(를) 하-",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -114,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["like it"],
+        "translation": "like it",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["...(를) 좋아하-"],
+        "translation": "...(를) 좋아하-",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -129,13 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be bad"],
+        "translation": "be bad",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["나쁘-"],
+        "translation": "나쁘-",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -144,13 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be clean"],
+        "translation": "be clean",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["깨끗하-"],
+        "translation": "깨끗하-",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -159,16 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "neatly",
-          "cleanly"
-        ],
+        "translation": "neatly, cleanly",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["깨끗이"],
+        "translation": "깨끗이",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"

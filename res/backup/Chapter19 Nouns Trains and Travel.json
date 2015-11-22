@@ -6,16 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "express (train",
-          "bus)"
-        ],
+        "translation": "bus), express (train",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["급행"],
+        "translation": "급행",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -24,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Rose of Sharon (Korean national flower)"],
+        "translation": "Rose of Sharon (Korean national flower)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 12,
         "lastTested": "",
-        "translation": ["무궁화"],
+        "translation": "무궁화",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -39,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["speed"],
+        "translation": "speed",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["속도"],
+        "translation": "속도",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -54,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["dining car"],
+        "translation": "dining car",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["식당차"],
+        "translation": "식당차",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -69,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["reserved seats"],
+        "translation": "reserved seats",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["예약석"],
+        "translation": "예약석",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -84,16 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "stopper (train,bus); the local (train",
-          "bus)"
-        ],
+        "translation": "stopper (train,bus); the local (train, bus)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["완행"],
+        "translation": "완행",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -102,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["departure"],
+        "translation": "departure",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["출발"],
+        "translation": "출발",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -117,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["unification"],
+        "translation": "unification",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["통인"],
+        "translation": "통인",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"

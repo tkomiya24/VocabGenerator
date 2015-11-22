@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["grandparents"],
+        "translation": "grandparents",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 11,
         "lastTested": "",
-        "translation": ["조부모"],
+        "translation": "조부모",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["grandfather"],
+        "translation": "grandfather",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["할아버지"],
+        "translation": "할아버지",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -36,16 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "grandfather (on mother's side",
-          "if you need to specify)"
-        ],
+        "translation": "grandfather (on mother's side, if you need to specify)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["외할아버지"],
+        "translation": "외할아버지",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -54,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["grandmother"],
+        "translation": "grandmother",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["할머니"],
+        "translation": "할머니",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -69,16 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "grandmother (on mother's side",
-          "if you need to specify)"
-        ],
+        "translation": "grandmother (on mother's side, if you need to specify)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["외할머니"],
+        "translation": "외할머니",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -87,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["grandchild(ren)"],
+        "translation": "grandchild(ren)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["손주"],
+        "translation": "손주",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -102,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["grandson"],
+        "translation": "grandson",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["손자"],
+        "translation": "손자",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -117,16 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["granddaughter ()"],
+        "translation": "granddaughter ()",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": [
-          "손녀딸",
-          "손녀"
-        ],
+        "translation": "손녀딸",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -135,28 +126,28 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["newphew"],
-        "timesCorrect": 0
-      },
-      "korean": {
-        "timesTested": 8,
-        "lastTested": "",
-        "translation": ["조카"],
-        "timesCorrect": 5
-      },
-      "primaryLanguage": "English"
-    },
-    {
-      "english": {
-        "timesTested": 0,
-        "lastTested": "",
-        "translation": ["niece"],
+        "translation": "granddaughter ()",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["조카 딸"],
+        "translation": "손녀",
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "newphew",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": "조카",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -165,16 +156,28 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["children (honorific) ()"],
+        "translation": "niece",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": "조카 딸",
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "children (honorific) ()",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 18,
         "lastTested": "",
-        "translation": [
-          "자제분",
-          "자녀분"
-        ],
+        "translation": "자제분",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"
@@ -183,13 +186,28 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["do you have children? (honorific)"],
+        "translation": "children (honorific) ()",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 18,
+        "lastTested": "",
+        "translation": "자녀분",
+        "timesCorrect": 7
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "do you have children? (honorific)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 12,
         "lastTested": "",
-        "translation": ["자녀분이 있으세요?"],
+        "translation": "자녀분이 있으세요?",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -198,13 +216,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["relative"],
+        "translation": "relative",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["친척"],
+        "translation": "친척",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"

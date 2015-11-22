@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be fair"],
+        "translation": "be fair",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "2015-11-22T09:40:56.219Z",
-        "translation": ["공평하-"],
+        "translation": "공평하-",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be unfair"],
+        "translation": "be unfair",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "2015-11-22T09:42:17.038Z",
-        "translation": ["불공평하-"],
+        "translation": "불공평하-",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -36,16 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be perferable",
-          "better [than = 보다]"
-        ],
+        "translation": "be perferable, better [than = 보다]",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "2015-11-22T09:42:17.037Z",
-        "translation": ["나(ㅅ)-"],
+        "translation": "나(ㅅ)-",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -54,16 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be clear",
-          "obvious"
-        ],
+        "translation": "be clear, obvious",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "2015-11-22T09:43:22.568Z",
-        "translation": ["분명하-"],
+        "translation": "분명하-",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -72,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be small and neat"],
+        "translation": "be small and neat",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "2015-11-22T09:42:17.037Z",
-        "translation": ["조촐하-"],
+        "translation": "조촐하-",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -87,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be/feel embarrassed"],
+        "translation": "be/feel embarrassed",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "2015-11-22T09:42:17.037Z",
-        "translation": ["창피하-"],
+        "translation": "창피하-",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -102,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["(phone) is busy; (someone) is on the phone"],
+        "translation": "(phone) is busy; (someone) is on the phone",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "2015-11-22T09:43:22.567Z",
-        "translation": ["통화 중이-"],
+        "translation": "통화 중이-",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -117,16 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be great",
-          "admirable"
-        ],
+        "translation": "be great, admirable",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 17,
         "lastTested": "2015-11-22T09:53:50.188Z",
-        "translation": ["훌륭하-"],
+        "translation": "훌륭하-",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"

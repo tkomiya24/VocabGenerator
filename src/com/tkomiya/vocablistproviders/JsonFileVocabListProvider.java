@@ -23,7 +23,7 @@ public class JsonFileVocabListProvider implements VocabListProvider {
 	@Override
 	public void saveVocabList(VocabList vocabList, File file) throws FileNotFoundException, IOException, JSONException {
 		JSONObject json = VocabListJsonConverter.convertVocabListToJson(vocabList);
-		FileUtilities.writeFile(json.toString(), file);
+		FileUtilities.writeFile(json.toString(2), file);
 	}
 
 }
