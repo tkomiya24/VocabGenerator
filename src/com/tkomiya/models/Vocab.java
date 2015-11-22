@@ -6,13 +6,11 @@ import java.util.Collection;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.TimeZone;
 
 import org.apache.commons.collections4.CollectionUtils;
 
 import com.tkomiya.main.Translation;
-import com.tkomiya.models.Vocab.SupportedLanguage;
 
 public class Vocab implements Serializable{
 
@@ -149,6 +147,14 @@ public class Vocab implements Serializable{
 
   public boolean hasTranslation(SupportedLanguage language) {
     return translations.containsKey(language);
+  }
+
+  public boolean isCorrect(SupportedLanguage language, Collection<String> answer) {
+    if (!hasTranslation(language)) {
+      return false;
+    } else {
+      return CollectionUtils.isEqualCollection(getTranslation(language).getTranslations(), answer);
+    }
   }
 	
 }
