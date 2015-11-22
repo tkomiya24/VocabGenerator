@@ -1,8 +1,11 @@
 package com.tkomiya.tests;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.*;
 
+import java.util.Arrays;
+import java.util.List;
+
+import org.apache.commons.collections4.CollectionUtils;
 import org.junit.Test;
 
 import com.tkomiya.main.Translation;
@@ -20,6 +23,18 @@ public class TranslationTest {
     assertNotEquals("Objects with the same scores and translation but one with no date should not be equal", KoreanTranslationFactory.makeNervousTranslation1(), KoreanTranslationFactory.makeNervousTranslation4());
     assertNotEquals("Objects with the same scores and date but different translation sets should not be equal", KoreanTranslationFactory.makeNervousTranslation1(), KoreanTranslationFactory.makeNervousTranslation5());
     assertEquals("Clone should make an Translation that is the same by equals()", KoreanTranslationFactory.makeNervousTranslation1(), (Translation) KoreanTranslationFactory.makeNervousTranslation1().clone());
+    
   }
 
+  @Test
+  public void testSplit() {
+    List<Translation> transSplit = Arrays.asList(KoreanTranslationFactory.makeNervousTranslation1().split());
+    Translation[] e = { KoreanTranslationFactory.makeNervousTranslation6(), KoreanTranslationFactory.makeNervousTranslation7() };
+    List<Translation> expected = Arrays.asList(e);
+    assertEquals("The lengths shoudld be the same", transSplit.size(), expected.size());
+    assertNotEquals("The elements shoudl be different", transSplit.get(1), transSplit.get(0));
+    assertTrue("Each element should correspond to one of the original", transSplit.get(0).equals(expected.get(0)) || transSplit.get(0).equals(expected.get(1)));
+    assertTrue("Each element should correspond to one of the original", transSplit.get(1).equals(expected.get(0)) || transSplit.get(1).equals(expected.get(1)));
+  }
+  
 }

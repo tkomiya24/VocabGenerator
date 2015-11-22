@@ -60,4 +60,18 @@ public class KoreanTranslationFactory {
     return TestTranslationLoaderUtil.makeTranslation(6, 17, cal, "신경(을) 쓰-", "신경(이) 쓰이-", "Pen Island");
   }
   
+  public static Translation makeNervousTranslation6() {
+    Calendar cal = Calendar.getInstance();
+    cal.clear();
+    cal.setTimeInMillis(RANDOM_LONG_1);
+    return TestTranslationLoaderUtil.makeTranslation(6, 17, cal, "신경(을) 쓰-");
+  }
+  
+  public static Translation makeNervousTranslation7() {
+    Calendar cal = Calendar.getInstance();
+    cal.clear();
+    cal.setTimeInMillis(RANDOM_LONG_1);
+    return TestTranslationLoaderUtil.makeTranslation(6, 17, cal, "신경(이) 쓰이-");
+  }
+  
 }
