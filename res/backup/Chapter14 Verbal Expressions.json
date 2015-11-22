@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Cost money [Literally: money enters]"],
+        "translation": "Cost money [Literally: money enters]",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 14,
         "lastTested": "",
-        "translation": ["돈(이) 드-ㄹ-"],
+        "translation": "돈(이) 드-ㄹ-",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["this costs a lot of money"],
+        "translation": "this costs a lot of money",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 19,
         "lastTested": "",
-        "translation": ["이건 돈이 많이 들었어요"],
+        "translation": "이건 돈이 많이 들었어요",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -36,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["comb"],
+        "translation": "comb",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 11,
         "lastTested": "",
-        "translation": ["빗-"],
+        "translation": "빗-",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -51,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["I comb by hair."],
+        "translation": "I comb by hair.",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 16,
         "lastTested": "",
-        "translation": ["머리를 빗어요"],
+        "translation": "머리를 빗어요",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -66,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["pay"],
+        "translation": "pay",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 19,
         "lastTested": "",
-        "translation": ["(돈을) 내-"],
+        "translation": "(돈을) 내-",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -81,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["i'll pay"],
+        "translation": "i'll pay",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 16,
         "lastTested": "",
-        "translation": ["제가 낼게요"],
+        "translation": "제가 낼게요",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -96,16 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "hurt",
-          "be painful"
-        ],
+        "translation": "be painful, hurt",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 11,
         "lastTested": "",
-        "translation": ["아프-"],
+        "translation": "아프-",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -114,16 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be prettty",
-          "cute"
-        ],
+        "translation": "be prettty, cute",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 11,
         "lastTested": "",
-        "translation": ["예쁘-"],
+        "translation": "예쁘-",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -132,13 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["lift; hold"],
+        "translation": "lift; hold",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 14,
         "lastTested": "",
-        "translation": ["드-ㄹ-"],
+        "translation": "드-ㄹ-",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -147,13 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["would you mind holding this for a moment?"],
+        "translation": "would you mind holding this for a moment?",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 19,
         "lastTested": "",
-        "translation": ["이것 잠깐 들고 있을래요?"],
+        "translation": "이것 잠깐 들고 있을래요?",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -162,13 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["die"],
+        "translation": "die",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 11,
         "lastTested": "",
-        "translation": ["죽-"],
+        "translation": "죽-",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -177,16 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "die",
-          "pass away (honorific)"
-        ],
+        "translation": "die, pass away (honorific)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 17,
         "lastTested": "",
-        "translation": ["돌아가시-"],
+        "translation": "돌아가시-",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -195,17 +186,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be wounded",
-          "get hurt",
-          "get injured"
-        ],
+        "translation": "get injured, be wounded, get hurt",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 14,
         "lastTested": "",
-        "translation": ["다치-"],
+        "translation": "다치-",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -214,13 +201,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["I injured my head."],
+        "translation": "I injured my head.",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 17,
         "lastTested": "",
-        "translation": ["머리를 다쳤어요"],
+        "translation": "머리를 다쳤어요",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -229,13 +216,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["go (riding something)"],
+        "translation": "go (riding something)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 10,
         "lastTested": "",
-        "translation": ["타고 가-"],
+        "translation": "타고 가-",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -244,13 +231,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["come (riding something)"],
+        "translation": "come (riding something)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 11,
         "lastTested": "",
-        "translation": ["타고 오-"],
+        "translation": "타고 오-",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -259,13 +246,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["solve it; undo it"],
+        "translation": "solve it; undo it",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 11,
         "lastTested": "",
-        "translation": ["푸-ㄹ-"],
+        "translation": "푸-ㄹ-",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -274,13 +261,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["invite someone"],
+        "translation": "invite someone",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 12,
         "lastTested": "",
-        "translation": ["초대(를) 하-"],
+        "translation": "초대(를) 하-",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -289,13 +276,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be/get invited"],
+        "translation": "be/get invited",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 13,
         "lastTested": "",
-        "translation": ["초대(를) 받-"],
+        "translation": "초대(를) 받-",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -304,13 +291,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["introduce someone/something"],
+        "translation": "introduce someone/something",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 13,
         "lastTested": "",
-        "translation": ["소개(를) 하-"],
+        "translation": "소개(를) 하-",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -319,13 +306,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be/get introduced (to someone)"],
+        "translation": "be/get introduced (to someone)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 12,
         "lastTested": "",
-        "translation": ["소개(를) 받-"],
+        "translation": "소개(를) 받-",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -334,13 +321,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["I was introdueced to Sujin by manho"],
+        "translation": "I was introdueced to Sujin by manho",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 20,
         "lastTested": "",
-        "translation": ["만호 씨한테서 수진 씨를 소개 받았어요"],
+        "translation": "만호 씨한테서 수진 씨를 소개 받았어요",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -349,16 +336,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "bring it",
-          "fetch it"
-        ],
+        "translation": "fetch it, bring it",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 17,
         "lastTested": "",
-        "translation": ["갖다 주-"],
+        "translation": "갖다 주-",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -367,13 +351,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["lie down"],
+        "translation": "lie down",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 19,
         "lastTested": "",
-        "translation": ["누w-"],
+        "translation": "누w-",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -382,13 +366,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["get drunk"],
+        "translation": "get drunk",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 13,
         "lastTested": "",
-        "translation": ["취하-"],
+        "translation": "취하-",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -397,13 +381,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["i'm drunk"],
+        "translation": "i'm drunk",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 15,
         "lastTested": "",
-        "translation": ["취했어요"],
+        "translation": "취했어요",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -412,13 +396,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["get along"],
+        "translation": "get along",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 14,
         "lastTested": "",
-        "translation": ["지내-"],
+        "translation": "지내-",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -427,13 +411,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["how are you doing these days? (honorific formal)"],
+        "translation": "how are you doing these days? (honorific formal)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 15,
         "lastTested": "",
-        "translation": ["요즘 어떻게 지내십니까?"],
+        "translation": "요즘 어떻게 지내십니까?",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -442,13 +426,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["hang up (the telephone); quit (smoking/drinking))"],
+        "translation": "hang up (the telephone); quit (smoking/drinking))",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 14,
         "lastTested": "",
-        "translation": ["끊-"],
+        "translation": "끊-",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -457,13 +441,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["bood-bye (on the telephone)"],
+        "translation": "bood-bye (on the telephone)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 15,
         "lastTested": "",
-        "translation": ["끊어요"],
+        "translation": "끊어요",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -472,13 +456,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["I've quit smoking"],
+        "translation": "I've quit smoking",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 17,
         "lastTested": "",
-        "translation": ["담배를 끊었어요"],
+        "translation": "담배를 끊었어요",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -487,13 +471,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["start term/school"],
+        "translation": "start term/school",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 13,
         "lastTested": "",
-        "translation": ["개학(을) 하-"],
+        "translation": "개학(을) 하-",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -502,13 +486,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["we started the new term yetserday"],
+        "translation": "we started the new term yetserday",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 14,
         "lastTested": "",
-        "translation": ["어제 개학했어요"],
+        "translation": "어제 개학했어요",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -517,13 +501,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["when is the beginning of the term?"],
+        "translation": "when is the beginning of the term?",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 15,
         "lastTested": "",
-        "translation": ["개학은 언제예요?"],
+        "translation": "개학은 언제예요?",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -532,13 +516,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be comfortable; be convenient"],
+        "translation": "be comfortable; be convenient",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 11,
         "lastTested": "",
-        "translation": ["편하-"],
+        "translation": "편하-",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -547,13 +531,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be uncomfortable; be inconvenient"],
+        "translation": "be uncomfortable; be inconvenient",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 15,
         "lastTested": "",
-        "translation": ["불편하-"],
+        "translation": "불편하-",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -562,13 +546,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["change (clothes)"],
+        "translation": "change (clothes)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 17,
         "lastTested": "",
-        "translation": ["갈아입-"],
+        "translation": "갈아입-",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -577,13 +561,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["change; exchange"],
+        "translation": "change; exchange",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 12,
         "lastTested": "",
-        "translation": ["바꾸-"],
+        "translation": "바꾸-",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -592,13 +576,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["we changed our class time"],
+        "translation": "we changed our class time",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 15,
         "lastTested": "",
-        "translation": ["수업시간을 바꿨어요"],
+        "translation": "수업시간을 바꿨어요",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"
@@ -607,13 +591,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["please exchange these socks for a different pair"],
+        "translation": "please exchange these socks for a different pair",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 19,
         "lastTested": "",
-        "translation": ["이 영말을 다른 걸로 바꿔 주세요"],
+        "translation": "이 영말을 다른 걸로 바꿔 주세요",
         "timesCorrect": 10
       },
       "primaryLanguage": "English"

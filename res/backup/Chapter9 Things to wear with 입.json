@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["clothes"],
+        "translation": "clothes",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["옷"],
+        "translation": "옷",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["jacket"],
+        "translation": "jacket",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["재킷"],
+        "translation": "재킷",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -36,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["suit"],
+        "translation": "suit",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 11,
         "lastTested": "",
-        "translation": ["양복"],
+        "translation": "양복",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -51,19 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "shirt",
-          "dress shirt"
-        ],
+        "translation": "shirt, dress shirt",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": [
-          "셔츠",
-          "와이셔츠"
-        ],
+        "translation": "셔츠",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -72,13 +66,28 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["trousers"],
+        "translation": "shirt, dress shirt",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": "와이셔츠",
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "trousers",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["바지"],
+        "translation": "바지",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -87,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["jeans"],
+        "translation": "jeans",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["청바지"],
+        "translation": "청바지",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -102,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["coat"],
+        "translation": "coat",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["코트"],
+        "translation": "코트",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -117,13 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["skirt"],
+        "translation": "skirt",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["치마"],
+        "translation": "치마",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -132,16 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "sweater",
-          "jumper"
-        ],
+        "translation": "sweater, jumper",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["스웨터"],
+        "translation": "스웨터",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"

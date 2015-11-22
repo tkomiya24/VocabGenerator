@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["eat a meal"],
+        "translation": "eat a meal",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["식사(를) 하-"],
+        "translation": "식사(를) 하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -21,16 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "practice",
-          "do exercises"
-        ],
+        "translation": "practice, do exercises",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["연습(을) 하-"],
+        "translation": "연습(을) 하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -39,16 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "drive",
-          "operate a vehicle"
-        ],
+        "translation": "operate a vehicle, drive",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["운전(을) 하-"],
+        "translation": "운전(을) 하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -57,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be dangerous"],
+        "translation": "be dangerous",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["위험하-"],
+        "translation": "위험하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -72,19 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "It's dangerous",
-          "so please slow down. (honorific)"
-        ],
+        "translation": "so please slow down. (honorific), It's dangerous",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 11,
         "lastTested": "",
-        "translation": [
-          "위험하니까",
-          "천천히 가세요"
-        ],
+        "translation": "천천히 가세요",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -93,16 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "prepare",
-          "make preparations"
-        ],
+        "translation": "so please slow down. (honorific), It's dangerous",
         "timesCorrect": 0
       },
       "korean": {
-        "timesTested": 7,
+        "timesTested": 11,
         "lastTested": "",
-        "translation": ["준비(를) 하-"],
+        "translation": "위험하니까",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -111,13 +96,28 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Is everything ready? (FORMAL)"],
+        "translation": "prepare, make preparations",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["준비가 다 됐습니까?"],
+        "translation": "준비(를) 하-",
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "Is everything ready? (FORMAL)",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": "준비가 다 됐습니까?",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"

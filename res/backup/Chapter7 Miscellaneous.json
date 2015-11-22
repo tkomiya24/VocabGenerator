@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["library"],
+        "translation": "library",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["도서관"],
+        "translation": "도서관",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["supermarket"],
+        "translation": "supermarket",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["슈퍼마켓"],
+        "translation": "슈퍼마켓",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -36,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["do grocery shopping"],
+        "translation": "do grocery shopping",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["장(을) 보-"],
+        "translation": "장(을) 보-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -51,16 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "movie",
-          "film"
-        ],
+        "translation": "movie, film",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["영화"],
+        "translation": "영화",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -69,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["theater"],
+        "translation": "theater",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["극장"],
+        "translation": "극장",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -84,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["letter"],
+        "translation": "letter",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["편지"],
+        "translation": "편지",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -99,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["a light (for smoking or for reading)"],
+        "translation": "a light (for smoking or for reading)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["불"],
+        "translation": "불",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -114,16 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "matter",
-          "business; work"
-        ],
+        "translation": "business; work, matter",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["일"],
+        "translation": "일",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -132,13 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["dog"],
+        "translation": "dog",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["개"],
+        "translation": "개",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -147,13 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["cat"],
+        "translation": "cat",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["고양이"],
+        "translation": "고양이",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -162,16 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "tissue paper",
-          "toilet tissue"
-        ],
+        "translation": "toilet tissue, tissue paper",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["휴지"],
+        "translation": "휴지",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -180,16 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["towel ()"],
+        "translation": "towel ()",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 13,
         "lastTested": "",
-        "translation": [
-          "수건",
-          "타을"
-        ],
+        "translation": "수건",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -198,13 +186,28 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["song"],
+        "translation": "towel ()",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 13,
+        "lastTested": "",
+        "translation": "타을",
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "song",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["노래"],
+        "translation": "노래",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -213,13 +216,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["korean karaoke box"],
+        "translation": "korean karaoke box",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["노래방"],
+        "translation": "노래방",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -228,13 +231,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["He sings a song."],
+        "translation": "He sings a song.",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 17,
         "lastTested": "2015-11-22T09:54:41.703Z",
-        "translation": ["노래(를) 불러요"],
+        "translation": "노래(를) 불러요",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -243,13 +246,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["first NOUN"],
+        "translation": "first NOUN",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["첫 NOUN"],
+        "translation": "첫 NOUN",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -258,13 +261,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["how many"],
+        "translation": "how many",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["몇"],
+        "translation": "몇",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -273,17 +276,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "alone",
-          "on one's own",
-          "by oneself"
-        ],
+        "translation": "by oneself, alone, on one's own",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["혼자[서]"],
+        "translation": "혼자[서]",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -292,13 +291,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["quickly"],
+        "translation": "quickly",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["빨리"],
+        "translation": "빨리",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -307,13 +306,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["a lot (adverb)"],
+        "translation": "a lot (adverb)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["많이"],
+        "translation": "많이",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -322,13 +321,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["a little"],
+        "translation": "a little",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["조금"],
+        "translation": "조금",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -337,13 +336,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["well; often"],
+        "translation": "well; often",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["잘"],
+        "translation": "잘",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -352,13 +351,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["very"],
+        "translation": "very",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["아주"],
+        "translation": "아주",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"

@@ -6,17 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "turn off",
-          "switch off (eg",
-          "a light); extinguish"
-        ],
+        "translation": "switch off (eg, turn off, a light); extinguish",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["끄-"],
+        "translation": "끄-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -25,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["boil it; make [a stew]"],
+        "translation": "boil it; make [a stew]",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["끓이-"],
+        "translation": "끓이-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -40,16 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "nap",
-          "take a nap"
-        ],
+        "translation": "nap, take a nap",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["낮잠(을) 자-"],
+        "translation": "낮잠(을) 자-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -58,16 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "sleep late",
-          "wake up late"
-        ],
+        "translation": "sleep late, wake up late",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["늦잠(을) 자-"],
+        "translation": "늦잠(을) 자-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -76,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["overdo it; work or play too hard"],
+        "translation": "overdo it; work or play too hard",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["무리(를) 하-"],
+        "translation": "무리(를) 하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -91,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["cook in a skillet or frying pan"],
+        "translation": "cook in a skillet or frying pan",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["볶-"],
+        "translation": "볶-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -106,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["fried rice"],
+        "translation": "fried rice",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["볶음밥"],
+        "translation": "볶음밥",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -121,16 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "wash (clothes)",
-          "launder"
-        ],
+        "translation": "launder, wash (clothes)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["빠-ㄹ-"],
+        "translation": "빠-ㄹ-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -139,13 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["sprinkle it"],
+        "translation": "sprinkle it",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["뿌리-"],
+        "translation": "뿌리-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -154,13 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["take photos"],
+        "translation": "take photos",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["사진(을) 찍-"],
+        "translation": "사진(을) 찍-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -169,13 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["boil it"],
+        "translation": "boil it",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["삶-"],
+        "translation": "삶-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -184,13 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["swallow it"],
+        "translation": "swallow it",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 10,
         "lastTested": "",
-        "translation": ["삼키-"],
+        "translation": "삼키-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -199,13 +186,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["think"],
+        "translation": "think",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["생각(을) 하-"],
+        "translation": "생각(을) 하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -214,13 +201,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["What [\"how\"] do you think? (honorific)"],
+        "translation": "What [\"how\"] do you think? (honorific)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["어떻게 생각하세요?"],
+        "translation": "어떻게 생각하세요?",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -229,13 +216,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["chew it"],
+        "translation": "chew it",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["씹-"],
+        "translation": "씹-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -244,13 +231,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["worry"],
+        "translation": "worry",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["염려(를) 하-"],
+        "translation": "염려(를) 하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -259,13 +246,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["steam it"],
+        "translation": "steam it",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["찌-"],
+        "translation": "찌-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -274,13 +261,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["go/come to work; report for work"],
+        "translation": "go/come to work; report for work",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["출근(을) 하-"],
+        "translation": "출근(을) 하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -289,17 +276,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "turn on",
-          "switch on (eg",
-          "a light)"
-        ],
+        "translation": "turn on, switch on (eg, a light)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["켜-"],
+        "translation": "켜-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -308,13 +291,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["go/come home from work; leave the office"],
+        "translation": "go/come home from work; leave the office",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["퇴근(을) 하-"],
+        "translation": "퇴근(을) 하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -323,13 +306,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["commute to work"],
+        "translation": "commute to work",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["출퇴근(을) 하-"],
+        "translation": "출퇴근(을) 하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -338,13 +321,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["deep-fry it"],
+        "translation": "deep-fry it",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["튀기-"],
+        "translation": "튀기-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"

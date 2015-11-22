@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["lobby"],
+        "translation": "lobby",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["로비"],
+        "translation": "로비",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -21,17 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "(good) tatse",
-          "elegance",
-          "style"
-        ],
+        "translation": "elegance, (good) tatse, style",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["멋"],
+        "translation": "멋",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -40,20 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be stylish",
-          "cool",
-          "elegant (2)"
-        ],
+        "translation": "be stylish, cool, elegant (2)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": [
-          "멋(이) 있-",
-          "멋지-"
-        ],
+        "translation": "멋(이) 있-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -62,125 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be ignorant"],
-        "timesCorrect": 0
-      },
-      "korean": {
-        "timesTested": 6,
-        "lastTested": "",
-        "translation": ["무식하-"],
-        "timesCorrect": 5
-      },
-      "primaryLanguage": "English"
-    },
-    {
-      "english": {
-        "timesTested": 0,
-        "lastTested": "",
-        "translation": [
-          "be learned",
-          "knowledgable",
-          "refined"
-        ],
-        "timesCorrect": 0
-      },
-      "korean": {
-        "timesTested": 7,
-        "lastTested": "",
-        "translation": ["유식하-"],
-        "timesCorrect": 5
-      },
-      "primaryLanguage": "English"
-    },
-    {
-      "english": {
-        "timesTested": 0,
-        "lastTested": "",
-        "translation": ["wind"],
-        "timesCorrect": 0
-      },
-      "korean": {
-        "timesTested": 7,
-        "lastTested": "",
-        "translation": ["바람"],
-        "timesCorrect": 5
-      },
-      "primaryLanguage": "English"
-    },
-    {
-      "english": {
-        "timesTested": 0,
-        "lastTested": "",
-        "translation": [
-          "sickness",
-          "disease"
-        ],
-        "timesCorrect": 0
-      },
-      "korean": {
-        "timesTested": 5,
-        "lastTested": "",
-        "translation": ["병"],
-        "timesCorrect": 5
-      },
-      "primaryLanguage": "English"
-    },
-    {
-      "english": {
-        "timesTested": 0,
-        "lastTested": "",
-        "translation": ["get sick"],
-        "timesCorrect": 0
-      },
-      "korean": {
-        "timesTested": 6,
-        "lastTested": "",
-        "translation": ["병(이) 나-"],
-        "timesCorrect": 5
-      },
-      "primaryLanguage": "English"
-    },
-    {
-      "english": {
-        "timesTested": 0,
-        "lastTested": "",
-        "translation": ["shampoo"],
-        "timesCorrect": 0
-      },
-      "korean": {
-        "timesTested": 5,
-        "lastTested": "",
-        "translation": ["샴푸"],
-        "timesCorrect": 5
-      },
-      "primaryLanguage": "English"
-    },
-    {
-      "english": {
-        "timesTested": 0,
-        "lastTested": "",
-        "translation": ["thought; idea"],
-        "timesCorrect": 0
-      },
-      "korean": {
-        "timesTested": 7,
-        "lastTested": "",
-        "translation": ["생각"],
-        "timesCorrect": 5
-      },
-      "primaryLanguage": "English"
-    },
-    {
-      "english": {
-        "timesTested": 0,
-        "lastTested": "",
-        "translation": ["it comes to mind; think of something"],
+        "translation": "be stylish, cool, elegant (2)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["생각(이) 나-"],
+        "translation": "멋지-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -189,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["can't remember"],
+        "translation": "be ignorant",
         "timesCorrect": 0
       },
       "korean": {
-        "timesTested": 8,
+        "timesTested": 6,
         "lastTested": "",
-        "translation": ["생각(이) 안 나-"],
+        "translation": "무식하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -204,16 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "time",
-          "era; days when...; a time in the past"
-        ],
+        "translation": "refined, be learned, knowledgable",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["시절"],
+        "translation": "유식하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -222,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["cancer"],
+        "translation": "wind",
         "timesCorrect": 0
       },
       "korean": {
-        "timesTested": 6,
+        "timesTested": 7,
         "lastTested": "",
-        "translation": ["암"],
+        "translation": "바람",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -237,16 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "old days",
-          "ancient times; in the past"
-        ],
+        "translation": "disease, sickness",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["옛날"],
+        "translation": "병",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -255,13 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["opera"],
+        "translation": "get sick",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["오페라"],
+        "translation": "병(이) 나-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -270,16 +141,133 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be popular",
-          "in vogue"
-        ],
+        "translation": "shampoo",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": "샴푸",
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "thought; idea",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": "생각",
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "it comes to mind; think of something",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": "생각(이) 나-",
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "can't remember",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": "생각(이) 안 나-",
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "era; days when...; a time in the past, time",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": "시절",
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "cancer",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": "암",
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "ancient times; in the past, old days",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": "옛날",
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "opera",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": "오페라",
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "in vogue, be popular",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 10,
         "lastTested": "",
-        "translation": ["유행하-"],
+        "translation": "유행하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -288,16 +276,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be the vogue",
-          "the fashion"
-        ],
+        "translation": "the fashion, be the vogue",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 10,
         "lastTested": "",
-        "translation": ["유행이-"],
+        "translation": "유행이-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -306,16 +291,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "writer",
-          "author"
-        ],
+        "translation": "author, writer",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["작가"],
+        "translation": "작가",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -324,13 +306,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["knowledge"],
+        "translation": "knowledge",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["지식"],
+        "translation": "지식",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -339,16 +321,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "latest",
-          "most recent"
-        ],
+        "translation": "most recent, latest",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["최근"],
+        "translation": "최근",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -357,13 +336,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["popcorn"],
+        "translation": "popcorn",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["팝콘"],
+        "translation": "팝콘",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"

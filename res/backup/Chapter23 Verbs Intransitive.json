@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["[a subject] comes up"],
+        "translation": "[a subject] comes up",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "2015-11-22T09:45:41.459Z",
-        "translation": ["나오-"],
+        "translation": "나오-",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -21,16 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "stops by",
-          "drops in"
-        ],
+        "translation": "stops by, drops in",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "2015-11-22T09:45:41.459Z",
-        "translation": ["들리-"],
+        "translation": "들리-",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -39,16 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be disappointed",
-          "feel disappointed"
-        ],
+        "translation": "feel disappointed, be disappointed",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "2015-11-22T09:45:41.459Z",
-        "translation": ["실망(을) 하-"],
+        "translation": "실망(을) 하-",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -57,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["asks sb esteemed"],
+        "translation": "asks sb esteemed",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "2015-11-22T09:45:41.459Z",
-        "translation": ["여쭈-"],
+        "translation": "여쭈-",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"

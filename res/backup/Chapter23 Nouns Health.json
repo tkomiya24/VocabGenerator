@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["a patient; a sick person"],
+        "translation": "a patient; a sick person",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "2015-11-22T09:20:59.292Z",
-        "translation": ["환자"],
+        "translation": "환자",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["have an operation"],
+        "translation": "have an operation",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "2015-11-22T09:20:14.140Z",
-        "translation": ["수술(을) 받-"],
+        "translation": "수술(을) 받-",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -36,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["nerve; nerves"],
+        "translation": "nerve; nerves",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "2015-11-22T09:20:14.140Z",
-        "translation": ["신경"],
+        "translation": "신경",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -51,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["operating theatre"],
+        "translation": "operating theatre",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "2015-11-22T09:20:14.140Z",
-        "translation": ["수술실"],
+        "translation": "수술실",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -66,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["operation (medical)"],
+        "translation": "operation (medical)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "2015-11-22T09:20:14.141Z",
-        "translation": ["수술"],
+        "translation": "수술",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -81,16 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be nervous; be worried ()"],
+        "translation": "be nervous; be worried ()",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "2015-11-22T09:20:59.292Z",
-        "translation": [
-          "신경(을) 쓰-",
-          "신경(이) 쓰이-"
-        ],
+        "translation": "신경(을) 쓰-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -99,13 +96,28 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["perform an operation; have an operation"],
+        "translation": "be nervous; be worried ()",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "2015-11-22T09:20:59.292Z",
+        "translation": "신경(이) 쓰이-",
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "perform an operation; have an operation",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "2015-11-22T09:20:14.137Z",
-        "translation": ["수술(을) 하-"],
+        "translation": "수술(을) 하-",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"

@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Why?"],
+        "translation": "Why?",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["왜(요)?"],
+        "translation": "왜(요)?",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -21,16 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "The reason is...",
-          "It's because..."
-        ],
+        "translation": "It's because..., The reason is...",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["왜냐하면"],
+        "translation": "왜냐하면",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -39,17 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "without fail",
-          "by all means",
-          "for sure"
-        ],
+        "translation": "without fail, for sure, by all means",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["꼭"],
+        "translation": "꼭",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -58,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["please be sure to come (honorific formal imperative)"],
+        "translation": "please be sure to come (honorific formal imperative)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["꼭 오십시오"],
+        "translation": "꼭 오십시오",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"

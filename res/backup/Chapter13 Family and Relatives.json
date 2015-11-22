@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["members of the family"],
+        "translation": "members of the family",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["식구"],
+        "translation": "식구",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["how many people in your family? (honorific)"],
+        "translation": "how many people in your family? (honorific)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["식구가 몇 명이세요?"],
+        "translation": "식구가 몇 명이세요?",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -36,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["cousin"],
+        "translation": "cousin",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["사촌"],
+        "translation": "사촌",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -51,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["uncle (on father's side)"],
+        "translation": "uncle (on father's side)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["삼촌 "],
+        "translation": "삼촌 ",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -66,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["uncle (on mother's side)"],
+        "translation": "uncle (on mother's side)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["외삼촌 "],
+        "translation": "외삼촌 ",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -81,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["uncle (father's elder brother)"],
+        "translation": "uncle (father's elder brother)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["큰아버지"],
+        "translation": "큰아버지",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -96,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["uncle (father's younger brother)"],
+        "translation": "uncle (father's younger brother)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["작은아버지"],
+        "translation": "작은아버지",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -111,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["aunt (mother's sister)"],
+        "translation": "aunt (mother's sister)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["이모"],
+        "translation": "이모",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -126,13 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["uncle (mother's sister's husband)"],
+        "translation": "uncle (mother's sister's husband)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["이모부"],
+        "translation": "이모부",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -141,13 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["aunt (father's sister)"],
+        "translation": "aunt (father's sister)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["고모"],
+        "translation": "고모",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -156,13 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["uncle (father's sister's husband)"],
+        "translation": "uncle (father's sister's husband)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["고모부"],
+        "translation": "고모부",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -171,13 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["son (honorific)"],
+        "translation": "son (honorific)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["아드님"],
+        "translation": "아드님",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -186,13 +186,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["an only son"],
+        "translation": "an only son",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["외아들"],
+        "translation": "외아들",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -201,13 +201,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["daughter (honorific)"],
+        "translation": "daughter (honorific)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["따님 "],
+        "translation": "따님 ",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -216,13 +216,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["an only daughter"],
+        "translation": "an only daughter",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["외동딸"],
+        "translation": "외동딸",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -231,13 +231,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["uncle (generic); mister"],
+        "translation": "uncle (generic); mister",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["아저씨"],
+        "translation": "아저씨",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -246,13 +246,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["aunt (generic); ma'am"],
+        "translation": "aunt (generic); ma'am",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["아주머니"],
+        "translation": "아주머니",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -261,13 +261,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["auntie (casual generic)"],
+        "translation": "auntie (casual generic)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["아줌마"],
+        "translation": "아줌마",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"

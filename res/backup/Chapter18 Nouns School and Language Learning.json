@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["lesson"],
+        "translation": "lesson",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["-과"],
+        "translation": "-과",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["department"],
+        "translation": "department",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["-과"],
+        "translation": "-과",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -36,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["head of dept."],
+        "translation": "head of dept.",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["과장"],
+        "translation": "과장",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -51,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["word; vocabulary item"],
+        "translation": "word; vocabulary item",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["단어"],
+        "translation": "단어",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -66,16 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "classmate",
-          "graduate of same school"
-        ],
+        "translation": "graduate of same school, classmate",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["동차"],
+        "translation": "동차",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -84,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["grammar"],
+        "translation": "grammar",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["문법"],
+        "translation": "문법",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -99,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["dictionary"],
+        "translation": "dictionary",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["사전"],
+        "translation": "사전",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -114,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["East Asia"],
+        "translation": "East Asia",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["동양"],
+        "translation": "동양",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -129,16 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "the West",
-          "Western counrtires"
-        ],
+        "translation": "Western counrtires, the West",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["서양"],
+        "translation": "서양",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -147,13 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["senior"],
+        "translation": "senior",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["선배"],
+        "translation": "선배",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -162,13 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["junior"],
+        "translation": "junior",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["후배"],
+        "translation": "후배",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -177,13 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Chinese character"],
+        "translation": "Chinese character",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["한자 [한짜]"],
+        "translation": "한자 [한짜]",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"

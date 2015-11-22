@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["our baby can't walk yet"],
+        "translation": "our baby can't walk yet",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["우리 아기는 아직 걷지 못 해요"],
+        "translation": "우리 아기는 아직 걷지 못 해요",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -21,16 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "walk",
-          "go on foot"
-        ],
+        "translation": "go on foot, walk",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["걸어가-"],
+        "translation": "걸어가-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -39,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["let's go on foot. let's walk (formal suggestive)"],
+        "translation": "let's go on foot. let's walk (formal suggestive)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["걸어갑시다"],
+        "translation": "걸어갑시다",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -54,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be/feel bored"],
+        "translation": "be/feel bored",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["심심하-"],
+        "translation": "심심하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -69,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be tired"],
+        "translation": "be tired",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 11,
         "lastTested": "",
-        "translation": ["피곤하-"],
+        "translation": "피곤하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -84,16 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "put in",
-          "intsert"
-        ],
+        "translation": "put in, intsert",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["넣-"],
+        "translation": "넣-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -102,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Do you put sugar in? (honorific)"],
+        "translation": "Do you put sugar in? (honorific)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["설탕을 넣으세요?"],
+        "translation": "설탕을 넣으세요?",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -117,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["play tennis"],
+        "translation": "play tennis",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["테니스(를) 치-"],
+        "translation": "테니스(를) 치-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -132,13 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["play the piano"],
+        "translation": "play the piano",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["피아노(를) 치-"],
+        "translation": "피아노(를) 치-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -147,13 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be heavy"],
+        "translation": "be heavy",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["무거w-"],
+        "translation": "무거w-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -162,13 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be light [in weight]"],
+        "translation": "be light [in weight]",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 11,
         "lastTested": "",
-        "translation": ["가벼w-"],
+        "translation": "가벼w-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -177,13 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["finish it"],
+        "translation": "finish it",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["마치-"],
+        "translation": "마치-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -192,13 +186,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["[stomach] be full"],
+        "translation": "[stomach] be full",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["배(가) 부르-"],
+        "translation": "배(가) 부르-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -207,13 +201,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["i'm full. (polite)"],
+        "translation": "i'm full. (polite)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 10,
         "lastTested": "",
-        "translation": ["배 불러요"],
+        "translation": "배 불러요",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -222,13 +216,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be hungry"],
+        "translation": "be hungry",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["배(가) 고프-"],
+        "translation": "배(가) 고프-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -237,13 +231,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["i'm hungry (polite)"],
+        "translation": "i'm hungry (polite)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["배 고파요"],
+        "translation": "배 고파요",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -252,16 +246,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "goes back",
-          "returns there"
-        ],
+        "translation": "returns there, goes back",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["돌아가-"],
+        "translation": "돌아가-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"

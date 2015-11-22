@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["how many? (some/several)"],
+        "translation": "how many? (some/several)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["몇"],
+        "translation": "몇",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["How many days?"],
+        "translation": "How many days?",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["며칠"],
+        "translation": "며칠",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -36,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["About how much? Approximately how much?"],
+        "translation": "About how much? Approximately how much?",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["얼마나"],
+        "translation": "얼마나",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -51,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["number"],
+        "translation": "number",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["번호"],
+        "translation": "번호",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -66,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["telephone number"],
+        "translation": "telephone number",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["전화번호\t"],
+        "translation": "전화번호\t",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -81,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["area code"],
+        "translation": "area code",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["지역번호"],
+        "translation": "지역번호",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -96,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["country code"],
+        "translation": "country code",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["국가번호"],
+        "translation": "국가번호",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -111,16 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "several",
-          "various NOUN"
-        ],
+        "translation": "several, various NOUN",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 10,
         "lastTested": "",
-        "translation": ["여러 NOUN"],
+        "translation": "여러 NOUN",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -129,13 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["all kinds of food"],
+        "translation": "all kinds of food",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["여러 가지 음식"],
+        "translation": "여러 가지 음식",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -144,16 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "all of you",
-          "everybody"
-        ],
+        "translation": "everybody, all of you",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["여러분"],
+        "translation": "여러분",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -162,16 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "about",
-          "approximately NUMERAL"
-        ],
+        "translation": "about, approximately NUMERAL",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["한 NUMERAL "],
+        "translation": "한 NUMERAL ",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -180,16 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "earlier",
-          "before"
-        ],
+        "translation": "earlier, before",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["전에"],
+        "translation": "전에",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -198,17 +186,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "afterards",
-          "later",
-          "later on"
-        ],
+        "translation": "later on, later, afterards",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["후에"],
+        "translation": "후에",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -217,17 +201,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "in the future",
-          "some time later",
-          "later"
-        ],
+        "translation": "later, in the future, some time later",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 14,
         "lastTested": "",
-        "translation": ["나중에"],
+        "translation": "나중에",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -236,13 +216,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["next year"],
+        "translation": "next year",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["내년(에)"],
+        "translation": "내년(에)",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"

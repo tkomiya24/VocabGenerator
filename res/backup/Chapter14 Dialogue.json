@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["most likely; i'd venture to say; probably"],
+        "translation": "most likely; i'd venture to say; probably",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 17,
         "lastTested": "",
-        "translation": ["아무래도"],
+        "translation": "아무래도",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -21,16 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "That is probably the case",
-          "That must be the case. (Future presumptive)"
-        ],
+        "translation": "That must be the case. (Future presumptive), That is probably the case",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 14,
         "lastTested": "",
-        "translation": ["그렇겠지요"],
+        "translation": "그렇겠지요",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -39,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["It's time we started moving (shall we get moving?)"],
+        "translation": "It's time we started moving (shall we get moving?)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 14,
         "lastTested": "",
-        "translation": ["슬슬 가 불까요?"],
+        "translation": "슬슬 가 불까요?",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -54,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["What brings you here? (honorific)"],
+        "translation": "What brings you here? (honorific)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 12,
         "lastTested": "",
-        "translation": ["어떻게 오셨어요?"],
+        "translation": "어떻게 오셨어요?",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -69,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["He is in (honorific)"],
+        "translation": "He is in (honorific)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 12,
         "lastTested": "",
-        "translation": ["계신데요"],
+        "translation": "계신데요",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -84,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["in the meantime; during the interval [that we weren't in touch]"],
+        "translation": "in the meantime; during the interval [that we weren't in touch]",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 12,
         "lastTested": "",
-        "translation": ["그동안"],
+        "translation": "그동안",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -99,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["thanks to [you]"],
+        "translation": "thanks to [you]",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 14,
         "lastTested": "",
-        "translation": ["덕분에"],
+        "translation": "덕분에",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -114,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["There are no particular matters (to report) (formal)"],
+        "translation": "There are no particular matters (to report) (formal)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 15,
         "lastTested": "",
-        "translation": ["별일 없습니다"],
+        "translation": "별일 없습니다",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"

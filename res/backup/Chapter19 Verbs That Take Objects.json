@@ -6,16 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["remember ()"],
+        "translation": "remember ()",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": [
-          "기억(을) 하-",
-          "기억(이) 나-"
-        ],
+        "translation": "기억(을) 하-",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"
@@ -24,16 +21,28 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "earn",
-          "make (money)"
-        ],
+        "translation": "remember ()",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": "기억(이) 나-",
+        "timesCorrect": 7
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "make (money), earn",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["버-ㄹ-"],
+        "translation": "버-ㄹ-",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"
@@ -42,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["pour it"],
+        "translation": "pour it",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 10,
         "lastTested": "",
-        "translation": ["부(ㅅ)-"],
+        "translation": "부(ㅅ)-",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"
@@ -57,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["blow"],
+        "translation": "blow",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["부-ㄹ-"],
+        "translation": "부-ㄹ-",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"
@@ -72,16 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "take out",
-          "extract"
-        ],
+        "translation": "extract, take out",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["뽑-"],
+        "translation": "뽑-",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"
@@ -90,16 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "quarrel",
-          "argue with"
-        ],
+        "translation": "argue with, quarrel",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 12,
         "lastTested": "",
-        "translation": ["싸우-"],
+        "translation": "싸우-",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"
@@ -108,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["build (house); make (rice)"],
+        "translation": "build (house); make (rice)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["지(ㅅ)-"],
+        "translation": "지(ㅅ)-",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"
@@ -123,13 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["pass by"],
+        "translation": "pass by",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["지나가-"],
+        "translation": "지나가-",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"
@@ -138,13 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["examine sb medically"],
+        "translation": "examine sb medically",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["진찰(을) 하-"],
+        "translation": "진찰(을) 하-",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"
@@ -153,17 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "want",
-          "deisre",
-          "wish for"
-        ],
+        "translation": "wish for, want, deisre",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["원하-"],
+        "translation": "원하-",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"
@@ -172,17 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "separate from",
-          "part with",
-          "split up with"
-        ],
+        "translation": "part with, separate from, split up with",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 13,
         "lastTested": "",
-        "translation": ["헤어지-"],
+        "translation": "헤어지-",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"

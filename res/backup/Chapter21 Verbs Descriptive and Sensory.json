@@ -6,17 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be tired",
-          "fatigued",
-          "weary"
-        ],
+        "translation": "fatigued, weary, be tired",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 10,
         "lastTested": "",
-        "translation": ["고단하-"],
+        "translation": "고단하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -25,17 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be severe",
-          "intense",
-          "extreme"
-        ],
+        "translation": "be severe, extreme, intense",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["심하-"],
+        "translation": "심하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -44,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be light (colour)"],
+        "translation": "be light (colour)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["옅-"],
+        "translation": "옅-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -59,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be sleep; feel sleepy"],
+        "translation": "be sleep; feel sleepy",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["졸리-"],
+        "translation": "졸리-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -74,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be important"],
+        "translation": "be important",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["중요하-"],
+        "translation": "중요하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -89,17 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be deep",
-          "rich",
-          "dark (colour)"
-        ],
+        "translation": "dark (colour), be deep, rich",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 10,
         "lastTested": "",
-        "translation": ["짙-"],
+        "translation": "짙-",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -108,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be happy [in life]"],
+        "translation": "be happy [in life]",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["행복하-"],
+        "translation": "행복하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"

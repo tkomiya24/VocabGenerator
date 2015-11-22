@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["athlete"],
+        "translation": "athlete",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "2015-11-22T09:35:30.257Z",
-        "translation": ["운동 선수"],
+        "translation": "운동 선수",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["volleyboll"],
+        "translation": "volleyboll",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "2015-11-22T09:35:07.566Z",
-        "translation": ["배구"],
+        "translation": "배구",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -36,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["basketball"],
+        "translation": "basketball",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "2015-11-22T09:35:07.567Z",
-        "translation": ["농구"],
+        "translation": "농구",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -51,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["soccer"],
+        "translation": "soccer",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "2015-11-22T09:35:07.567Z",
-        "translation": ["축구"],
+        "translation": "축구",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -66,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["American football"],
+        "translation": "American football",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "2015-11-22T09:35:36.509Z",
-        "translation": ["미식축구"],
+        "translation": "미식축구",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -81,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["water polo"],
+        "translation": "water polo",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "2015-11-22T09:35:07.567Z",
-        "translation": ["수구"],
+        "translation": "수구",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -96,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["ice hockey"],
+        "translation": "ice hockey",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "2015-11-22T09:35:07.566Z",
-        "translation": ["아이스 하키"],
+        "translation": "아이스 하키",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"

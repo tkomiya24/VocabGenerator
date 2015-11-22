@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be/feel curious about [descriptive]"],
+        "translation": "be/feel curious about [descriptive]",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["궁금하-"],
+        "translation": "궁금하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -21,16 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "feel embarrassed",
-          "ashamed"
-        ],
+        "translation": "ashamed, feel embarrassed",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 10,
         "lastTested": "",
-        "translation": ["부끄러w-"],
+        "translation": "부끄러w-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -39,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be envious"],
+        "translation": "be envious",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["부러w-"],
+        "translation": "부러w-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -54,16 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "feel sad and/or empty about",
-          "feel wistful about [usually about someone's absence or imminent departure]"
-        ],
+        "translation": "feel wistful about [usually about someone's absence or imminent departure], feel sad and/or empty about",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 10,
         "lastTested": "",
-        "translation": ["섭섭하-"],
+        "translation": "섭섭하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -72,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be beautiful"],
+        "translation": "be beautiful",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["아름다w-"],
+        "translation": "아름다w-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -87,16 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be boring",
-          "tedious"
-        ],
+        "translation": "be boring, tedious",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 13,
         "lastTested": "",
-        "translation": ["지루하-"],
+        "translation": "지루하-",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"

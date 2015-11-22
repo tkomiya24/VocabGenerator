@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["the color brown; brown..."],
+        "translation": "the color brown; brown...",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 10,
         "lastTested": "",
-        "translation": ["갈색"],
+        "translation": "갈색",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["(the color) black; black..."],
+        "translation": "(the color) black; black...",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["까만(색)"],
+        "translation": "까만(색)",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -36,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["the color [navy] blue"],
+        "translation": "the color [navy] blue",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["남색"],
+        "translation": "남색",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -51,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["(the color) yellow; yellow..."],
+        "translation": "(the color) yellow; yellow...",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["노란(색)"],
+        "translation": "노란(색)",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -66,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["the color green; green..."],
+        "translation": "the color green; green...",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["녹색"],
+        "translation": "녹색",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -81,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["the colour chestnut brown; chestnute brown..."],
+        "translation": "the colour chestnut brown; chestnute brown...",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["밤색"],
+        "translation": "밤색",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -96,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["the color purple; purple..."],
+        "translation": "the color purple; purple...",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["보라색"],
+        "translation": "보라색",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -111,16 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["the color pink; pink... ()"],
+        "translation": "the color pink; pink... ()",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 11,
         "lastTested": "",
-        "translation": [
-          "핑크색",
-          "분홍색"
-        ],
+        "translation": "핑크색",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -129,13 +126,28 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["(the colour) red; red..."],
+        "translation": "the color pink; pink... ()",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 11,
+        "lastTested": "",
+        "translation": "분홍색",
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "(the colour) red; red...",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["빨간(색)"],
+        "translation": "빨간(색)",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -144,16 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["colour ()"],
+        "translation": "colour ()",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": [
-          "색",
-          "색깔"
-        ],
+        "translation": "색",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -162,16 +171,28 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["the colour orange; orange... ()"],
+        "translation": "colour ()",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": "색깔",
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "the colour orange; orange... ()",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": [
-          "오렌지색",
-          "주황색"
-        ],
+        "translation": "오렌지색",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -180,13 +201,28 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["the colour burgundy; burgundy..."],
+        "translation": "the colour orange; orange... ()",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": "주황색",
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "the colour burgundy; burgundy...",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["자주색"],
+        "translation": "자주색",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -195,16 +231,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["(the colour) blue/green; blue/green... ()"],
+        "translation": "(the colour) blue/green; blue/green... ()",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": [
-          "푸른(색)",
-          "파란(색)"
-        ],
+        "translation": "푸른(색)",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -213,13 +246,28 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["the colour light blue"],
+        "translation": "(the colour) blue/green; blue/green... ()",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": "파란(색)",
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "the colour light blue",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["하늘색"],
+        "translation": "하늘색",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -228,16 +276,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["(the color) white... ()"],
+        "translation": "(the color) white... ()",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": [
-          "횐(색)",
-          "하얀(색)"
-        ],
+        "translation": "횐(색)",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -246,13 +291,28 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["the color grey; grey..."],
+        "translation": "(the color) white... ()",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": "하얀(색)",
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "the color grey; grey...",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["회색"],
+        "translation": "회색",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"

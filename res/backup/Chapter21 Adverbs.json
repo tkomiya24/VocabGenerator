@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["quietly; still; cautiously"],
+        "translation": "quietly; still; cautiously",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 13,
         "lastTested": "",
-        "translation": ["가만히"],
+        "translation": "가만히",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -21,16 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "later",
-          "afterwards"
-        ],
+        "translation": "afterwards, later",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 10,
         "lastTested": "",
-        "translation": ["나중에"],
+        "translation": "나중에",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -39,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["to one's heart's content"],
+        "translation": "to one's heart's content",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 15,
         "lastTested": "",
-        "translation": ["마음껏"],
+        "translation": "마음껏",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -54,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["diligently"],
+        "translation": "diligently",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 20,
         "lastTested": "",
-        "translation": ["부지런히"],
+        "translation": "부지런히",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -69,16 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "to one's heart's content",
-          "to the point where one is sick of it"
-        ],
+        "translation": "to the point where one is sick of it, to one's heart's content",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 16,
         "lastTested": "",
-        "translation": ["실컷"],
+        "translation": "실컷",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -87,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["sometimes"],
+        "translation": "sometimes",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 13,
         "lastTested": "",
-        "translation": ["어떤 때는"],
+        "translation": "어떤 때는",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -102,21 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "at any rate (3)",
-          "anyhow",
-          "in any case"
-        ],
+        "translation": "at any rate (3), anyhow, in any case",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 26,
         "lastTested": "",
-        "translation": [
-          "하여튼",
-          "어쨌든",
-          "어차피"
-        ],
+        "translation": "하여튼",
         "timesCorrect": 11
       },
       "primaryLanguage": "English"
@@ -125,17 +111,43 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "quickly",
-          "immediately",
-          "at once"
-        ],
+        "translation": "at any rate (3), anyhow, in any case",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 26,
+        "lastTested": "",
+        "translation": "어쨌든",
+        "timesCorrect": 11
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "at any rate (3), anyhow, in any case",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 26,
+        "lastTested": "",
+        "translation": "어차피",
+        "timesCorrect": 11
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "quickly, immediately, at once",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 16,
         "lastTested": "",
-        "translation": ["얼른"],
+        "translation": "얼른",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -144,17 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "rather (than)",
-          "sooner (than); actually; on the contrary",
-          "contrary to what one expects"
-        ],
+        "translation": "rather (than), sooner (than); actually; on the contrary, contrary to what one expects",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 26,
         "lastTested": "",
-        "translation": ["오히려"],
+        "translation": "오히려",
         "timesCorrect": 11
       },
       "primaryLanguage": "English"

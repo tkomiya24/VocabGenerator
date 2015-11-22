@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["school subject"],
+        "translation": "school subject",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["과목"],
+        "translation": "과목",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["How many courses are you taking? (honorific)"],
+        "translation": "How many courses are you taking? (honorific)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["몇 과목을 들으세요?"],
+        "translation": "몇 과목을 들으세요?",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -36,16 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "a class",
-          "lesson [at school]"
-        ],
+        "translation": "a class, lesson [at school]",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["수업"],
+        "translation": "수업",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -54,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["economics"],
+        "translation": "economics",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["경제학"],
+        "translation": "경제학",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -69,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["economy"],
+        "translation": "economy",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["경제"],
+        "translation": "경제",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -84,16 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "politics [as a field of study]",
-          "political science"
-        ],
+        "translation": "political science, politics [as a field of study]",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["정치학"],
+        "translation": "정치학",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -102,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["politics"],
+        "translation": "politics",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["정치"],
+        "translation": "정치",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -117,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["korean studies"],
+        "translation": "korean studies",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["한국학"],
+        "translation": "한국학",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -132,13 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["major in ..."],
+        "translation": "major in ...",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 14,
         "lastTested": "",
-        "translation": ["...(을) 전공(을) 하-"],
+        "translation": "...(을) 전공(을) 하-",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -147,13 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["What's your major?"],
+        "translation": "What's your major?",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["전공이 뭐예요?"],
+        "translation": "전공이 뭐예요?",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -162,13 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["teaching materials; textbook"],
+        "translation": "teaching materials; textbook",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["교재"],
+        "translation": "교재",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -177,13 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["four-year college"],
+        "translation": "four-year college",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["대학"],
+        "translation": "대학",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"

@@ -6,16 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be difficult",
-          "taxing"
-        ],
+        "translation": "be difficult, taxing",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["힘(이) 드-ㄹ-"],
+        "translation": "힘(이) 드-ㄹ-",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -24,16 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "strength",
-          "energy"
-        ],
+        "translation": "strength, energy",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["힘"],
+        "translation": "힘",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -42,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["I have no energy today."],
+        "translation": "I have no energy today.",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["오늘은 힘이 없어요"],
+        "translation": "오늘은 힘이 없어요",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -57,16 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be all right",
-          "ok"
-        ],
+        "translation": "be all right, ok",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["괜찮-"],
+        "translation": "괜찮-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -75,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["It's ok; It'll do"],
+        "translation": "It's ok; It'll do",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["돼요"],
+        "translation": "돼요",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -90,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["It's not ok; It won't do; One musn't do it"],
+        "translation": "It's not ok; It won't do; One musn't do it",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["안 돼요"],
+        "translation": "안 돼요",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -105,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["It's going well. It's turning out well."],
+        "translation": "It's going well. It's turning out well.",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["잘 돼요"],
+        "translation": "잘 돼요",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -120,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["It's not going well."],
+        "translation": "It's not going well.",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["잘 안 돼요"],
+        "translation": "잘 안 돼요",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -135,16 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be distant",
-          "far"
-        ],
+        "translation": "far, be distant",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["머-ㄹ-"],
+        "translation": "머-ㄹ-",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -153,13 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Is it far from here?"],
+        "translation": "Is it far from here?",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["여기서 멀어요?"],
+        "translation": "여기서 멀어요?",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -168,19 +156,28 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "yes",
-          "it takes half an hour"
-        ],
+        "translation": "yes, it takes half an hour",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": [
-          "네",
-          "한 시간 걸려요"
-        ],
+        "translation": "네",
+        "timesCorrect": 1
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "yes, it takes half an hour",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": "한 시간 걸려요",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"

@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Inside ()"],
+        "translation": "Inside ()",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["안에,숙에"],
+        "translation": "안에,숙에",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Outside"],
+        "translation": "Outside",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["밖에"],
+        "translation": "밖에",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -36,17 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "Above",
-          "over",
-          "on (top)"
-        ],
+        "translation": "over, on (top), Above",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["위에"],
+        "translation": "위에",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -55,16 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "AT the bottom",
-          "below under(neath)"
-        ],
+        "translation": "below under(neath), AT the bottom",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["밑에"],
+        "translation": "밑에",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -73,16 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "Below,lower",
-          "down"
-        ],
+        "translation": "Below,lower, down",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["아래"],
+        "translation": "아래",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -91,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["in front"],
+        "translation": "in front",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["앞에"],
+        "translation": "앞에",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -106,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["at the back; behind"],
+        "translation": "at the back; behind",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["뒤에"],
+        "translation": "뒤에",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -121,16 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "near",
-          "in the vicinity of"
-        ],
+        "translation": "near, in the vicinity of",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["근처에"],
+        "translation": "근처에",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -139,16 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "next to",
-          "beside"
-        ],
+        "translation": "beside, next to",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["옆에"],
+        "translation": "옆에",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -157,16 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "side",
-          "direction"
-        ],
+        "translation": "side, direction",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["편(쪽)"],
+        "translation": "편(쪽)",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -175,13 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["on the left"],
+        "translation": "on the left",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["왼편~쪽에"],
+        "translation": "왼편~쪽에",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -190,13 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["on the right"],
+        "translation": "on the right",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["오른편~쪽에"],
+        "translation": "오른편~쪽에",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -205,19 +186,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "across from",
-          "opposite (2)"
-        ],
+        "translation": "across from, opposite (2)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": [
-          "마즌편에",
-          "건너편에"
-        ],
+        "translation": "마즌편에",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -226,13 +201,28 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["between"],
+        "translation": "across from, opposite (2)",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": "건너편에",
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "between",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["사이에"],
+        "translation": "사이에",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"

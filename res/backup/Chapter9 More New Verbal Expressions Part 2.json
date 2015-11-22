@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["where have you been?"],
+        "translation": "where have you been?",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["어디 갔다 왔어요?"],
+        "translation": "어디 갔다 왔어요?",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["polish; brush(teeth)"],
+        "translation": "polish; brush(teeth)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["닦-"],
+        "translation": "닦-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -36,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["he brushes his teeth"],
+        "translation": "he brushes his teeth",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["이를 닦아요"],
+        "translation": "이를 닦아요",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -51,16 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be enjoyable; pleasant",
-          "fun"
-        ],
+        "translation": "be enjoyable; pleasant, fun",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["즐거w-"],
+        "translation": "즐거w-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -69,16 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "in an enjoyable way",
-          "enjoyably"
-        ],
+        "translation": "in an enjoyable way, enjoyably",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["즐겁게"],
+        "translation": "즐겁게",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -87,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["did you have a good ['enjoyable'] weekend? (honorific)"],
+        "translation": "did you have a good ['enjoyable'] weekend? (honorific)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 21,
         "lastTested": "",
-        "translation": ["주말을 즐겁게 보내셨어요?"],
+        "translation": "주말을 즐겁게 보내셨어요?",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -102,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["withdraw money (from/out of the bank)"],
+        "translation": "withdraw money (from/out of the bank)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["돈(을) 찾-"],
+        "translation": "돈(을) 찾-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -117,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["make a phone call"],
+        "translation": "make a phone call",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 21,
         "lastTested": "",
-        "translation": ["전화를 거-ㄹ-"],
+        "translation": "전화를 거-ㄹ-",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -132,13 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["answer the phone"],
+        "translation": "answer the phone",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 16,
         "lastTested": "",
-        "translation": ["전화를 받-"],
+        "translation": "전화를 받-",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"
@@ -147,13 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["spend (time); send"],
+        "translation": "spend (time); send",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["보내-"],
+        "translation": "보내-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -162,13 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["did you have a fun weekend? (honorific)"],
+        "translation": "did you have a fun weekend? (honorific)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 13,
         "lastTested": "",
-        "translation": ["주말을 재미있게 보내셨어요?"],
+        "translation": "주말을 재미있게 보내셨어요?",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -177,16 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "mail it",
-          "post it"
-        ],
+        "translation": "mail it, post it",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["부치-"],
+        "translation": "부치-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -195,13 +186,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["turn out a certain way"],
+        "translation": "turn out a certain way",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["생기-"],
+        "translation": "생기-",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -210,13 +201,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["is handsome/good-looking [males]"],
+        "translation": "is handsome/good-looking [males]",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["잘 생겼어요"],
+        "translation": "잘 생겼어요",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -225,13 +216,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["is ugly [both females or males]"],
+        "translation": "is ugly [both females or males]",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 13,
         "lastTested": "",
-        "translation": ["못 생겼어요"],
+        "translation": "못 생겼어요",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"

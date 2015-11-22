@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["this year"],
+        "translation": "this year",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["금년(에)"],
+        "translation": "금년(에)",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["every year"],
+        "translation": "every year",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["매년"],
+        "translation": "매년",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -36,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["every week"],
+        "translation": "every week",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["매주"],
+        "translation": "매주",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -51,16 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "every month (2",
-          "no comma)"
-        ],
+        "translation": "no comma), every month (2",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["매월,매달"],
+        "translation": "매월,매달",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -69,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["next week"],
+        "translation": "next week",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["다음 주"],
+        "translation": "다음 주",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -84,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["next month"],
+        "translation": "next month",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["다음 달"],
+        "translation": "다음 달",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -99,16 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "during the week",
-          "on week days"
-        ],
+        "translation": "during the week, on week days",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["주중에"],
+        "translation": "주중에",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -117,16 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "past",
-          "last NOUN"
-        ],
+        "translation": "last NOUN, past",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["지난 NOUN"],
+        "translation": "지난 NOUN",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -135,13 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["last time"],
+        "translation": "last time",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 10,
         "lastTested": "",
-        "translation": ["지난번에"],
+        "translation": "지난번에",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -150,16 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "once",
-          "one time"
-        ],
+        "translation": "once, one time",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["한번"],
+        "translation": "한번",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -168,16 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "one more time",
-          "once more"
-        ],
+        "translation": "once more, one more time",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["한번 더"],
+        "translation": "한번 더",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -186,13 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["this NOUN"],
+        "translation": "this NOUN",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["이번 NOUN"],
+        "translation": "이번 NOUN",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -201,13 +186,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["this weekend"],
+        "translation": "this weekend",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["이번 주말"],
+        "translation": "이번 주말",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -216,13 +201,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["birthday"],
+        "translation": "birthday",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["생일"],
+        "translation": "생일",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -231,13 +216,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["birthday (honorific)"],
+        "translation": "birthday (honorific)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["생신"],
+        "translation": "생신",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"

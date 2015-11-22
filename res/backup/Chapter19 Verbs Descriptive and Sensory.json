@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be cute"],
+        "translation": "be cute",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 15,
         "lastTested": "",
-        "translation": ["귀여w-"],
+        "translation": "귀여w-",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be deep"],
+        "translation": "be deep",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 11,
         "lastTested": "",
-        "translation": ["깊-"],
+        "translation": "깊-",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -36,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be low"],
+        "translation": "be low",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 15,
         "lastTested": "",
-        "translation": ["낮-"],
+        "translation": "낮-",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -51,16 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be high",
-          "tall [but not about people]"
-        ],
+        "translation": "be high, tall [but not about people]",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 11,
         "lastTested": "",
-        "translation": ["높-"],
+        "translation": "높-",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -69,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be slow"],
+        "translation": "be slow",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 15,
         "lastTested": "",
-        "translation": ["느리-"],
+        "translation": "느리-",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -84,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be filthy,dirty"],
+        "translation": "be filthy,dirty",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 16,
         "lastTested": "",
-        "translation": ["더러w-"],
+        "translation": "더러w-",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -99,16 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "not to care",
-          "not to be concerned; be of no concern"
-        ],
+        "translation": "not to be concerned; be of no concern, not to care",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 15,
         "lastTested": "",
-        "translation": ["상관없-"],
+        "translation": "상관없-",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -117,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be new"],
+        "translation": "be new",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 10,
         "lastTested": "",
-        "translation": ["새로w-"],
+        "translation": "새로w-",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -132,16 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be noisy",
-          "loud"
-        ],
+        "translation": "loud, be noisy",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 12,
         "lastTested": "",
-        "translation": ["시끄러w-"],
+        "translation": "시끄러w-",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -150,13 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be shallow"],
+        "translation": "be shallow",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 13,
         "lastTested": "",
-        "translation": ["얕-"],
+        "translation": "얕-",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -165,16 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be popular",
-          "well-liked"
-        ],
+        "translation": "be popular, well-liked",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 12,
         "lastTested": "",
-        "translation": ["인기(가) 있- [인끼]"],
+        "translation": "인기(가) 있- [인끼]",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -183,16 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be close (eg",
-          "with a friend)"
-        ],
+        "translation": "with a friend), be close (eg",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 10,
         "lastTested": "",
-        "translation": ["친하-"],
+        "translation": "친하-",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"
@@ -201,16 +186,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be different; be wrong",
-          "incorrect (processive)"
-        ],
+        "translation": "be different; be wrong, incorrect (processive)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 15,
         "lastTested": "",
-        "translation": ["틀리-"],
+        "translation": "틀리-",
         "timesCorrect": 9
       },
       "primaryLanguage": "English"

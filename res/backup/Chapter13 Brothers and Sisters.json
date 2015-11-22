@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["brother and sister"],
+        "translation": "brother and sister",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["남매"],
+        "translation": "남매",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["those two are brother and sister (polite)"],
+        "translation": "those two are brother and sister (polite)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["저 두 사람은 남매예요"],
+        "translation": "저 두 사람은 남매예요",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -36,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["sisters"],
+        "translation": "sisters",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["자매"],
+        "translation": "자매",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"

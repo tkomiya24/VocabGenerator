@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["How much? How many?"],
+        "translation": "How much? How many?",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["얼마"],
+        "translation": "얼마",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Thousand"],
+        "translation": "Thousand",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["천"],
+        "translation": "천",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -36,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Korean monetary unit"],
+        "translation": "Korean monetary unit",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["-원"],
+        "translation": "-원",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -51,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Money"],
+        "translation": "Money",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["돈"],
+        "translation": "돈",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -66,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Notebook"],
+        "translation": "Notebook",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["노트"],
+        "translation": "노트",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -81,19 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "just",
-          "right (below",
-          "above",
-          "etc.)",
-          "straight (adverb)"
-        ],
+        "translation": "right (below, above, etc.), straight (adverb), just",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["바로"],
+        "translation": "바로",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -102,16 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "it exists",
-          "there is/are"
-        ],
+        "translation": "it exists, there is/are",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["있어요"],
+        "translation": "있어요",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -120,16 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "it does not exist",
-          "there is not/aren't"
-        ],
+        "translation": "it does not exist, there is not/aren't",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["없어요"],
+        "translation": "없어요",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -138,13 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["please give"],
+        "translation": "please give",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["주세요"],
+        "translation": "주세요",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"

@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["place"],
+        "translation": "place",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["데"],
+        "translation": "데",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["sports (especially in the newspaper or on TV)"],
+        "translation": "sports (especially in the newspaper or on TV)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["스포츠"],
+        "translation": "스포츠",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -36,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["pro (sports); tv program"],
+        "translation": "pro (sports); tv program",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["프로"],
+        "translation": "프로",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -51,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["professional baseball"],
+        "translation": "professional baseball",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["프로 야구"],
+        "translation": "프로 야구",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -66,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["television comedy show"],
+        "translation": "television comedy show",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["코미디 프로"],
+        "translation": "코미디 프로",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -81,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["weather"],
+        "translation": "weather",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["날씨"],
+        "translation": "날씨",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -96,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["living are in a Korean-style aparemtnet/house; wooden floor"],
+        "translation": "living are in a Korean-style aparemtnet/house; wooden floor",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["마루"],
+        "translation": "마루",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -111,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["cdooked rice (honorific equivalent)"],
+        "translation": "cdooked rice (honorific equivalent)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["진지"],
+        "translation": "진지",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -126,13 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["the meal is served (honorific)"],
+        "translation": "the meal is served (honorific)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["진지 잡수세요"],
+        "translation": "진지 잡수세요",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -141,13 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["spring"],
+        "translation": "spring",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["봄"],
+        "translation": "봄",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -156,13 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["summer"],
+        "translation": "summer",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["여름"],
+        "translation": "여름",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -171,16 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "autumn",
-          "fall"
-        ],
+        "translation": "fall, autumn",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 12,
         "lastTested": "",
-        "translation": ["가을"],
+        "translation": "가을",
         "timesCorrect": 6
       },
       "primaryLanguage": "English"
@@ -189,13 +186,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["winter"],
+        "translation": "winter",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 11,
         "lastTested": "",
-        "translation": ["겨울"],
+        "translation": "겨울",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -204,16 +201,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "soldier",
-          "serviceman"
-        ],
+        "translation": "soldier, serviceman",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["군인"],
+        "translation": "군인",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -222,13 +216,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["missionary"],
+        "translation": "missionary",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["선교사"],
+        "translation": "선교사",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -237,16 +231,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "both",
-          "both of them "
-        ],
+        "translation": "both of them , both",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["둘 다"],
+        "translation": "둘 다",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -255,13 +246,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["kitchen"],
+        "translation": "kitchen",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["부엌"],
+        "translation": "부엌",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"

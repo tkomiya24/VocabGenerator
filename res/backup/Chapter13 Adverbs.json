@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["a short while ago; just a moment ago"],
+        "translation": "a short while ago; just a moment ago",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["아까"],
+        "translation": "아까",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -21,16 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "all",
-          "everyone"
-        ],
+        "translation": "all, everyone",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 10,
         "lastTested": "",
-        "translation": ["모두"],
+        "translation": "모두",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -39,16 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "just (as one/it is)",
-          "without doing anything; just"
-        ],
+        "translation": "without doing anything; just, just (as one/it is)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["그냥"],
+        "translation": "그냥",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -57,16 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "it doesn't taste like much",
-          "but let's eat (it as it is) (formal)"
-        ],
+        "translation": "but let's eat (it as it is) (formal), it doesn't taste like much",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["맛 없지만 그냥 먹읍시다"],
+        "translation": "맛 없지만 그냥 먹읍시다",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -75,16 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "just come anyway (as you are",
-          "without bringing anything) (honorific)"
-        ],
+        "translation": "without bringing anything) (honorific), just come anyway (as you are",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["그냥 오세요"],
+        "translation": "그냥 오세요",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -93,16 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "in this way",
-          "like this"
-        ],
+        "translation": "like this, in this way",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["이렇게"],
+        "translation": "이렇게",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -111,16 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "in that way",
-          "like that; so"
-        ],
+        "translation": "in that way, like that; so",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["그렇게"],
+        "translation": "그렇게",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -129,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["it's not so difficult"],
+        "translation": "it's not so difficult",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 10,
         "lastTested": "",
-        "translation": ["그렇게 어겹지는 않아요"],
+        "translation": "그렇게 어겹지는 않아요",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -144,13 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["in that way"],
+        "translation": "in that way",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["저렇게"],
+        "translation": "저렇게",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -159,13 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["far"],
+        "translation": "far",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["멀리"],
+        "translation": "멀리",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -174,13 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["don't go far (honorific)"],
+        "translation": "don't go far (honorific)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["멀리 가지 마세요"],
+        "translation": "멀리 가지 마세요",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -189,13 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["from a distance"],
+        "translation": "from a distance",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["멀리서"],
+        "translation": "멀리서",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -204,17 +186,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "so",
-          "what i mean to say is; so",
-          "what you're saying is"
-        ],
+        "translation": "what i mean to say is; so, so, what you're saying is",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["그러니까"],
+        "translation": "그러니까",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -223,16 +201,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "maybe",
-          "probably"
-        ],
+        "translation": "maybe, probably",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["아마"],
+        "translation": "아마",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -241,16 +216,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "maybe",
-          "probably (a little more tentative)"
-        ],
+        "translation": "maybe, probably (a little more tentative)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["아마도"],
+        "translation": "아마도",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"

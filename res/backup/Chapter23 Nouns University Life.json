@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["registration"],
+        "translation": "registration",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "2015-11-22T09:36:39.037Z",
-        "translation": ["등록"],
+        "translation": "등록",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["register"],
+        "translation": "register",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "2015-11-22T09:36:39.037Z",
-        "translation": ["등록(을) 하-"],
+        "translation": "등록(을) 하-",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -36,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["How many courses did you register for? (honorific)"],
+        "translation": "How many courses did you register for? (honorific)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "2015-11-22T09:38:55.655Z",
-        "translation": ["몇 과목을 등록하셨어요?"],
+        "translation": "몇 과목을 등록하셨어요?",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -51,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["literature"],
+        "translation": "literature",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "2015-11-22T09:38:55.654Z",
-        "translation": ["문학"],
+        "translation": "문학",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -66,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["party in honor of one's teacher"],
+        "translation": "party in honor of one's teacher",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "2015-11-22T09:39:29.371Z",
-        "translation": ["사은회 파티"],
+        "translation": "사은회 파티",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -81,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["have/host a party"],
+        "translation": "have/host a party",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "2015-11-22T09:38:55.654Z",
-        "translation": ["파티(를) 여-ㄹ-"],
+        "translation": "파티(를) 여-ㄹ-",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -96,16 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "marks",
-          "grades"
-        ],
+        "translation": "marks, grades",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "2015-11-22T09:39:29.371Z",
-        "translation": ["성적"],
+        "translation": "성적",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -114,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["report card"],
+        "translation": "report card",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "2015-11-22T09:39:29.372Z",
-        "translation": ["성적표"],
+        "translation": "성적표",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -129,13 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["end-of-term party"],
+        "translation": "end-of-term party",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 10,
         "lastTested": "2015-11-22T09:39:44.926Z",
-        "translation": ["종강 파티"],
+        "translation": "종강 파티",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -144,13 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["the \"star\"; the protagonist; person of honor at a party"],
+        "translation": "the \"star\"; the protagonist; person of honor at a party",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "2015-11-22T09:38:55.654Z",
-        "translation": ["주인공"],
+        "translation": "주인공",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"
@@ -159,13 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["course"],
+        "translation": "course",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "2015-11-22T09:38:55.655Z",
-        "translation": ["코스"],
+        "translation": "코스",
         "timesCorrect": 4
       },
       "primaryLanguage": "English"

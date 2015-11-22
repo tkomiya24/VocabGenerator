@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["give (to somebody esteemed)"],
+        "translation": "give (to somebody esteemed)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["드리-"],
+        "translation": "드리-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -21,16 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "wash the dishes",
-          "do the dishes"
-        ],
+        "translation": "wash the dishes, do the dishes",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["설거지(를) 하-"],
+        "translation": "설거지(를) 하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -39,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["worry; worries (noun)"],
+        "translation": "worry; worries (noun)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["걱정"],
+        "translation": "걱정",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -54,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["worry (verb)"],
+        "translation": "worry (verb)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["걱정(을) 하-"],
+        "translation": "걱정(을) 하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -69,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["date"],
+        "translation": "date",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["데이트"],
+        "translation": "데이트",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -84,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["go on a date"],
+        "translation": "go on a date",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["데이트(를) 하-"],
+        "translation": "데이트(를) 하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -99,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["become/get cloudy"],
+        "translation": "become/get cloudy",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["흐리-"],
+        "translation": "흐리-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -114,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["the weather has become cloudy/clouded over (polite)"],
+        "translation": "the weather has become cloudy/clouded over (polite)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["날씨가 흐렸어요"],
+        "translation": "날씨가 흐렸어요",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -129,16 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "korea's rainy season",
-          "korea's seasonal rains"
-        ],
+        "translation": "korea's rainy season, korea's seasonal rains",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["장마"],
+        "translation": "장마",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -147,13 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["the rainy season sets in"],
+        "translation": "the rainy season sets in",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["장마(가) 지-"],
+        "translation": "장마(가) 지-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -162,13 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["the rainsy season in korea comes in the summer (formal)"],
+        "translation": "the rainsy season in korea comes in the summer (formal)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["한국은 여름에 장마가 집니다"],
+        "translation": "한국은 여름에 장마가 집니다",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -177,13 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["rain comes (it rains)"],
+        "translation": "rain comes (it rains)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["비(가) 오-"],
+        "translation": "비(가) 오-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -192,13 +186,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["it is pouring down/it is raining buckets (polite)"],
+        "translation": "it is pouring down/it is raining buckets (polite)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["비가 쏟아지고 있어요"],
+        "translation": "비가 쏟아지고 있어요",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -207,13 +201,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["snow comes (It snows)"],
+        "translation": "snow comes (It snows)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["눈(이) 오-"],
+        "translation": "눈(이) 오-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -222,13 +216,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["do sports; exercise"],
+        "translation": "do sports; exercise",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["운동(을) 하-"],
+        "translation": "운동(을) 하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -237,13 +231,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["sports; exercise"],
+        "translation": "sports; exercise",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["운동"],
+        "translation": "운동",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -252,13 +246,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["sports stadium"],
+        "translation": "sports stadium",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["운동장"],
+        "translation": "운동장",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -267,13 +261,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["play golf"],
+        "translation": "play golf",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["골프(를) 치-"],
+        "translation": "골프(를) 치-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -282,13 +276,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["(is) unmarried"],
+        "translation": "(is) unmarried",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["미혼(이-)"],
+        "translation": "미혼(이-)",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -297,13 +291,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["(somebody esteemed) says"],
+        "translation": "(somebody esteemed) says",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["말씀(을) 하시-"],
+        "translation": "말씀(을) 하시-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -312,16 +306,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "humbly say",
-          "say to somebody esteemed"
-        ],
+        "translation": "say to somebody esteemed, humbly say",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["말씀(을) 드리-"],
+        "translation": "말씀(을) 드리-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -330,13 +321,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["shall i tell the boss? (formal)"],
+        "translation": "shall i tell the boss? (formal)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["사장님께 말씀 드릴까요?"],
+        "translation": "사장님께 말씀 드릴까요?",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -345,13 +336,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be late"],
+        "translation": "be late",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["늦-"],
+        "translation": "늦-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -360,16 +351,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be strange",
-          "odd"
-        ],
+        "translation": "be strange, odd",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["이상하-"],
+        "translation": "이상하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -378,16 +366,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "go through; ( language/message) is understood",
-          "gets across"
-        ],
+        "translation": "go through; ( language/message) is understood, gets across",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["통하-"],
+        "translation": "통하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -396,13 +381,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be cold"],
+        "translation": "be cold",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["추w-"],
+        "translation": "추w-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -411,16 +396,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be close",
-          "nearby"
-        ],
+        "translation": "be close, nearby",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["가까w-"],
+        "translation": "가까w-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -429,13 +411,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["(a child) be young ; be childish"],
+        "translation": "(a child) be young ; be childish",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["어리-"],
+        "translation": "어리-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -444,16 +426,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be right",
-          "correct; hit the mark"
-        ],
+        "translation": "be right, correct; hit the mark",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["맞-"],
+        "translation": "맞-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -462,19 +441,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "yes",
-          "that's right (formal)"
-        ],
+        "translation": "that's right (formal), yes",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": [
-          "네",
-          "맞습니다"
-        ],
+        "translation": "네",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -483,13 +456,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["get divorced"],
+        "translation": "that's right (formal), yes",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["이혼(을) 하-"],
+        "translation": "맞습니다",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -498,13 +471,28 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["is divoreced "],
+        "translation": "get divorced",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": "이혼(을) 하-",
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "is divoreced ",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["이혼했어요"],
+        "translation": "이혼했어요",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -513,13 +501,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["graduate"],
+        "translation": "graduate",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["졸업(을) 하-"],
+        "translation": "졸업(을) 하-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -528,13 +516,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["i graduated from the university of london"],
+        "translation": "i graduated from the university of london",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["런던대학을 졸업했어요"],
+        "translation": "런던대학을 졸업했어요",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -543,13 +531,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["throw it away"],
+        "translation": "throw it away",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["버리-"],
+        "translation": "버리-",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"

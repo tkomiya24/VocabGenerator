@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["more"],
+        "translation": "more",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["더"],
+        "translation": "더",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["please give me a little bit more"],
+        "translation": "please give me a little bit more",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["조금 더 주세요"],
+        "translation": "조금 더 주세요",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -36,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["please do it one more time"],
+        "translation": "please do it one more time",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["한번 더 하세요"],
+        "translation": "한번 더 하세요",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -51,16 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "moreover",
-          "what's more; (yet) again"
-        ],
+        "translation": "moreover, what's more; (yet) again",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["또"],
+        "translation": "또",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -69,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["fact; in fact"],
+        "translation": "fact; in fact",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["사실"],
+        "translation": "사실",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -84,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["in fact; actually"],
+        "translation": "in fact; actually",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 11,
         "lastTested": "",
-        "translation": ["사실은"],
+        "translation": "사실은",
         "timesCorrect": 5
       },
       "primaryLanguage": "English"
@@ -99,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["in fact; actually"],
+        "translation": "in fact; actually",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["실은"],
+        "translation": "실은",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -114,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["easily"],
+        "translation": "easily",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["쉽게"],
+        "translation": "쉽게",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -129,13 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["very"],
+        "translation": "very",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["아주"],
+        "translation": "아주",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -144,13 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["yesterday was very hot"],
+        "translation": "yesterday was very hot",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["어제는 아주 더웠어요"],
+        "translation": "어제는 아주 더웠어요",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -159,16 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "just a moment ago",
-          "just now"
-        ],
+        "translation": "just now, just a moment ago",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["방금"],
+        "translation": "방금",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -177,13 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["[not] particularly"],
+        "translation": "[not] particularly",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 6,
         "lastTested": "",
-        "translation": ["별로"],
+        "translation": "별로",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -192,13 +186,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["last year"],
+        "translation": "last year",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["작년"],
+        "translation": "작년",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -207,13 +201,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["last year"],
+        "translation": "last year",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["작년에"],
+        "translation": "작년에",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"
@@ -222,13 +216,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["i don't really know. let me think."],
+        "translation": "i don't really know. let me think.",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["글쎄요"],
+        "translation": "글쎄요",
         "timesCorrect": 3
       },
       "primaryLanguage": "English"

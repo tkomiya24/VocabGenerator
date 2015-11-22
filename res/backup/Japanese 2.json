@@ -5,13 +5,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["計算機科学"],
+        "translation": "計算機科学",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Computer science"],
+        "translation": "Computer science",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -20,13 +20,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["実装"],
+        "translation": "実装",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["implement; assemble (a computer; a device)"],
+        "translation": "implement; assemble (a computer; a device)",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -35,13 +35,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["下位領域"],
+        "translation": "下位領域",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["sub-field"],
+        "translation": "sub-field",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -50,13 +50,13 @@
       "japanese": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["考案"],
+        "translation": "考案",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["plan; device; idea; invention"],
+        "translation": "plan; device; idea; invention",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -65,13 +65,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["模型"],
+        "translation": "模型",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["model;"],
+        "translation": "model;",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -80,13 +80,13 @@
       "japanese": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["洞察"],
+        "translation": "洞察",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["discernment; insight"],
+        "translation": "discernment; insight",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -95,13 +95,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["汎用"],
+        "translation": "汎用",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["generic; general purpose; all-purpose"],
+        "translation": "generic; general purpose; all-purpose",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -110,13 +110,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["つき物"],
+        "translation": "つき物",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Essential part; unavoidable part; accompaniment"],
+        "translation": "Essential part; unavoidable part; accompaniment",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -125,13 +125,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["開発"],
+        "translation": "開発",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["development (eg of an app)"],
+        "translation": "development (eg of an app)",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -140,13 +140,13 @@
       "japanese": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["派生作品"],
+        "translation": "派生作品",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["derivative work; derivative product"],
+        "translation": "derivative work; derivative product",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -155,13 +155,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["累計"],
+        "translation": "累計",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["cumulative total; accumulated total; total up to now"],
+        "translation": "cumulative total; accumulated total; total up to now",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -170,13 +170,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["出荷"],
+        "translation": "出荷",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Shipping; outgoing freight; forwarding"],
+        "translation": "Shipping; outgoing freight; forwarding",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -185,16 +185,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["制作"],
+        "translation": "制作",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "work (film",
-          "book)"
-        ],
+        "translation": "book), work (film",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -203,16 +200,13 @@
       "japanese": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["芳しい"],
+        "translation": "芳しい",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "good (reputation",
-          "rumour); favorable"
-        ],
+        "translation": "rumour); favorable, good (reputation",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -221,13 +215,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["供給"],
+        "translation": "供給",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["supply; provision"],
+        "translation": "supply; provision",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -236,13 +230,13 @@
       "japanese": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["険悪"],
+        "translation": "険悪",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["gloomy"],
+        "translation": "gloomy",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -251,13 +245,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["大容量"],
+        "translation": "大容量",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["high capacity"],
+        "translation": "high capacity",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -266,13 +260,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["食い違う"],
+        "translation": "食い違う",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["to cross eachother; to run counter to; to clash"],
+        "translation": "to cross eachother; to run counter to; to clash",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -281,13 +275,13 @@
       "japanese": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["外伝"],
+        "translation": "外伝",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["spin off"],
+        "translation": "spin off",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -296,13 +290,13 @@
       "japanese": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["移植"],
+        "translation": "移植",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["porting"],
+        "translation": "porting",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -311,13 +305,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["局所"],
+        "translation": "局所",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["localized; topical"],
+        "translation": "localized; topical",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -326,13 +320,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["挙動"],
+        "translation": "挙動",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["conduct; behaviour"],
+        "translation": "conduct; behaviour",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -341,13 +335,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["命名"],
+        "translation": "命名",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["naming; christening"],
+        "translation": "naming; christening",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -356,13 +350,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["正鵠を射る"],
+        "translation": "正鵠を射る",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["hit the bull's-eye"],
+        "translation": "hit the bull's-eye",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -371,13 +365,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["古典"],
+        "translation": "古典",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["old book; classics"],
+        "translation": "old book; classics",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -386,13 +380,13 @@
       "japanese": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["密接"],
+        "translation": "密接",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["related; connected; close; intimate"],
+        "translation": "related; connected; close; intimate",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -401,13 +395,13 @@
       "japanese": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["関連"],
+        "translation": "関連",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["relation; connection; relevance"],
+        "translation": "relation; connection; relevance",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -416,13 +410,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["介する"],
+        "translation": "介する",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["to use as an intermediary; to assist"],
+        "translation": "to use as an intermediary; to assist",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -431,13 +425,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["自然選択"],
+        "translation": "自然選択",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["natural selection"],
+        "translation": "natural selection",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -446,13 +440,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["根幹"],
+        "translation": "根幹",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["root; basis; core; foundation"],
+        "translation": "root; basis; core; foundation",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -461,13 +455,13 @@
       "japanese": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["選別"],
+        "translation": "選別",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["classification; sorting; screening"],
+        "translation": "classification; sorting; screening",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -476,13 +470,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["体系化"],
+        "translation": "体系化",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["systemization; organization"],
+        "translation": "systemization; organization",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -491,13 +485,13 @@
       "japanese": {
         "timesTested": 5,
         "lastTested": "",
-        "translation": ["自然淘汰説"],
+        "translation": "自然淘汰説",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["theory of survival of the fittest"],
+        "translation": "theory of survival of the fittest",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -506,13 +500,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["淘汰する"],
+        "translation": "淘汰する",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["weed out; eliminate (eg of unneeded employees)"],
+        "translation": "weed out; eliminate (eg of unneeded employees)",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -521,13 +515,13 @@
       "japanese": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["品種改良"],
+        "translation": "品種改良",
         "timesCorrect": 3
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["selective breeding"],
+        "translation": "selective breeding",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"

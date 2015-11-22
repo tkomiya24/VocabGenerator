@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["wear a watch; put on a watch"],
+        "translation": "wear a watch; put on a watch",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["시계(를) 차-"],
+        "translation": "시계(를) 차-",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["wear a tie; put on a tie"],
+        "translation": "wear a tie; put on a tie",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["넥타이(를) 매-"],
+        "translation": "넥타이(를) 매-",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"

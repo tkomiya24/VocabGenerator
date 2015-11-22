@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["fill in (a form)"],
+        "translation": "fill in (a form)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 8,
         "lastTested": "",
-        "translation": ["기입(을) 하-"],
+        "translation": "기입(을) 하-",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"
@@ -21,16 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "trim",
-          "spruce up; give final embellishments to"
-        ],
+        "translation": "trim, spruce up; give final embellishments to",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 12,
         "lastTested": "",
-        "translation": ["다듬-"],
+        "translation": "다듬-",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"
@@ -39,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["help"],
+        "translation": "help",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 10,
         "lastTested": "",
-        "translation": ["도w-"],
+        "translation": "도w-",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"
@@ -54,16 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "treat somebody (to a meal)",
-          "host somebody"
-        ],
+        "translation": "host somebody, treat somebody (to a meal)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 17,
         "lastTested": "",
-        "translation": ["대접(을) 하-"],
+        "translation": "대접(을) 하-",
         "timesCorrect": 8
       },
       "primaryLanguage": "English"
@@ -72,17 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "apply",
-          "smear it (eg mousse",
-          "cream)"
-        ],
+        "translation": "cream), apply, smear it (eg mousse",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 13,
         "lastTested": "",
-        "translation": ["바르-"],
+        "translation": "바르-",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"
@@ -91,13 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["show it"],
+        "translation": "show it",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 7,
         "lastTested": "",
-        "translation": ["보이-"],
+        "translation": "보이-",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"
@@ -106,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["lend (use with 한테)"],
+        "translation": "lend (use with 한테)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["빌려 주-"],
+        "translation": "빌려 주-",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"
@@ -121,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["bring it to a stop"],
+        "translation": "bring it to a stop",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 9,
         "lastTested": "",
-        "translation": ["세우-"],
+        "translation": "세우-",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"
@@ -136,13 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["go out with [with = 하고]; date"],
+        "translation": "go out with [with = 하고]; date",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 10,
         "lastTested": "",
-        "translation": ["연애(를) 하-"],
+        "translation": "연애(를) 하-",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"
@@ -151,16 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "[sb esteamed] eat something",
-          "try something"
-        ],
+        "translation": "try something, [sb esteamed] eat something",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 12,
         "lastTested": "",
-        "translation": ["잡쉬 보시-"],
+        "translation": "잡쉬 보시-",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"
@@ -169,17 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "settle upon",
-          "decide upon",
-          "fix"
-        ],
+        "translation": "fix, decide upon, settle upon",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 15,
         "lastTested": "",
-        "translation": ["정하-"],
+        "translation": "정하-",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"
@@ -188,13 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["include it"],
+        "translation": "include it",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 10,
         "lastTested": "",
-        "translation": ["포함(을) 하-"],
+        "translation": "포함(을) 하-",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"
@@ -203,13 +186,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be/get included"],
+        "translation": "be/get included",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 11,
         "lastTested": "",
-        "translation": ["포함(이) 되-"],
+        "translation": "포함(이) 되-",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"

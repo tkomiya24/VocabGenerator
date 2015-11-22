@@ -6,19 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "be black",
-          "dark"
-        ],
+        "translation": "dark, be black",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": [
-          "까맣-",
-          "까매요"
-        ],
+        "translation": "까매요",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -27,16 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be yellow"],
+        "translation": "dark, be black",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": [
-          "노랗-",
-          "노래요"
-        ],
+        "translation": "까맣-",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -45,16 +36,43 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be red"],
+        "translation": "be yellow",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": "노래요",
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "be yellow",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": "노랗-",
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "be red",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": [
-          "빨갛-",
-          "빨개요"
-        ],
+        "translation": "빨개요",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -63,16 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be blue"],
+        "translation": "be red",
         "timesCorrect": 0
       },
       "korean": {
-        "timesTested": 2,
+        "timesTested": 3,
         "lastTested": "",
-        "translation": [
-          "파랗-",
-          "파래요"
-        ],
+        "translation": "빨갛-",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -81,16 +96,58 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["be white"],
+        "translation": "be blue",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": [
-          "하얗-",
-          "하얘요"
-        ],
+        "translation": "파랗-",
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "be blue",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": "파래요",
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "be white",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": "하얘요",
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": "be white",
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": "하얗-",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"

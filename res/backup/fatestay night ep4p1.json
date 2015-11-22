@@ -5,13 +5,13 @@
       "japanese": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["盗み見る"],
+        "translation": "盗み見る",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["to steal a glance"],
+        "translation": "to steal a glance",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -20,13 +20,13 @@
       "japanese": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["広範囲"],
+        "translation": "広範囲",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["a wide area/range"],
+        "translation": "a wide area/range",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -35,13 +35,13 @@
       "japanese": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["失態"],
+        "translation": "失態",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["a blunder"],
+        "translation": "a blunder",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -50,16 +50,13 @@
       "japanese": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["生気"],
+        "translation": "生気",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "life",
-          "vitality; vigor"
-        ],
+        "translation": "life, vitality; vigor",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -68,13 +65,13 @@
       "japanese": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["却下する"],
+        "translation": "却下する",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["to reject; to turn down; to dismiss"],
+        "translation": "to reject; to turn down; to dismiss",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -83,13 +80,13 @@
       "japanese": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["職員室"],
+        "translation": "職員室",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["staff room"],
+        "translation": "staff room",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -98,13 +95,13 @@
       "japanese": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["根に持つ"],
+        "translation": "根に持つ",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["to hold a grudge"],
+        "translation": "to hold a grudge",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -113,13 +110,13 @@
       "japanese": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["取っておき"],
+        "translation": "取っておき",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["an ace up one's sleave; one's trump card"],
+        "translation": "an ace up one's sleave; one's trump card",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -128,13 +125,13 @@
       "japanese": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["一遍"],
+        "translation": "一遍",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["at once; one time"],
+        "translation": "at once; one time",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -143,13 +140,13 @@
       "japanese": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["弓道"],
+        "translation": "弓道",
         "timesCorrect": 1
       },
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["Japanese archery"],
+        "translation": "Japanese archery",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"

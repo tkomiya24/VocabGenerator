@@ -6,13 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["desk"],
+        "translation": "desk",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["책상"],
+        "translation": "책상",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -21,13 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["table"],
+        "translation": "table",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["상,테이블"],
+        "translation": "상,테이블",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -36,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["picture"],
+        "translation": "picture",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["그림"],
+        "translation": "그림",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -51,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["chair"],
+        "translation": "chair",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["의자"],
+        "translation": "의자",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -66,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["window"],
+        "translation": "window",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["창문"],
+        "translation": "창문",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -81,16 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "door",
-          "gate"
-        ],
+        "translation": "door, gate",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["문"],
+        "translation": "문",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -99,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["tree"],
+        "translation": "tree",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["나무"],
+        "translation": "나무",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -114,16 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "bag",
-          "briefcase"
-        ],
+        "translation": "briefcase, bag",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["가방"],
+        "translation": "가방",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -132,13 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["lighter"],
+        "translation": "lighter",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["라이터"],
+        "translation": "라이터",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"
@@ -147,13 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["television"],
+        "translation": "television",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["텔레비전"],
+        "translation": "텔레비전",
         "timesCorrect": 0
       },
       "primaryLanguage": "English"

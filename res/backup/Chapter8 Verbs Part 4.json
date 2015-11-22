@@ -6,16 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "understand [spoken words]",
-          "catch something said"
-        ],
+        "translation": "understand [spoken words], catch something said",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["알아들- (듣다)"],
+        "translation": "알아들- (듣다)",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -24,16 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "make a request",
-          "ask a favor/errand"
-        ],
+        "translation": "make a request, ask a favor/errand",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["부탁(을) 하-"],
+        "translation": "부탁(을) 하-",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -42,16 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "a request",
-          "favor"
-        ],
+        "translation": "a request, favor",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["부탁"],
+        "translation": "부탁",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -60,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["ask PERSON for a favor"],
+        "translation": "ask PERSON for a favor",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["PERSON 한테 부탁(을) 하-"],
+        "translation": "PERSON 한테 부탁(을) 하-",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -75,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["have a favor to ask of PERSON"],
+        "translation": "have a favor to ask of PERSON",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 4,
         "lastTested": "",
-        "translation": ["PERSON 한테 부탁(이) 있-"],
+        "translation": "PERSON 한테 부탁(이) 있-",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -90,16 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "Please",
-          "i beg you. I'm counting on you. Please do it for me."
-        ],
+        "translation": "i beg you. I'm counting on you. Please do it for me., Please",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 3,
         "lastTested": "",
-        "translation": ["부탁해요"],
+        "translation": "부탁해요",
         "timesCorrect": 2
       },
       "primaryLanguage": "English"
@@ -108,16 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "Manho",
-          "i have a favor to ask of you."
-        ],
+        "translation": "i have a favor to ask of you., Manho",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 16,
         "lastTested": "",
-        "translation": ["만호 씨한테 부탁 하나 있어요"],
+        "translation": "만호 씨한테 부탁 하나 있어요",
         "timesCorrect": 7
       },
       "primaryLanguage": "English"

@@ -6,16 +6,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "nowadays",
-          "these days"
-        ],
+        "translation": "these days, nowadays",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["요즘"],
+        "translation": "요즘",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -24,16 +21,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "usually",
-          "normally"
-        ],
+        "translation": "usually, normally",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["보통"],
+        "translation": "보통",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -42,13 +36,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["~day (optionally follows the names of the days of the week to mean on such-and-such day)"],
+        "translation": "~day (optionally follows the names of the days of the week to mean on such-and-such day)",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["~날"],
+        "translation": "~날",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -57,13 +51,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["morning"],
+        "translation": "morning",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["아침"],
+        "translation": "아침",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -72,13 +66,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["daytime; noon"],
+        "translation": "daytime; noon",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 2,
         "lastTested": "",
-        "translation": ["낮"],
+        "translation": "낮",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -87,16 +81,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "afternoon",
-          "PM"
-        ],
+        "translation": "afternoon, PM",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["오후"],
+        "translation": "오후",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -105,13 +96,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["AM"],
+        "translation": "AM",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["오전"],
+        "translation": "오전",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -120,13 +111,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["evening; supper"],
+        "translation": "evening; supper",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["저녁"],
+        "translation": "저녁",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -135,13 +126,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["night"],
+        "translation": "night",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["밤"],
+        "translation": "밤",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -150,13 +141,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["early"],
+        "translation": "early",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["일찍"],
+        "translation": "일찍",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -165,13 +156,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["late"],
+        "translation": "late",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["늦게"],
+        "translation": "늦게",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -180,13 +171,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["late at night"],
+        "translation": "late at night",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["밤늦게"],
+        "translation": "밤늦게",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -195,16 +186,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": [
-          "in a while",
-          "a while later"
-        ],
+        "translation": "a while later, in a while",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["이따가"],
+        "translation": "이따가",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -213,13 +201,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["when?"],
+        "translation": "when?",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["언제"],
+        "translation": "언제",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -228,13 +216,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["now"],
+        "translation": "now",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["지금"],
+        "translation": "지금",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -243,13 +231,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["weekend"],
+        "translation": "weekend",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["주말"],
+        "translation": "주말",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
@@ -258,13 +246,13 @@
       "english": {
         "timesTested": 0,
         "lastTested": "",
-        "translation": ["hour; time"],
+        "translation": "hour; time",
         "timesCorrect": 0
       },
       "korean": {
         "timesTested": 1,
         "lastTested": "",
-        "translation": ["시간"],
+        "translation": "시간",
         "timesCorrect": 1
       },
       "primaryLanguage": "English"
