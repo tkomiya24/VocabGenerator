@@ -65,7 +65,7 @@ public class MainView extends JFrame {
 	public static final String START_TEST_MENU_ITEM_NAME = "Start a test";
 	public static final String DELETE_VOCAB_MENU_ITEM_NAME = "Delete vocab";
 	public static final String LEAST_TESTED_VOCABLIST_MENU_ITEM_NAME = "Start a test with the least tested vocablist";
-	
+	public static final String EXPORT_MONGO_MENU_ITEM_NAME = "Export file for MongoDB";
 	
 	public MainView(MainController mainController, WindowListener mainWindowsListener, ActionListener mainButtonListener, MouseAdapter mouseAdapter, List<VocabList> vocabLists) {
 		super();
@@ -171,6 +171,7 @@ public class MainView extends JFrame {
 		makeMenuItem(LEAST_TESTED_VOCABLIST_MENU_ITEM_NAME);
 		makeMenuItem(BACKUP_ALL_MENU_ITEM_NAME);
 		makeMenuItem(LOAD_ALL_MENU_ITEM_NAME);	
+		makeMenuItem(EXPORT_MONGO_MENU_ITEM_NAME);
 		return menuItems;
 	}
 
@@ -332,7 +333,7 @@ public class MainView extends JFrame {
 				handleMenuAction(sourceItem);
 			} 
 		}
-		
+	
 		private void handleMenuAction(JMenuItem sourceItem) {
 			String sourceName = sourceItem.getName();
 			if (sourceName.equals(OPEN_MENU_ITEM_NAME)) {
@@ -351,6 +352,8 @@ public class MainView extends JFrame {
 				mainController.deleteVocabMenuItemAction(vocabTable.getSelectedRow());
 			} else if (sourceName.equals(LEAST_TESTED_VOCABLIST_MENU_ITEM_NAME)) {
 				mainController.leastTestedTest(getTestingLanguageFromUser());
+			} else if (sourceName.equals(EXPORT_MONGO_MENU_ITEM_NAME)) {
+				mainController.exportMongo();
 			}
 		}
 	}
