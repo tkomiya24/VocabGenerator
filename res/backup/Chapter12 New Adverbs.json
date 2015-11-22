@@ -1,1 +1,84 @@
-{"chapter":12,"name":"Chapter12 New Adverbs","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["How? In what way?"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["어떻게?"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["suddenly"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"","translation":["갑자기"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["already"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["벌써"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["now (finally); from now on"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["인제, 이제"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Or (sentence -initially)"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["아니면"],"timesCorrect":4},"primaryLanguage":"English"}]}
+{
+  "chapter": 12,
+  "name": "Chapter12 New Adverbs",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["How? In what way?"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["어떻게?"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["suddenly"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": ["갑자기"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["already"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["벌써"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["now (finally); from now on"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": [
+          "인제",
+          "이제"
+        ],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Or (sentence -initially)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["아니면"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

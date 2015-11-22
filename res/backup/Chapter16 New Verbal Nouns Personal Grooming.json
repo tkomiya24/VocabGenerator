@@ -1,1 +1,192 @@
-{"chapter":16,"name":"Chapter16 New Verbal Nouns Personal Grooming","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["do one's hair (used by women)"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["머리(를) 하-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["cut one's hair","get one's hair cut (2)"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["머리(를) 깎-","머리(를) 자르-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["shave"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["면도(를) 하-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["razor blade"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["면도칼"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["knife"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["칼"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["shaving cream"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["면도크림"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["electric shaver"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["면도기"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["have a bath"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["목욕(을) 하-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["wash face"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["세수(를) 하-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["get a haircut (usually used by males)"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["이발(을) 하-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["get a perm"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["파마(를) 하-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["put on one's makeup"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["화장(을) 하-"],"timesCorrect":5},"primaryLanguage":"English"}]}
+{
+  "chapter": 16,
+  "name": "Chapter16 New Verbal Nouns Personal Grooming",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["do one's hair (used by women)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["머리(를) 하-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "cut one's hair",
+          "get one's hair cut (2)"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": [
+          "머리(를) 깎-",
+          "머리(를) 자르-"
+        ],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["shave"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["면도(를) 하-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["razor blade"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["면도칼"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["knife"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["칼"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["shaving cream"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["면도크림"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["electric shaver"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["면도기"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["have a bath"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["목욕(을) 하-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["wash face"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["세수(를) 하-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["get a haircut (usually used by males)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["이발(을) 하-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["get a perm"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["파마(를) 하-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["put on one's makeup"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["화장(을) 하-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

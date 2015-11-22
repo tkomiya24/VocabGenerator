@@ -1,1 +1,166 @@
-{"chapter":22,"name":"Chapter22 Adverbs","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["contiuously, still [at it], without interruption"],"timesCorrect":0},"korean":{"timesTested":9,"lastTested":"","translation":["계속"],"timesCorrect":8},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["any moment now, right away, before long, at once"],"timesCorrect":0},"korean":{"timesTested":9,"lastTested":"","translation":["곧"],"timesCorrect":8},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["3 days from now"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"","translation":["글피"],"timesCorrect":8},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["less, little (opposite of 더)"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"","translation":["덜"],"timesCorrect":8},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["very, exceedingly"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"","translation":["매우"],"timesCorrect":8},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["say what you like"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"","translation":["뭐니뭐니 해도"],"timesCorrect":8},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["incessantly, constantly (often in an annoying way)"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"","translation":["자꾸(만)"],"timesCorrect":8},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["by mistake, wrongly, erroneously"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"","translation":["잘못"],"timesCorrect":8},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["direct(ly); immediate(ly); personally, in person"],"timesCorrect":0},"korean":{"timesTested":12,"lastTested":"","translation":["직접"],"timesCorrect":8},"primaryLanguage":"English"}]}
+{
+  "chapter": 22,
+  "name": "Chapter22 Adverbs",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "contiuously",
+          "still [at it]",
+          "without interruption"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 9,
+        "lastTested": "",
+        "translation": ["계속"],
+        "timesCorrect": 8
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "any moment now",
+          "right away",
+          "before long",
+          "at once"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 9,
+        "lastTested": "",
+        "translation": ["곧"],
+        "timesCorrect": 8
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["3 days from now"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": ["글피"],
+        "timesCorrect": 8
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "less",
+          "little (opposite of 더)"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": ["덜"],
+        "timesCorrect": 8
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "very",
+          "exceedingly"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": ["매우"],
+        "timesCorrect": 8
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["say what you like"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": ["뭐니뭐니 해도"],
+        "timesCorrect": 8
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "incessantly",
+          "constantly (often in an annoying way)"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": ["자꾸(만)"],
+        "timesCorrect": 8
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "by mistake",
+          "wrongly",
+          "erroneously"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": ["잘못"],
+        "timesCorrect": 8
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "direct(ly); immediate(ly); personally",
+          "in person"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 12,
+        "lastTested": "",
+        "translation": ["직접"],
+        "timesCorrect": 8
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

@@ -1,1 +1,51 @@
-{"chapter":9,"name":"Chapter9 Things to wear with 쓰","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["hat"],"timesCorrect":0},"korean":{"timesTested":2,"lastTested":"","translation":["모자"],"timesCorrect":1},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["glasses"],"timesCorrect":0},"korean":{"timesTested":2,"lastTested":"","translation":["안경"],"timesCorrect":1},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["scarf"],"timesCorrect":0},"korean":{"timesTested":2,"lastTested":"","translation":["스카프"],"timesCorrect":1},"primaryLanguage":"English"}]}
+{
+  "chapter": 9,
+  "name": "Chapter9 Things to wear with 쓰",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["hat"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["모자"],
+        "timesCorrect": 1
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["glasses"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["안경"],
+        "timesCorrect": 1
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["scarf"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["스카프"],
+        "timesCorrect": 1
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

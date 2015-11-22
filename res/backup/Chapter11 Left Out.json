@@ -1,1 +1,225 @@
-{"chapter":11,"name":"Chapter11 Left Out","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["how many days"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["며칠"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["how many months ()"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["몇 개월","몇 달"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["what month ()"],"timesCorrect":0},"korean":{"timesTested":12,"lastTested":"","translation":["무슨 달","몇 월"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Alternate for January"],"timesCorrect":0},"korean":{"timesTested":1,"lastTested":"","translation":["정월"],"timesCorrect":1},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["altername for december"],"timesCorrect":0},"korean":{"timesTested":14,"lastTested":"","translation":["섣달"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["last month"],"timesCorrect":0},"korean":{"timesTested":12,"lastTested":"","translation":["지난달"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["this month"],"timesCorrect":0},"korean":{"timesTested":1,"lastTested":"","translation":["이번 달"],"timesCorrect":1},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["next month"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["다음 달"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["how many years? ()"],"timesCorrect":0},"korean":{"timesTested":2,"lastTested":"","translation":["몇 해","몇 년"],"timesCorrect":1},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["zero"],"timesCorrect":0},"korean":{"timesTested":1,"lastTested":"","translation":["공"],"timesCorrect":1},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["three months (korean number)"],"timesCorrect":0},"korean":{"timesTested":9,"lastTested":"","translation":["석 달"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["four months (korean number)"],"timesCorrect":0},"korean":{"timesTested":14,"lastTested":"","translation":["넉 달"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["October"],"timesCorrect":0},"korean":{"timesTested":2,"lastTested":"","translation":["시 월 (달) [딸]"],"timesCorrect":1},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["June "],"timesCorrect":0},"korean":{"timesTested":2,"lastTested":"","translation":["유 월 (달) [딸]"],"timesCorrect":1},"primaryLanguage":"English"}]}
+{
+  "chapter": 11,
+  "name": "Chapter11 Left Out",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["how many days"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["며칠"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["how many months ()"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": [
+          "몇 개월",
+          "몇 달"
+        ],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["what month ()"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 12,
+        "lastTested": "",
+        "translation": [
+          "무슨 달",
+          "몇 월"
+        ],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Alternate for January"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 1,
+        "lastTested": "",
+        "translation": ["정월"],
+        "timesCorrect": 1
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["altername for december"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 14,
+        "lastTested": "",
+        "translation": ["섣달"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["last month"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 12,
+        "lastTested": "",
+        "translation": ["지난달"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["this month"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 1,
+        "lastTested": "",
+        "translation": ["이번 달"],
+        "timesCorrect": 1
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["next month"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["다음 달"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["how many years? ()"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": [
+          "몇 해",
+          "몇 년"
+        ],
+        "timesCorrect": 1
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["zero"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 1,
+        "lastTested": "",
+        "translation": ["공"],
+        "timesCorrect": 1
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["three months (korean number)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 9,
+        "lastTested": "",
+        "translation": ["석 달"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["four months (korean number)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 14,
+        "lastTested": "",
+        "translation": ["넉 달"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["October"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["시 월 (달) [딸]"],
+        "timesCorrect": 1
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["June "],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["유 월 (달) [딸]"],
+        "timesCorrect": 1
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

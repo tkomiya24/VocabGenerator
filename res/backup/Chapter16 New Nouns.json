@@ -1,1 +1,147 @@
-{"chapter":16,"name":"Chapter16 New Nouns","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["ribs"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["갈비"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["kimchee"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["김치"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["beauty parlor; hairdresser's"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["미용실"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["hospital"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["병원"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["laundry, dirty clothes"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["빨래"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["bathtub"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["욕조"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["a pedestrian overpass"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["육교"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["computer"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["컴퓨터"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["afterwards later, later on"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["-후"],"timesCorrect":3},"primaryLanguage":"English"}]}
+{
+  "chapter": 16,
+  "name": "Chapter16 New Nouns",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["ribs"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["갈비"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["kimchee"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["김치"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["beauty parlor; hairdresser's"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["미용실"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["hospital"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["병원"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "laundry",
+          "dirty clothes"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["빨래"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["bathtub"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["욕조"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["a pedestrian overpass"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["육교"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["computer"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["컴퓨터"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "afterwards later",
+          "later on"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["-후"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

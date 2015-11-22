@@ -1,1 +1,153 @@
-{"chapter":6,"name":"Chapter6 Other Items","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["How much? How many?"],"timesCorrect":0},"korean":{"timesTested":0,"lastTested":"","translation":["얼마"],"timesCorrect":0},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Thousand"],"timesCorrect":0},"korean":{"timesTested":0,"lastTested":"","translation":["천"],"timesCorrect":0},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Korean monetary unit"],"timesCorrect":0},"korean":{"timesTested":0,"lastTested":"","translation":["-원"],"timesCorrect":0},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Money"],"timesCorrect":0},"korean":{"timesTested":0,"lastTested":"","translation":["돈"],"timesCorrect":0},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Notebook"],"timesCorrect":0},"korean":{"timesTested":0,"lastTested":"","translation":["노트"],"timesCorrect":0},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["just, right (below, above, etc.), straight (adverb)"],"timesCorrect":0},"korean":{"timesTested":0,"lastTested":"","translation":["바로"],"timesCorrect":0},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["it exists, there is/are"],"timesCorrect":0},"korean":{"timesTested":0,"lastTested":"","translation":["있어요"],"timesCorrect":0},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["it does not exist, there is not/aren't"],"timesCorrect":0},"korean":{"timesTested":0,"lastTested":"","translation":["없어요"],"timesCorrect":0},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["please give"],"timesCorrect":0},"korean":{"timesTested":0,"lastTested":"","translation":["주세요"],"timesCorrect":0},"primaryLanguage":"English"}]}
+{
+  "chapter": 6,
+  "name": "Chapter6 Other Items",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["How much? How many?"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["얼마"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Thousand"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["천"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Korean monetary unit"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["-원"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Money"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["돈"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Notebook"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["노트"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "just",
+          "right (below",
+          "above",
+          "etc.)",
+          "straight (adverb)"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["바로"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "it exists",
+          "there is/are"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["있어요"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "it does not exist",
+          "there is not/aren't"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["없어요"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["please give"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["주세요"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

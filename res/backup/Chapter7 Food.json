@@ -1,1 +1,205 @@
-{"chapter":7,"name":"Chapter7 Food","vocab":[{"english":{"timesTested":0,"lastTested":"2015-10-15T21:07:59.770Z","translation":["dining room, restaurant, cafeteria"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"2015-10-15T21:07:59.770Z","translation":["식당"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"2015-10-15T21:08:05.974Z","translation":["restaurant"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"2015-10-15T21:08:05.974Z","translation":["음식점"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"2015-10-15T21:07:59.770Z","translation":["restaurant (somewhat upscale)"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"2015-10-15T21:07:59.770Z","translation":["레스토랑"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"2015-10-15T21:07:59.770Z","translation":["bread"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"2015-10-15T21:07:59.770Z","translation":["빵"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"2015-10-15T21:07:59.770Z","translation":["meat"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"2015-10-15T21:07:59.770Z","translation":["고기"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"2015-10-15T21:07:59.770Z","translation":["food"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"2015-10-15T21:07:59.770Z","translation":["음식"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"2015-10-15T21:07:59.770Z","translation":["cooked rice"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"2015-10-15T21:07:59.770Z","translation":["밥"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"2015-10-15T21:07:59.770Z","translation":["breakfast"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"2015-10-15T21:07:59.770Z","translation":["아침"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"2015-10-15T21:07:59.768Z","translation":["lunch"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"2015-10-15T21:07:59.768Z","translation":["점심"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"2015-10-15T21:07:59.770Z","translation":["supper"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"2015-10-15T21:07:59.770Z","translation":["저녁"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"2015-10-15T21:07:59.770Z","translation":["milk"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"2015-10-15T21:07:59.770Z","translation":["우유"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"2015-10-15T21:07:59.770Z","translation":["water"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"2015-10-15T21:07:59.770Z","translation":["물"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"2015-10-15T21:07:59.770Z","translation":["taste"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"2015-10-15T21:07:59.770Z","translation":["맛"],"timesCorrect":3},"primaryLanguage":"English"}]}
+{
+  "chapter": 7,
+  "name": "Chapter7 Food",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "2015-10-15T21:07:59.770Z",
+        "translation": [
+          "dining room",
+          "restaurant",
+          "cafeteria"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "2015-10-15T21:07:59.770Z",
+        "translation": ["식당"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "2015-10-15T21:08:05.974Z",
+        "translation": ["restaurant"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "2015-10-15T21:08:05.974Z",
+        "translation": ["음식점"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "2015-10-15T21:07:59.770Z",
+        "translation": ["restaurant (somewhat upscale)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "2015-10-15T21:07:59.770Z",
+        "translation": ["레스토랑"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "2015-10-15T21:07:59.770Z",
+        "translation": ["bread"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "2015-10-15T21:07:59.770Z",
+        "translation": ["빵"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "2015-10-15T21:07:59.770Z",
+        "translation": ["meat"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "2015-10-15T21:07:59.770Z",
+        "translation": ["고기"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "2015-10-15T21:07:59.770Z",
+        "translation": ["food"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "2015-10-15T21:07:59.770Z",
+        "translation": ["음식"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "2015-10-15T21:07:59.770Z",
+        "translation": ["cooked rice"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "2015-10-15T21:07:59.770Z",
+        "translation": ["밥"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "2015-10-15T21:07:59.770Z",
+        "translation": ["breakfast"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "2015-10-15T21:07:59.770Z",
+        "translation": ["아침"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "2015-10-15T21:07:59.768Z",
+        "translation": ["lunch"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "2015-10-15T21:07:59.768Z",
+        "translation": ["점심"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "2015-10-15T21:07:59.770Z",
+        "translation": ["supper"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "2015-10-15T21:07:59.770Z",
+        "translation": ["저녁"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "2015-10-15T21:07:59.770Z",
+        "translation": ["milk"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "2015-10-15T21:07:59.770Z",
+        "translation": ["우유"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "2015-10-15T21:07:59.770Z",
+        "translation": ["water"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "2015-10-15T21:07:59.770Z",
+        "translation": ["물"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "2015-10-15T21:07:59.770Z",
+        "translation": ["taste"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "2015-10-15T21:07:59.770Z",
+        "translation": ["맛"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

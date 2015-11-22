@@ -1,1 +1,132 @@
-{"chapter":19,"name":"Chapter19 Nouns Trains and Travel","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["express (train, bus)"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["급행"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Rose of Sharon (Korean national flower)"],"timesCorrect":0},"korean":{"timesTested":12,"lastTested":"","translation":["무궁화"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["speed"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["속도"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["dining car"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["식당차"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["reserved seats"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["예약석"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["stopper (train,bus); the local (train, bus)"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"","translation":["완행"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["departure"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["출발"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["unification"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["통인"],"timesCorrect":5},"primaryLanguage":"English"}]}
+{
+  "chapter": 19,
+  "name": "Chapter19 Nouns Trains and Travel",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "express (train",
+          "bus)"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["급행"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Rose of Sharon (Korean national flower)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 12,
+        "lastTested": "",
+        "translation": ["무궁화"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["speed"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["속도"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["dining car"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["식당차"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["reserved seats"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["예약석"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "stopper (train,bus); the local (train",
+          "bus)"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": ["완행"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["departure"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["출발"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["unification"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["통인"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

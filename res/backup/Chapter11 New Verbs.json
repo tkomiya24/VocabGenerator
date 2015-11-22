@@ -1,1 +1,367 @@
-{"chapter":11,"name":"Chapter11 New Verbs","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["suffer, endure hardship"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["고생(을) 하-"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["forgive"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["용서(를) 하-"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["forgive me; i beg your pardon (honorific, formal imperative)"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["용서하십시오"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["be born"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["태어나-"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["where were you born? (honorific formal)"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["어디서 태어나셨습니까?"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["be young"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["젊-"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["be grateful, thannkful"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["고마w-"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["be spicy, spicy hot"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["매w-"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["begin "],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["시작(을) 하-"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["be different"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["다르-"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["english is different from korean (polite)"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["영어는 한국어하고 달라요"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["everybody is different (formal)"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["사람마다 다릅니다"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["do part-time work as a student"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["아르바이트(를) 하-"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["put/place it"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["놓-"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["order (at a restaurant)"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["시키-"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["help"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["도와주-"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["please help me with my homework (honorific, formal, imperative)"],"timesCorrect":0},"korean":{"timesTested":28,"lastTested":"","translation":["숙제를 좀 도와주십시오 "],"timesCorrect":12},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["it finishes"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["끝나-"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["when does the film finish? (formal)"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["영화가 언제 끝납니까?"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["finish it"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["끝내-"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["please finish this job quickly (honorific formal imperative)"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["이 일을 빨리 끝내십시오 "],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["forget "],"timesCorrect":0},"korean":{"timesTested":14,"lastTested":"","translation":["잊어버리-"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["be young"],"timesCorrect":0},"korean":{"timesTested":0,"lastTested":"","translation":["젊-"],"timesCorrect":0},"primaryLanguage":"English"}]}
+{
+  "chapter": 11,
+  "name": "Chapter11 New Verbs",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "suffer",
+          "endure hardship"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["고생(을) 하-"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["forgive"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["용서(를) 하-"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "forgive me; i beg your pardon (honorific",
+          "formal imperative)"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["용서하십시오"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["be born"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["태어나-"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["where were you born? (honorific formal)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["어디서 태어나셨습니까?"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["be young"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["젊-"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "be grateful",
+          "thannkful"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["고마w-"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "be spicy",
+          "spicy hot"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["매w-"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["begin "],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["시작(을) 하-"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["be different"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["다르-"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["english is different from korean (polite)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["영어는 한국어하고 달라요"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["everybody is different (formal)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["사람마다 다릅니다"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["do part-time work as a student"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["아르바이트(를) 하-"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["put/place it"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["놓-"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["order (at a restaurant)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["시키-"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["help"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["도와주-"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "please help me with my homework (honorific",
+          "formal",
+          "imperative)"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 28,
+        "lastTested": "",
+        "translation": ["숙제를 좀 도와주십시오 "],
+        "timesCorrect": 12
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["it finishes"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["끝나-"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["when does the film finish? (formal)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["영화가 언제 끝납니까?"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["finish it"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["끝내-"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["please finish this job quickly (honorific formal imperative)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["이 일을 빨리 끝내십시오 "],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["forget "],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 14,
+        "lastTested": "",
+        "translation": ["잊어버리-"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["be young"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["젊-"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

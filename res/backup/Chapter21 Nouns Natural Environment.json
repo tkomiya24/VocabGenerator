@@ -1,1 +1,81 @@
-{"chapter":21,"name":"Chapter21 Nouns Natural Environment","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["scenery"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["경치"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["pollution"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["공해"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["hiking"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["등산"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["exhaust fumes"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["매연"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["smoke"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["연기"],"timesCorrect":5},"primaryLanguage":"English"}]}
+{
+  "chapter": 21,
+  "name": "Chapter21 Nouns Natural Environment",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["scenery"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["경치"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["pollution"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["공해"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["hiking"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["등산"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["exhaust fumes"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["매연"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["smoke"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["연기"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

@@ -1,1 +1,173 @@
-{"chapter":21,"name":"Chapter21 Nouns Other","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["have, have in one's possession"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["가지고 있-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["pull it"],"timesCorrect":0},"korean":{"timesTested":12,"lastTested":"","translation":["당기-"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["order (to specifications), have (clothes) made to order"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["맞추-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["push it"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["미-ㄹ-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["deliver"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["배달(을) 하-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["delivery man"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"","translation":["배달부"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["fasten (buttons, snapes); lock (door, window)"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["잠그-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["catch, grasp, take hold of"],"timesCorrect":0},"korean":{"timesTested":10,"lastTested":"","translation":["잡-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["go shopping (for food)"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["장(을) 보-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["take measurements of, measure"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["재-"],"timesCorrect":5},"primaryLanguage":"English"}]}
+{
+  "chapter": 21,
+  "name": "Chapter21 Nouns Other",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "have",
+          "have in one's possession"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["가지고 있-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["pull it"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 12,
+        "lastTested": "",
+        "translation": ["당기-"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "order (to specifications)",
+          "have (clothes) made to order"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["맞추-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["push it"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["미-ㄹ-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["deliver"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["배달(을) 하-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["delivery man"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": ["배달부"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "fasten (buttons",
+          "snapes); lock (door",
+          "window)"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["잠그-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "catch",
+          "grasp",
+          "take hold of"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 10,
+        "lastTested": "",
+        "translation": ["잡-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["go shopping (for food)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["장(을) 보-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "take measurements of",
+          "measure"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["재-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

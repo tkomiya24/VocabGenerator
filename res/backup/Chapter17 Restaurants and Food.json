@@ -1,1 +1,71 @@
-{"chapter":17,"name":"Chapter17 Restaurants and Food","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["Korean ginseng chicken soup"],"timesCorrect":0},"korean":{"timesTested":10,"lastTested":"","translation":["삼계탕"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["service (eg in a restaurant); sth. unexpected you get for free as a part of a transaction"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["서비스"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["spicy chopped beef soup"],"timesCorrect":0},"korean":{"timesTested":10,"lastTested":"","translation":["육개장 "],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["treat, feast, stand treat, give as a treat to"],"timesCorrect":0},"korean":{"timesTested":12,"lastTested":"","translation":["한턱(을) 하-"],"timesCorrect":6},"primaryLanguage":"English"}]}
+{
+  "chapter": 17,
+  "name": "Chapter17 Restaurants and Food",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Korean ginseng chicken soup"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 10,
+        "lastTested": "",
+        "translation": ["삼계탕"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["service (eg in a restaurant); sth. unexpected you get for free as a part of a transaction"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["서비스"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["spicy chopped beef soup"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 10,
+        "lastTested": "",
+        "translation": ["육개장 "],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "treat",
+          "feast",
+          "stand treat",
+          "give as a treat to"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 12,
+        "lastTested": "",
+        "translation": ["한턱(을) 하-"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

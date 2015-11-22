@@ -1,1 +1,359 @@
-{"chapter":11,"name":"Chapter11 Counter Words with Pure Korean Numerals","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["o'clock"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["시"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["months"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["달*"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["persons","people (2)"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["명","사람*"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["esteemed people"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["분"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["animals, fish, birds"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["마리"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["age"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["살"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["cupfuls"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["잔*"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["vehicles, machines"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["대"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["kinds, varieties"],"timesCorrect":0},"korean":{"timesTested":14,"lastTested":"","translation":["가지"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["bottle"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["병*"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["times"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["번"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["hours"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["시간*"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["years"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["해*"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["places, institutions"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["군데"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["pack (of cigarettes)"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["갑"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["box; case; chest"],"timesCorrect":0},"korean":{"timesTested":16,"lastTested":"","translation":["상자*"],"timesCorrect":7},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["newspapers; books (if bought in multiple copies)"],"timesCorrect":0},"korean":{"timesTested":13,"lastTested":"","translation":["부"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["flat objects; pieces of paper"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["장"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["buildings"],"timesCorrect":0},"korean":{"timesTested":11,"lastTested":"","translation":["채"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["items, units, objects"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["개"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["paper bag"],"timesCorrect":0},"korean":{"timesTested":13,"lastTested":"","translation":["봉지*"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["bound volumes; books or magqazines"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["권"],"timesCorrect":3},"primaryLanguage":"English"}]}
+{
+  "chapter": 11,
+  "name": "Chapter11 Counter Words with Pure Korean Numerals",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["o'clock"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["시"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["months"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["달*"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "persons",
+          "people (2)"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": [
+          "명",
+          "사람*"
+        ],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["esteemed people"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["분"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "animals",
+          "fish",
+          "birds"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["마리"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["age"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["살"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["cupfuls"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["잔*"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "vehicles",
+          "machines"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["대"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "kinds",
+          "varieties"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 14,
+        "lastTested": "",
+        "translation": ["가지"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["bottle"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["병*"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["times"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["번"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["hours"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["시간*"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["years"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["해*"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "places",
+          "institutions"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["군데"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["pack (of cigarettes)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["갑"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["box; case; chest"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 16,
+        "lastTested": "",
+        "translation": ["상자*"],
+        "timesCorrect": 7
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["newspapers; books (if bought in multiple copies)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 13,
+        "lastTested": "",
+        "translation": ["부"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["flat objects; pieces of paper"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["장"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["buildings"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 11,
+        "lastTested": "",
+        "translation": ["채"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "items",
+          "units",
+          "objects"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["개"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["paper bag"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 13,
+        "lastTested": "",
+        "translation": ["봉지*"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["bound volumes; books or magqazines"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["권"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

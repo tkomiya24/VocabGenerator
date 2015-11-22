@@ -1,1 +1,241 @@
-{"chapter":6,"name":"Chapter6 PlaceNouns","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["Inside ()"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["안에,숙에"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Outside"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["밖에"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Above, over, on (top)"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["위에"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["AT the bottom, below under(neath)"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["밑에"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Below,lower, down"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["아래"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["in front"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["앞에"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["at the back; behind"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["뒤에"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["near, in the vicinity of"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["근처에"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["next to, beside"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["옆에"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["side, direction"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["편(쪽)"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["on the left"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["왼편~쪽에"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["on the right"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["오른편~쪽에"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["across from","opposite (2)"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["마즌편에","건너편에"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["between"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["사이에"],"timesCorrect":2},"primaryLanguage":"English"}]}
+{
+  "chapter": 6,
+  "name": "Chapter6 PlaceNouns",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Inside ()"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["안에,숙에"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Outside"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["밖에"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "Above",
+          "over",
+          "on (top)"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["위에"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "AT the bottom",
+          "below under(neath)"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["밑에"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "Below,lower",
+          "down"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["아래"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["in front"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["앞에"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["at the back; behind"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["뒤에"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "near",
+          "in the vicinity of"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["근처에"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "next to",
+          "beside"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["옆에"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "side",
+          "direction"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["편(쪽)"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["on the left"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["왼편~쪽에"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["on the right"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["오른편~쪽에"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "across from",
+          "opposite (2)"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": [
+          "마즌편에",
+          "건너편에"
+        ],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["between"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["사이에"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

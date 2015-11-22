@@ -1,1 +1,159 @@
-{"chapter":18,"name":"Chapter18 Adverbs","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["immediately, straight away, on the spot"],"timesCorrect":0},"korean":{"timesTested":12,"lastTested":"","translation":["당장"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["separately"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["따로"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["very, awfully"],"timesCorrect":0},"korean":{"timesTested":9,"lastTested":"","translation":["몹시"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["however much [one VERBs]; at the very [(ADJ-est)]"],"timesCorrect":0},"korean":{"timesTested":9,"lastTested":"","translation":["아무리 "],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["fluently"],"timesCorrect":0},"korean":{"timesTested":24,"lastTested":"","translation":["유창하게"],"timesCorrect":10},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["naturally"],"timesCorrect":0},"korean":{"timesTested":19,"lastTested":"","translation":["자연스럽게"],"timesCorrect":8},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["gradually, little by little, by degrees"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["점점"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["as it should/ought be done, properly, in proper fashion"],"timesCorrect":0},"korean":{"timesTested":9,"lastTested":"","translation":["제대로"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["enjoyably, happily"],"timesCorrect":0},"korean":{"timesTested":9,"lastTested":"","translation":["즐겁게 "],"timesCorrect":5},"primaryLanguage":"English"}]}
+{
+  "chapter": 18,
+  "name": "Chapter18 Adverbs",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "immediately",
+          "straight away",
+          "on the spot"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 12,
+        "lastTested": "",
+        "translation": ["당장"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["separately"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["따로"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "very",
+          "awfully"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 9,
+        "lastTested": "",
+        "translation": ["몹시"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["however much [one VERBs]; at the very [(ADJ-est)]"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 9,
+        "lastTested": "",
+        "translation": ["아무리 "],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["fluently"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 24,
+        "lastTested": "",
+        "translation": ["유창하게"],
+        "timesCorrect": 10
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["naturally"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 19,
+        "lastTested": "",
+        "translation": ["자연스럽게"],
+        "timesCorrect": 8
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "gradually",
+          "little by little",
+          "by degrees"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["점점"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "as it should/ought be done",
+          "properly",
+          "in proper fashion"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 9,
+        "lastTested": "",
+        "translation": ["제대로"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "enjoyably",
+          "happily"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 9,
+        "lastTested": "",
+        "translation": ["즐겁게 "],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

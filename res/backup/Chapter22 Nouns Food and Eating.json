@@ -1,1 +1,252 @@
-{"chapter":22,"name":"Chapter22 Nouns Food and Eating","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["check the saltiness of a dish or food"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["간(을) 보-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["soy suace"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["간장"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["(chicken) egg ()"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["계란","달걀"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["sweet potato"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["고구마"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["(red) pepper"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["고추"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["soup"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["국"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["chew gum"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["껌"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["dumplings"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["만두"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["fish [live, in its natural habitat]"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["물고기 [물꼬기]"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["fish [destined for human consumption]"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["생선"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["salt"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["소금"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["spoon"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["숟가락"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["chopsticks"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["젓가락"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["stew"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["찌개"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["fork"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["포크"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["(black) pepper"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["후추 "],"timesCorrect":4},"primaryLanguage":"English"}]}
+{
+  "chapter": 22,
+  "name": "Chapter22 Nouns Food and Eating",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["check the saltiness of a dish or food"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["간(을) 보-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["soy suace"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["간장"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["(chicken) egg ()"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": [
+          "계란",
+          "달걀"
+        ],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["sweet potato"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["고구마"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["(red) pepper"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["고추"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["soup"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["국"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["chew gum"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["껌"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["dumplings"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["만두"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "fish [live",
+          "in its natural habitat]"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["물고기 [물꼬기]"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["fish [destined for human consumption]"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["생선"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["salt"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["소금"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["spoon"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["숟가락"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["chopsticks"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["젓가락"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["stew"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["찌개"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["fork"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["포크"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["(black) pepper"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["후추 "],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

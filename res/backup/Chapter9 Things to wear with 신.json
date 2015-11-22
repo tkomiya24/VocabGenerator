@@ -1,1 +1,54 @@
-{"chapter":9,"name":"Chapter9 Things to wear with 신","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["(dress) shoes"],"timesCorrect":0},"korean":{"timesTested":2,"lastTested":"","translation":["구두"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["shoes, footwear in general"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["신발"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["socks"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["양말"],"timesCorrect":2},"primaryLanguage":"English"}]}
+{
+  "chapter": 9,
+  "name": "Chapter9 Things to wear with 신",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["(dress) shoes"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["구두"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "shoes",
+          "footwear in general"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["신발"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["socks"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["양말"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

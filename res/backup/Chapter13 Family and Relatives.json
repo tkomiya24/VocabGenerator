@@ -1,1 +1,276 @@
-{"chapter":13,"name":"Chapter13 Family and Relatives","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["members of the family"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["식구"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["how many people in your family? (honorific)"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["식구가 몇 명이세요?"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["cousin"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["사촌"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["uncle (on father's side)"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["삼촌 "],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["uncle (on mother's side)"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["외삼촌 "],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["uncle (father's elder brother)"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"","translation":["큰아버지"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["uncle (father's younger brother)"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["작은아버지"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["aunt (mother's sister)"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["이모"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["uncle (mother's sister's husband)"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["이모부"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["aunt (father's sister)"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["고모"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["uncle (father's sister's husband)"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["고모부"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["son (honorific)"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["아드님"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["an only son"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["외아들"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["daughter (honorific)"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["따님 "],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["an only daughter"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["외동딸"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["uncle (generic); mister"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["아저씨"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["aunt (generic); ma'am"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["아주머니"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["auntie (casual generic)"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["아줌마"],"timesCorrect":4},"primaryLanguage":"English"}]}
+{
+  "chapter": 13,
+  "name": "Chapter13 Family and Relatives",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["members of the family"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["식구"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["how many people in your family? (honorific)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["식구가 몇 명이세요?"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["cousin"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["사촌"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["uncle (on father's side)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["삼촌 "],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["uncle (on mother's side)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["외삼촌 "],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["uncle (father's elder brother)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": ["큰아버지"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["uncle (father's younger brother)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["작은아버지"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["aunt (mother's sister)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["이모"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["uncle (mother's sister's husband)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["이모부"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["aunt (father's sister)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["고모"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["uncle (father's sister's husband)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["고모부"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["son (honorific)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["아드님"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["an only son"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["외아들"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["daughter (honorific)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["따님 "],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["an only daughter"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["외동딸"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["uncle (generic); mister"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["아저씨"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["aunt (generic); ma'am"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["아주머니"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["auntie (casual generic)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["아줌마"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

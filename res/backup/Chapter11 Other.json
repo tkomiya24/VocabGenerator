@@ -1,1 +1,73 @@
-{"chapter":11,"name":"Chapter11 Other","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["Why?"],"timesCorrect":0},"korean":{"timesTested":0,"lastTested":"","translation":["왜(요)?"],"timesCorrect":0},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["The reason is..., It's because..."],"timesCorrect":0},"korean":{"timesTested":0,"lastTested":"","translation":["왜냐하면"],"timesCorrect":0},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["without fail, by all means, for sure"],"timesCorrect":0},"korean":{"timesTested":0,"lastTested":"","translation":["꼭"],"timesCorrect":0},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["please be sure to come (honorific formal imperative)"],"timesCorrect":0},"korean":{"timesTested":0,"lastTested":"","translation":["꼭 오십시오"],"timesCorrect":0},"primaryLanguage":"English"}]}
+{
+  "chapter": 11,
+  "name": "Chapter11 Other",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Why?"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["왜(요)?"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "The reason is...",
+          "It's because..."
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["왜냐하면"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "without fail",
+          "by all means",
+          "for sure"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["꼭"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["please be sure to come (honorific formal imperative)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["꼭 오십시오"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

@@ -1,1 +1,51 @@
-{"chapter":9,"name":"Chapter9 Things to wear with 하","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["earring"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["귀걸이"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["necklace"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["목걸이"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["scarf"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["스카프"],"timesCorrect":2},"primaryLanguage":"English"}]}
+{
+  "chapter": 9,
+  "name": "Chapter9 Things to wear with 하",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["earring"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["귀걸이"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["necklace"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["목걸이"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["scarf"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["스카프"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

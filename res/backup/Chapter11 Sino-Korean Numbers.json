@@ -1,1 +1,201 @@
-{"chapter":11,"name":"Chapter11 Sino-Korean Numbers","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["One"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["일"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Two"],"timesCorrect":0},"korean":{"timesTested":2,"lastTested":"","translation":["이"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Three"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["삼"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Four"],"timesCorrect":0},"korean":{"timesTested":2,"lastTested":"","translation":["사"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Five"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["오"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Six"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["육~-륙"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Seven"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["칠"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Eight"],"timesCorrect":0},"korean":{"timesTested":2,"lastTested":"","translation":["팔"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Nine"],"timesCorrect":0},"korean":{"timesTested":2,"lastTested":"","translation":["구"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Ten "],"timesCorrect":0},"korean":{"timesTested":2,"lastTested":"","translation":["십"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Hundred"],"timesCorrect":0},"korean":{"timesTested":2,"lastTested":"","translation":["백"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Thousand"],"timesCorrect":0},"korean":{"timesTested":2,"lastTested":"","translation":["천"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Ten thosand"],"timesCorrect":0},"korean":{"timesTested":2,"lastTested":"","translation":["만"],"timesCorrect":2},"primaryLanguage":"English"}]}
+{
+  "chapter": 11,
+  "name": "Chapter11 Sino-Korean Numbers",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["One"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["일"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Two"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["이"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Three"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["삼"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Four"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["사"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Five"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["오"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Six"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["육~-륙"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Seven"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["칠"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Eight"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["팔"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Nine"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["구"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Ten "],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["십"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Hundred"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["백"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Thousand"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["천"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Ten thosand"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["만"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

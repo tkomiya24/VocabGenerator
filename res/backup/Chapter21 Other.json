@@ -1,1 +1,49 @@
-{"chapter":21,"name":"Chapter21 Other","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["do so, do like that"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["그러-, 그래요"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["be so, be like that, be that way"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["그렇-, 그래요"],"timesCorrect":5},"primaryLanguage":"English"}]}
+{
+  "chapter": 21,
+  "name": "Chapter21 Other",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "do so",
+          "do like that"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": [
+          "그러-",
+          "그래요"
+        ],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "be so",
+          "be like that",
+          "be that way"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": [
+          "그렇-",
+          "그래요"
+        ],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}
