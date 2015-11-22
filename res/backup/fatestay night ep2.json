@@ -1,1 +1,323 @@
-{"name":"fatestay night ep2","vocab":[{"japanese":{"timesTested":0,"lastTested":"","translation":["使い魔"],"timesCorrect":0},"english":{"timesTested":0,"lastTested":"","translation":["familiar (spirit or otherwise magical creature which aids a magician or sorcerer)"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":0,"lastTested":"","translation":["難儀"],"timesCorrect":0},"english":{"timesTested":0,"lastTested":"","translation":["hardship, trouble"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":0,"lastTested":"","translation":["あやめる"],"timesCorrect":0},"english":{"timesTested":0,"lastTested":"","translation":["murder; wound"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":0,"lastTested":"","translation":["感傷"],"timesCorrect":0},"english":{"timesTested":0,"lastTested":"","translation":["sentimentality"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":0,"lastTested":"","translation":["爪あと"],"timesCorrect":0},"english":{"timesTested":0,"lastTested":"","translation":["traces; leftover damage"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":0,"lastTested":"","translation":["万能"],"timesCorrect":0},"english":{"timesTested":0,"lastTested":"","translation":["all-powerful; almighty; omnipotent; all-round"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":0,"lastTested":"","translation":["苛烈"],"timesCorrect":0},"english":{"timesTested":0,"lastTested":"","translation":["intense; hard-fought"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":0,"lastTested":"","translation":["ことごとく"],"timesCorrect":0},"english":{"timesTested":0,"lastTested":"","translation":["all; eveything"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":0,"lastTested":"","translation":["放棄"],"timesCorrect":0},"english":{"timesTested":0,"lastTested":"","translation":["give up; renounce"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":0,"lastTested":"","translation":["腑抜け"],"timesCorrect":0},"english":{"timesTested":0,"lastTested":"","translation":["a coward"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":0,"lastTested":"","translation":["再起"],"timesCorrect":0},"english":{"timesTested":0,"lastTested":"","translation":["recovery"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":0,"lastTested":"","translation":["撤去"],"timesCorrect":0},"english":{"timesTested":0,"lastTested":"","translation":["remove; withdraw"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":0,"lastTested":"","translation":["真贋"],"timesCorrect":0},"english":{"timesTested":0,"lastTested":"","translation":["authentic or not; original or imitation; genuine or spurious"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":0,"lastTested":"","translation":["重症"],"timesCorrect":0},"english":{"timesTested":0,"lastTested":"","translation":["serious illness"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":0,"lastTested":"","translation":["後見"],"timesCorrect":0},"english":{"timesTested":0,"lastTested":"","translation":["guardianship; guardin"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":0,"lastTested":"","translation":["神父"],"timesCorrect":0},"english":{"timesTested":0,"lastTested":"","translation":["catholic priest; reverend; minister"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":0,"lastTested":"","translation":["へっぽこ"],"timesCorrect":0},"english":{"timesTested":0,"lastTested":"","translation":["hack; untrained"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":0,"lastTested":"","translation":["万全"],"timesCorrect":0},"english":{"timesTested":0,"lastTested":"","translation":["perfection; flawlessness"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":0,"lastTested":"","translation":["呪文"],"timesCorrect":0},"english":{"timesTested":0,"lastTested":"","translation":["spell; charm; incantation; magic word"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":0,"lastTested":"","translation":["見栄を張る"],"timesCorrect":0},"english":{"timesTested":0,"lastTested":"","translation":["to put on airs"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":0,"lastTested":"","translation":["全壊"],"timesCorrect":0},"english":{"timesTested":0,"lastTested":"","translation":["to completely destroy"],"timesCorrect":0},"primaryLanguage":"English"}]}
+{
+  "name": "fatestay night ep2",
+  "vocab": [
+    {
+      "japanese": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["使い魔"],
+        "timesCorrect": 0
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["familiar (spirit or otherwise magical creature which aids a magician or sorcerer)"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["難儀"],
+        "timesCorrect": 0
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "hardship",
+          "trouble"
+        ],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["あやめる"],
+        "timesCorrect": 0
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["murder; wound"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["感傷"],
+        "timesCorrect": 0
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["sentimentality"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["爪あと"],
+        "timesCorrect": 0
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["traces; leftover damage"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["万能"],
+        "timesCorrect": 0
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["all-powerful; almighty; omnipotent; all-round"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["苛烈"],
+        "timesCorrect": 0
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["intense; hard-fought"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["ことごとく"],
+        "timesCorrect": 0
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["all; eveything"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["放棄"],
+        "timesCorrect": 0
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["give up; renounce"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["腑抜け"],
+        "timesCorrect": 0
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["a coward"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["再起"],
+        "timesCorrect": 0
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["recovery"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["撤去"],
+        "timesCorrect": 0
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["remove; withdraw"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["真贋"],
+        "timesCorrect": 0
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["authentic or not; original or imitation; genuine or spurious"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["重症"],
+        "timesCorrect": 0
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["serious illness"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["後見"],
+        "timesCorrect": 0
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["guardianship; guardin"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["神父"],
+        "timesCorrect": 0
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["catholic priest; reverend; minister"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["へっぽこ"],
+        "timesCorrect": 0
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["hack; untrained"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["万全"],
+        "timesCorrect": 0
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["perfection; flawlessness"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["呪文"],
+        "timesCorrect": 0
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["spell; charm; incantation; magic word"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["見栄を張る"],
+        "timesCorrect": 0
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["to put on airs"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["全壊"],
+        "timesCorrect": 0
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["to completely destroy"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

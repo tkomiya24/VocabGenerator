@@ -1,1 +1,187 @@
-{"chapter":16,"name":"Chapter16 New Verbs Verbs That Take Objects","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["change (transport, lines, tec.)"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["갈아타-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["wash (hair)"],"timesCorrect":0},"korean":{"timesTested":9,"lastTested":"","translation":["감-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["cross [the street]"],"timesCorrect":0},"korean":{"timesTested":10,"lastTested":"","translation":["건너-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["share, divide"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["나누-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["give birth to; have (a baby)"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"","translation":["낳-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["miss (the bus, plane)"],"timesCorrect":0},"korean":{"timesTested":10,"lastTested":"","translation":["놓치-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["gather (it), collect"],"timesCorrect":0},"korean":{"timesTested":16,"lastTested":"","translation":["모으-"],"timesCorrect":7},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["borrow (use with 한태); rent (a car)"],"timesCorrect":0},"korean":{"timesTested":9,"lastTested":"","translation":["빌리-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["wash"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"","translation":["씻-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["break (a promise)"],"timesCorrect":0},"korean":{"timesTested":9,"lastTested":"","translation":["어기-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["keep (appointment/promise); abide by, stick to"],"timesCorrect":0},"korean":{"timesTested":11,"lastTested":"","translation":["지키-"],"timesCorrect":5},"primaryLanguage":"English"}]}
+{
+  "chapter": 16,
+  "name": "Chapter16 New Verbs Verbs That Take Objects",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "change (transport",
+          "lines",
+          "tec.)"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["갈아타-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["wash (hair)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 9,
+        "lastTested": "",
+        "translation": ["감-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["cross [the street]"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 10,
+        "lastTested": "",
+        "translation": ["건너-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "share",
+          "divide"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["나누-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["give birth to; have (a baby)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": ["낳-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "miss (the bus",
+          "plane)"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 10,
+        "lastTested": "",
+        "translation": ["놓치-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "gather (it)",
+          "collect"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 16,
+        "lastTested": "",
+        "translation": ["모으-"],
+        "timesCorrect": 7
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["borrow (use with 한태); rent (a car)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 9,
+        "lastTested": "",
+        "translation": ["빌리-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["wash"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": ["씻-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["break (a promise)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 9,
+        "lastTested": "",
+        "translation": ["어기-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "keep (appointment/promise); abide by",
+          "stick to"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 11,
+        "lastTested": "",
+        "translation": ["지키-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

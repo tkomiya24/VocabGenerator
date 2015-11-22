@@ -1,1 +1,174 @@
-{"chapter":23,"name":"Chapter23 Nouns University Life","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["registration"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["등록"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["register"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["등록(을) 하-"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["How many courses did you register for? (honorific)"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["몇 과목을 등록하셨어요?"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["literature"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["문학"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["party in honor of one's teacher"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["사은회 파티"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["have/host a party"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["파티(를) 여-ㄹ-"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["marks, grades"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["성적"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["report card"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["성적표"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["end-of-term party"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["종강 파티"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["the \"star\"; the protagonist; person of honor at a party"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["주인공"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["course"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["코스"],"timesCorrect":3},"primaryLanguage":"English"}]}
+{
+  "chapter": 23,
+  "name": "Chapter23 Nouns University Life",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["registration"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "2015-11-22T09:36:39.037Z",
+        "translation": ["등록"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["register"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "2015-11-22T09:36:39.037Z",
+        "translation": ["등록(을) 하-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["How many courses did you register for? (honorific)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "2015-11-22T09:38:55.655Z",
+        "translation": ["몇 과목을 등록하셨어요?"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["literature"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "2015-11-22T09:38:55.654Z",
+        "translation": ["문학"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["party in honor of one's teacher"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "2015-11-22T09:39:29.371Z",
+        "translation": ["사은회 파티"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["have/host a party"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "2015-11-22T09:38:55.654Z",
+        "translation": ["파티(를) 여-ㄹ-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "marks",
+          "grades"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "2015-11-22T09:39:29.371Z",
+        "translation": ["성적"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["report card"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "2015-11-22T09:39:29.372Z",
+        "translation": ["성적표"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["end-of-term party"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 10,
+        "lastTested": "2015-11-22T09:39:44.926Z",
+        "translation": ["종강 파티"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["the \"star\"; the protagonist; person of honor at a party"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "2015-11-22T09:38:55.654Z",
+        "translation": ["주인공"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["course"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "2015-11-22T09:38:55.655Z",
+        "translation": ["코스"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

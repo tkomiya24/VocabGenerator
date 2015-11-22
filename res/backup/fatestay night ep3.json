@@ -1,1 +1,425 @@
-{"name":"fatestay night ep3","vocab":[{"japanese":{"timesTested":3,"lastTested":"","translation":["蘇生"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["revival; resuscitation"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":2,"lastTested":"","translation":["死地"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["place of death"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":2,"lastTested":"","translation":["剣劇"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["a sword-fighting play [drama]"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":4,"lastTested":"","translation":["交える"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["to cross; to exchange"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":2,"lastTested":"","translation":["名乗り"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["gives one's name"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":2,"lastTested":"","translation":["兼ねる"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["to serve both as ((A and B))"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":3,"lastTested":"","translation":["遮蔽物"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["a shelter"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":2,"lastTested":"","translation":["無駄死に"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["a meaningless death"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":2,"lastTested":"","translation":["引き際"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["time to quit; time to leave"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":2,"lastTested":"","translation":["俯瞰する"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["to overlook; look down at/over"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":2,"lastTested":"","translation":["高性能"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["high-powered; high-efficiency; high-performance"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":3,"lastTested":"","translation":["奇襲"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["a surprise attack; a sneak attack"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":3,"lastTested":"","translation":["のろしを上げる"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["to launch; to begin"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":2,"lastTested":"","translation":["開戦"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["to start a fight"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":4,"lastTested":"","translation":["踏みにじる"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["to trample on"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":2,"lastTested":"","translation":["成就する"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["to fulfill; to accomplish; to attain"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":2,"lastTested":"","translation":["知己"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["an acquaintance; a friend"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":5,"lastTested":"","translation":["鉄面皮"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["impudence; shamelessness"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":3,"lastTested":"","translation":["聖職"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["the clergy; the ministry"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":3,"lastTested":"","translation":["横槍"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["interuption; cut in; interference"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":2,"lastTested":"","translation":["化身"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["an incarnation"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":4,"lastTested":"","translation":["感服"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["admiration"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":2,"lastTested":"","translation":["英霊"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["the spirits of dead soldiers"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":3,"lastTested":"","translation":["高名"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["famous; renowned; celebration"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":3,"lastTested":"","translation":["さぞ"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["I am sure; certainly; no doubt"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":2,"lastTested":"","translation":["しのぐ"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["to bear; to stave off"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":3,"lastTested":"","translation":["徹する"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["to devote oneself solely to;"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":2,"lastTested":"","translation":["すさまじい"],"timesCorrect":2},"english":{"timesTested":0,"lastTested":"","translation":["terrible dreadful"],"timesCorrect":0},"primaryLanguage":"English"}]}
+{
+  "name": "fatestay night ep3",
+  "vocab": [
+    {
+      "japanese": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["蘇生"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["revival; resuscitation"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["死地"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["place of death"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["剣劇"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["a sword-fighting play [drama]"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["交える"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["to cross; to exchange"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["名乗り"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["gives one's name"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["兼ねる"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["to serve both as ((A and B))"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["遮蔽物"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["a shelter"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["無駄死に"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["a meaningless death"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["引き際"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["time to quit; time to leave"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["俯瞰する"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["to overlook; look down at/over"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["高性能"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["high-powered; high-efficiency; high-performance"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["奇襲"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["a surprise attack; a sneak attack"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["のろしを上げる"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["to launch; to begin"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["開戦"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["to start a fight"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["踏みにじる"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["to trample on"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["成就する"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["to fulfill; to accomplish; to attain"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["知己"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["an acquaintance; a friend"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["鉄面皮"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["impudence; shamelessness"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["聖職"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["the clergy; the ministry"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["横槍"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["interuption; cut in; interference"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["化身"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["an incarnation"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["感服"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["admiration"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["英霊"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["the spirits of dead soldiers"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["高名"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["famous; renowned; celebration"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["さぞ"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["I am sure; certainly; no doubt"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["しのぐ"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["to bear; to stave off"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["徹する"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["to devote oneself solely to;"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["すさまじい"],
+        "timesCorrect": 2
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["terrible dreadful"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

@@ -1,1 +1,183 @@
-{"chapter":16,"name":"Chapter16 New Verbal Using Words","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["lecture, give a lecture"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["강의(를) 하-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["lecture (in a regular series or part of a course)"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["강의"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["lecture (a special lecture)"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["강연"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["tell someone (humble form)"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["말씀(을) 드리-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["explain, give an explanation"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["설명(을) 하-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["explanation"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["설명 "],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["The teacher explained about the exam. (formal, honorific)"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["선생님은 시험에 대해서 설명하셨습니다"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["an appointment; a promise"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["약속 "],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["make an appointment; promise"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["약속(을) 하-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["You promised, right?"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["약속했지요?"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["I have an appointment in the afternoon. (formal)"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["오후에 약속이 있습니다"],"timesCorrect":4},"primaryLanguage":"English"}]}
+{
+  "chapter": 16,
+  "name": "Chapter16 New Verbal Using Words",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "lecture",
+          "give a lecture"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["강의(를) 하-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["lecture (in a regular series or part of a course)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["강의"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["lecture (a special lecture)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["강연"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["tell someone (humble form)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["말씀(을) 드리-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "explain",
+          "give an explanation"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["설명(을) 하-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["explanation"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["설명 "],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "The teacher explained about the exam. (formal",
+          "honorific)"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["선생님은 시험에 대해서 설명하셨습니다"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["an appointment; a promise"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["약속 "],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["make an appointment; promise"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["약속(을) 하-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "You promised",
+          "right?"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["약속했지요?"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["I have an appointment in the afternoon. (formal)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["오후에 약속이 있습니다"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

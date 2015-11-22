@@ -1,1 +1,213 @@
-{"chapter":13,"name":"Chapter13 Other","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["grandparents"],"timesCorrect":0},"korean":{"timesTested":11,"lastTested":"","translation":["조부모"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["grandfather"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["할아버지"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["grandfather (on mother's side, if you need to specify)"],"timesCorrect":0},"korean":{"timesTested":9,"lastTested":"","translation":["외할아버지"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["grandmother"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["할머니"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["grandmother (on mother's side, if you need to specify)"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["외할머니"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["grandchild(ren)"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"","translation":["손주"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["grandson"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["손자"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["granddaughter ()"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["손녀딸","손녀"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["newphew"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"","translation":["조카"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["niece"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["조카 딸"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["children (honorific) ()"],"timesCorrect":0},"korean":{"timesTested":18,"lastTested":"","translation":["자제분","자녀분"],"timesCorrect":7},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["do you have children? (honorific)"],"timesCorrect":0},"korean":{"timesTested":12,"lastTested":"","translation":["자녀분이 있으세요?"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["relative"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["친척"],"timesCorrect":5},"primaryLanguage":"English"}]}
+{
+  "chapter": 13,
+  "name": "Chapter13 Other",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["grandparents"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 11,
+        "lastTested": "",
+        "translation": ["조부모"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["grandfather"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["할아버지"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "grandfather (on mother's side",
+          "if you need to specify)"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 9,
+        "lastTested": "",
+        "translation": ["외할아버지"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["grandmother"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["할머니"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "grandmother (on mother's side",
+          "if you need to specify)"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["외할머니"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["grandchild(ren)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": ["손주"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["grandson"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["손자"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["granddaughter ()"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": [
+          "손녀딸",
+          "손녀"
+        ],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["newphew"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": ["조카"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["niece"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["조카 딸"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["children (honorific) ()"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 18,
+        "lastTested": "",
+        "translation": [
+          "자제분",
+          "자녀분"
+        ],
+        "timesCorrect": 7
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["do you have children? (honorific)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 12,
+        "lastTested": "",
+        "translation": ["자녀분이 있으세요?"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["relative"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["친척"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

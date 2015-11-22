@@ -1,1 +1,255 @@
-{"chapter":17,"name":"Chapter17 Hotels and Travel","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["heating"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"","translation":["난방 장치"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["air-conditiong"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"","translation":["냉방 장치"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["single room"],"timesCorrect":0},"korean":{"timesTested":9,"lastTested":"","translation":["독방"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["balcony"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["발코니"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["lodge at, put up at"],"timesCorrect":0},"korean":{"timesTested":10,"lastTested":"","translation":["숙박(을) 하-"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["lodging [registration] form"],"timesCorrect":0},"korean":{"timesTested":9,"lastTested":"","translation":["숙박부"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["to travel"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["여행(을) 하-"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["key ()"],"timesCorrect":0},"korean":{"timesTested":30,"lastTested":"","translation":["열쇠","키"],"timesCorrect":13},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["fee; fare"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["요금"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["bathroom, room with a bath"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"","translation":["욕실"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["europe"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["유럽"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["the view"],"timesCorrect":0},"korean":{"timesTested":9,"lastTested":"","translation":["전경 "],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["check in"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["체크인(을) 하-"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["give a discount"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"","translation":["할인(을) 해 주-"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["get a discount"],"timesCorrect":0},"korean":{"timesTested":9,"lastTested":"","translation":["할인(을) 받-"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["holiday; leave from work"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["휴가"],"timesCorrect":6},"primaryLanguage":"English"}]}
+{
+  "chapter": 17,
+  "name": "Chapter17 Hotels and Travel",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["heating"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": ["난방 장치"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["air-conditiong"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": ["냉방 장치"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["single room"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 9,
+        "lastTested": "",
+        "translation": ["독방"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["balcony"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["발코니"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "lodge at",
+          "put up at"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 10,
+        "lastTested": "",
+        "translation": ["숙박(을) 하-"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["lodging [registration] form"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 9,
+        "lastTested": "",
+        "translation": ["숙박부"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["to travel"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["여행(을) 하-"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["key ()"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 30,
+        "lastTested": "",
+        "translation": [
+          "열쇠",
+          "키"
+        ],
+        "timesCorrect": 13
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["fee; fare"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["요금"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "bathroom",
+          "room with a bath"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": ["욕실"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["europe"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["유럽"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["the view"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 9,
+        "lastTested": "",
+        "translation": ["전경 "],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["check in"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["체크인(을) 하-"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["give a discount"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": ["할인(을) 해 주-"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["get a discount"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 9,
+        "lastTested": "",
+        "translation": ["할인(을) 받-"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["holiday; leave from work"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["휴가"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

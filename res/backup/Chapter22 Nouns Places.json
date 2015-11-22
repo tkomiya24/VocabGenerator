@@ -1,1 +1,119 @@
-{"chapter":22,"name":"Chapter22 Nouns Places","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["hometown"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["고향"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["waiting room"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["대기실"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["waiting room [in, e.g., a station or terminal]"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"","translation":["대합실"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["the world"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["세상"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["supermarket (abreviation)"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["슈퍼"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["reception room [in a home]"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["응접실"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["reception room [in, e.g., an office]"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"","translation":["접대실"],"timesCorrect":5},"primaryLanguage":"English"}]}
+{
+  "chapter": 22,
+  "name": "Chapter22 Nouns Places",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["hometown"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["고향"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["waiting room"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["대기실"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "waiting room [in",
+          "e.g.",
+          "a station or terminal]"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": ["대합실"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["the world"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["세상"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["supermarket (abreviation)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["슈퍼"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["reception room [in a home]"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["응접실"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "reception room [in",
+          "e.g.",
+          "an office]"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": ["접대실"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

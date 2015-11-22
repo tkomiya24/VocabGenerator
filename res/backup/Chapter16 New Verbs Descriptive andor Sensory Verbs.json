@@ -1,1 +1,188 @@
-{"chapter":16,"name":"Chapter16 New Verbs Descriptive andor Sensory Verbs","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["be lazy"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["게으르-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["be a pain in the neck, be a nuisance, be annoying"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["귀찮-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["be happy, content"],"timesCorrect":0},"korean":{"timesTested":12,"lastTested":"","translation":["기쁘-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["be hot to the touch"],"timesCorrect":0},"korean":{"timesTested":14,"lastTested":"","translation":["뜨거w-"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["be fat; chubby"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["뚱뚱하-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["dry up; be/get dry"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["마르-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["be thirsty, feel thirsty"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["목(이) 마르-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["be distressing; feel distressed"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["속(이) 상하-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["feel sad, sorrowful"],"timesCorrect":0},"korean":{"timesTested":9,"lastTested":"","translation":["슬프-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["be refreshing, reviving; fresh, cool; feel relieved"],"timesCorrect":0},"korean":{"timesTested":14,"lastTested":"","translation":["시원하-"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["be cold to the touch"],"timesCorrect":0},"korean":{"timesTested":14,"lastTested":"","translation":["차가w-"],"timesCorrect":6},"primaryLanguage":"English"}]}
+{
+  "chapter": 16,
+  "name": "Chapter16 New Verbs Descriptive andor Sensory Verbs",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["be lazy"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["게으르-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "be a pain in the neck",
+          "be a nuisance",
+          "be annoying"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["귀찮-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "be happy",
+          "content"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 12,
+        "lastTested": "",
+        "translation": ["기쁘-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["be hot to the touch"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 14,
+        "lastTested": "",
+        "translation": ["뜨거w-"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["be fat; chubby"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["뚱뚱하-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["dry up; be/get dry"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["마르-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "be thirsty",
+          "feel thirsty"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["목(이) 마르-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["be distressing; feel distressed"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["속(이) 상하-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "feel sad",
+          "sorrowful"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 9,
+        "lastTested": "",
+        "translation": ["슬프-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "be refreshing",
+          "reviving; fresh",
+          "cool; feel relieved"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 14,
+        "lastTested": "",
+        "translation": ["시원하-"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["be cold to the touch"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 14,
+        "lastTested": "",
+        "translation": ["차가w-"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

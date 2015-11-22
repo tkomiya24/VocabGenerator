@@ -1,1 +1,51 @@
-{"chapter":21,"name":"Chapter21 Nouns Health-Related","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["cold"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["감기"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["sever cold or flu brought on by exhaustion"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["몸살감기"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["general fatigue (from overwork)"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["몸살"],"timesCorrect":4},"primaryLanguage":"English"}]}
+{
+  "chapter": 21,
+  "name": "Chapter21 Nouns Health-Related",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["cold"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["감기"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["sever cold or flu brought on by exhaustion"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["몸살감기"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["general fatigue (from overwork)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["몸살"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

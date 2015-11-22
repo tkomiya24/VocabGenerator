@@ -1,1 +1,170 @@
-{"name":"fatestay night ep4p2","vocab":[{"japanese":{"timesTested":1,"lastTested":"","translation":["土足厳禁"],"timesCorrect":1},"english":{"timesTested":0,"lastTested":"","translation":["shoes banned"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":1,"lastTested":"","translation":["至急"],"timesCorrect":1},"english":{"timesTested":0,"lastTested":"","translation":["urgent; emergency case"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":1,"lastTested":"","translation":["休暇を返上する"],"timesCorrect":1},"english":{"timesTested":0,"lastTested":"","translation":["to give up one's holiday"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":1,"lastTested":"","translation":["残滓"],"timesCorrect":1},"english":{"timesTested":0,"lastTested":"","translation":["leavings; vestiges"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":1,"lastTested":"","translation":["切り札"],"timesCorrect":1},"english":{"timesTested":0,"lastTested":"","translation":["a trump card; secret weapon"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":1,"lastTested":"","translation":["適合"],"timesCorrect":1},"english":{"timesTested":0,"lastTested":"","translation":["conformity"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":1,"lastTested":"","translation":["呼び名"],"timesCorrect":1},"english":{"timesTested":0,"lastTested":"","translation":["a common name; a popular name"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":1,"lastTested":"","translation":["さらけ出す"],"timesCorrect":1},"english":{"timesTested":0,"lastTested":"","translation":["to reveal"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":1,"lastTested":"","translation":["贅肉"],"timesCorrect":1},"english":{"timesTested":0,"lastTested":"","translation":["flab; excess weight"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":1,"lastTested":"","translation":["みすみす"],"timesCorrect":1},"english":{"timesTested":0,"lastTested":"","translation":["before one's eyes; in full knowledge of"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":1,"lastTested":"","translation":["手記"],"timesCorrect":1},"english":{"timesTested":0,"lastTested":"","translation":["a note; a memorandum"],"timesCorrect":0},"primaryLanguage":"English"}]}
+{
+  "name": "fatestay night ep4p2",
+  "vocab": [
+    {
+      "japanese": {
+        "timesTested": 1,
+        "lastTested": "",
+        "translation": ["土足厳禁"],
+        "timesCorrect": 1
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["shoes banned"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 1,
+        "lastTested": "",
+        "translation": ["至急"],
+        "timesCorrect": 1
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["urgent; emergency case"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 1,
+        "lastTested": "",
+        "translation": ["休暇を返上する"],
+        "timesCorrect": 1
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["to give up one's holiday"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 1,
+        "lastTested": "",
+        "translation": ["残滓"],
+        "timesCorrect": 1
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["leavings; vestiges"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 1,
+        "lastTested": "",
+        "translation": ["切り札"],
+        "timesCorrect": 1
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["a trump card; secret weapon"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 1,
+        "lastTested": "",
+        "translation": ["適合"],
+        "timesCorrect": 1
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["conformity"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 1,
+        "lastTested": "",
+        "translation": ["呼び名"],
+        "timesCorrect": 1
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["a common name; a popular name"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 1,
+        "lastTested": "",
+        "translation": ["さらけ出す"],
+        "timesCorrect": 1
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["to reveal"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 1,
+        "lastTested": "",
+        "translation": ["贅肉"],
+        "timesCorrect": 1
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["flab; excess weight"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 1,
+        "lastTested": "",
+        "translation": ["みすみす"],
+        "timesCorrect": 1
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["before one's eyes; in full knowledge of"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 1,
+        "lastTested": "",
+        "translation": ["手記"],
+        "timesCorrect": 1
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["a note; a memorandum"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

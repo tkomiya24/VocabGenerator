@@ -1,1 +1,217 @@
-{"chapter":17,"name":"Chapter17 Other","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["crossroads; intersection"],"timesCorrect":0},"korean":{"timesTested":9,"lastTested":"","translation":["네거리/사거리"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["to answer; to respond"],"timesCorrect":0},"korean":{"timesTested":12,"lastTested":"","translation":["대답(을) 하-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["secretary"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"","translation":["비서"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["previous appointment or engagement"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["선약"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["full name, surname + given name [used on official forms]"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["성명"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["news, word/of from somebody"],"timesCorrect":0},"korean":{"timesTested":11,"lastTested":"","translation":["소식"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["watch, clock"],"timesCorrect":0},"korean":{"timesTested":9,"lastTested":"","translation":["시계"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["face"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"","translation":["얼굴"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["postage stamp"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"","translation":["우표"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["greeting, a formal hello or good-bye"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["인사"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["spirit, mind, nerves"],"timesCorrect":0},"korean":{"timesTested":9,"lastTested":"","translation":["정신"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["be tall"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"","translation":["키(가) 크-"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["attitude"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["태도"],"timesCorrect":6},"primaryLanguage":"English"}]}
+{
+  "chapter": 17,
+  "name": "Chapter17 Other",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["crossroads; intersection"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 9,
+        "lastTested": "",
+        "translation": ["네거리/사거리"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["to answer; to respond"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 12,
+        "lastTested": "",
+        "translation": ["대답(을) 하-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["secretary"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": ["비서"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["previous appointment or engagement"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["선약"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "full name",
+          "surname + given name [used on official forms]"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["성명"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "news",
+          "word/of from somebody"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 11,
+        "lastTested": "",
+        "translation": ["소식"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "watch",
+          "clock"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 9,
+        "lastTested": "",
+        "translation": ["시계"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["face"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": ["얼굴"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["postage stamp"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": ["우표"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "greeting",
+          "a formal hello or good-bye"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["인사"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "spirit",
+          "mind",
+          "nerves"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 9,
+        "lastTested": "",
+        "translation": ["정신"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["be tall"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": ["키(가) 크-"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["attitude"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["태도"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

@@ -1,1 +1,125 @@
-{"chapter":22,"name":"Chapter22 Intransitive Verbs","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["fall down"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["넘어지-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["go on an outing, excursion or picnic; go [to someone's house] to visit"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["놀러가-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["be backed up, congested (cars, traffic)"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["밀리-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["a fire breaks out"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["불(이) 나-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["hurry, hasten, make haste"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["서두르-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["something serious happens; get in big trouble"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["큰일(이) 나-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["have a hard time of it, have an awful experience"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["혼(이) 나-"],"timesCorrect":4},"primaryLanguage":"English"}]}
+{
+  "chapter": 22,
+  "name": "Chapter22 Intransitive Verbs",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["fall down"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["넘어지-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "go on an outing",
+          "excursion or picnic; go [to someone's house] to visit"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["놀러가-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "be backed up",
+          "congested (cars",
+          "traffic)"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["밀리-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["a fire breaks out"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["불(이) 나-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "hurry",
+          "hasten",
+          "make haste"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["서두르-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["something serious happens; get in big trouble"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["큰일(이) 나-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "have a hard time of it",
+          "have an awful experience"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["혼(이) 나-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

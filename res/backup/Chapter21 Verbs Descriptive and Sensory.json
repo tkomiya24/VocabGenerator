@@ -1,1 +1,123 @@
-{"chapter":21,"name":"Chapter21 Verbs Descriptive and Sensory","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["be tired, fatigued, weary"],"timesCorrect":0},"korean":{"timesTested":10,"lastTested":"","translation":["고단하-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["be severe, intense, extreme"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["심하-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["be light (colour)"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["옅-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["be sleep; feel sleepy"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["졸리-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["be important"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["중요하-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["be deep, rich, dark (colour)"],"timesCorrect":0},"korean":{"timesTested":10,"lastTested":"","translation":["짙-"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["be happy [in life]"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["행복하-"],"timesCorrect":5},"primaryLanguage":"English"}]}
+{
+  "chapter": 21,
+  "name": "Chapter21 Verbs Descriptive and Sensory",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "be tired",
+          "fatigued",
+          "weary"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 10,
+        "lastTested": "",
+        "translation": ["고단하-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "be severe",
+          "intense",
+          "extreme"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["심하-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["be light (colour)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["옅-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["be sleep; feel sleepy"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["졸리-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["be important"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["중요하-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "be deep",
+          "rich",
+          "dark (colour)"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 10,
+        "lastTested": "",
+        "translation": ["짙-"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["be happy [in life]"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["행복하-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

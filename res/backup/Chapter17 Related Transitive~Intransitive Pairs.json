@@ -1,1 +1,95 @@
-{"chapter":17,"name":"Chapter17 Related Transitive~Intransitive Pairs","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["wake up (intransitive)"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["깨-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["awaken sb, wake sb up"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["깨우-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["exit, come out, appear"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["나-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["hand in, turn in"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["내-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["get off (a bus, train, etc.); to let sb off/out"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["내리-"],"timesCorrect":5},"primaryLanguage":"English"}]}
+{
+  "chapter": 17,
+  "name": "Chapter17 Related Transitive~Intransitive Pairs",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["wake up (intransitive)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["깨-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "awaken sb",
+          "wake sb up"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["깨우-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "exit",
+          "come out",
+          "appear"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["나-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "hand in",
+          "turn in"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["내-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "get off (a bus",
+          "train",
+          "etc.); to let sb off/out"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["내리-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

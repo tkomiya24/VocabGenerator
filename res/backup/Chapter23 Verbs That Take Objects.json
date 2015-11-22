@@ -1,1 +1,141 @@
-{"chapter":23,"name":"Chapter23 Verbs That Take Objects","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["make fun of, tease"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"2015-10-17T16:40:26.751Z","translation":["놀리-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["stutter or speak haltingly"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"2015-10-17T16:40:18.867Z","translation":["더듬거리-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["take (person along)"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"2015-10-17T16:40:26.751Z","translation":["데리-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["make up one's mind, resolve to (used with -기로)"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"2015-10-17T16:40:18.868Z","translation":["마음(을) 먹-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["take a (person) along, accompany someone (humble)"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"2015-10-17T16:39:40.164Z","translation":["모시-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["dial a wrong number"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"2015-10-17T16:39:40.163Z","translation":["잘못 거-ㄹ-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["give up, give up on"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"2015-10-17T16:39:40.164Z","translation":["포기(를) 하-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["give a person a hard time; teach someone a lesson, give a good scolding"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"2015-10-17T16:40:18.868Z","translation":["혼(을) 내-"],"timesCorrect":4},"primaryLanguage":"English"}]}
+{
+  "chapter": 23,
+  "name": "Chapter23 Verbs That Take Objects",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "make fun of",
+          "tease"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "2015-11-22T09:48:52.086Z",
+        "translation": ["놀리-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["stutter or speak haltingly"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 9,
+        "lastTested": "2015-11-22T09:49:15.893Z",
+        "translation": ["더듬거리-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["take (person along)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 10,
+        "lastTested": "2015-11-22T09:49:22.006Z",
+        "translation": ["데리-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "make up one's mind",
+          "resolve to (used with -기로)"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "2015-11-22T09:48:52.087Z",
+        "translation": ["마음(을) 먹-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "take a (person) along",
+          "accompany someone (humble)"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "2015-11-22T09:48:52.087Z",
+        "translation": ["모시-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["dial a wrong number"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "2015-11-22T09:48:52.088Z",
+        "translation": ["잘못 거-ㄹ-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "give up",
+          "give up on"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "2015-11-22T09:48:52.087Z",
+        "translation": ["포기(를) 하-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "give a person a hard time; teach someone a lesson",
+          "give a good scolding"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "2015-11-22T09:49:15.893Z",
+        "translation": ["혼(을) 내-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

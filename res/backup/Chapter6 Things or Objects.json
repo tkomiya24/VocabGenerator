@@ -1,1 +1,162 @@
-{"chapter":6,"name":"Chapter6 Things or Objects","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["desk"],"timesCorrect":0},"korean":{"timesTested":0,"lastTested":"","translation":["책상"],"timesCorrect":0},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["table"],"timesCorrect":0},"korean":{"timesTested":0,"lastTested":"","translation":["상,테이블"],"timesCorrect":0},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["picture"],"timesCorrect":0},"korean":{"timesTested":0,"lastTested":"","translation":["그림"],"timesCorrect":0},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["chair"],"timesCorrect":0},"korean":{"timesTested":0,"lastTested":"","translation":["의자"],"timesCorrect":0},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["window"],"timesCorrect":0},"korean":{"timesTested":0,"lastTested":"","translation":["창문"],"timesCorrect":0},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["door, gate"],"timesCorrect":0},"korean":{"timesTested":0,"lastTested":"","translation":["문"],"timesCorrect":0},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["tree"],"timesCorrect":0},"korean":{"timesTested":0,"lastTested":"","translation":["나무"],"timesCorrect":0},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["bag, briefcase"],"timesCorrect":0},"korean":{"timesTested":0,"lastTested":"","translation":["가방"],"timesCorrect":0},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["lighter"],"timesCorrect":0},"korean":{"timesTested":0,"lastTested":"","translation":["라이터"],"timesCorrect":0},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["television"],"timesCorrect":0},"korean":{"timesTested":0,"lastTested":"","translation":["텔레비전"],"timesCorrect":0},"primaryLanguage":"English"}]}
+{
+  "chapter": 6,
+  "name": "Chapter6 Things or Objects",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["desk"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["책상"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["table"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["상,테이블"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["picture"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["그림"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["chair"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["의자"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["window"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["창문"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "door",
+          "gate"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["문"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["tree"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["나무"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "bag",
+          "briefcase"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["가방"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["lighter"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["라이터"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["television"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["텔레비전"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

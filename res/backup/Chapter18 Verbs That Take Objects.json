@@ -1,1 +1,206 @@
-{"chapter":18,"name":"Chapter18 Verbs That Take Objects","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["decide it"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["결정(을) 하-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["quit stop doing it ()"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["그만하-","그만두-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["hit, strike, beat"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["때리-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["humbly see or meet; have an audience/interview with"],"timesCorrect":0},"korean":{"timesTested":9,"lastTested":"","translation":["뵈w-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["be/get scolded"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["야단(을) 맞-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["scold, give a scolding to"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["야단(을) 치-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["spend with with, hang around with, associate with"],"timesCorrect":0},"korean":{"timesTested":14,"lastTested":"","translation":["어울리-"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["memorize it"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"","translation":["외우-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["call on; visit, go calling on"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["찾아가-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["call on sb esteemed; visit"],"timesCorrect":0},"korean":{"timesTested":16,"lastTested":"","translation":["찾아뵈w-"],"timesCorrect":7},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["meet [with] sb. esteemed"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["만나뵈w-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["call on; visit, come calling on"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["찾아오-"],"timesCorrect":4},"primaryLanguage":"English"}]}
+{
+  "chapter": 18,
+  "name": "Chapter18 Verbs That Take Objects",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["decide it"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["결정(을) 하-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["quit stop doing it ()"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": [
+          "그만하-",
+          "그만두-"
+        ],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "hit",
+          "strike",
+          "beat"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["때리-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["humbly see or meet; have an audience/interview with"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 9,
+        "lastTested": "",
+        "translation": ["뵈w-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["be/get scolded"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["야단(을) 맞-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "scold",
+          "give a scolding to"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["야단(을) 치-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "spend with with",
+          "hang around with",
+          "associate with"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 14,
+        "lastTested": "",
+        "translation": ["어울리-"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["memorize it"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "",
+        "translation": ["외우-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "call on; visit",
+          "go calling on"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["찾아가-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["call on sb esteemed; visit"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 16,
+        "lastTested": "",
+        "translation": ["찾아뵈w-"],
+        "timesCorrect": 7
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["meet [with] sb. esteemed"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["만나뵈w-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "call on; visit",
+          "come calling on"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["찾아오-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

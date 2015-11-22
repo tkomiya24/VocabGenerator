@@ -1,1 +1,96 @@
-{"chapter":7,"name":"Chapter7 Dialogue","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["bye by someone leaving home who will be back later"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"2015-10-17T16:41:52.821Z","translation":["다녀오겠습니다"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["departs"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["떠나-"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["i'm back (said by someone who has come home)"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"2015-10-17T16:41:52.822Z","translation":["다녀왔어요"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["bye said to somebody leaving home who will be back soon"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"2015-10-17T16:41:52.821Z","translation":["다녀와요"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["takes (in terms of time)"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"2015-10-17T16:41:52.821Z","translation":["걸리-"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Are they any good?/Are they good at what they do?"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"2015-10-17T16:41:52.821Z","translation":["거기는 잘 해요?"],"timesCorrect":3},"primaryLanguage":"English"}]}
+{
+  "chapter": 7,
+  "name": "Chapter7 Dialogue",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["bye by someone leaving home who will be back later"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 11,
+        "lastTested": "2015-11-22T09:54:31.576Z",
+        "translation": ["다녀오겠습니다"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["departs"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "2015-11-22T09:53:50.187Z",
+        "translation": ["떠나-"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["i'm back (said by someone who has come home)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 10,
+        "lastTested": "2015-11-22T09:53:50.188Z",
+        "translation": ["다녀왔어요"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["bye said to somebody leaving home who will be back soon"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 11,
+        "lastTested": "2015-11-22T09:54:31.576Z",
+        "translation": ["다녀와요"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["takes (in terms of time)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 11,
+        "lastTested": "2015-11-22T09:54:31.575Z",
+        "translation": ["걸리-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Are they any good?/Are they good at what they do?"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 11,
+        "lastTested": "2015-11-22T09:54:31.575Z",
+        "translation": ["거기는 잘 해요?"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

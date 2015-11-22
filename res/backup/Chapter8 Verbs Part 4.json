@@ -1,1 +1,126 @@
-{"chapter":8,"name":"Chapter8 Verbs Part 4","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["understand [spoken words], catch something said"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["알아들- (듣다)"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["make a request, ask a favor/errand"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["부탁(을) 하-"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["a request, favor"],"timesCorrect":0},"korean":{"timesTested":2,"lastTested":"","translation":["부탁"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["ask PERSON for a favor"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["PERSON 한테 부탁(을) 하-"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["have a favor to ask of PERSON"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["PERSON 한테 부탁(이) 있-"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Please, i beg you. I'm counting on you. Please do it for me."],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["부탁해요"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Manho, i have a favor to ask of you."],"timesCorrect":0},"korean":{"timesTested":16,"lastTested":"","translation":["만호 씨한테 부탁 하나 있어요"],"timesCorrect":7},"primaryLanguage":"English"}]}
+{
+  "chapter": 8,
+  "name": "Chapter8 Verbs Part 4",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "understand [spoken words]",
+          "catch something said"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["알아들- (듣다)"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "make a request",
+          "ask a favor/errand"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["부탁(을) 하-"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "a request",
+          "favor"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["부탁"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["ask PERSON for a favor"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["PERSON 한테 부탁(을) 하-"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["have a favor to ask of PERSON"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["PERSON 한테 부탁(이) 있-"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "Please",
+          "i beg you. I'm counting on you. Please do it for me."
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["부탁해요"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "Manho",
+          "i have a favor to ask of you."
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 16,
+        "lastTested": "",
+        "translation": ["만호 씨한테 부탁 하나 있어요"],
+        "timesCorrect": 7
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

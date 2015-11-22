@@ -1,1 +1,157 @@
-{"chapter":19,"name":"Chapter19 Verbs Intransitive Verbs","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["catch (a sickness, a disease)"],"timesCorrect":0},"korean":{"timesTested":12,"lastTested":"","translation":["걸리-"],"timesCorrect":8},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["appear, put in an appearance show up"],"timesCorrect":0},"korean":{"timesTested":9,"lastTested":"","translation":["나타나-"],"timesCorrect":8},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["get old (things)"],"timesCorrect":0},"korean":{"timesTested":10,"lastTested":"","translation":["낡-"],"timesCorrect":8},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["remain, be left over"],"timesCorrect":0},"korean":{"timesTested":9,"lastTested":"","translation":["남-"],"timesCorrect":8},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["get old (people)"],"timesCorrect":0},"korean":{"timesTested":10,"lastTested":"","translation":["늙-"],"timesCorrect":8},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["stop, come to a stop"],"timesCorrect":0},"korean":{"timesTested":9,"lastTested":"","translation":["서-"],"timesCorrect":8},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["be/get connected with"],"timesCorrect":0},"korean":{"timesTested":11,"lastTested":"","translation":["연결(이) 되-"],"timesCorrect":8},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["be/get delayed [train, plane, etc.]"],"timesCorrect":0},"korean":{"timesTested":12,"lastTested":"","translation":["연착(이) 되-"],"timesCorrect":8},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["be/get delayed [time or date]"],"timesCorrect":0},"korean":{"timesTested":12,"lastTested":"","translation":["지연(이) 되-"],"timesCorrect":8},"primaryLanguage":"English"}]}
+{
+  "chapter": 19,
+  "name": "Chapter19 Verbs Intransitive Verbs",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "catch (a sickness",
+          "a disease)"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 12,
+        "lastTested": "",
+        "translation": ["걸리-"],
+        "timesCorrect": 8
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "appear",
+          "put in an appearance show up"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 9,
+        "lastTested": "",
+        "translation": ["나타나-"],
+        "timesCorrect": 8
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["get old (things)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 10,
+        "lastTested": "",
+        "translation": ["낡-"],
+        "timesCorrect": 8
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "remain",
+          "be left over"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 9,
+        "lastTested": "",
+        "translation": ["남-"],
+        "timesCorrect": 8
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["get old (people)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 10,
+        "lastTested": "",
+        "translation": ["늙-"],
+        "timesCorrect": 8
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "stop",
+          "come to a stop"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 9,
+        "lastTested": "",
+        "translation": ["서-"],
+        "timesCorrect": 8
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["be/get connected with"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 11,
+        "lastTested": "",
+        "translation": ["연결(이) 되-"],
+        "timesCorrect": 8
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "be/get delayed [train",
+          "plane",
+          "etc.]"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 12,
+        "lastTested": "",
+        "translation": ["연착(이) 되-"],
+        "timesCorrect": 8
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["be/get delayed [time or date]"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 12,
+        "lastTested": "",
+        "translation": ["지연(이) 되-"],
+        "timesCorrect": 8
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

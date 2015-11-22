@@ -1,1 +1,90 @@
-{"chapter":17,"name":"Chapter17 Intransitive Verbs","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["fail, flunk"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["낙제(를) 하-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["get closed/shut"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["닫히-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["turn spin; make a round, go around"],"timesCorrect":0},"korean":{"timesTested":7,"lastTested":"","translation":["도-ㄹ-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["it begins"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["시작(이) 되-"],"timesCorrect":5},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["open, be/get opened"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["열리-"],"timesCorrect":5},"primaryLanguage":"English"}]}
+{
+  "chapter": 17,
+  "name": "Chapter17 Intransitive Verbs",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "fail",
+          "flunk"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["낙제(를) 하-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["get closed/shut"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["닫히-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "turn spin; make a round",
+          "go around"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "",
+        "translation": ["도-ㄹ-"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["it begins"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["시작(이) 되-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "open",
+          "be/get opened"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["열리-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

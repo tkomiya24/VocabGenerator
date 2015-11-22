@@ -1,1 +1,201 @@
-{"chapter":23,"name":"Chapter23 Nouns Overseas Koreans","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["resident overseas Korean(s)"],"timesCorrect":0},"korean":{"timesTested":9,"lastTested":"","translation":["교민"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["overseas Korean(s)"],"timesCorrect":0},"korean":{"timesTested":8,"lastTested":"","translation":["교포"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Korean Canadian"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["캐나다교포"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["immigration"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["이민"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["immigrant"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["이민자"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["emigrate"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["이민(을) 가-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["immigrate (verb)"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["이민(을) 오-"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["second generation"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["이세"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["1.5 generation"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["일점 오세"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["resident in the United States"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["재미"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Korean American"],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["재미교포"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["resident in Japan"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["재일"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Korean Japanese"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["재일교포"],"timesCorrect":4},"primaryLanguage":"English"}]}
+{
+  "chapter": 23,
+  "name": "Chapter23 Nouns Overseas Koreans",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["resident overseas Korean(s)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 11,
+        "lastTested": "2015-11-22T09:32:20.843Z",
+        "translation": ["교민"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["overseas Korean(s)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 11,
+        "lastTested": "2015-11-22T09:32:38.370Z",
+        "translation": ["교포"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Korean Canadian"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "2015-11-22T09:32:20.843Z",
+        "translation": ["캐나다교포"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["immigration"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "2015-11-22T09:30:11.569Z",
+        "translation": ["이민"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["immigrant"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "2015-11-22T09:32:20.844Z",
+        "translation": ["이민자"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["emigrate"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "2015-11-22T09:32:20.844Z",
+        "translation": ["이민(을) 가-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["immigrate (verb)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "2015-11-22T09:32:20.842Z",
+        "translation": ["이민(을) 오-"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["second generation"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "2015-11-22T09:30:11.569Z",
+        "translation": ["이세"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["1.5 generation"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "2015-11-22T09:32:38.369Z",
+        "translation": ["일점 오세"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["resident in the United States"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "2015-11-22T09:32:20.844Z",
+        "translation": ["재미"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Korean American"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 7,
+        "lastTested": "2015-11-22T09:32:20.843Z",
+        "translation": ["재미교포"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["resident in Japan"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "2015-11-22T09:32:20.844Z",
+        "translation": ["재일"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Korean Japanese"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 8,
+        "lastTested": "2015-11-22T09:32:20.843Z",
+        "translation": ["재일교포"],
+        "timesCorrect": 5
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

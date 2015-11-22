@@ -1,1 +1,66 @@
-{"chapter":17,"name":"Chapter17 Weddings","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["Wedding ceremony"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["결혼식"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["wedding venue"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["결혼식장"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["the groom"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["신랑"],"timesCorrect":3},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["the bride"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["신부"],"timesCorrect":3},"primaryLanguage":"English"}]}
+{
+  "chapter": 17,
+  "name": "Chapter17 Weddings",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Wedding ceremony"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["결혼식"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["wedding venue"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["결혼식장"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["the groom"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["신랑"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["the bride"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["신부"],
+        "timesCorrect": 3
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

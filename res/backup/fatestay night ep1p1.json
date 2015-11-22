@@ -1,1 +1,305 @@
-{"name":"fatestay night ep1p1","vocab":[{"japanese":{"timesTested":3,"lastTested":"","translation":["正規"],"timesCorrect":3},"english":{"timesTested":0,"lastTested":"","translation":["regular; normal"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":4,"lastTested":"","translation":["抜かす"],"timesCorrect":3},"english":{"timesTested":0,"lastTested":"","translation":["(slang) to say"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":3,"lastTested":"","translation":["かわす"],"timesCorrect":3},"english":{"timesTested":0,"lastTested":"","translation":["to dodge quickly"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":3,"lastTested":"","translation":["雇い主"],"timesCorrect":3},"english":{"timesTested":0,"lastTested":"","translation":["an employer"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":3,"lastTested":"","translation":["決死"],"timesCorrect":3},"english":{"timesTested":0,"lastTested":"","translation":["desperate"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":4,"lastTested":"","translation":["参上"],"timesCorrect":3},"english":{"timesTested":0,"lastTested":"","translation":["a visit"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":6,"lastTested":"","translation":["召喚"],"timesCorrect":3},"english":{"timesTested":0,"lastTested":"","translation":["a summons; a subpoena"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":3,"lastTested":"","translation":["筋"],"timesCorrect":3},"english":{"timesTested":0,"lastTested":"","translation":["an aptitude; a talent"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":5,"lastTested":"","translation":["からきし"],"timesCorrect":3},"english":{"timesTested":0,"lastTested":"","translation":["completely; utterly"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":4,"lastTested":"","translation":["穿つ"],"timesCorrect":3},"english":{"timesTested":0,"lastTested":"","translation":["to dig; to bore; to drill"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":4,"lastTested":"","translation":["微弱"],"timesCorrect":3},"english":{"timesTested":0,"lastTested":"","translation":["faint"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":3,"lastTested":"","translation":["芸風"],"timesCorrect":3},"english":{"timesTested":0,"lastTested":"","translation":["the characteristic style of one's performances"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":4,"lastTested":"","translation":["血なまぐさい"],"timesCorrect":3},"english":{"timesTested":0,"lastTested":"","translation":["bloody"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":4,"lastTested":"","translation":["羽目"],"timesCorrect":3},"english":{"timesTested":0,"lastTested":"","translation":["a bad situation; an unlucky situation"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":3,"lastTested":"","translation":["配慮"],"timesCorrect":3},"english":{"timesTested":0,"lastTested":"","translation":["consideration; concern"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":3,"lastTested":"","translation":["まとも"],"timesCorrect":3},"english":{"timesTested":0,"lastTested":"","translation":["honest; proper; respectable"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":4,"lastTested":"","translation":["いけ好かない"],"timesCorrect":3},"english":{"timesTested":0,"lastTested":"","translation":["disagreeable; disgusting"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":5,"lastTested":"","translation":["お笑い草"],"timesCorrect":3},"english":{"timesTested":0,"lastTested":"","translation":["ridiculous; a big joke; a laugh"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":3,"lastTested":"","translation":["呪う"],"timesCorrect":3},"english":{"timesTested":0,"lastTested":"","translation":["to curse;"],"timesCorrect":0},"primaryLanguage":"English"},{"japanese":{"timesTested":4,"lastTested":"","translation":["むやみ"],"timesCorrect":3},"english":{"timesTested":0,"lastTested":"","translation":["thoughtless; rash"],"timesCorrect":0},"primaryLanguage":"English"}]}
+{
+  "name": "fatestay night ep1p1",
+  "vocab": [
+    {
+      "japanese": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["正規"],
+        "timesCorrect": 3
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["regular; normal"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["抜かす"],
+        "timesCorrect": 3
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["(slang) to say"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["かわす"],
+        "timesCorrect": 3
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["to dodge quickly"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["雇い主"],
+        "timesCorrect": 3
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["an employer"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["決死"],
+        "timesCorrect": 3
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["desperate"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["参上"],
+        "timesCorrect": 3
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["a visit"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["召喚"],
+        "timesCorrect": 3
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["a summons; a subpoena"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["筋"],
+        "timesCorrect": 3
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["an aptitude; a talent"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["からきし"],
+        "timesCorrect": 3
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["completely; utterly"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["穿つ"],
+        "timesCorrect": 3
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["to dig; to bore; to drill"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["微弱"],
+        "timesCorrect": 3
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["faint"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["芸風"],
+        "timesCorrect": 3
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["the characteristic style of one's performances"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["血なまぐさい"],
+        "timesCorrect": 3
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["bloody"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["羽目"],
+        "timesCorrect": 3
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["a bad situation; an unlucky situation"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["配慮"],
+        "timesCorrect": 3
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["consideration; concern"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["まとも"],
+        "timesCorrect": 3
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["honest; proper; respectable"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["いけ好かない"],
+        "timesCorrect": 3
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["disagreeable; disgusting"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["お笑い草"],
+        "timesCorrect": 3
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["ridiculous; a big joke; a laugh"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["呪う"],
+        "timesCorrect": 3
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["to curse;"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "japanese": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["むやみ"],
+        "timesCorrect": 3
+      },
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["thoughtless; rash"],
+        "timesCorrect": 0
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

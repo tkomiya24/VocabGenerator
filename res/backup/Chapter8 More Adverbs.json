@@ -1,1 +1,214 @@
-{"chapter":8,"name":"Chapter8 More Adverbs","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["(not) yet, still"],"timesCorrect":0},"korean":{"timesTested":2,"lastTested":"","translation":["아직"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["first (of all), before anything else"],"timesCorrect":0},"korean":{"timesTested":14,"lastTested":"","translation":["먼저"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["together"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["함께"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["(together) with a person"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["하고 함께"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["truly, really"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["참"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["the truth (truly,really)"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["정말(로)"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Really? Is it true?"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["정말이에요?"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["It is really/truly large"],"timesCorrect":0},"korean":{"timesTested":16,"lastTested":"","translation":["정말로 커요"],"timesCorrect":7},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["Passionate(ly)"],"timesCorrect":0},"korean":{"timesTested":14,"lastTested":"","translation":["정열적(으로)"],"timesCorrect":6},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["slowly"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["천천히 "],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["too much so, too, very [to an excessive degree]"],"timesCorrect":0},"korean":{"timesTested":3,"lastTested":"","translation":["너무"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["sometime or other; at one time; some time ago"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["언제가"],"timesCorrect":2},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["on foot; by foot"],"timesCorrect":0},"korean":{"timesTested":4,"lastTested":"","translation":["걸어서"],"timesCorrect":2},"primaryLanguage":"English"}]}
+{
+  "chapter": 8,
+  "name": "Chapter8 More Adverbs",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "(not) yet",
+          "still"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 2,
+        "lastTested": "",
+        "translation": ["아직"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "first (of all)",
+          "before anything else"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 14,
+        "lastTested": "",
+        "translation": ["먼저"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["together"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["함께"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["(together) with a person"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["하고 함께"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "truly",
+          "really"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["참"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["the truth (truly,really)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["정말(로)"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Really? Is it true?"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["정말이에요?"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["It is really/truly large"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 16,
+        "lastTested": "",
+        "translation": ["정말로 커요"],
+        "timesCorrect": 7
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Passionate(ly)"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 14,
+        "lastTested": "",
+        "translation": ["정열적(으로)"],
+        "timesCorrect": 6
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["slowly"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["천천히 "],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": [
+          "too much so",
+          "too",
+          "very [to an excessive degree]"
+        ],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 3,
+        "lastTested": "",
+        "translation": ["너무"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["sometime or other; at one time; some time ago"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["언제가"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["on foot; by foot"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 4,
+        "lastTested": "",
+        "translation": ["걸어서"],
+        "timesCorrect": 2
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}

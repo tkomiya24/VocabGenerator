@@ -1,1 +1,51 @@
-{"chapter":12,"name":"Chapter12 Dialogue","vocab":[{"english":{"timesTested":0,"lastTested":"","translation":["Anything at all"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["아무거나"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["How is it? What is it like? What do you think?"],"timesCorrect":0},"korean":{"timesTested":6,"lastTested":"","translation":["어때요?"],"timesCorrect":4},"primaryLanguage":"English"},{"english":{"timesTested":0,"lastTested":"","translation":["I'm afraid I'm busy. "],"timesCorrect":0},"korean":{"timesTested":5,"lastTested":"","translation":["바쁜데요"],"timesCorrect":4},"primaryLanguage":"English"}]}
+{
+  "chapter": 12,
+  "name": "Chapter12 Dialogue",
+  "vocab": [
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["Anything at all"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["아무거나"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["How is it? What is it like? What do you think?"],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 6,
+        "lastTested": "",
+        "translation": ["어때요?"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    },
+    {
+      "english": {
+        "timesTested": 0,
+        "lastTested": "",
+        "translation": ["I'm afraid I'm busy. "],
+        "timesCorrect": 0
+      },
+      "korean": {
+        "timesTested": 5,
+        "lastTested": "",
+        "translation": ["바쁜데요"],
+        "timesCorrect": 4
+      },
+      "primaryLanguage": "English"
+    }
+  ]
+}
